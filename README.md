@@ -1,117 +1,122 @@
-# Pokémon TCG Pocket Full Collection Extractor
+# Pokémon TCG Pocket Card Inventory
 
-Extract your complete card collection from Pokémon TCG Pocket by intercepting network traffic.
+Extract your complete card collection from Pokémon TCG Pocket using OCR + API.
 
-## Prerequisites
+## How It Works
 
-- Mac (this script is designed for macOS)
-- iPhone with Pokémon TCG Pocket installed
-- Both devices on the same WiFi network
+1. **Capture screenshots** of your cards in the game
+2. **OCR** extracts card names from images
+3. **API** fetches full German card data
+4. **CSV output** with all card details
 
-## Step 1: Install mitmproxy
+## Folder Structure
 
-```bash
-brew install mitmproxy
+```
+screenshots/
+├── to_process/          # Screenshots to process (input)
+├── captured/           # Successfully identified cards (output)
+└── failed_to_capture/  # Cards that couldn't be identified (output)
 ```
 
-## Step 2: Find Your Mac's IP Address
+## Setup
+
+### Install Dependencies
 
 ```bash
-ipconfig getifaddr en0
+pip install pillow pytesseract requests
+brew install tesseract
 ```
 
-Note this IP address (e.g., `192.168.1.100`).
+### Capture Screenshots
 
-## Step 3: Start mitmproxy
-
-Open a terminal and run:
-
-```bash
-mitmproxy --listen-port 8080 --save-stream mitm_capture
-```
-
-Keep this terminal window open. You'll see a live view of network traffic.
-
-## Step 4: Configure iPhone Proxy
-
-1. On your iPhone, go to **Settings** > **WiFi**
-2. Tap the **(i)** icon next to your connected WiFi network
-3. Scroll down to **HTTP Proxy** and tap it
-4. Select **Manual**
-5. Enter:
-   - **Server**: Your Mac's IP address (from Step 2)
-   - **Port**: `8080`
-6. Tap **Save**
-
-## Step 5: Install mitmproxy Certificate on iPhone
-
-1. Open Safari on your iPhone
-2. Go to: `http://mitm.it`
-3. You should see a page with certificate options
-4. Tap the **Apple** icon to download the certificate
-5. Go to **Settings** > **General** > **VPN & Device Management**
-6. Tap the downloaded profile (mitmproxy)
-7. Tap **Install** and enter your passcode
-8. Go to **Settings** > **General** > **About** > **Certificate Trust Settings**
-9. Enable full trust for the mitmproxy certificate
-
-## Step 6: Capture Your Collection
-
-1. Open Pokémon TCG Pocket on your iPhone
+1. Open Pokémon TCG Pocket on your phone
 2. Go to your card collection
-3. **Slowly scroll through your entire collection** - all cards you want to capture must be loaded
-4. The mitmproxy window on your Mac should show network activity
-5. Once you've scrolled through everything, press `Ctrl+C` in the mitmproxy terminal to stop capture
+3. Screen record or take screenshots of each card
+4. Transfer images to your Mac
+5. Put images in `screenshots/to_process/`
 
-## Step 7: Run the Extraction Script
+## Usage
+
+### Process Cards (Batch Mode)
 
 ```bash
-python3 extract_full_collection.py
+# Show status
+python3 extract_batch.py status
+
+# Process next 25 cards
+python3 extract_batch.py run
+
+# Process specific number
+python3 extract_batch.py run 50
+
+# Generate CSV from captured cards
+python3 extract_batch.py csv
+
+# Reset progress
+python3 extract_batch.py reset
 ```
 
-Press ENTER when prompted. The script will:
-- Read captured network data from `./mitm_capture`
-- Extract all card information
-- Generate two output files
+### Workflow
 
-## Output Files
+1. Add new screenshots to `screenshots/to_process/`
+2. Run `python3 extract_batch.py run` to process batches
+3. Script pauses after each batch - safe to stop anytime
+4. Run again to continue from where you left off
+5. When done, run `python3 extract_batch.py csv`
 
-| File | Description |
-|------|-------------|
-| `cards_full.json` | Raw JSON data of all cards |
-| `my_cards_full.csv` | Spreadsheet with card details and counts |
+## Output CSV Format
 
-## Cleanup (Optional)
+| Column | Description |
+|--------|-------------|
+| Card Name | German card name |
+| HP | Hit points (KP) |
+| Energy Type | Card energy (Feuer, Wasser, Psycho, etc.) |
+| Weakness | Weakness type and value |
+| Retreat Cost | Retreat cost |
+| Ability Name | German ability name |
+| Ability Description | Ability effect |
+| Attack 1 Name | First attack name |
+| Attack 1 Cost | Energy cost |
+| Attack 1 Damage | Damage |
+| Attack 1 Description | Attack effect |
+| Attack 2 Name | Second attack name |
+| Attack 2 Cost | Energy cost |
+| Attack 2 Damage | Damage |
+| Attack 2 Description | Attack effect |
+| Rarity | Rareza (Ein Diamant, Zwei Diamant, etc.) |
+| Pack | German set name |
 
-To remove the proxy configuration from your iPhone:
-1. Go to **Settings** > **WiFi**
-2. Tap the **(i)** icon next to your network
-3. Scroll to **HTTP Proxy** > **Manual** > change to **Off**
+## Card Data Source
 
-To remove the certificate:
-1. Go to **Settings** > **General** > **VPN & Device Management**
-2. Tap the mitmproxy profile and select **Remove Profile**
+Card data fetched from [TCGdex API](https://tcgdex.dev/) in German.
 
-## Troubleshooting
+## Card Layouts
 
-### No cards found
-- Ensure you scrolled through your entire collection while mitmproxy was running
-- Check that `./mitm_capture` directory exists and contains files
+### Pokemon Cards
+- Zone 1 (0-55px): Phase + Name + KP + Energy
+- Zone 2 (55-65px): Evolution
+- Zone 3 (65-263px): Artwork
+- Zone 4 (263-282px): Card Number
+- Zone 5 (282-475px): Attacks & Abilities
+- Zone 6 (475-494px): Weakness + Retreat
 
-### Certificate errors
-- Make sure you enabled full trust in Certificate Trust Settings (Step 5, item 9)
-- Try reinstalling the certificate
+### Trainer Cards
+- Zone 1 (0-41px): Card Type (Item, Stadium, etc.)
+- Zone 2 (41-81px): Name
+- Zone 3 (81-289px): Artwork
+- Zone 4 (289-480px): Effect text
+- Zone 5 (480-554px): Special trainer rule
 
-### Connection issues
-- Verify both devices are on the same WiFi network
-- Check your Mac's firewall isn't blocking port 8080
-- Confirm you entered the correct IP address and port
+## Image Preprocessing
 
-### mitm.it not loading
-- Make sure mitmproxy is running
-- Verify the proxy is configured correctly on iPhone
-- Try visiting any HTTPS site first to trigger the certificate prompt
+- Crop sides: 8.5% from each side
+- Crop height: 555px from top (14% from top)
+- Scale: 3x for OCR
 
+## Tips
 
-### Database Images
-- dont use images with slanted cards
+- Script automatically detects Pokemon vs Trainer cards
+- Process in batches of 25 to avoid API rate limits
+- Use screen recording for faster capture
+- Failed cards go to `failed_to_capture/` - can retry later
+- Script saves progress automatically - safe to stop anytime

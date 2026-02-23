@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# Mac
+.DS_Store
+*.swp
+*.swo
+
+# Test output
+test_output/
+
+# Screenshots (large binary files)
+screenshots/to_process/
+screenshots/captured/
+screenshots/failed_to_capture/
+
+# CSV (generated)
+*.csv
+
+# Progress
+*progress*.json
+
+# IDE
+.vscode/
+.idea/
