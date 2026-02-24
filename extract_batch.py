@@ -56,23 +56,23 @@ CROP_BOTTOM_PCT = 0.3164  # 31.64% from bottom
 CARD_HEIGHT = 1380
 
 # Pokemon zones (for 1380px height)
-# OCR: Zone 1, 4, 5
+# OCR: Zone 1, 4, 5, 6
 ZONES_POKEMON = {
-    1: (0, 137),      # Name + HP + Energy - EXTRACT FOR OCR
-    2: (137, 162),    # Evolution - IGNORED
-    3: (162, 654),    # Artwork - IGNORED
-    4: (654, 701),    # Card Number - EXTRACT FOR OCR
-    5: (701, 1156),   # Attacks & Abilities - EXTRACT FOR OCR
-    6: (1156, 1380),  # Weakness + Retreat - IGNORED
+    1: (0, 137),      # Top Bar: Name + HP + Stage - OCR
+    2: (137, 162),    # Evolution Info - IGNORED
+    3: (162, 654),    # Artwork Box - IGNORED
+    4: (654, 701),    # Card Number - OCR
+    5: (701, 1156),   # Attacks - OCR
+    6: (1156, 1380),  # Bottom Info: Weakness/Resistance/Retreat - OCR
 }
 
 # Trainer zones (for 1380px height)
 ZONES_TRAINER = {
-    1: (0, 87),       # Type - FOR DETECTION ONLY
-    2: (87, 211),     # Name - EXTRACT FOR OCR (critical)
+    1: (0, 87),       # Top Label - DETECTION ONLY
+    2: (87, 211),     # Name - OCR
     3: (211, 593),    # Artwork - IGNORED
-    4: (713, 1194),  # Effect - EXTRACT FOR OCR (critical, moved down 1/4)
-    5: (1194, 1380), # Extra/Additional - EXTRACT FOR OCR
+    4: (713, 1194),  # Effect Text - OCR
+    5: (1194, 1380), # Set Info - OCR
 }
 
 # Energy colors (RGB ranges)
@@ -340,12 +340,12 @@ def process_card(image_path):
     is_trainer = detect_card_type(img)
     print(f"  \033[1;90m->\033[0m Detected: {'\033[1;33mTrainer\033[0m' if is_trainer else '\033[1;32mPokemon\033[0m'}")
     
-    # Pokemon: Zone 1, 4, 5 for OCR
-    # Trainer: Zone 2, 4, 5 for OCR
+    # Pokemon: Zone 1, 4, 5, 6 for OCR (Top Bar, Card Number, Attacks, Bottom Info)
+    # Trainer: Zone 2, 4, 5 for OCR (Name, Effect, Set Info)
     if is_trainer:
         zones_to_try = [2, 4, 5]
     else:
-        zones_to_try = [1, 4, 5]
+        zones_to_try = [1, 4, 5, 6]
     
     card_data = None
     
@@ -441,7 +441,7 @@ def run_batch(start_index=0, batch_size=BATCH_SIZE):
     processed_files = set(progress.get('processed', []))
     failed_files = set(progress.get('failed', []))
     
-    all_files = sorted(glob.glob(os.path.join(SCREENSHOT_DIR, "*.png")))
+    all_files = sorted(glob.glob(os.path.join(SCREENSHOT_DIR, "*.png")) + glob.glob(os.path.join(SCREENSHOT_DIR, "*.PNG")))
     
     files_to_process = [
         f for f in all_files 
@@ -449,11 +449,16 @@ def run_batch(start_index=0, batch_size=BATCH_SIZE):
         and os.path.basename(f) not in failed_files
     ]
     
-    if start_index >= len(files_to_process):
+    # If batch_size is large (>= len), process all remaining files
+    if batch_size >= len(files_to_process):
+        batch = files_to_process
+        start_index = 0
+    else:
+        batch = files_to_process[start_index:start_index + batch_size]
+    
+    if not batch:
         print(f"\n\033[92m[✓] All cards already processed!\033[0m")
         return
-    
-    batch = files_to_process[start_index:start_index + batch_size]
     
     print(f"\n\033[1;36m{'═'*50}\033[0m")
     print(f"\033[1;36m  BATCH {start_index//batch_size + 1}\033[0m")
@@ -585,7 +590,7 @@ def generate_csv():
 
 def show_status():
     progress = load_progress()
-    to_proc = len(glob.glob(os.path.join(SCREENSHOT_DIR, "*.png")))
+    to_proc = len(glob.glob(os.path.join(SCREENSHOT_DIR, "*.png")) + glob.glob(os.path.join(SCREENSHOT_DIR, "*.PNG")))
     captured = len(glob.glob(os.path.join(CAPTURED_DIR, "*.png")))
     failed = len(glob.glob(os.path.join(FAILED_DIR, "*.png")))
     
