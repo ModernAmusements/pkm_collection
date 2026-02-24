@@ -1,11 +1,9 @@
 #!/usr/bin/env python3
 """
-Pokemon TCG Pocket Card Extractor - NEW VERSION
+Pokemon TCG Pocket Card Extractor
 - Zone-based extraction from card image
 - Percentage-based cropping (works for any resolution)
-- TCG Pocket only sets
-- Complete card database from API
-- Energy color detection
+- OCR only - no API calls
 """
 
 import os
@@ -16,7 +14,7 @@ import sys
 import json
 import time
 from PIL import Image, ImageEnhance, ImageFilter
-import requests
+# import requests  # Disabled - using OCR only
 import pytesseract
 
 # === CONFIG ===
@@ -26,7 +24,7 @@ FAILED_DIR = "screenshots/failed_to_capture"
 OUTPUT_CSV = "my_cards_full.csv"
 PROGRESS_FILE = "extraction_progress.json"
 BATCH_SIZE = 25
-API_BASE = "https://api.tcgdex.net/v2/de/cards"
+# API_BASE = "https://api.tcgdex.net/v2/de/cards"  # Disabled
 
 # TCG Pocket sets - prioritized by commonality
 TCGP_SETS_PRIORITY = {
@@ -55,24 +53,23 @@ CROP_BOTTOM_PCT = 0.3164  # 31.64% from bottom
 # Zones defined for 1380px height (maintains aspect ratio)
 CARD_HEIGHT = 1380
 
-# Pokemon zones (for 1380px height)
-# OCR: Zone 1, 4, 5, 6
+# Pokemon zones (percentages of cropped card height)
 ZONES_POKEMON = {
-    1: (0, 137),      # Top Bar: Name + HP + Stage - OCR
-    2: (137, 162),    # Evolution Info - IGNORED
-    3: (162, 654),    # Artwork Box - IGNORED
-    4: (654, 701),    # Card Number - OCR
-    5: (701, 1156),   # Attacks - OCR
-    6: (1156, 1380),  # Bottom Info: Weakness/Resistance/Retreat - OCR
+    1: (0.00, 0.10),   # Top Bar: Stage + Name + HP - OCR
+    2: (0.10, 0.12),   # Evolution Info - IGNORED
+    3: (0.12, 0.47),   # Artwork Box - IGNORED
+    4: (0.47, 0.51),   # Pokedex Info - IGNORED
+    5: (0.51, 0.84),   # Attacks - OCR
+    6: (0.84, 1.00),   # Bottom Info: Card# + Weakness/Resistance/Retreat - OCR
 }
 
-# Trainer zones (for 1380px height)
+# Trainer zones (percentages of cropped card height)
 ZONES_TRAINER = {
-    1: (0, 87),       # Top Label - DETECTION ONLY
-    2: (87, 211),     # Name - OCR
-    3: (211, 593),    # Artwork - IGNORED
-    4: (713, 1194),  # Effect Text - OCR
-    5: (1194, 1380), # Set Info - OCR
+    1: (0.00, 0.06),   # Top Label - DETECTION ONLY
+    2: (0.06, 0.15),   # Name - OCR
+    3: (0.15, 0.43),   # Artwork - IGNORED
+    4: (0.43, 0.87),   # Effect Text - OCR
+    5: (0.87, 1.00),   # Set Info - OCR
 }
 
 # Energy colors (RGB ranges)
@@ -129,11 +126,11 @@ ZONE_EXPECTATIONS = {
 def preprocess_image(image_path):
     """
     Preprocess screenshot for zone extraction.
-    Uses percentage-based cropping for any image with same aspect ratio.
+    Flow: Original → Crop (percentages) → Scaled card crop
+    
     - Crop 8.55% from left and right
-    - Crop 13.86% from top
+    - Crop 13.86% from top  
     - Crop 31.64% from bottom
-    - Scale to 1380px height for consistent zone extraction
     """
     img = Image.open(image_path)
     w, h = img.size
@@ -143,7 +140,7 @@ def preprocess_image(image_path):
         img = img.rotate(-90, expand=True)
         w, h = h, w
     
-    # Apply crop values as percentages
+    # Apply crop values as percentages (relative to original dimensions)
     left = int(w * CROP_LEFT_PCT)
     right = w - int(w * CROP_RIGHT_PCT)
     top = int(h * CROP_TOP_PCT)
@@ -151,18 +148,12 @@ def preprocess_image(image_path):
     
     img = img.crop((left, top, right, bottom))
     
-    # Scale to exactly 1380px height for consistent zone extraction
-    if img.height != CARD_HEIGHT:
-        scale_factor = CARD_HEIGHT / img.height
-        new_width = int(img.width * scale_factor)
-        img = img.resize((new_width, CARD_HEIGHT), Image.Resampling.LANCZOS)
-    
     return img
 
 def extract_zone(img, zone_num, is_trainer=False):
     """
-    Extract zone from 1380px card image.
-    Workflow: crop → zone → greyscale → sharpen (no scaling needed - high res)
+    Extract zone from card image.
+    Returns raw cropped zone - no processing applied.
     """
     zones = ZONES_TRAINER if is_trainer else ZONES_POKEMON
     if zone_num not in zones:
@@ -170,32 +161,35 @@ def extract_zone(img, zone_num, is_trainer=False):
     
     w, h = img.size
     
-    # Zones are defined for 1380px height
-    y1, y2 = zones[zone_num]
+    # Zones are percentages of image height
+    y1_pct, y2_pct = zones[zone_num]
+    y1 = int(y1_pct * h)
+    y2 = int(y2_pct * h)
     
-    # Crop zone
+    # Crop zone - return raw, no processing
     zone = img.crop((0, y1, w, y2))
     
-    # Convert to greyscale
-    zone = zone.convert('L')
-    
-    # Sharpen for better text recognition
-    zone = zone.filter(ImageFilter.SHARPEN)
+    return zone
     
     return zone
 
-def ocr_zone(zone_img, lang='deu'):
+def ocr_zone(zone_img, lang=None):
     """OCR a zone - image already preprocessed by extract_zone"""
     if zone_img is None:
         return None
     
-    # Try German first (already greyscaled and sharpened by extract_zone)
-    text = pytesseract.image_to_string(zone_img, lang='deu')
+    # Try without language spec first (more reliable)
+    text = pytesseract.image_to_string(zone_img, config='--psm 6')
     if text and len(text.strip()) > 2:
         return text.strip()
     
+    # Try German
+    text_de = pytesseract.image_to_string(zone_img, lang='deu', config='--psm 6')
+    if text_de and len(text_de.strip()) > 2:
+        return text_de.strip()
+    
     # Try English as fallback
-    text_en = pytesseract.image_to_string(zone_img, lang='eng')
+    text_en = pytesseract.image_to_string(zone_img, lang='eng', config='--psm 6')
     if text_en and len(text_en.strip()) > 2:
         return text_en.strip()
     
@@ -237,66 +231,69 @@ def save_progress(progress):
     with open(PROGRESS_FILE, 'w') as f:
         json.dump(progress, f)
 
-def search_card_by_name(name):
-    """Search API for card by name - returns full card data with caching"""
-    if not name:
-        return None
-    
-    # Check cache first
-    cache_key = f"name:{name.lower()}"
-    if cache_key in API_CACHE:
-        return API_CACHE[cache_key]
-    
-    url = f"{API_BASE}?name={name}"
-    try:
-        resp = requests.get(url, timeout=10)
-        if resp.status_code == 200:
-            results = resp.json()
-            for card in results:
-                set_id = card.get('id', '').split('-')[0]
-                if set_id in TCGP_SETS:
-                    # Fetch full card data by ID
-                    card_id = card.get('id')
-                    full_url = f"{API_BASE}/{card_id}"
-                    full_resp = requests.get(full_url, timeout=10)
-                    if full_resp.status_code == 200:
-                        result = full_resp.json()
-                        API_CACHE[cache_key] = result
-                        return result
-                    # Fallback to partial but don't cache
-                    API_CACHE[cache_key] = card
-                    return card
-    except:
-        pass
-    return None
 
-def search_card_by_number(set_id, card_num):
-    """Search API for card by set and number with caching"""
-    # Check cache first
-    cache_key = f"{set_id}:{card_num}"
-    if cache_key in API_CACHE:
-        return API_CACHE[cache_key]
-    
-    url = f"{API_BASE}/{set_id}-{card_num:03d}"
-    try:
-        resp = requests.get(url, timeout=10)
-        if resp.status_code == 200:
-            result = resp.json()
-            API_CACHE[cache_key] = result
-            return result
-    except:
-        pass
-    return None
+# === API FUNCTIONS - DISABLED (Using OCR only) ===
+# def search_card_by_name(name):
+#     """Search API for card by name - returns full card data with caching"""
+#     if not name:
+#         return None
+#     
+#     # Check cache first
+#     cache_key = f"name:{name.lower()}"
+#     if cache_key in API_CACHE:
+#         return API_CACHE[cache_key]
+#     
+#     url = f"{API_BASE}?name={name}"
+#     try:
+#         resp = requests.get(url, timeout=10)
+#         if resp.status_code == 200:
+#             results = resp.json()
+#             for card in results:
+#                 set_id = card.get('id', '').split('-')[0]
+#                 if set_id in TCGP_SETS:
+#                     # Fetch full card data by ID
+#                     card_id = card.get('id')
+#                     full_url = f"{API_BASE}/{card_id}"
+#                     full_resp = requests.get(full_url, timeout=10)
+#                     if full_resp.status_code == 200:
+#                         result = full_resp.json()
+#                         API_CACHE[cache_key] = result
+#                         return result
+#                     # Fallback to partial but don't cache
+#                     API_CACHE[cache_key] = card
+#                     return card
+#     except:
+#         pass
+#     return None
+
+# def search_card_by_number(set_id, card_num):
+#     """Search API for card by set and number with caching"""
+#     # Check cache first
+#     cache_key = f"{set_id}:{card_num}"
+#     if cache_key in API_CACHE:
+#         return API_CACHE[cache_key]
+#     
+#     url = f"{API_BASE}/{set_id}-{card_num:03d}"
+#     try:
+#         resp = requests.get(url, timeout=10)
+#         if resp.status_code == 200:
+#             result = resp.json()
+#             API_CACHE[cache_key] = result
+#             return result
+#     except:
+#         pass
+#     return None
+
 
 def detect_card_type(img):
-    """Detect if card is Trainer or Pokemon - MUST be called BEFORE zone extraction"""
+    """Detect if card is Trainer or Pokemon"""
     w, h = img.size
     
-    # Pokemon Zone 1: y=0 to y=137
-    z1_pokemon = img.crop((0, 0, w, 137))
+    # Pokemon Zone 1: 0-10% of height
+    z1_pokemon = img.crop((0, 0, w, int(h * 0.10)))
     gray = z1_pokemon.convert('L')
-    text_pkm = pytesseract.image_to_string(gray, lang='deu').upper()
-    print(f"  [DEBUG] Pokemon Zone 1 (0-137): {text_pkm[:60]}")
+    text_pkm = pytesseract.image_to_string(gray, config='--psm 6').upper()
+    print(f"  [DEBUG] Pokemon Zone 1: {text_pkm[:60]}")
     
     # Check for Pokemon indicators (HP/KP)
     if 'KP' in text_pkm or 'HP' in text_pkm:
@@ -308,11 +305,11 @@ def detect_card_type(img):
         if keyword in text_pkm:
             return True  # Trainer
     
-    # Try Trainer zone 1: y=0 to y=87
-    z1_trainer = img.crop((0, 0, w, 87))
+    # Try Trainer zone 1: 0-6% of height
+    z1_trainer = img.crop((0, 0, w, int(h * 0.06)))
     gray = z1_trainer.convert('L')
-    text_trn = pytesseract.image_to_string(gray, lang='deu').upper()
-    print(f"  [DEBUG] Trainer Zone 1 (0-87): {text_trn[:60]}")
+    text_trn = pytesseract.image_to_string(gray, config='--psm 6').upper()
+    print(f"  [DEBUG] Trainer Zone 1: {text_trn[:60]}")
     
     for keyword in trainer_keywords:
         if keyword in text_trn:
@@ -340,71 +337,80 @@ def process_card(image_path):
     is_trainer = detect_card_type(img)
     print(f"  \033[1;90m->\033[0m Detected: {'\033[1;33mTrainer\033[0m' if is_trainer else '\033[1;32mPokemon\033[0m'}")
     
-    # Pokemon: Zone 1, 4, 5, 6 for OCR (Top Bar, Card Number, Attacks, Bottom Info)
+    # Pokemon: Zone 1, 5, 6 for OCR (Top Bar, Attacks, Bottom Info)
     # Trainer: Zone 2, 4, 5 for OCR (Name, Effect, Set Info)
     if is_trainer:
         zones_to_try = [2, 4, 5]
     else:
-        zones_to_try = [1, 4, 5, 6]
+        zones_to_try = [1, 5, 6]
     
     card_data = None
     
-    for zone_num in zones_to_try:
-            zone_img = extract_zone(img, zone_num, is_trainer)
-            if zone_img is None:
-                print(f"  \033[90m  [-] Zone {zone_num}: Could not extract\033[0m")
-                continue
-            
-            text = ocr_zone(zone_img)
-            if text is None or len(text) < 3:
-                print(f"  \033[90m  [-] Zone {zone_num}: No text found\033[0m")
-                continue
-            
-            print(f"  \033[90m  [~] Zone {zone_num}:\033[0m {text[:50]}...")
-            
-            # Extract words from zone and search by name
-            words = sorted(text.split(), key=len, reverse=True)
-            
-            for word in words:
-                clean_word = ''.join(c for c in word if c.isalnum())
-                if len(clean_word) >= 4:
-                    card_data = search_card_by_name(clean_word)
-                    if card_data:
-                        print(f"  \033[92m  [✓] MATCHED by name:\033[0m {clean_word} → \033[1m{card_data.get('name')}\033[0m")
-                        break
-            
-            if card_data:
-                break
-    
-    # LAST RESORT: Try Zone 4 ONLY for Trainer cards
-    if not card_data and is_trainer:
-        print(f"  \033[90m[Last Resort] Trying Zone 4 for Trainer...\033[0m")
-        zone_img = extract_zone(img, 4, True)
+    # For Trainer cards, use Zone 2 name directly without API
+    if is_trainer:
+        zone_img = extract_zone(img, 2, True)
         if zone_img:
             text = ocr_zone(zone_img)
             if text:
-                import re
-                num_match = re.search(r'Nr\.?\s*(\d+)', text, re.IGNORECASE)
-                if num_match:
-                    card_num = int(num_match.group(1))
-                    print(f"  \033[93m      >>> Card #: {card_num}\033[0m")
-                    for set_id in TCGP_SETS:
-                        card_data = search_card_by_number(set_id, card_num)
-                        if card_data:
-                            print(f"  \033[92m  [✓] MATCHED by card#: {set_id}-{card_num} = {card_data.get('name')}\033[0m")
+                print(f"  \033[90m  [~] Zone 2:\033[0m {text[:50]}...")
+                # Extract name from text - take first significant line
+                lines = text.strip().split('\n')
+                trainer_name = lines[0].strip() if lines else text.strip()
+                # Clean up name
+                trainer_name = ' '.join(trainer_name.split())
+                if trainer_name:
+                    print(f"  \033[92m[✓] Trainer name:\033[0m {trainer_name}")
+                    # Create minimal card data from OCR
+                    card_data = {
+                        'name': trainer_name,
+                        'id': f"trainer_{hash(trainer_name)}",
+                        'set': {'name': 'Unknown'},
+                        'category': 'Trainer',
+                    }
+    
+    # For Pokemon cards, use Zone 1 name directly
+    if not card_data and not is_trainer:
+        zone_img = extract_zone(img, 1, False)
+        if zone_img:
+            text = ocr_zone(zone_img)
+            if text:
+                print(f"  [90m  [~] Zone 1:[0m {text[:60]}...")
+                
+                # Find Pokemon name - look for capitalized words in first few lines
+                lines = text.strip().split('\n')[:3]
+                found_name = None
+                for line in lines:
+                    words = line.split()
+                    for word in words:
+                        # Clean and check if looks like Pokemon name
+                        clean = ''.join(c for c in word if c.isalpha())
+                        if len(clean) >= 4 and clean[0].isupper():
+                            found_name = clean
                             break
+                    if found_name:
+                        break
+                
+                if found_name:
+                    print(f"  [92m[✓] Pokemon name:[0m {found_name}")
+                    card_data = {
+                        'name': found_name,
+                        'id': f"pokemon_{found_name.lower()}",
+                        'set': {'name': 'OCR'},
+                        'category': 'Pokemon',
+                    }
     
     if not card_data:
-        print(f"  \033[91m  [✗] ERROR: Could not find card\033[0m")
+        print(f"  [91m[✗] ERROR: Could not find card[0m")
         return False, None
     
     # Get card info
     card_id = card_data.get('id', '')
-    set_id, card_num = card_id.split('-') if '-' in card_id else ('', 0)
-    card_num = int(card_num)
+    set_id = card_data.get('set', {}).get('name', 'OCR')
+    card_num = 0
     
     # Handle duplicates
-    new_filename = f"{card_data['name']}_{set_id}_{card_num}.png"
+    card_name = card_data.get('name', 'unknown')
+    new_filename = f"{card_name}_{set_id}_{card_num}.png"
     new_path = os.path.join(CAPTURED_DIR, new_filename)
     
     dup = 1
@@ -536,41 +542,36 @@ def append_to_csv(card_data):
     print(f"  [CSV] Added: {card['Card Name']}")
 
 def generate_csv():
+    """Generate CSV from captured files - OCR only, no API needed"""
     captured_files = glob.glob(os.path.join(CAPTURED_DIR, "*.png"))
     
     cards = []
     for filepath in captured_files:
         filename = os.path.basename(filepath)
-        match = re.match(r'^(.+?)_([A-Za-z0-9]+)_(\d+)', filename.replace('.png', ''))
-        if match:
-            name, set_id, card_num = match.group(1), match.group(2), int(match.group(3))
-            
-            card_data = search_card_by_number(set_id, card_num)
-            if card_data:
-                abilities = card_data.get('abilities', [])
-                attacks = card_data.get('attacks', [])
-                
-                cards.append({
-                    'Card Name': card_data.get('name', ''),
-                    'HP': card_data.get('hp', ''),
-                    'Energy Type': ', '.join(card_data.get('types', [])),
-                    'Weakness': f"{card_data.get('weaknesses', [{}])[0].get('type', '')} {card_data.get('weaknesses', [{}])[0].get('value', '')}",
-                    'Resistance': '',
-                    'Retreat Cost': card_data.get('retreat', ''),
-                    'Category': card_data.get('category', ''),
-                    'Ability Name': abilities[0].get('name', '') if abilities else '',
-                    'Ability Description': abilities[0].get('effect', '') if abilities else '',
-                    'Attack 1 Name': attacks[0].get('name', '') if len(attacks) > 0 else '',
-                    'Attack 1 Cost': ', '.join(attacks[0].get('cost', [])) if len(attacks) > 0 else '',
-                    'Attack 1 Damage': attacks[0].get('damage', '') if len(attacks) > 0 else '',
-                    'Attack 1 Description': attacks[0].get('effect', '') if len(attacks) > 0 else '',
-                    'Attack 2 Name': attacks[1].get('name', '') if len(attacks) > 1 else '',
-                    'Attack 2 Cost': ', '.join(attacks[1].get('cost', [])) if len(attacks) > 1 else '',
-                    'Attack 2 Damage': attacks[1].get('damage', '') if len(attacks) > 1 else '',
-                    'Attack 2 Description': attacks[1].get('effect', '') if len(attacks) > 1 else '',
-                    'Rarity': card_data.get('rarity', ''),
-                    'Pack': card_data.get('set', {}).get('name', ''),
-                })
+        # Parse filename to get card name
+        name = filename.replace('.png', '').rsplit('_', 2)[0] if '_' in filename else filename.replace('.png', '')
+        
+        cards.append({
+            'Card Name': name,
+            'HP': '',
+            'Energy Type': '',
+            'Weakness': '',
+            'Resistance': '',
+            'Retreat Cost': '',
+            'Category': '',
+            'Ability Name': '',
+            'Ability Description': '',
+            'Attack 1 Name': '',
+            'Attack 1 Cost': '',
+            'Attack 1 Damage': '',
+            'Attack 1 Description': '',
+            'Attack 2 Name': '',
+            'Attack 2 Cost': '',
+            'Attack 2 Damage': '',
+            'Attack 2 Description': '',
+            'Rarity': '',
+            'Pack': '',
+        })
     
     fields = ['Card Name', 'HP', 'Energy Type', 'Weakness', 'Resistance', 'Retreat Cost',
                'Category', 'Ability Name', 'Ability Description', 'Attack 1 Name', 'Attack 1 Cost', 
