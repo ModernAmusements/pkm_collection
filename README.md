@@ -4,10 +4,71 @@ Extract your complete card collection from Pokémon TCG Pocket using OCR + API.
 
 ## How It Works
 
-1. **Capture screenshots** of your cards in the game
-2. **OCR** extracts card names from images
-3. **API** fetches full German card data
-4. **CSV output** with all card details
+1. **Preprocess** - Crop screenshot → Zone extraction → Greyscale → Scale
+2. **Detect** - Pokemon vs Trainer card (Zone 1 keywords)
+3. **OCR** - Extract text from specific zones:
+   - **Pokemon**: Zone 1 (Name+HP) + Zone 5 (Attacks)
+   - **Trainer**: Zone 1 (Type) + Zone 2 (Name) + Zone 4 (Effect)
+4. **API Fallback** - Only if OCR fails or lacks data
+5. **Save** - Move to captured + append to CSV
+
+## Extraction Flow
+
+```
+┌─────────────────────┐
+│ 1. PREPROCESS      │  Crop sides 8.5%, crop height 555px
+│ Image (472x1018)   │  → Output: 392x555
+└──────────┬──────────┘
+            ▼
+┌─────────────────────┐
+│ 2. DETECT TYPE      │  OCR Zone 1, look for keywords
+│ Pokemon/Trainer     │  HP/KP = Pokemon, TRAINER/ARTIKEL = Trainer
+└──────────┬──────────┘
+            ▼
+┌─────────────────────┐
+│ 3. OCR ZONES       │  Pokemon: Zone 1 + Zone 5
+│ Extract specific   │  Trainer: Zone 1 + Zone 2 + Zone 4
+│ zones for each     │  Scale 3x, Grayscale, OCR (German)
+└──────────┬──────────┘
+            ▼
+┌─────────────────────┐
+│ 4. API FALLBACK    │  Only if OCR fails or lacks data
+│ (Last Resort)      │  Search by name first, then card number
+└──────────┬──────────┘
+            ▼
+┌─────────────────────┐
+│ 5. SAVE            │  Move to captured/
+│ Success/Failed     │  Append to CSV
+└─────────────────────┘
+```
+
+## Zone Definitions
+
+### Pokemon Cards (7 zones)
+| Zone | Pixels | Content |
+|------|--------|---------|
+| 1 | 0-55 | Pokemon name + HP + Energy |
+| 2 | 55-65 | Evolution stage |
+| 3 | 65-263 | Artwork |
+| 4 | 263-282 | Card number |
+| 5 | 282-475 | Attacks & Abilities |
+| 6 | 475-494 | Weakness + Retreat |
+| 7 | 494-555 | Info text |
+
+### Trainer Cards (5 zones)
+| Zone | Pixels | Content |
+|------|--------|---------|
+| 1 | 0-41 | Card type (Item/Stadium) |
+| 2 | 41-81 | Card name |
+| 3 | 81-289 | Artwork |
+| 4 | 289-480 | Effect |
+| 5 | 480-554 | Special rule |
+
+## Image Preprocessing
+
+- Crop sides: 8.5% from each side
+- Crop height: 555px from top (14% from top)
+- Scale: 3x for OCR
 
 ## Folder Structure
 
@@ -37,8 +98,6 @@ brew install tesseract
 
 ## Usage
 
-### Process Cards (Batch Mode)
-
 ```bash
 # Show status
 python3 extract_batch.py status
@@ -49,20 +108,9 @@ python3 extract_batch.py run
 # Process specific number
 python3 extract_batch.py run 50
 
-# Generate CSV from captured cards
-python3 extract_batch.py csv
-
 # Reset progress
 python3 extract_batch.py reset
 ```
-
-### Workflow
-
-1. Add new screenshots to `screenshots/to_process/`
-2. Run `python3 extract_batch.py run` to process batches
-3. Script pauses after each batch - safe to stop anytime
-4. Run again to continue from where you left off
-5. When done, run `python3 extract_batch.py csv`
 
 ## Output CSV Format
 
@@ -73,6 +121,7 @@ python3 extract_batch.py reset
 | Energy Type | Card energy (Feuer, Wasser, Psycho, etc.) |
 | Weakness | Weakness type and value |
 | Retreat Cost | Retreat cost |
+| Category | Pokemon/Trainer |
 | Ability Name | German ability name |
 | Ability Description | Ability effect |
 | Attack 1 Name | First attack name |
@@ -90,33 +139,8 @@ python3 extract_batch.py reset
 
 Card data fetched from [TCGdex API](https://tcgdex.dev/) in German.
 
-## Card Layouts
-
-### Pokemon Cards
-- Zone 1 (0-55px): Phase + Name + KP + Energy
-- Zone 2 (55-65px): Evolution
-- Zone 3 (65-263px): Artwork
-- Zone 4 (263-282px): Card Number
-- Zone 5 (282-475px): Attacks & Abilities
-- Zone 6 (475-494px): Weakness + Retreat
-
-### Trainer Cards
-- Zone 1 (0-41px): Card Type (Item, Stadium, etc.)
-- Zone 2 (41-81px): Name
-- Zone 3 (81-289px): Artwork
-- Zone 4 (289-480px): Effect text
-- Zone 5 (480-554px): Special trainer rule
-
-## Image Preprocessing
-
-- Crop sides: 8.5% from each side
-- Crop height: 555px from top (14% from top)
-- Scale: 3x for OCR
-
 ## Tips
 
-- Script automatically detects Pokemon vs Trainer cards
 - Process in batches of 25 to avoid API rate limits
-- Use screen recording for faster capture
-- Failed cards go to `failed_to_capture/` - can retry later
 - Script saves progress automatically - safe to stop anytime
+- Failed cards go to `failed_to_capture/` - can retry later

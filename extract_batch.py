@@ -28,39 +28,51 @@ PROGRESS_FILE = "extraction_progress.json"
 BATCH_SIZE = 25
 API_BASE = "https://api.tcgdex.net/v2/de/cards"
 
-# TCG Pocket sets only
-TCGP_SETS = ['A1', 'A1a', 'A2', 'A2a', 'A2b', 'A3', 'A3a', 'A3b', 'A4', 'A4a', 'Pikachu', 'B1', 'B1a', 'B2', 'B2a']
+# TCG Pocket sets - prioritized by commonality
+TCGP_SETS_PRIORITY = {
+    'A1': 10, 'A1a': 10, 'A2': 9, 'A2a': 9, 'A2b': 8, 'A3': 8, 'A3a': 7, 'A3b': 7, 'A4': 6, 'A4a': 6,
+    'Pikachu': 9, 'B1': 7, 'B1a': 6, 'B2': 6, 'B2a': 5,
+    'swsh': 5, 'swsh6': 4, 'swsh7': 4, 'swsh8': 3, 'swsh9': 3, 'swsh10': 2, 'swsh11': 2, 'swsh12': 2,
+    'sv': 4, 'sv01': 3, 'sv02': 3, 'sv03': 2, 'sv04': 2, 'sv05': 2, 'sv06': 2,
+    'sm': 3, 'sm1': 2, 'sm2': 2, 'sm3': 2, 'sm4': 1, 'sm5': 1,
+    'xy': 2, 'xy1': 1, 'xy2': 1, 'bw': 1,
+}
+
+# Sorted by priority (highest first)
+TCGP_SETS = sorted(TCGP_SETS_PRIORITY.keys(), key=lambda x: TCGP_SETS_PRIORITY[x], reverse=True)
+
+# API cache
+API_CACHE = {}
 
 # === PREPROCESSING CONFIG ===
-CROP_SIDES = 0.085  # 8.5% from each side
-CROP_HEIGHT = 555   # Fixed height
-SCALE = 3  # Scale factor for OCR
+# Crop percentages (works for any image with same aspect ratio)
+CROP_LEFT_PCT = 0.0855   # 8.55% from left
+CROP_RIGHT_PCT = 0.0855  # 8.55% from right
+CROP_TOP_PCT = 0.1386     # 13.86% from top
+CROP_BOTTOM_PCT = 0.3164  # 31.64% from bottom
 
-# Pokemon card zones in order from TOP to BOTTOM (heights in pixels)
+# Base resolution for zone definitions: 1170x2532 -> cropped: 970x1380
+# Zones defined for 1380px height (maintains aspect ratio)
+CARD_HEIGHT = 1380
+
+# Pokemon zones (for 1380px height)
+# OCR: Zone 1, 4, 5
 ZONES_POKEMON = {
-    1: (0, 55),      # Phase + Name + KP + Energy
-    2: (55, 65),      # Evolution
-    3: (65, 263),     # Artwork
-    4: (263, 282),    # Card Number
-    5: (282, 475),    # Attacks & Abilities
-    6: (475, 494),   # Weakness + Retreat
-    7: (494, 555),   # Info (not needed)
+    1: (0, 137),      # Name + HP + Energy - EXTRACT FOR OCR
+    2: (137, 162),    # Evolution - IGNORED
+    3: (162, 654),    # Artwork - IGNORED
+    4: (654, 701),    # Card Number - EXTRACT FOR OCR
+    5: (701, 1156),   # Attacks & Abilities - EXTRACT FOR OCR
+    6: (1156, 1380),  # Weakness + Retreat - IGNORED
 }
 
-# Trainer card zones (different layout)
+# Trainer zones (for 1380px height)
 ZONES_TRAINER = {
-    1: (0, 41),       # Trainer card type (Item, Stadium, etc.)
-    2: (41, 81),      # Name (40px)
-    3: (81, 289),     # Artwork (208px)
-    4: (289, 480),    # Effect (191px)
-    5: (480, 554),    # Special trainer rule (74px)
-}
-
-# Crop percentages (based on original image)
-CROP = {
-    'top': 0.14,      # 14% from top
-    'bottom': 0.32,    # 32% from bottom
-    'sides': 0.085,   # 8.5% from each side
+    1: (0, 87),       # Type - FOR DETECTION ONLY
+    2: (87, 211),     # Name - EXTRACT FOR OCR (critical)
+    3: (211, 593),    # Artwork - IGNORED
+    4: (713, 1194),  # Effect - EXTRACT FOR OCR (critical, moved down 1/4)
+    5: (1194, 1380), # Extra/Additional - EXTRACT FOR OCR
 }
 
 # Energy colors (RGB ranges)
@@ -115,38 +127,84 @@ ZONE_EXPECTATIONS = {
 # === FUNCTIONS ===
 
 def preprocess_image(image_path):
-    """Crop sides, crop to 555px height, return image ready for zone extraction"""
+    """
+    Preprocess screenshot for zone extraction.
+    Uses percentage-based cropping for any image with same aspect ratio.
+    - Crop 8.55% from left and right
+    - Crop 13.86% from top
+    - Crop 31.64% from bottom
+    - Scale to 1380px height for consistent zone extraction
+    """
     img = Image.open(image_path)
     w, h = img.size
     
-    # Step 1: Crop sides (8.5% from each side)
-    left = int(w * CROP_SIDES)
-    right = w - left
-    img = img.crop((left, 0, right, h))
+    # Detect and fix orientation
+    if w > h:
+        img = img.rotate(-90, expand=True)
+        w, h = h, w
     
-    # Step 2: Crop to 555px height from top (14% from top)
-    top = int(h * 0.14)
-    img = img.crop((0, top, img.width, top + CROP_HEIGHT))
+    # Apply crop values as percentages
+    left = int(w * CROP_LEFT_PCT)
+    right = w - int(w * CROP_RIGHT_PCT)
+    top = int(h * CROP_TOP_PCT)
+    bottom = h - int(h * CROP_BOTTOM_PCT)
     
-    # Now img is 555px height, return it
+    img = img.crop((left, top, right, bottom))
+    
+    # Scale to exactly 1380px height for consistent zone extraction
+    if img.height != CARD_HEIGHT:
+        scale_factor = CARD_HEIGHT / img.height
+        new_width = int(img.width * scale_factor)
+        img = img.resize((new_width, CARD_HEIGHT), Image.Resampling.LANCZOS)
+    
     return img
 
 def extract_zone(img, zone_num, is_trainer=False):
-    """Extract a zone at 555px size, scale for OCR"""
+    """
+    Extract zone from 1380px card image.
+    Workflow: crop → zone → greyscale → sharpen (no scaling needed - high res)
+    """
     zones = ZONES_TRAINER if is_trainer else ZONES_POKEMON
-    w, h = img.size  # h should be 555
+    if zone_num not in zones:
+        return None
+    
+    w, h = img.size
+    
+    # Zones are defined for 1380px height
     y1, y2 = zones[zone_num]
+    
+    # Crop zone
     zone = img.crop((0, y1, w, y2))
-    # Scale 3x for better OCR
-    return zone.resize((zone.width * SCALE, zone.height * SCALE))
+    
+    # Convert to greyscale
+    zone = zone.convert('L')
+    
+    # Sharpen for better text recognition
+    zone = zone.filter(ImageFilter.SHARPEN)
+    
+    return zone
 
 def ocr_zone(zone_img, lang='deu'):
-    """OCR a zone - convert to grayscale for text"""
-    gray = zone_img.convert('L')
-    # Increase contrast for better OCR
-    gray = ImageEnhance.Contrast(gray).enhance(2)
-    text = pytesseract.image_to_string(gray, lang=lang)
-    return text.strip()
+    """OCR a zone - image already preprocessed by extract_zone"""
+    if zone_img is None:
+        return None
+    
+    # Try German first (already greyscaled and sharpened by extract_zone)
+    text = pytesseract.image_to_string(zone_img, lang='deu')
+    if text and len(text.strip()) > 2:
+        return text.strip()
+    
+    # Try English as fallback
+    text_en = pytesseract.image_to_string(zone_img, lang='eng')
+    if text_en and len(text_en.strip()) > 2:
+        return text_en.strip()
+    
+    return None
+
+def has_text(zone_img):
+    """Check if zone has readable text"""
+    text = ocr_zone(zone_img)
+    return text is not None and len(text) > 2
 
 def detect_energy_color(zone_img):
     """Detect energy type from color in energy zone"""
@@ -180,9 +238,14 @@ def save_progress(progress):
         json.dump(progress, f)
 
 def search_card_by_name(name):
-    """Search API for card by name - returns full card data"""
+    """Search API for card by name - returns full card data with caching"""
     if not name:
         return None
+    
+    # Check cache first
+    cache_key = f"name:{name.lower()}"
+    if cache_key in API_CACHE:
+        return API_CACHE[cache_key]
     
     url = f"{API_BASE}?name={name}"
     try:
@@ -197,107 +260,142 @@ def search_card_by_name(name):
                     full_url = f"{API_BASE}/{card_id}"
                     full_resp = requests.get(full_url, timeout=10)
                     if full_resp.status_code == 200:
-                        return full_resp.json()
-                    return card  # Fallback to partial
+                        result = full_resp.json()
+                        API_CACHE[cache_key] = result
+                        return result
+                    # Fallback to partial but don't cache
+                    API_CACHE[cache_key] = card
+                    return card
     except:
         pass
     return None
 
 def search_card_by_number(set_id, card_num):
-    """Search API for card by set and number"""
+    """Search API for card by set and number with caching"""
+    # Check cache first
+    cache_key = f"{set_id}:{card_num}"
+    if cache_key in API_CACHE:
+        return API_CACHE[cache_key]
+    
     url = f"{API_BASE}/{set_id}-{card_num:03d}"
     try:
         resp = requests.get(url, timeout=10)
         if resp.status_code == 200:
-            return resp.json()
+            result = resp.json()
+            API_CACHE[cache_key] = result
+            return result
     except:
         pass
     return None
 
 def detect_card_type(img):
-    """Detect if card is Trainer or Pokemon based on Zone 1 text"""
-    # Use larger zone to catch both Pokemon (0-55) and Trainer (0-41)
-    zone1 = img.crop((0, 0, img.width, 60))
-    gray = zone1.convert('L')
-    text = pytesseract.image_to_string(gray, lang='deu').upper()
+    """Detect if card is Trainer or Pokemon - MUST be called BEFORE zone extraction"""
+    w, h = img.size
     
-    print(f"  [DEBUG] Zone1 text: {text[:60]}")
+    # Pokemon Zone 1: y=0 to y=137
+    z1_pokemon = img.crop((0, 0, w, 137))
+    gray = z1_pokemon.convert('L')
+    text_pkm = pytesseract.image_to_string(gray, lang='deu').upper()
+    print(f"  [DEBUG] Pokemon Zone 1 (0-137): {text_pkm[:60]}")
     
+    # Check for Pokemon indicators (HP/KP)
+    if 'KP' in text_pkm or 'HP' in text_pkm:
+        return False  # Pokemon
+    
+    # Check for Trainer indicators
     trainer_keywords = ['TRAINER', 'ARTIKEL', 'STADION', 'UNTERSTÜTZUNG', 'SPEZIAL', 'ITEM']
     for keyword in trainer_keywords:
-        if keyword in text:
-            return True
+        if keyword in text_pkm:
+            return True  # Trainer
     
-    # Pokemon indicator - look for HP/KP
-    if 'KP' in text or 'HP' in text:
-        return False
-    
-    return False
-    
-    # Try Trainer zone 1 (0-41px) as fallback
-    zone1_trn = img.crop((0, 0, img.width, 41))
-    gray = zone1_trn.convert('L')
-    text = pytesseract.image_to_string(gray, lang='deu').upper()
+    # Try Trainer zone 1: y=0 to y=87
+    z1_trainer = img.crop((0, 0, w, 87))
+    gray = z1_trainer.convert('L')
+    text_trn = pytesseract.image_to_string(gray, lang='deu').upper()
+    print(f"  [DEBUG] Trainer Zone 1 (0-87): {text_trn[:60]}")
     
     for keyword in trainer_keywords:
-        if keyword in text:
-            return True
+        if keyword in text_trn:
+            return True  # Trainer
     
+    # Check Pokemon indicators in trainer zone
+    if 'KP' in text_trn or 'HP' in text_trn:
+        return False  # Pokemon
+    
+    # Default to Pokemon
     return False
 
 def process_card(image_path):
-    """Process a single card"""
+    """Process a single card - OCR only, no filename parsing"""
     filename = os.path.basename(image_path)
-    print(f"\n[Processing] {filename}")
+    print(f"\n\033[1;36m[Processing]\033[0m {filename}")
+    
+    # OCR extraction only - no filename parsing!
+    print(f"  \033[90m[OCR] Extracting from image...\033[0m")
     
     # Preprocess
     img = preprocess_image(image_path)
     
     # Detect card type
     is_trainer = detect_card_type(img)
-    print(f"  -> Detected: {'Trainer' if is_trainer else 'Pokemon'}")
+    print(f"  \033[1;90m->\033[0m Detected: {'\033[1;33mTrainer\033[0m' if is_trainer else '\033[1;32mPokemon\033[0m'}")
     
-    # Extract text from ALL zones and combine
-    all_text = ""
+    # Pokemon: Zone 1, 4, 5 for OCR
+    # Trainer: Zone 2, 4, 5 for OCR
+    if is_trainer:
+        zones_to_try = [2, 4, 5]
+    else:
+        zones_to_try = [1, 4, 5]
     
-    # Zone 1 - Name/Type
-    z1 = extract_zone(img, 1, is_trainer)
-    all_text += " " + ocr_zone(z1)
-    
-    # Zone 2 - Evolution/Name
-    z2 = extract_zone(img, 2, is_trainer)
-    all_text += " " + ocr_zone(z2)
-    
-    # Zone 4 - Card number (Pokemon) or Effect (Trainer)
-    z4 = extract_zone(img, 4, is_trainer)
-    all_text += " " + ocr_zone(z4)
-    
-    # Zone 5 - Attacks/Effect
-    z5 = extract_zone(img, 5 if not is_trainer else 99, is_trainer)
-    if z5:
-        all_text += " " + ocr_zone(z5)
-    
-    # Clean up text
-    all_text = ' '.join(all_text.split())
-    print(f"  [OCR] Combined: {all_text[:80]}...")
-    
-    # Extract Pokemon/Trainer name from combined text
-    # Look for German Pokemon names (usually capitalized words)
-    words = all_text.split()
     card_data = None
     
-    for word in words:
-        # Clean word - remove special chars
-        clean_word = ''.join(c for c in word if c.isalnum())
-        if len(clean_word) >= 3:
-            # Try searching by this word
-            card_data = search_card_by_name(clean_word)
+    for zone_num in zones_to_try:
+            zone_img = extract_zone(img, zone_num, is_trainer)
+            if zone_img is None:
+                print(f"  \033[90m  [-] Zone {zone_num}: Could not extract\033[0m")
+                continue
+            
+            text = ocr_zone(zone_img)
+            if text is None or len(text) < 3:
+                print(f"  \033[90m  [-] Zone {zone_num}: No text found\033[0m")
+                continue
+            
+            print(f"  \033[90m  [~] Zone {zone_num}:\033[0m {text[:50]}...")
+            
+            # Extract words from zone and search by name
+            words = sorted(text.split(), key=len, reverse=True)
+            
+            for word in words:
+                clean_word = ''.join(c for c in word if c.isalnum())
+                if len(clean_word) >= 4:
+                    card_data = search_card_by_name(clean_word)
+                    if card_data:
+                        print(f"  \033[92m  [✓] MATCHED by name:\033[0m {clean_word} → \033[1m{card_data.get('name')}\033[0m")
+                        break
+            
             if card_data:
-                print(f"  [API] Found: {clean_word} -> {card_data.get('name')}")
                 break
     
+    # LAST RESORT: Try Zone 4 ONLY for Trainer cards
+    if not card_data and is_trainer:
+        print(f"  \033[90m[Last Resort] Trying Zone 4 for Trainer...\033[0m")
+        zone_img = extract_zone(img, 4, True)
+        if zone_img:
+            text = ocr_zone(zone_img)
+            if text:
+                import re
+                num_match = re.search(r'Nr\.?\s*(\d+)', text, re.IGNORECASE)
+                if num_match:
+                    card_num = int(num_match.group(1))
+                    print(f"  \033[93m      >>> Card #: {card_num}\033[0m")
+                    for set_id in TCGP_SETS:
+                        card_data = search_card_by_number(set_id, card_num)
+                        if card_data:
+                            print(f"  \033[92m  [✓] MATCHED by card#: {set_id}-{card_num} = {card_data.get('name')}\033[0m")
+                            break
+    
     if not card_data:
-        print(f"  [ERROR] Could not find card")
+        print(f"  \033[91m  [✗] ERROR: Could not find card\033[0m")
         return False, None
     
     # Get card info
@@ -321,7 +419,10 @@ def process_card(image_path):
     # Append to CSV
     append_to_csv(card_data)
     
-    print(f"  [SUCCESS] {card_data['name']} ({set_id}-{card_num})")
+    print(f"  \033[92m  ═══════════════════════════════════\033[0m")
+    print(f"  \033[92m  [✓] CAPTURED: {card_data['name']}\033[0m")
+    print(f"  \033[90m      Set: {set_id} | Card: #{card_num} | HP: {card_data.get('hp', 'N/A')}\033[0m")
+    print(f"  \033[92m  ═══════════════════════════════════\033[0m")
     
     return True, {
         'filename': new_filename,
@@ -349,14 +450,15 @@ def run_batch(start_index=0, batch_size=BATCH_SIZE):
     ]
     
     if start_index >= len(files_to_process):
-        print(f"\n[DONE] All processed!")
+        print(f"\n\033[92m[✓] All cards already processed!\033[0m")
         return
     
     batch = files_to_process[start_index:start_index + batch_size]
     
-    print(f"\n{'='*50}")
-    print(f"Batch {start_index//batch_size + 1}: {start_index+1}-{min(start_index+batch_size, len(files_to_process))}")
-    print(f"{'='*50}")
+    print(f"\n\033[1;36m{'═'*50}\033[0m")
+    print(f"\033[1;36m  BATCH {start_index//batch_size + 1}\033[0m")
+    print(f"\033[90m  Cards {start_index+1}-{min(start_index+batch_size, len(files_to_process))} of {len(files_to_process)}\033[0m")
+    print(f"\033[1;36m{'═'*50}\033[0m")
     
     results = []
     
@@ -381,7 +483,13 @@ def run_batch(start_index=0, batch_size=BATCH_SIZE):
         
         time.sleep(0.3)
     
-    print(f"\n[Complete] {len(results)}/{len(batch)}")
+    success_count = len(results)
+    fail_count = len(batch) - success_count
+    
+    print(f"\n\033[1;36m{'═'*50}\033[0m")
+    print(f"  \033[92m[✓] Success: {success_count}\033[0m  \033[91m[✗] Failed: {fail_count}\033[0m")
+    print(f"  \033[90m  Total captured: {len(processed_files)} | Total failed: {len(failed_files)}\033[0m")
+    print(f"\033[1;36m{'═'*50}\033[0m")
     return results
 
 OUTPUT_CSV = "my_cards_full.csv"
@@ -481,12 +589,18 @@ def show_status():
     captured = len(glob.glob(os.path.join(CAPTURED_DIR, "*.png")))
     failed = len(glob.glob(os.path.join(FAILED_DIR, "*.png")))
     
-    print(f"\n{'='*40}")
-    print(f"To process: {to_proc}")
-    print(f"Captured: {captured}")
-    print(f"Failed: {failed}")
-    print(f"Last index: {progress.get('last_index', -1)}")
-    print(f"{'='*40}\n")
+    print(f"\n\033[1;36m{'═'*40}\033[0m")
+    print(f"  \033[1;37mPOKEMON TCG POCKET - EXTRACTION STATUS\033[0m")
+    print(f"\033[1;36m{'─'*40}\033[0m")
+    print(f"  \033[33m[●] To process:\033[0m   {to_proc}")
+    print(f"  \033[92m[✓] Captured:\033[0m    {captured}")
+    print(f"  \033[91m[✗] Failed:\033[0m      {failed}")
+    print(f"\033[1;36m{'─'*40}\033[0m")
+    total = to_proc + captured + failed
+    if total > 0:
+        pct = (captured / total) * 100
+        print(f"  \033[90mProgress: {captured}/{total} ({pct:.1f}%)\033[0m")
+    print(f"\033[1;36m{'═'*40}\033[0m\n")
 
 def main():
     os.makedirs(CAPTURED_DIR, exist_ok=True)

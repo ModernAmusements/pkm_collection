@@ -10,27 +10,52 @@ from extract_batch import (
     preprocess_image, extract_zone, ZONES_POKEMON, ZONES_TRAINER
 )
 
-CROP_SIDES = 0.085
-CROP_HEIGHT = 555
-SCALE = 3
+CROP_LEFT = 100
+CROP_RIGHT = 100
+CROP_TOP = 351
+CROP_BOTTOM = 801
+CARD_HEIGHT = 1380
 
 def detect_card_type(img):
     """Detect if card is Trainer or Pokemon based on Zone 1 text"""
-    zone1 = extract_zone(img, 1)
-    gray = zone1.convert('L')
-    text = pytesseract.image_to_string(gray, lang='deu').upper()
+    # Use extract_zone which does: crop → greyscale → sharpen → scale
+    zone1 = extract_zone(img, 1, is_trainer=False)
+    if zone1 is None:
+        return False
     
-    print(f"Zone 1 OCR text: {text[:100]}")
+    text = pytesseract.image_to_string(zone1, lang='deu').upper()
     
-    trainer_keywords = ['TRAINER', 'ARTIKEL', 'STADION', 'UNTERSTÜTZUNG', 'SPEZIAL']
+    print(f"  Pokemon Zone 1 OCR: {text[:60]}")
+    
+    # Check for Pokemon indicators
+    if 'KP' in text or 'HP' in text:
+        return False
+    
+    # Check for Trainer keywords
+    trainer_keywords = ['TRAINER', 'ARTIKEL', 'STADION', 'UNTERSTÜTZUNG', 'SPEZIAL', 'ITEM']
     for keyword in trainer_keywords:
         if keyword in text:
             return True
     
+    # Try Trainer zone 1
+    zone1_trainer = extract_zone(img, 1, is_trainer=True)
+    if zone1_trainer:
+        text_trn = pytesseract.image_to_string(zone1_trainer, lang='deu').upper()
+        print(f"  Trainer Zone 1 OCR: {text_trn[:60]}")
+        for keyword in trainer_keywords:
+            if keyword in text_trn:
+                return True
+    
     return False
 
 def main():
-    image_path = "screenshots/to_process/card_001.png"
+    import sys
+    # Use test image or command line argument
+    if len(sys.argv) > 1:
+        image_path = sys.argv[1]
+    else:
+        image_path = "screenshots/test/IMG_1147.PNG"
+    
     print(f"Testing: {image_path}\n")
     
     # Preprocess
@@ -49,15 +74,14 @@ def main():
     # Extract and save all zones
     for z_num, (y1, y2) in zones.items():
         zone = img.crop((0, y1, img.width, y2))
-        zone_scaled = zone.resize((zone.width * SCALE, zone.height * SCALE))
         
-        # OCR the zone
-        gray = zone_scaled.convert('L')
+        # OCR the zone (high res, no scaling)
+        gray = zone.convert('L')
         text = pytesseract.image_to_string(gray, lang='deu')
         
         print(f"Zone {z_num} ({y1}-{y2}): {text[:80]}")
         
-        zone_scaled.save(f"test_output/card_001_{'trn' if is_trainer else 'pkm'}_z{z_num}.png")
+        zone.save(f"test_output/card_001_{'trn' if is_trainer else 'pkm'}_z{z_num}.png")
     
     print(f"\nSaved to test_output/")
 
