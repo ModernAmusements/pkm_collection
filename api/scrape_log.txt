@@ -1,0 +1,9 @@
+============================================================
+LIMITLESS TCG POCKET - FULL SCRAPER
+============================================================
+
+Found 240 existing cards
+Scrape again? (y/n): Traceback (most recent call last):
+  File "/Users/modernamusmenet/Desktop/tcgp/api/scrape_all.py", line 247, in <module>
+    resp = input("Scrape again? (y/n): ")
+EOFError: EOF when reading a line

@@ -1,82 +1,86 @@
 # Pokémon TCG Pocket Card Inventory
 
-Extract your complete card collection from Pokémon TCG Pocket using OCR + API.
+Extract your complete card collection from Pokémon TCG Pocket using OCR + API matching.
 
-## How It Works
+## Versions
 
-1. **Preprocess** - Crop screenshot → Zone extraction → Greyscale → Scale
-2. **Detect** - Pokemon vs Trainer card (Zone 1 keywords)
-3. **OCR** - Extract text from specific zones:
-   - **Pokemon**: Zone 1 (Name+HP) + Zone 5 (Attacks)
-   - **Trainer**: Zone 1 (Type) + Zone 2 (Name) + Zone 4 (Effect)
-4. **API Fallback** - Only if OCR fails or lacks data
-5. **Save** - Move to captured + append to CSV
+- **V2 (Recommended)**: Minimal OCR + API Match = 100% Confidence
+- **V1**: Original full OCR version (deprecated)
 
-## Extraction Flow
+## How It Works (V2)
+
+**Philosophy**: Minimal OCR for name, then API match for complete data
+
+```
+1. MINIMAL OCR    → Extract only CARD NAME from image
+2. API MATCH     → Find card in scraped database (name → 100% match)
+3. SAVE          → Full card data from API (HP, attacks, weakness, etc.)
+```
+
+This approach gives **100% confidence** on matched cards because:
+- OCR only reads the name (most reliable)
+- API provides complete data (attacks, weakness, retreat, illustrator, etc.)
+- No OCR errors on complex fields
+
+## Extraction Flow (V2)
 
 ```
 ┌─────────────────────┐
-│ 1. PREPROCESS      │  Crop sides 8.5%, crop height 555px
-│ Image (472x1018)   │  → Output: 392x555
+│ 1. PREPROCESS      │ Crop screenshot to card region
+│ Screenshot         │ 8.55% sides, 13.86% top, 31.64% bottom
 └──────────┬──────────┘
-            ▼
+              ▼
 ┌─────────────────────┐
-│ 2. DETECT TYPE      │  OCR Zone 1, look for keywords
-│ Pokemon/Trainer     │  HP/KP = Pokemon, TRAINER/ARTIKEL = Trainer
+│ 2. DETECT TYPE     │ OCR Zone 1, check for HP/KP (Pokemon) vs TRAINER
+│ Pokemon/Trainer    │
 └──────────┬──────────┘
-            ▼
+              ▼
 ┌─────────────────────┐
-│ 3. OCR ZONES       │  Pokemon: Zone 1 + Zone 5
-│ Extract specific   │  Trainer: Zone 1 + Zone 2 + Zone 4
-│ zones for each     │  Scale 3x, Grayscale, OCR (German)
+│ 3. MINIMAL OCR     │ Extract ONLY the card name
+│ Name only          │ No HP, no card# - just name
 └──────────┬──────────┘
-            ▼
+              ▼
 ┌─────────────────────┐
-│ 4. API FALLBACK    │  Only if OCR fails or lacks data
-│ (Last Resort)      │  Search by name first, then card number
+│ 4. API MATCH       │ Find in local Limitless database
+│ Name → 100% match  │ Match by name = 100% confidence
 └──────────┬──────────┘
-            ▼
+              ▼
 ┌─────────────────────┐
-│ 5. SAVE            │  Move to captured/
-│ Success/Failed     │  Append to CSV
+│ 5. SAVE            │ SQLite + captured/ + cropped/
 └─────────────────────┘
 ```
-
-## Zone Definitions
-
-### Pokemon Cards (7 zones)
-| Zone | Pixels | Content |
-|------|--------|---------|
-| 1 | 0-55 | Pokemon name + HP + Energy |
-| 2 | 55-65 | Evolution stage |
-| 3 | 65-263 | Artwork |
-| 4 | 263-282 | Card number |
-| 5 | 282-475 | Attacks & Abilities |
-| 6 | 475-494 | Weakness + Retreat |
-| 7 | 494-555 | Info text |
-
-### Trainer Cards (5 zones)
-| Zone | Pixels | Content |
-|------|--------|---------|
-| 1 | 0-41 | Card type (Item/Stadium) |
-| 2 | 41-81 | Card name |
-| 3 | 81-289 | Artwork |
-| 4 | 289-480 | Effect |
-| 5 | 480-554 | Special rule |
-
-## Image Preprocessing
-
-- Crop sides: 8.5% from each side
-- Crop height: 555px from top (14% from top)
-- Scale: 3x for OCR
 
 ## Folder Structure
 
 ```
-screenshots/
-├── to_process/          # Screenshots to process (input)
-├── captured/           # Successfully identified cards (output)
-└── failed_to_capture/  # Cards that couldn't be identified (output)
+tcgp/
+├── api/                    # API integration
+│   ├── cache/            # Downloaded card data
+│   │   ├── cards.json              # chase-manning JSON (2777 cards)
+│   │   ├── limitless_cards.json   # Scraped Limitless (~240 cards)
+│   │   └── expansions.json        # Set definitions
+│   ├── download.py       # Download chase-manning database
+│   ├── scrape_all.py     # Scrape Limitless website
+│   ├── local_lookup.py   # Local card matching
+│   └── limitless.py      # Web scraper
+│
+├── preprocessing/          # Image preprocessing
+│   ├── crop.py          # Crop to card region
+│   └── denoise.py       # Holo card noise removal
+│
+├── extraction/           # Zone extraction
+│   ├── zones.py         # Zone definitions (%-based)
+│   └── detector.py      # Card type detection
+│
+├── screenshots/
+│   ├── to_process/      # Input images
+│   ├── captured/         # Processed originals
+│   ├── cropped/         # Cropped card images
+│   └── failed_to_capture/ # Failed extractions
+│
+├── extract_batch_v2.py   # V2 (Minimal OCR + API)
+├── collection.py         # CLI for collection
+└── database.py          # SQLite storage
 ```
 
 ## Setup
@@ -84,63 +88,109 @@ screenshots/
 ### Install Dependencies
 
 ```bash
-pip install pillow pytesseract requests
+pip install pillow pytesseract beautifulsoup4 requests
 brew install tesseract
+```
+
+### Initial Setup (One Time)
+
+```bash
+# Download card database (chase-manning JSON)
+python3 api/download.py
+
+# Scrape Limitless for complete card data (attacks, weakness, etc.)
+python3 api/scrape_all.py
 ```
 
 ### Capture Screenshots
 
 1. Open Pokémon TCG Pocket on your phone
 2. Go to your card collection
-3. Screen record or take screenshots of each card
+3. Take screenshots of each card
 4. Transfer images to your Mac
 5. Put images in `screenshots/to_process/`
 
 ## Usage
 
+### Run Extraction
+
 ```bash
+# Using run.sh (recommended - also exports CSV)
+./run.sh
+
+# Or directly with V2
+python3 extract_batch_v2.py run
+python3 extract_batch_v2.py run 50    # Process 50 cards
+
 # Show status
-python3 extract_batch.py status
-
-# Process next 25 cards
-python3 extract_batch.py run
-
-# Process specific number
-python3 extract_batch.py run 50
+python3 extract_batch_v2.py status
 
 # Reset progress
-python3 extract_batch.py reset
+python3 extract_batch_v2.py reset
 ```
 
-## Output CSV Format
+### Collection Management
 
-| Column | Description |
-|--------|-------------|
-| Card Name | German card name |
-| HP | Hit points (KP) |
-| Energy Type | Card energy (Feuer, Wasser, Psycho, etc.) |
-| Weakness | Weakness type and value |
-| Retreat Cost | Retreat cost |
-| Category | Pokemon/Trainer |
-| Ability Name | German ability name |
-| Ability Description | Ability effect |
-| Attack 1 Name | First attack name |
-| Attack 1 Cost | Energy cost |
-| Attack 1 Damage | Damage |
-| Attack 1 Description | Attack effect |
-| Attack 2 Name | Second attack name |
-| Attack 2 Cost | Energy cost |
-| Attack 2 Damage | Damage |
-| Attack 2 Description | Attack effect |
-| Rarity | Rareza (Ein Diamant, Zwei Diamant, etc.) |
-| Pack | German set name |
+```bash
+# List all cards
+python3 collection.py list
 
-## Card Data Source
+# Search cards
+python3 collection.py search "Pikachu"
 
-Card data fetched from [TCGdex API](https://tcgdex.dev/) in German.
+# Show stats
+python3 collection.py stats
+
+# Export to CSV
+python3 collection.py export
+```
+
+## API Data Sources
+
+### 1. chase-manning JSON (Primary)
+- Source: `https://github.com/chase-manning/pokemon-tcg-pocket-cards`
+- Contains: 2777 cards
+- Fields: name, HP, type, set, rarity, artist
+
+### 2. Limitless Scraped (Complete)
+- Source: `https://pocket.limitlesstcg.com`
+- Contains: ~300 cards (scraped on demand)
+- Fields: ALL (attacks, weakness, retreat, stage, evolution, illustrator)
+
+### Matching Priority
+1. Limitless scraped data (has complete info)
+2. chase-manning JSON (fallback)
+
+## Database Schema
+
+```sql
+cards (
+    id INTEGER PRIMARY KEY,
+    name TEXT,
+    category TEXT,
+    quantity INTEGER,
+    set_name TEXT,
+    card_number TEXT,
+    hp TEXT,
+    stage TEXT,
+    energy_type TEXT,
+    evolution_from TEXT,
+    ability TEXT,
+    attacks TEXT,        -- JSON
+    weakness TEXT,
+    resistance TEXT,
+    retreat_cost TEXT,
+    rarity TEXT,
+    illustrator TEXT,
+    created_at TIMESTAMP,
+    updated_at TIMESTAMP
+)
+```
 
 ## Tips
 
-- Process in batches of 25 to avoid API rate limits
 - Script saves progress automatically - safe to stop anytime
 - Failed cards go to `failed_to_capture/` - can retry later
+- V2 gives 100% confidence on matched cards
+- Check `screenshots/cropped/` for processed card images
+- CSV is auto-exported after each run via `run.sh`

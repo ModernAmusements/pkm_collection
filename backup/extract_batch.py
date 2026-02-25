@@ -4,27 +4,26 @@ Pokemon TCG Pocket Card Extractor
 - Zone-based extraction from card image
 - Percentage-based cropping (works for any resolution)
 - OCR only - no API calls
+- SQLite database for collection tracking
 """
 
 import os
 import re
-import csv
 import glob
 import sys
 import json
 import time
+import csv
 from PIL import Image, ImageEnhance, ImageFilter
-# import requests  # Disabled - using OCR only
 import pytesseract
+import database
 
 # === CONFIG ===
 SCREENSHOT_DIR = "screenshots/to_process"
 CAPTURED_DIR = "screenshots/captured"
 FAILED_DIR = "screenshots/failed_to_capture"
-OUTPUT_CSV = "my_cards_full.csv"
 PROGRESS_FILE = "extraction_progress.json"
 BATCH_SIZE = 25
-# API_BASE = "https://api.tcgdex.net/v2/de/cards"  # Disabled
 
 # TCG Pocket sets - prioritized by commonality
 TCGP_SETS_PRIORITY = {
@@ -72,19 +71,21 @@ ZONES_TRAINER = {
     5: (0.87, 1.00),   # Set Info - OCR
 }
 
-# Energy colors (RGB ranges)
+# Energy colors (RGB ranges) - more precise ranges
+# Note: Ground is brown/orange, Fighting is orange
 ENERGY_COLORS = {
-    'Feuer': [(200, 50, 50), (255, 100, 100)],      # Red
-    'Wasser': [(50, 100, 200), (100, 150, 255)],     # Blue
-    'Elektro': [(200, 200, 50), (255, 255, 100)],    # Yellow
-    'Pflanze': [(50, 200, 50), (100, 255, 100)],     # Green
-    'Kampf': [(200, 150, 50), (255, 200, 100)],      # Orange
-    'Psycho': [(150, 50, 200), (200, 100, 255)],     # Purple
-    'Unlicht': [(50, 50, 100), (100, 100, 150)],     # Dark/Black
-    'Metall': [(150, 150, 150), (200, 200, 200)],    # Gray
-    'Fee': [(200, 150, 200), (255, 200, 255)],       # Pink
-    'Drache': [(150, 100, 50), (200, 150, 100)],    # Brown
-    'Farblos': [(200, 200, 200), (255, 255, 255)],   # White/Gray
+    'Feuer': ((180, 30, 30), (255, 80, 80)),       # Red
+    'Wasser': ((30, 80, 180), (90, 150, 255)),     # Blue
+    'Elektro': ((200, 200, 30), (255, 255, 80)),   # Yellow
+    'Pflanze': ((30, 130, 30), (90, 220, 90)),      # Green (Plant/Grass)
+    'Kampf': ((180, 100, 30), (230, 170, 80)),      # Orange (Fighting)
+    'Psycho': ((140, 30, 160), (200, 80, 230)),    # Purple
+    'Unlicht': ((30, 30, 80), (80, 80, 130)),       # Dark
+    'Metall': ((110, 110, 130), (160, 160, 190)),  # Gray
+    'Fee': ((200, 120, 180), (250, 170, 220)),     # Pink
+    'Drache': ((140, 70, 40), (200, 120, 90)),     # Brown
+    'Farblos': ((200, 200, 200), (250, 250, 250)), # Light gray/white
+    'Kampf_Ground': ((130, 80, 30), (200, 150, 80)),  # Brown/Orange (Ground)
 }
 
 # German to English energy type mapping
@@ -100,7 +101,64 @@ GERMAN_TO_ENERGY = {
     'Fee': 'Fairy',
     'Drache': 'Dragon',
     'Farblos': 'Colorless',
+    'Kampf_Ground': 'Fighting',
 }
+
+def detect_energy_type(zone_img):
+    """
+    Detect energy type from Zone 1 by analyzing dominant colors.
+    Energy symbols appear throughout the zone (HP area, attack costs, etc.)
+    """
+    if zone_img is None:
+        return None
+    
+    img = zone_img.convert('RGB')
+    w, h = img.size
+    
+    # Scan the WHOLE zone for energy colors
+    pixels = list(img.getdata())
+    
+    # Count pixels matching each energy color
+    energy_votes = {}
+    
+    for energy, ((r1, g1, b1), (r2, g2, b2)) in ENERGY_COLORS.items():
+        count = 0
+        for pr, pg, pb in pixels:
+            # Check if pixel is in color range
+            if (min(r1, r2) <= pr <= max(r1, r2) and
+                min(g1, g2) <= pg <= max(g1, g2) and
+                min(b1, b2) <= pb <= max(b1, b2)):
+                count += 1
+        energy_votes[energy] = count
+    
+    # Get the energy type with most matching pixels
+    max_votes = max(energy_votes.values())
+    
+    # If Farblos (Colorless/white) wins but other energies have significant votes,
+    # choose the second-best non-Farblos energy
+    if max_votes > 30:
+        detected = max(energy_votes, key=energy_votes.get)
+        
+        # If Farblos wins but other energy has decent votes, use that instead
+        if detected == 'Farblos':
+            if energy_votes['Kampf'] > 5000:
+                detected = 'Kampf'
+            elif energy_votes['Kampf_Ground'] > 3000:
+                detected = 'Kampf_Ground'
+            elif energy_votes['Pflanze'] > 3000:
+                detected = 'Pflanze'
+            elif energy_votes['Wasser'] > 3000:
+                detected = 'Wasser'
+            elif energy_votes['Feuer'] > 3000:
+                detected = 'Feuer'
+            elif energy_votes['Psycho'] > 3000:
+                detected = 'Psycho'
+            elif energy_votes['Elektro'] > 3000:
+                detected = 'Elektro'
+        
+        return GERMAN_TO_ENERGY.get(detected, detected)
+    
+    return None
 
 # Zone expectations (what to find in each zone)
 ZONE_EXPECTATIONS = {
@@ -173,31 +231,94 @@ def extract_zone(img, zone_num, is_trainer=False):
     
     return zone
 
-def ocr_zone(zone_img, lang=None):
-    """OCR a zone - image already preprocessed by extract_zone"""
+def preprocess_for_ocr(zone_img):
+    """
+    Preprocess zone image for better OCR:
+    - Convert to grayscale
+    - Increase contrast
+    """
     if zone_img is None:
         return None
     
-    # Try without language spec first (more reliable)
-    text = pytesseract.image_to_string(zone_img, config='--psm 6')
-    if text and len(text.strip()) > 2:
-        return text.strip()
+    # Convert to grayscale
+    img = zone_img.convert('L')
     
-    # Try German
-    text_de = pytesseract.image_to_string(zone_img, lang='deu', config='--psm 6')
-    if text_de and len(text_de.strip()) > 2:
-        return text_de.strip()
+    # Increase contrast to make text more readable
+    enhancer = ImageEnhance.Contrast(img)
+    img = enhancer.enhance(2.0)
     
-    # Try English as fallback
-    text_en = pytesseract.image_to_string(zone_img, lang='eng', config='--psm 6')
-    if text_en and len(text_en.strip()) > 2:
-        return text_en.strip()
+    # Sharpen to help with text edges
+    enhancer = ImageEnhance.Sharpness(img)
+    img = enhancer.enhance(1.5)
     
-    return None
+    return img
+
+
+def ocr_zone(zone_img, lang=None, preprocess=True):
+    """
+    OCR a zone with preprocessing and multiple passes.
+    Returns (text, confidence) tuple.
+    """
+    if zone_img is None:
+        return None, 0
+    
+    # Only preprocess for zones with lots of text (not Zone 1 with name)
+    img_to_use = preprocess_for_ocr(zone_img) if preprocess else zone_img
+    
+    # Try multiple PSM modes for better accuracy
+    psm_modes = ['6', '4', '3', '11']
+    
+    best_text = None
+    best_confidence = 0
+    all_results = []
+    
+    # First pass: try with preprocessed image
+    for psm in psm_modes:
+        config = f'--psm {psm}'
+        
+        # Try without language
+        try:
+            text = pytesseract.image_to_string(img_to_use, config=config)
+            if text and len(text.strip()) > 2:
+                # Get confidence
+                data = pytesseract.image_to_data(img_to_use, config=config, output_type=pytesseract.Output.DICT)
+                conf = sum([int(c) for c in data['conf'] if int(c) > 0]) / max(len([c for c in data['conf'] if int(c) > 0]), 1)
+                all_results.append((text.strip(), conf, 'en'))
+        except:
+            pass
+        
+        # Try German
+        try:
+            text = pytesseract.image_to_string(img_to_use, lang='deu', config=config)
+            if text and len(text.strip()) > 2:
+                data = pytesseract.image_to_data(img_to_use, lang='deu', config=config, output_type=pytesseract.Output.DICT)
+                conf = sum([int(c) for c in data['conf'] if int(c) > 0]) / max(len([c for c in data['conf'] if int(c) > 0]), 1)
+                all_results.append((text.strip(), conf, 'de'))
+        except:
+            pass
+    
+    # Also try raw image (sometimes preprocessing loses info)
+    for psm in ['6', '4']:
+        config = f'--psm {psm}'
+        try:
+            text = pytesseract.image_to_string(zone_img, config=config)
+            if text and len(text.strip()) > 2:
+                data = pytesseract.image_to_data(zone_img, config=config, output_type=pytesseract.Output.DICT)
+                conf = sum([int(c) for c in data['conf'] if int(c) > 0]) / max(len([c for c in data['conf'] if int(c) > 0]), 1)
+                all_results.append((text.strip(), conf, 'raw'))
+        except:
+            pass
+    
+    # Select best result by confidence
+    if all_results:
+        best_text, best_confidence, _ = max(all_results, key=lambda x: x[1])
+        return best_text, best_confidence
+    
+    return None, 0
 
 def has_text(zone_img):
     """Check if zone has readable text"""
-    text = ocr_zone(zone_img)
+    text, conf = ocr_zone(zone_img)
     return text is not None and len(text) > 2
 
 def detect_energy_color(zone_img):
@@ -337,76 +458,210 @@ def process_card(image_path):
     is_trainer = detect_card_type(img)
     print(f"  \033[1;90m->\033[0m Detected: {'\033[1;33mTrainer\033[0m' if is_trainer else '\033[1;32mPokemon\033[0m'}")
     
-    # Pokemon: Zone 1, 5, 6 for OCR (Top Bar, Attacks, Bottom Info)
-    # Trainer: Zone 2, 4, 5 for OCR (Name, Effect, Set Info)
-    if is_trainer:
-        zones_to_try = [2, 4, 5]
-    else:
-        zones_to_try = [1, 5, 6]
+    card_data = {}
     
-    card_data = None
-    
-    # For Trainer cards, use Zone 2 name directly without API
+    # ==================== TRAINER CARDS ====================
     if is_trainer:
+        # Zone 2: Name
         zone_img = extract_zone(img, 2, True)
         if zone_img:
-            text = ocr_zone(zone_img)
+            text, _ = ocr_zone(zone_img)
             if text:
-                print(f"  \033[90m  [~] Zone 2:\033[0m {text[:50]}...")
-                # Extract name from text - take first significant line
+                print(f"  \033[90m  [~] Zone 2 (Name):\033[0m {text[:50]}...")
                 lines = text.strip().split('\n')
                 trainer_name = lines[0].strip() if lines else text.strip()
-                # Clean up name
                 trainer_name = ' '.join(trainer_name.split())
                 if trainer_name:
+                    card_data['name'] = trainer_name
+                    card_data['category'] = 'Trainer'
                     print(f"  \033[92m[✓] Trainer name:\033[0m {trainer_name}")
-                    # Create minimal card data from OCR
-                    card_data = {
-                        'name': trainer_name,
-                        'id': f"trainer_{hash(trainer_name)}",
-                        'set': {'name': 'Unknown'},
-                        'category': 'Trainer',
-                    }
+        
+        # Zone 4: Effect
+        zone_img = extract_zone(img, 4, True)
+        if zone_img:
+            text, _ = ocr_zone(zone_img)
+            if text:
+                print(f"  \033[90m  [~] Zone 4 (Effect):\033[0m {text[:80]}...")
+                card_data['effect'] = text.strip()
+        
+        # Zone 5: Set Info
+        zone_img = extract_zone(img, 5, True)
+        if zone_img:
+            text, _ = ocr_zone(zone_img)
+            if text:
+                print(f"  \033[90m  [~] Zone 5 (Set Info):\033[0m {text[:50]}...")
+                # Try to extract set name and card number
+                set_match = re.search(r'([A-Za-z]+\s*\d*)', text)
+                if set_match:
+                    card_data['set'] = {'name': set_match.group(1)}
+                else:
+                    card_data['set'] = {'name': 'Unknown'}
+                
+                # Try to find card number
+                num_match = re.search(r'[\/¥]?\s*(\d+)', text)
+                if num_match:
+                    card_data['card_number'] = num_match.group(1)
+        
+        if not card_data.get('name'):
+            print(f"  [91m[✗] ERROR: Could not find trainer name[0m")
+            return False, None
     
-    # For Pokemon cards, use Zone 1 name directly
-    if not card_data and not is_trainer:
+    # ==================== POKEMON CARDS ====================
+    else:
+        # Zone 1: Name, HP, Stage, Energy Type
         zone_img = extract_zone(img, 1, False)
         if zone_img:
-            text = ocr_zone(zone_img)
+            text, _ = ocr_zone(zone_img, preprocess=False)  # Don't preprocess Zone 1 - keeps name readable
             if text:
-                print(f"  [90m  [~] Zone 1:[0m {text[:60]}...")
+                print(f"  \033[90m  [~] Zone 1 (Name/HP):\033[0m {text[:80]}...")
                 
-                # Find Pokemon name - look for capitalized words in first few lines
-                lines = text.strip().split('\n')[:3]
+                # Extract name - look for capitalized words
+                lines = text.strip().split('\n')[:4]
                 found_name = None
+                found_hp = None
+                found_stage = None
+                
                 for line in lines:
                     words = line.split()
                     for word in words:
-                        # Clean and check if looks like Pokemon name
                         clean = ''.join(c for c in word if c.isalpha())
-                        if len(clean) >= 4 and clean[0].isupper():
+                        if len(clean) >= 4 and clean[0].isupper() and not found_name:
                             found_name = clean
                             break
-                    if found_name:
-                        break
+                    
+                    # Look for HP - German (KP) or English (HP) + number, or standalone 2-3 digit after name
+                    hp_match = re.search(r'[Kk][Pp]?\s*(\d{2,3})|[Hh][Pp]\s*(\d{2,3})|(\d{2,3})\s*[Kk][Pp]?|Donphan\s+(\d{2,3})', line)
+                    if hp_match and not found_hp:
+                        val_str = hp_match.group(1) or hp_match.group(2) or hp_match.group(3) or hp_match.group(4)
+                        if val_str:
+                            val = int(val_str)
+                            if 30 <= val <= 250:  # Reasonable HP range
+                                found_hp = str(val)
+                    
+                    # Look for stage (German: Basis, Phase 1/2, Stufe 1/2)
+                    stage_match = re.search(r'(Basis|Phase\s*1|Phase\s*2|Stufe\s*1|Stufe\s*2|Basic)', line, re.I)
+                    if stage_match:
+                        found_stage = stage_match.group(1)
                 
                 if found_name:
-                    print(f"  [92m[✓] Pokemon name:[0m {found_name}")
-                    card_data = {
-                        'name': found_name,
-                        'id': f"pokemon_{found_name.lower()}",
-                        'set': {'name': 'OCR'},
-                        'category': 'Pokemon',
-                    }
+                    card_data['name'] = found_name
+                    card_data['category'] = 'Pokemon'
+                    print(f"  \033[92m[✓] Pokemon name:\033[0m {found_name}")
+                
+                if found_hp:
+                    card_data['hp'] = found_hp
+                    print(f"  \033[92m[✓] HP:\033[0m {found_hp}")
+                
+                if found_stage:
+                    card_data['stage'] = found_stage
+                    print(f"  \033[92m[✓] Stage:\033[0m {found_stage}")
+                
+                # Look for energy type - first try OCR text, then color detection
+                full_text = text.upper()
+                energy_found = False
+                for ger, eng in GERMAN_TO_ENERGY.items():
+                    if ger.upper() in full_text or eng.upper() in full_text:
+                        card_data['energy_type'] = eng
+                        print(f"  \033[92m[✓] Energy Type (text):\033[0m {eng}")
+                        energy_found = True
+                        break
+                
+                # If not found in text, try color detection
+                if not energy_found and zone_img:
+                    detected_energy = detect_energy_type(zone_img)
+                    if detected_energy:
+                        card_data['energy_type'] = detected_energy
+                        print(f"  \033[92m[✓] Energy Type (color):\033[0m {detected_energy}")
+        
+        # Zone 5: Attacks
+        zone_img = extract_zone(img, 5, False)
+        attacks = []
+        if zone_img:
+            text, _ = ocr_zone(zone_img)
+            if text:
+                print(f"  \033[90m  [~] Zone 5 (Attacks):\033[0m {text[:100]}...")
+                
+                # Look for damage numbers in text - format: "Name ... +XX" or "Name ... XX"
+                damage_matches = re.findall(r'\+\s*(\d+)|(\d+)\s*$', text)
+                for dmg_match in damage_matches[:3]:
+                    dmg = dmg_match[0] or dmg_match[1]
+                    if dmg:
+                        attacks.append({
+                            'name': '',
+                            'damage': dmg
+                        })
+                
+                # Try to find attack names (capitalized words followed by damage)
+                attack_lines = re.findall(r'([A-Z][a-zA-Z]+(?:\s+[a-zA-Z]+)?)\s*[+\-]?\s*(\d+)', text)
+                attacks = []
+                for name, dmg in attack_lines[:3]:
+                    if len(name) > 2:
+                        attacks.append({
+                            'name': name.strip(),
+                            'damage': dmg
+                        })
+                
+                if attacks:
+                    card_data['attacks'] = attacks
+                    print(f"  \033[92m[✓] Attacks found:\033[0m {len(attacks)}")
+        
+        # Zone 4: Card Number + Rarity (Pokemon only)
+        zone_img = extract_zone(img, 4, False)
+        if zone_img:
+            text, _ = ocr_zone(zone_img)
+            if text:
+                print(f"  \033[90m  [~] Zone 4 (Card #):\033[0m {text[:80]}...")
+                
+                # Extract card number (e.g., "123/198" or "123" or "Nr. 123")
+                card_num_match = re.search(r'(?:Nr\.?\s*)?(\d+)\s*[\/¥]?', text)
+                if card_num_match:
+                    card_data['card_number'] = card_num_match.group(1)
+                    print(f"  \033[92m[✓] Card Number:\033[0m {card_data['card_number']}")
+                
+                # Extract rarity (R, U, C, or German: Rare Holo, etc)
+                rarity_match = re.search(r'([RUC])\b|(Rare Holo)|(Rare Ultra)|★', text)
+                if rarity_match:
+                    card_data['rarity'] = rarity_match.group(0)
+                    print(f"  \033[92m[✓] Rarity:\033[0m {card_data['rarity']}")
+        
+        # Zone 6: Weakness, Resistance, Retreat (Pokemon only)
+        zone_img = extract_zone(img, 6, False)
+        if zone_img:
+            text, _ = ocr_zone(zone_img)
+            if text:
+                print(f"  \033[90m  [~] Zone 6 (Bottom Info):\033[0m {text[:80]}...")
+                
+                # Extract weakness (German: Schwäche/Schwache)
+                weakness_match = re.search(r'[Ss]chw[äa]ch[ae]\s*[@]?\s*\+?(\d+)', text)
+                if weakness_match:
+                    card_data['weakness'] = weakness_match.group(1)
+                    print(f"  \033[92m[✓] Weakness:\033[0m {card_data['weakness']}")
+                
+                # Extract resistance (German: Widerstand)
+                resistance_match = re.search(r'[Ww]iderstand[:\s]*([A-Za-z@]+)', text)
+                if resistance_match:
+                    card_data['resistance'] = resistance_match.group(1).replace('@', '').strip()
+                    print(f"  \033[92m[✓] Resistance:\033[0m {card_data['resistance']}")
+                
+                # Extract retreat cost (German: Rückzug)
+                retreat_match = re.search(r'[Rr][üu]ckzug.*?(\d)', text)
+                if retreat_match:
+                    card_data['retreat_cost'] = retreat_match.group(1)
+                    print(f"  \033[92m[✓] Retreat Cost:\033[0m {card_data['retreat_cost']}")
+        
+        if not card_data.get('name'):
+            print(f"  [91m[✗] ERROR: Could not find Pokemon name[0m")
+            return False, None
     
-    if not card_data:
-        print(f"  [91m[✗] ERROR: Could not find card[0m")
-        return False, None
+    # Set default values if not found
+    if 'set' not in card_data:
+        card_data['set'] = {'name': 'OCR'}
+    if 'card_number' not in card_data:
+        card_data['card_number'] = '0'
     
     # Get card info
-    card_id = card_data.get('id', '')
     set_id = card_data.get('set', {}).get('name', 'OCR')
-    card_num = 0
+    card_num = card_data.get('card_number', '0')
     
     # Handle duplicates
     card_name = card_data.get('name', 'unknown')
@@ -422,12 +677,13 @@ def process_card(image_path):
     # Move file
     os.rename(image_path, new_path)
     
-    # Append to CSV
-    append_to_csv(card_data)
+    # Add to database
+    add_to_collection(card_data)
     
+    hp_val = card_data.get('hp', 'N/A')
     print(f"  \033[92m  ═══════════════════════════════════\033[0m")
     print(f"  \033[92m  [✓] CAPTURED: {card_data['name']}\033[0m")
-    print(f"  \033[90m      Set: {set_id} | Card: #{card_num} | HP: {card_data.get('hp', 'N/A')}\033[0m")
+    print(f"  \033[90m      Set: {set_id} | Card: #{card_num} | HP: {hp_val}\033[0m")
     print(f"  \033[92m  ═══════════════════════════════════\033[0m")
     
     return True, {
@@ -437,7 +693,7 @@ def process_card(image_path):
         'set_id': set_id,
         'card_num': card_num,
         'hp': card_data.get('hp', ''),
-        'energy': ', '.join(card_data.get('types', [])),
+        'energy': card_data.get('energy_type', ''),
         'rarity': card_data.get('rarity', ''),
         'stage': card_data.get('stage', ''),
     }
@@ -486,6 +742,8 @@ def run_batch(start_index=0, batch_size=BATCH_SIZE):
             failed_path = os.path.join(FAILED_DIR, filename)
             os.rename(filepath, failed_path)
             failed_files.add(filename)
+            # Record failed capture in database
+            database.add_failed_capture(filename)
         
         progress['processed'] = list(processed_files)
         progress['failed'] = list(failed_files)
@@ -510,36 +768,33 @@ CSV_FIELDS = ['Card Name', 'HP', 'Energy Type', 'Weakness', 'Resistance', 'Retre
               'Attack 1 Damage', 'Attack 1 Description', 'Attack 2 Name', 'Attack 2 Cost',
               'Attack 2 Damage', 'Attack 2 Description', 'Rarity', 'Pack']
 
-def append_to_csv(card_data):
-    """Append a single card to CSV"""
-    file_exists = os.path.exists(OUTPUT_CSV)
+def add_to_collection(card_data):
+    """Add card to SQLite database collection."""
+    set_val = card_data.get('set', {})
+    if isinstance(set_val, dict):
+        set_val = set_val.get('name', '')
     
     card = {
-        'Card Name': card_data.get('name', ''),
-        'HP': card_data.get('hp', ''),
-        'Energy Type': ', '.join(card_data.get('types', [])),
-        'Weakness': f"{card_data.get('weaknesses', [{}])[0].get('type', '')} {card_data.get('weaknesses', [{}])[0].get('value', '')}",
-        'Resistance': '',
-        'Retreat Cost': card_data.get('retreat', ''),
-        'Category': card_data.get('category', ''),
-        'Ability Name': card_data.get('abilities', [{}])[0].get('name', '') if card_data.get('abilities') else '',
-        'Ability Description': card_data.get('abilities', [{}])[0].get('effect', '') if card_data.get('abilities') else '',
-        'Attack 1 Name': card_data.get('attacks', [{}])[0].get('name', '') if card_data.get('attacks') else '',
-        'Attack 1 Cost': ', '.join(card_data.get('attacks', [{}])[0].get('cost', [])) if card_data.get('attacks') else '',
-        'Attack 1 Damage': card_data.get('attacks', [{}])[0].get('damage', '') if card_data.get('attacks') else '',
-        'Attack 1 Description': card_data.get('attacks', [{}])[0].get('effect', '') if card_data.get('attacks') else '',
-        'Attack 2 Name': card_data.get('attacks', [{}])[1].get('name', '') if len(card_data.get('attacks', [])) > 1 else '',
-        'Attack 2 Cost': ', '.join(card_data.get('attacks', [{}])[1].get('cost', [])) if len(card_data.get('attacks', [])) > 1 else '',
-        'Attack 2 Damage': card_data.get('attacks', [{}])[1].get('damage', '') if len(card_data.get('attacks', [])) > 1 else '',
-        'Attack 2 Description': card_data.get('attacks', [{}])[1].get('effect', '') if len(card_data.get('attacks', [])) > 1 else '',
-        'Rarity': card_data.get('rarity', ''),
-        'Pack': card_data.get('set', {}).get('name', ''),
+        'name': card_data.get('name', ''),
+        'category': card_data.get('category', 'Pokemon'),
+        'set': set_val,
+        'card_number': card_data.get('card_number', ''),
+        'hp': card_data.get('hp', ''),
+        'stage': card_data.get('stage', ''),
+        'energy_type': card_data.get('energy_type', ''),
+        'evolution_from': card_data.get('evolution_from', ''),
+        'ability': card_data.get('ability', ''),
+        'attacks': card_data.get('attacks', []),
+        'weakness': card_data.get('weakness', ''),
+        'resistance': card_data.get('resistance', ''),
+        'retreat_cost': card_data.get('retreat_cost', ''),
+        'regulation_mark': card_data.get('regulation_mark', ''),
+        'rarity': card_data.get('rarity', ''),
+        'illustrator': card_data.get('illustrator', ''),
+        'effect': card_data.get('effect', ''),
     }
-    
-    with open(OUTPUT_CSV, 'a', newline='', encoding='utf-8') as f:
-        csv.DictWriter(f, fieldnames=CSV_FIELDS).writerow(card)
-    
-    print(f"  [CSV] Added: {card['Card Name']}")
+    database.add_card(card)
+    print(f"  [DB] Added to collection: {card['name']}")
 
 def generate_csv():
     """Generate CSV from captured files - OCR only, no API needed"""
