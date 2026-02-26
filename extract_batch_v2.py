@@ -28,34 +28,79 @@ from extraction import (
 )
 import database
 from api.local_lookup import lookup_card, load_cards
-from api.german_mappings import GERMAN_TO_ENGLISH
+from PIL import ImageEnhance
 
 
-def translate_to_english(text: str) -> str:
-    """Translate German card names to English using mapping.
-    
-    Only use EXACT matches to avoid wrong translations.
-    Partial matches are too error-prone.
+def correct_hp_ocr(hp_str: str) -> int | None:
     """
-    text_lower = text.lower().strip()
+    Correct common OCR errors in HP values.
+    Examples: 502→50, 802→80, 0→8, 52→50, 58→50
+    """
+    if not hp_str:
+        return None
     
-    # Check for "ex" suffix before translation
-    has_ex = text_lower.endswith(' ex') or ' ex' in text_lower
+    # First try direct conversion
+    try:
+        hp = int(hp_str)
+        if 20 <= hp <= 340:
+            return hp
+    except ValueError:
+        pass
     
-    # ONLY use exact match - partial matches cause wrong translations
-    if text_lower in GERMAN_TO_ENGLISH:
-        result = GERMAN_TO_ENGLISH[text_lower]
-        if has_ex and 'ex' not in result.lower():
-            result = result + ' ex'
-        return result.title() if result[0].islower() else result
+    # Try removing trailing zeros/Os (502→5→50, 802→8→80)
+    for _ in range(2):
+        cleaned = hp_str.rstrip('0OQ')
+        if cleaned and cleaned != hp_str:
+            try:
+                hp = int(cleaned)
+                if 20 <= hp <= 340:
+                    return hp
+            except ValueError:
+                pass
+        hp_str = cleaned
     
-    # Don't use partial match - it's too error-prone
-    # e.g., "DRESSELLA" incorrectly matches something
+    # Try fixing specific common errors
+    # 52→50, 58→50, 5S→50
+    if len(hp_str) == 2:
+        replacements = {'5': '5', '2': '0', '8': '0', 'S': '5'}
+        # If second char is close to 0, replace it
+        if hp_str[1] in ['2', '7', '1']:
+            hp_str = hp_str[0] + '0'
+        elif hp_str[1] in ['8', '6', '3']:
+            hp_str = hp_str[0] + '0'
+        try:
+            hp = int(hp_str)
+            if 20 <= hp <= 340:
+                return hp
+        except:
+            pass
     
-    return text
+    # Try just the first digit if length > 1
+    if len(hp_str) >= 1:
+        try:
+            hp = int(hp_str[0])
+            if hp >= 2 and hp <= 3:  # Valid first digits for HP
+                return hp * 10  # 2→20, 3→30, etc
+        except:
+            pass
+    
+    return None
 
 
-# Continue with rest of imports/classes
+def enhance_for_ocr(img: Image.Image) -> Image.Image:
+    """
+    Enhance image for better OCR results.
+    Increases contrast and applies gamma correction.
+    """
+    # Increase contrast
+    enhancer = ImageEnhance.Contrast(img)
+    img = enhancer.enhance(1.3)
+    
+    # Slight sharpness
+    enhancer = ImageEnhance.Sharpness(img)
+    img = enhancer.enhance(1.2)
+    
+    return img
 
 
 SCREENSHOT_DIR = "screenshots/to_process"
@@ -196,25 +241,146 @@ def enhanced_ocr_extract(img: Image.Image, card_type: CardType) -> dict:
         'card_number': None,
     }
     
-    # Full image OCR - more accurate for name extraction
+    # Step 1: Extract from NAME ZONE first (most reliable)
+    extractor = ZoneExtractor()
+    img_grey = img.convert('L')  # Convert to greyscale for better OCR
+    
+    # Try multiple PSM modes for better OCR (use 2 modes for speed)
+    name_text = None
+    for psm in ['6', '3']:
+        name_zone = extractor.extract(img_grey, 'name', card_type)
+        if name_zone:
+            # Apply image enhancement
+            enhanced_zone = enhance_for_ocr(name_zone)
+            name_text = pytesseract.image_to_string(enhanced_zone, config=f'--psm {psm}')
+            if name_text and len(name_text.strip()) > 3:
+                break
+    
+    if name_text:
+        name_lines = name_text.split('\n')
+        for line in name_lines[:5]:
+            # Look for "NAME HP" pattern - handle various OCR artifacts
+            line_clean = re.sub(r'[^A-Za-z0-9\s]', ' ', line)
+            match = re.search(r'([A-Za-z]+)\s+(\d{2,3})', line_clean)
+            if match:
+                potential_name = match.group(1)
+                potential_hp = match.group(2)
+                # Fix HP OCR errors
+                hp_val = correct_hp_ocr(potential_hp)
+                if hp_val and 20 <= hp_val <= 340:
+                    signals['name'] = potential_name.upper()
+                    signals['hp'] = str(hp_val)
+                    break
+        
+        # Also try just finding a name in the zone
+        if not signals.get('name'):
+            for line in name_lines[:5]:
+                words = line.split()
+                for word in words:
+                    clean = ''.join(c for c in word if c.isalpha())
+                    if len(clean) >= 4 and clean[0].isupper():
+                        clean = clean.upper()
+                        if clean in ['THE', 'AND', 'FOR', 'BUT', 'NOT', 'YOU', 'ARE', 'HAS', 'HAD', 'WAS', 'WERE',
+                                    'PHASE', 'KPOV', 'EAS', 'SSS', 'TTF', 'PNG', 'JPG', 'BASIS', 'CLASSIC', 
+                                    'DELUXE', 'BOOSTER', 'STAR', 'EX', 'GX', 'VMAX', 'VSTAR', 'PROMO', 'ENERGY']:
+                            continue
+                        signals['name'] = clean
+                        break
+                if signals.get('name'):
+                    break
+    
+    # Step 2b: Extract ATTACKS from attacks zone
+    if not signals.get('attacks'):
+        attacks_zone = extractor.extract(img_grey, 'attacks', card_type)
+        if attacks_zone:
+            # Try multiple PSM modes (2 modes for speed)
+            attack_text = None
+            for psm in ['6', '3']:
+                enhanced_zone = enhance_for_ocr(attacks_zone)
+                attack_text = pytesseract.image_to_string(enhanced_zone, config=f'--psm {psm}')
+                if attack_text and len(attack_text.strip()) > 3:
+                    break
+            
+            if attack_text:
+                attack_lines = attack_text.split('\n')
+                for line in attack_lines[:10]:
+                    line = line.strip()
+                    if len(line) >= 3 and len(line) <= 30:
+                        if line.isdigit():
+                            continue
+                        if any(x in line.upper() for x in ['KP', 'HP', 'EX', 'GX', 'NR', 'FIG']):
+                            continue
+                        clean = ''.join(c for c in line if c.isalpha() or c.isspace())
+                        if len(clean) >= 3 and clean[0].isupper():
+                            signals['attacks'].append(clean)
+    
+    # Step 3: Full image OCR - only use for HP/weakness/retreat, not for name if zone worked
     full_text = pytesseract.image_to_string(img, config='--psm 6')
     lines = full_text.split('\n')
     
-    # Extract Name - look for Pokemon name at the top
-    for line in lines[:10]:
-        words = line.split()
-        for word in words:
-            clean = ''.join(c for c in word if c.isalpha())
-            if len(clean) >= 4 and clean[0].isupper():
-                clean = clean.upper()
-                # Skip common OCR artifacts
-                if clean in ['THE', 'AND', 'FOR', 'BUT', 'NOT', 'YOU', 'ARE', 'HAS', 'HAD', 'WAS', 'WERE',
-                            'PHASE', 'KPOV', 'EAS', 'SSS', 'TTF', 'PNG', 'JPG']:
-                    continue
-                signals['name'] = clean
+    # Extract Name from full OCR ONLY if zone extraction didn't work
+    if not signals.get('name'):
+        for line in lines[:10]:
+            words = line.split()
+            for word in words:
+                clean = ''.join(c for c in word if c.isalpha())
+                if len(clean) >= 4 and clean[0].isupper():
+                    clean = clean.upper()
+                    if clean in ['THE', 'AND', 'FOR', 'BUT', 'NOT', 'YOU', 'ARE', 'HAS', 'HAD', 'WAS', 'WERE',
+                                'PHASE', 'KPOV', 'EAS', 'SSS', 'TTF', 'PNG', 'JPG', 'BASIS', 'CLASSIC', 
+                                'DELUXE', 'BOOSTER', 'STAR', 'EX', 'GX', 'VMAX', 'VSTAR', 'PROMO', 'ENERGY']:
+                        continue
+                    signals['name'] = clean
+                    break
+            if signals.get('name'):
                 break
-        if signals['name']:
-            break
+    
+    # If name not found in top, try extracting from Pokédex line (e.g., "Nr. 0273 Eichelnuss-Pokémon")
+    if not signals.get('name'):
+        for line in lines:
+            # Match pattern like "Nr. 0273 NAME-Pokémon" or "NAME-Pokémon"
+            # Also extract Pokédex number for matching
+            pokedex_match = re.search(r'Nr\.\s*(\d+)', line, re.IGNORECASE)
+            if pokedex_match:
+                signals['pokedex_number'] = pokedex_match.group(1)
+            
+            pokémon_match = re.search(r'(?:Nr\.\s*\d+\s+)?([A-Za-z]+(?:-[A-Za-z]+)*)-Pokémon', line, re.IGNORECASE)
+            if pokémon_match:
+                potential_name = pokémon_match.group(1).upper()
+                # Skip common OCR artifacts
+                if potential_name in ['NR', 'GR', 'GEWICHT', 'GROSSE', 'NR']:
+                    continue
+                if len(potential_name) >= 4:
+                    signals['name'] = potential_name
+                    break
+    
+    # If name not found via full OCR, try zone-based extraction
+    if not signals.get('name'):
+        zone_name = minimal_ocr_name(img, card_type)
+        if zone_name:
+            signals['name'] = zone_name
+    
+    # If still no name, try scanning more of the image with different PSM
+    if not signals.get('name'):
+        for psm in ['3', '11']:
+            alt_text = pytesseract.image_to_string(img, config=f'--psm {psm}')
+            alt_lines = alt_text.split('\n')
+            for line in alt_lines[:15]:
+                words = line.split()
+                for word in words:
+                    clean = ''.join(c for c in word if c.isalpha())
+                    if len(clean) >= 4 and clean[0].isupper():
+                        clean = clean.upper()
+                        if clean in ['THE', 'AND', 'FOR', 'BUT', 'NOT', 'YOU', 'ARE', 'HAS', 'HAD', 'WAS', 'WERE',
+                                    'PHASE', 'KPOV', 'EAS', 'SSS', 'TTF', 'PNG', 'JPG', 'BASIS', 'CLASSIC', 
+                                    'DELUXE', 'BOOSTER', 'STAR', 'EX', 'GX', 'VMAX', 'VSTAR', 'PROMO', 'ENERGY']:
+                            continue
+                        signals['name'] = clean
+                        break
+                if signals['name']:
+                    break
+            if signals['name']:
+                break
     
     # Extract HP - look for "NAME 80" pattern (number right after name)
     # This is more reliable than zone-based OCR
@@ -251,26 +417,7 @@ def enhanced_ocr_extract(img: Image.Image, card_type: CardType) -> dict:
     if retreat_match:
         signals['retreat'] = retreat_match.group(1)
     
-    # Extract Attacks - look for capitalized words in middle section
-    width, height = img.size
-    attack_zone = img.crop((0, height * 0.4, width, height * 0.8))
-    attack_text = pytesseract.image_to_string(attack_zone, config='--psm 6')
-    attack_lines = attack_text.split('\n')
-    
-    for line in attack_lines[:10]:
-        line = line.strip()
-        if len(line) >= 3 and len(line) <= 30:
-            if line.isdigit():
-                continue
-            if any(x in line.upper() for x in ['KP', 'HP', 'EX', 'GX', 'NR', 'FIG']):
-                continue
-            clean = ''.join(c for c in line if c.isalpha() or c.isspace())
-            if len(clean) >= 3 and clean[0].isupper():
-                signals['attacks'].append(clean)
-    
     return signals
-    
-    # Extract Weakness - look for energy icon + damage
     try:
         # Find weakness section
         weakness_section = None
@@ -446,11 +593,8 @@ def process_card_v2(image_path: str, target_set: str = None) -> tuple[bool, dict
         print(f"  \033[91m[✗] ERROR: Could not extract name\033[0m")
         return False, None
     
-    # Translate German to English if needed
-    translated_name = translate_to_english(ocr_name)
-    if translated_name != ocr_name:
-        print(f"       -> Translated: {translated_name}")
-        signals['name'] = translated_name
+    # Use German name directly for matching
+    signals['name'] = ocr_name
     
     # Step 4: Multi-Signal API Match
     print(f"  \033[90m[4/5] Multi-Signal API Match...\033[0m")

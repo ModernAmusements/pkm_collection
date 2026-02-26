@@ -2,7 +2,7 @@
 
 ## Data Sources
 
-### German Cards (Complete - 2520 cards)
+### German Cards (2,777 cards)
 - Source: pokemongohub.net (German)
 - Sets: A1, A1a, A2, A2a, A2b, A3, A3a, A3b, A4, A4a, A4b, PROMO-A, PROMO-B, B1
 - Fields: german_name, hp, card_number, set_id, energy_type, stage, rarity, weakness, retreat, illustrator, attacks
@@ -11,13 +11,27 @@
 ### English Cards (Deprecated - Removed)
 - Limitless data removed - German DB is now the primary source
 
+## OCR Pipeline (V2)
+
+### Steps
+1. **Preprocess**: Crop to card region, convert to greyscale (L mode)
+2. **Enhance**: Contrast 1.3x, Sharpness 1.2x
+3. **Zone Extract**: Extract name zone using ZoneExtractor
+4. **OCR**: Tesseract with PSM modes 6, then 3
+5. **HP Correction**: Fix common OCR errors:
+   - `502` → `50`, `802` → `80` (trailing zeros)
+   - `52` → `50`, `58` → `50` (wrong digit)
+
+### Debug Zones
+- `screenshots/debug/` - Zone images
+- `screenshots/debug/zones_enhanced/` - Enhanced zones for comparison
+
 ## Lookup System (local_lookup.py)
 
 ### Priority Order
-1. **German cards** - matched by German name from OCR (primary source)
-2. **Chase-manning JSON** - fallback
-
-### German Database
+1. **Exact name match** - 90%+ confidence
+2. **Fuzzy name + HP** - 90% confidence
+3. **HP-only** - 50% confidence (no set required)
 All data comes from German card database:
 - Uses German name from OCR
 - Uses German weakness with +damage (e.g., "Fighting+20")
