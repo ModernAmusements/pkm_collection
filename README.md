@@ -27,9 +27,9 @@ tcgp/
 ├── api/
 │   ├── cache/
 │   │   ├── german_cards_complete.json  # German card database (2,520 cards)
-│   │   ├── limitless_cards.json       # English cards (2,111 cards)
-│   │   └── eng_to_ger_names.json     # Name translations
-│   ├── local_lookup.py               # Card matching
+│   │   ├── eng_to_ger_names.json     # Name translations
+│   │   └── name_mapping_complete.json # Set+number to name mapping
+│   ├── local_lookup.py               # Card matching (German DB)
 │   └── scrape_missing_german.py       # Update card database
 │
 ├── screenshots/
@@ -82,17 +82,16 @@ Screenshot → Preprocess → OCR (Name) → Match in German DB → Save to coll
 | Card name (German) | 100% |
 | HP | 100% |
 | Energy type | 100% |
-| Stage | 100% |
-| Evolution | 100% |
-| Weakness | 100% |
-| Retreat cost | 100% |
-| Attacks (name, damage, cost) | 84% |
-| Attack effects | 55% |
-| Rarity | 100% |
+| Stage | 82% |
+| Evolution | 36% |
+| Weakness | 21% |
+| Retreat cost | 80% |
+| Attacks (name, damage, cost) | 66% |
+| Rarity | ~100% |
 | Illustrator | 100% |
-| Image URL | 44% |
+| Image URL | 0% |
 
-**Total**: 2,520 cards across 15 sets (A1-B1a, PROMO-A, PROMO-B)
+**Total**: 2,520 cards (2,343 Pokemon + 177 Trainer/Item)
 
 ## Commands
 

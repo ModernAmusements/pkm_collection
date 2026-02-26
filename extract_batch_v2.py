@@ -56,7 +56,6 @@ def translate_to_english(text: str) -> str:
 
 
 # Continue with rest of imports/classes
-from api.limitless import scrape_card
 
 
 SCREENSHOT_DIR = "screenshots/to_process"
@@ -193,6 +192,8 @@ def enhanced_ocr_extract(img: Image.Image, card_type: CardType) -> dict:
         'attacks': [],
         'weakness': None,
         'retreat': None,
+        'set_id': None,
+        'card_number': None,
     }
     
     # Full image OCR - more accurate for name extraction

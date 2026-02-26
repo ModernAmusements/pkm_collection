@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Local database lookup for Pokemon TCG Pocket cards.
-Priority: Scraped Limitless data > chase-manning JSON
+Uses German card database as primary source.
 """
 
 import re
@@ -12,8 +12,7 @@ from .download import load_cards, load_expansions
 from .models import CardData, MatchResult
 
 
-# Cache for limitless cards
-_LIMITLESS_CARDS = None
+# Cache for German cards (primary source)
 _GERMAN_CARDS = None
 
 
@@ -32,16 +31,7 @@ def load_german_cards() -> list:
 
 
 def load_limitless_cards() -> list:
-    """Load cards from scraped Limitless data."""
-    global _LIMITLESS_CARDS
-    if _LIMITLESS_CARDS is not None:
-        return _LIMITLESS_CARDS
-    
-    cache_file = Path("api/cache/limitless_cards.json")
-    if cache_file.exists():
-        with open(cache_file, 'r') as f:
-            _LIMITLESS_CARDS = json.load(f)
-            return _LIMITLESS_CARDS
+    """Deprecated: Limitless data removed. Returns empty list."""
     return []
 
 
@@ -433,9 +423,8 @@ def lookup_card(name: str, hp: str = None, energy: str = None,
     Lookup card from local database.
     
     Priority:
-    1. German cards (for German OCR) - but use English attacks from Limitless if available
-    2. Limitless scraped data (has full info: attacks, weakness, retreat, stage)
-    3. Chase-manning JSON fallback
+    1. German cards (primary source)
+    2. Chase-manning JSON fallback
     
     Matching:
     - Name match = exact

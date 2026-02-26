@@ -495,13 +495,8 @@ def main():
         card_urls = get_card_urls(session, set_slug)
         
         if not card_urls:
-            print(f"    ⚠️ German source blocked, trying Limitless fallback...")
-            # Fallback: use Limitless English data + translate
-            b1a_cards = load_limitless_cards(set_id)
-            if b1a_cards:
-                print(f"    Found {len(b1a_cards)} cards from Limitless")
-                new_cards.extend(b1a_cards)
-                continue
+            print(f"    ⚠️ German source blocked, skipping set...")
+            continue
         
         print(f"    Found {len(card_urls)} URLs")
         

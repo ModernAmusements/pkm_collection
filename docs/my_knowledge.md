@@ -2,38 +2,27 @@
 
 ## Data Sources
 
-### German Cards (Complete - 4834 cards)
+### German Cards (Complete - 2520 cards)
 - Source: pokemongohub.net (German)
 - Sets: A1, A1a, A2, A2a, A2b, A3, A3a, A3b, A4, A4a, A4b, PROMO-A, PROMO-B, B1
 - Fields: german_name, hp, card_number, set_id, energy_type, stage, rarity, weakness, retreat, illustrator, attacks
-- Status: **Complete** - all 14 sets scraped
+- Status: **Complete** - primary source
 
-### English Cards
-- `limitless_cards.json`: 2111 cards (primary - has attacks)
-- `cards.json`: 2777 cards (fallback)
+### English Cards (Deprecated - Removed)
+- Limitless data removed - German DB is now the primary source
 
 ## Lookup System (local_lookup.py)
 
 ### Priority Order
-1. **German cards** - matched by German name from OCR
-2. **English Limitless** - matched by English name (has attacks)
-3. **English Chase-manning** - fallback
+1. **German cards** - matched by German name from OCR (primary source)
+2. **Chase-manning JSON** - fallback
 
-### German-English Cross-Reference
-When a German card is matched:
-- **Uses German name** from German OCR
-- **Uses English attacks** from Limitless (if available)
-- **Uses German weakness** with +damage (e.g., "Fighting+20")
-- **Uses German retreat** when has energy type (e.g., "2Lightning")
-- **Uses German illustrator** if English not available
-
-Example:
-```
-OCR: "Bidifas" (German)
-→ German: HP=110, Weakness=Fighting+20, Retreat=2
-→ English: Attacks=[{name: "Roll Call", damage: "30"}]
-→ Combined: German name + English attacks + German weakness
-```
+### German Database
+All data comes from German card database:
+- Uses German name from OCR
+- Uses German weakness with +damage (e.g., "Fighting+20")
+- Uses German retreat (e.g., "2")
+- Uses German attacks (German names)
 
 ## Card Types
 
@@ -113,31 +102,21 @@ German Trainer cards:
 5. **Save**: Store complete card data from API
 
 ### Lookup Priority
-1. German cards (german_cards_complete.json) - for German OCR
-2. English Limitless cards (limitless_cards.json) - has attacks
-3. Chase-manning JSON fallback
+1. German cards (german_cards_complete.json) - primary source
 
-### Cross-Reference Logic
+### German Database Logic
 ```
 1. OCR extracts German name (e.g., "Enekoro")
-2. Look up in German cards → find HP, weakness+damage, retreats
-3. Convert German name → English name using mapping (Enekoro → Delcatty)
-4. Look up English in Limitless by English name → find energy_type, stage, rarity, illustrator
-5. Combine:
-   - German: german_name, hp, weakness (+damage), attacks (German names)
-   - English: energy_type, stage, evolution_from, rarity, illustrator
-6. Save to collection.db
+2. Look up in German cards → find HP, weakness+damage, retreat, attacks, illustrator
+3. Save to collection.db
 ```
 
 ## API Data Sources
 
-### Limitless Scraped (Primary)
-- Source: pocket.limitlesstcg.com
+### German Cards (Primary)
+- Source: pokemongohub.net
 - Contains: Full card data
-- Count: 2111 cards
-
-### Chase-manning JSON (Fallback)
-- Source: github.com/chase-manning/pokemon-tcg-pocket-cards
+- Count: 2520 cards
 - Contains: 2777 cards
 
 ## Files
