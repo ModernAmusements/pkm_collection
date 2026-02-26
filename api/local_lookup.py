@@ -14,6 +14,21 @@ from .models import CardData, MatchResult
 
 # Cache for limitless cards
 _LIMITLESS_CARDS = None
+_GERMAN_CARDS = None
+
+
+def load_german_cards() -> list:
+    """Load German cards from scraped data."""
+    global _GERMAN_CARDS
+    if _GERMAN_CARDS is not None:
+        return _GERMAN_CARDS
+    
+    cache_file = Path("api/cache/german_cards_complete.json")
+    if cache_file.exists():
+        with open(cache_file, 'r', encoding='utf-8') as f:
+            _GERMAN_CARDS = json.load(f)
+            return _GERMAN_CARDS
+    return []
 
 
 def load_limitless_cards() -> list:
@@ -28,6 +43,37 @@ def load_limitless_cards() -> list:
             _LIMITLESS_CARDS = json.load(f)
             return _LIMITLESS_CARDS
     return []
+
+
+# Cache for name mapping
+_NAME_MAPPING = None
+_GER_TO_ENG = None
+
+
+def load_name_mapping() -> dict:
+    """Load English to German name mapping."""
+    global _NAME_MAPPING
+    if _NAME_MAPPING is not None:
+        return _NAME_MAPPING
+    
+    cache_file = Path("api/cache/eng_to_ger_names.json")
+    if cache_file.exists():
+        with open(cache_file, 'r', encoding='utf-8') as f:
+            _NAME_MAPPING = json.load(f)
+            return _NAME_MAPPING
+    return {}
+
+
+def get_english_name(german_name: str) -> str | None:
+    """Convert German name to English name."""
+    global _GER_TO_ENG
+    
+    if _GER_TO_ENG is None:
+        mapping = load_name_mapping()
+        # Create reverse mapping: German → English
+        _GER_TO_ENG = {v.lower().strip(): k for k, v in mapping.items()}
+    
+    return _GER_TO_ENG.get(german_name.lower().strip())
 
 
 # Pokedex number mapping (built from card names - simplified)
@@ -281,6 +327,87 @@ def limitless_to_carddata(card: dict) -> CardData:
     )
 
 
+def german_to_carddata(card: dict, english_card: dict = None) -> CardData:
+    """Convert German card to CardData model with optional English data.
+    
+    If english_card is provided, combine:
+    - German: german_name, hp, weakness (with +damage), attacks (German names)
+    - English: energy_type, stage, evolution_from, rarity, illustrator
+    """
+    attacks = card.get('attacks', [])
+    if isinstance(attacks, str):
+        attacks = json.loads(attacks) if attacks else []
+    
+    # Get English data if available
+    eng_energy = ''
+    eng_stage = ''
+    eng_evolution = ''
+    eng_rarity = ''
+    eng_illustrator = ''
+    
+    if english_card:
+        eng_energy = english_card.get('energy_type', '')
+        eng_stage = english_card.get('stage', '')
+        eng_evolution = english_card.get('evolution_from', '')
+        eng_rarity = english_card.get('rarity', '')
+        eng_illustrator = english_card.get('illustrator', '')
+    
+    # Prefer German data, fallback to English
+    # German has: german_name, hp, weakness (with +damage), attacks (German names)
+    # English has: energy_type, stage, evolution_from, rarity, illustrator
+    
+    german_weakness = card.get('weakness', '')
+    eng_weakness = english_card.get('weakness', '') if english_card else ''
+    
+    # Prefer German weakness if it has +damage
+    weakness = german_weakness if '+' in german_weakness else (eng_weakness or german_weakness)
+    
+    german_retreat = card.get('retreat', 0)
+    eng_retreat = english_card.get('retreat', 0) if english_card else 0
+    
+    # Prefer German retreat if it has energy type (e.g., "2Lightning")
+    if isinstance(german_retreat, str) and len(str(german_retreat)) > 1:
+        retreat = german_retreat
+    else:
+        retreat = eng_retreat or german_retreat
+    
+    return CardData(
+        id=card.get('url', '').split('/')[-1] if card.get('url') else '',
+        name=card.get('german_name', ''),
+        hp=int(card.get('hp', 0)) if card.get('hp') else None,
+        energy_type=card.get('energy_type', '') or eng_energy,
+        stage=eng_stage or card.get('stage', ''),
+        evolution_from=eng_evolution,
+        card_number=card.get('card_number', ''),
+        set_id=card.get('set_id', ''),
+        set_name='',
+        rarity=eng_rarity or card.get('rarity', ''),
+        attacks=attacks,
+        weakness=weakness,
+        retreat=int(retreat) if isinstance(retreat, (int, str)) and str(retreat).isdigit() else retreat,
+        illustrator=eng_illustrator or card.get('illustrator', ''),
+        api_source='german+english' if english_card else 'german',
+    )
+
+
+def find_german_card(cards: list, name: str, hp: str = None) -> list:
+    """Find cards in German data by name."""
+    results = []
+    name_lower = name.lower()
+    
+    for card in cards:
+        card_name_lower = card.get('german_name', '').lower()
+        
+        if name_lower in card_name_lower or card_name_lower in name_lower:
+            if hp:
+                card_hp = card.get('hp')
+                if card_hp and str(card_hp) != hp:
+                    continue
+            results.append(card)
+    
+    return results
+
+
 def find_limitless_card(cards: list, name: str, hp: str = None) -> list:
     """Find cards in Limitless data by name."""
     results = []
@@ -306,14 +433,60 @@ def lookup_card(name: str, hp: str = None, energy: str = None,
     Lookup card from local database.
     
     Priority:
-    1. Limitless scraped data (has full info: attacks, weakness, retreat, stage)
-    2. Chase-manning JSON fallback
+    1. German cards (for German OCR) - but use English attacks from Limitless if available
+    2. Limitless scraped data (has full info: attacks, weakness, retreat, stage)
+    3. Chase-manning JSON fallback
     
     Matching:
     - Name match = exact
     - Name + HP match = exact
     """
-    # FIRST: Try Limitless scraped data (has MORE fields)
+    # FIRST: Try German cards (for German OCR)
+    german_cards = load_german_cards()
+    german_result = None
+    
+    if german_cards:
+        results = find_german_card(german_cards, name, hp)
+        
+        if len(results) == 1:
+            german_result = results[0]
+        elif len(results) > 1:
+            # Try HP filter
+            if hp:
+                for r in results:
+                    if r.get('hp') and str(r['hp']) == hp:
+                        german_result = r
+                        break
+            if not german_result:
+                german_result = results[0]
+        
+        # If we found a German card, check if we should use English data from Limitless
+        if german_result:
+            # Convert German name → English name using mapping
+            english_name = get_english_name(german_result.get('german_name', ''))
+            
+            # Try to find English version in Limitless
+            limitless_cards = load_limitless_cards()
+            english_match = None
+            
+            if limitless_cards and english_name:
+                # Find English card by English name
+                for ec in limitless_cards:
+                    if ec.get('name', '').lower() == english_name.lower():
+                        english_match = ec
+                        break
+            
+            # Use new combined function
+            card_data = german_to_carddata(german_result, english_match)
+            
+            return MatchResult(
+                success=True,
+                card=card_data,
+                match_type='exact',
+                confidence=0.95
+            )
+    
+    # SECOND: Try Limitless scraped data (has MORE fields)
     limitless_cards = load_limitless_cards()
     
     if limitless_cards:
@@ -338,8 +511,48 @@ def lookup_card(name: str, hp: str = None, energy: str = None,
                         confidence=1.0
                     )
         
-        # Multiple matches - return first
+        # Multiple matches - prioritize correct match
         if results:
+            name_lower = name.lower()
+            
+            # Check if OCR detected "ex" (might be false positive from "xe" in HP)
+            ocr_has_ex = ' ex' in name_lower or name_lower.endswith(' ex')
+            
+            # Get ex and non-ex versions
+            ex_versions = [r for r in results if ' ex' in r.get('name', '').lower() or r.get('name', '').lower().endswith(' ex')]
+            non_ex_versions = [r for r in results if ' ex' not in r.get('name', '').lower()]
+            
+            # If OCR detected "ex" but we have BOTH ex and non-ex, prefer non-ex
+            # (OCR false positive "xe" -> "ex" is very common)
+            if ocr_has_ex and ex_versions and non_ex_versions:
+                return MatchResult(
+                    success=True,
+                    card=limitless_to_carddata(non_ex_versions[0]),
+                    match_type='exact',
+                    confidence=0.95  # Slightly lower because OCR might be wrong
+                )
+            
+            # Try EXACT match first (including ex)
+            for r in results:
+                r_name_lower = r.get('name', '').lower()
+                if r_name_lower == name_lower:
+                    return MatchResult(
+                        success=True,
+                        card=limitless_to_carddata(r),
+                        match_type='exact',
+                        confidence=1.0
+                    )
+            
+            # If no exact match but OCR detected "ex", check if ex version exists
+            if ocr_has_ex and ex_versions:
+                return MatchResult(
+                    success=True,
+                    card=limitless_to_carddata(ex_versions[0]),
+                    match_type='exact',
+                    confidence=1.0
+                )
+            
+            # Otherwise return first result
             return MatchResult(
                 success=True,
                 card=limitless_to_carddata(results[0]),

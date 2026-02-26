@@ -57,11 +57,14 @@ tcgp/
 ├── api/                    # API integration
 │   ├── cache/            # Downloaded card data
 │   │   ├── cards.json              # chase-manning JSON (2777 cards)
-│   │   ├── limitless_cards.json   # Scraped Limitless (~240 cards)
-│   │   └── expansions.json        # Set definitions
+│   │   ├── limitless_cards.json     # English Limitless (~2111 cards)
+│   │   ├── german_cards_complete.json # German cards (4834 cards)
+│   │   ├── eng_to_ger_names.json    # English→German name mapping
+│   │   └── expansions.json          # Set definitions
 │   ├── download.py       # Download chase-manning database
 │   ├── scrape_all.py     # Scrape Limitless website
-│   ├── local_lookup.py   # Local card matching
+│   ├── scrape_german_details.py # Scrape German details
+│   ├── local_lookup.py   # Local card matching (German + English)
 │   └── limitless.py      # Web scraper
 │
 ├── preprocessing/          # Image preprocessing
@@ -147,19 +150,32 @@ python3 collection.py export
 
 ## API Data Sources
 
-### 1. chase-manning JSON (Primary)
-- Source: `https://github.com/chase-manning/pokemon-tcg-pocket-cards`
+### 1. German Cards (Primary for German OCR)
+- Source: `pokemongohub.net` (German)
+- Contains: 4834 cards (all 14 sets)
+- Fields: german_name, hp, card_number, set_id, weakness+damage, retreat, attacks, illustrator
+
+### 2. Limitless Scraped (English)
+- Source: `pocket.limitlesstcg.com`
+- Contains: 2111 cards
+- Fields: ALL (attacks, weakness, retreat, stage, evolution, illustrator)
+
+### 3. Chase-manning JSON (Fallback)
+- Source: `github.com/chase-manning/pokemon-tcg-pocket-cards`
 - Contains: 2777 cards
 - Fields: name, HP, type, set, rarity, artist
 
-### 2. Limitless Scraped (Complete)
-- Source: `https://pocket.limitlesstcg.com`
-- Contains: ~300 cards (scraped on demand)
-- Fields: ALL (attacks, weakness, retreat, stage, evolution, illustrator)
-
 ### Matching Priority
-1. Limitless scraped data (has complete info)
-2. chase-manning JSON (fallback)
+1. **German cards** - matched by German OCR name
+2. **Limitless English** - for attacks and additional data
+3. **Chase-manning** - fallback
+
+### Cross-Reference Logic
+When a German card is matched:
+- Uses German name from OCR
+- Uses English attacks from Limitless (if available)
+- Uses German weakness with +damage (e.g., "Fighting+20")
+- Uses German retreat when has energy type
 
 ## Database Schema
 

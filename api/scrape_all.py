@@ -178,14 +178,14 @@ def scrape_card(set_id: str, card_num: str) -> dict | None:
 def scrape_set(set_id: str, set_name: str, max_cards: int = 200) -> list:
     """Scrape all cards from a single set."""
     cards = []
-    print(f"  Scraping {set_id} ({set_name})...")
+    print(f"  Scraping {set_id} ({set_name})...", flush=True)
     
     for card_num in range(1, max_cards + 1):
         card = scrape_card(set_id, str(card_num))
         
         if card:
             cards.append(card)
-            print(f"    ✓ {card_num}: {card['name']}")
+            print(f"    ✓ {card_num}: {card['name']}", flush=True)
         else:
             # If we got some cards and now hit empty, likely end of set
             if len(cards) > 0 and card_num > len(cards) + 10:
@@ -236,6 +236,8 @@ def load_limitless_cards() -> list:
 
 
 if __name__ == "__main__":
+    import sys
+    
     print("=" * 60)
     print("LIMITLESS TCG POCKET - FULL SCRAPER")
     print("=" * 60)
@@ -244,10 +246,14 @@ if __name__ == "__main__":
     existing = load_limitless_cards()
     if existing:
         print(f"\nFound {len(existing)} existing cards")
-        resp = input("Scrape again? (y/n): ")
-        if resp.lower() != 'y':
-            print("Using existing cache")
-            exit(0)
+        # Auto-continue scraping if --resume flag is passed
+        if len(sys.argv) > 1 and sys.argv[1] == '--resume':
+            print("Resuming scrape (--resume flag)...")
+        else:
+            resp = input("Scrape again? (y/n): ")
+            if resp.lower() != 'y':
+                print("Using existing cache")
+                exit(0)
     
     # Scrape all
     all_cards = scrape_all_sets()

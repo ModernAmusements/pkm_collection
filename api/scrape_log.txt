@@ -3,7 +3,2168 @@ LIMITLESS TCG POCKET - FULL SCRAPER
 ============================================================
 
 Found 240 existing cards
-Scrape again? (y/n): Traceback (most recent call last):
-  File "/Users/modernamusmenet/Desktop/tcgp/api/scrape_all.py", line 247, in <module>
-    resp = input("Scrape again? (y/n): ")
-EOFError: EOF when reading a line
+Resuming scrape (--resume flag)...
+Scraping 15 sets...
+
+  Scraping a1 (Genetic Apex)...
+    ✓ 1: Bulbasaur
+    ✓ 2: Ivysaur
+    ✓ 3: Venusaur
+    ✓ 4: Venusaur ex
+    ✓ 5: Caterpie
+    ✓ 6: Metapod
+    ✓ 7: Butterfree
+    ✓ 8: Weedle
+    ✓ 9: Kakuna
+    ✓ 10: Beedrill
+    ✓ 11: Oddish
+    ✓ 12: Gloom
+    ✓ 13: Vileplume
+    ✓ 14: Paras
+    ✓ 15: Parasect
+    ✓ 16: Venonat
+    ✓ 17: Venomoth
+    ✓ 18: Bellsprout
+    ✓ 19: Weepinbell
+    ✓ 20: Victreebel
+    ✓ 21: Exeggcute
+    ✓ 22: Exeggutor
+    ✓ 23: Exeggutor ex
+    ✓ 24: Tangela
+    ✓ 25: Scyther
+    ✓ 26: Pinsir
+    ✓ 27: Cottonee
+    ✓ 28: Whimsicott
+    ✓ 29: Petilil
+    ✓ 30: Lilligant
+    ✓ 31: Skiddo
+    ✓ 32: Gogoat
+    ✓ 33: Charmander
+    ✓ 34: Charmeleon
+    ✓ 35: Charizard
+    ✓ 36: Charizard ex
+    ✓ 37: Vulpix
+    ✓ 38: Ninetales
+    ✓ 39: Growlithe
+    ✓ 40: Arcanine
+    ✓ 41: Arcanine ex
+    ✓ 42: Ponyta
+    ✓ 43: Rapidash
+    ✓ 44: Magmar
+    ✓ 45: Flareon
+    ✓ 46: Moltres
+    ✓ 47: Moltres ex
+    ✓ 48: Heatmor
+    ✓ 49: Salandit
+    ✓ 50: Salazzle
+    ✓ 51: Sizzlipede
+    ✓ 52: Centiskorch
+    ✓ 53: Squirtle
+    ✓ 54: Wartortle
+    ✓ 55: Blastoise
+    ✓ 56: Blastoise ex
+    ✓ 57: Psyduck
+    ✓ 58: Golduck
+    ✓ 59: Poliwag
+    ✓ 60: Poliwhirl
+    ✓ 61: Poliwrath
+    ✓ 62: Tentacool
+    ✓ 63: Tentacruel
+    ✓ 64: Seel
+    ✓ 65: Dewgong
+    ✓ 66: Shellder
+    ✓ 67: Cloyster
+    ✓ 68: Krabby
+    ✓ 69: Kingler
+    ✓ 70: Horsea
+    ✓ 71: Seadra
+    ✓ 72: Goldeen
+    ✓ 73: Seaking
+    ✓ 74: Staryu
+    ✓ 75: Starmie
+    ✓ 76: Starmie ex
+    ✓ 77: Magikarp
+    ✓ 78: Gyarados
+    ✓ 79: Lapras
+    ✓ 80: Vaporeon
+    ✓ 81: Omanyte
+    ✓ 82: Omastar
+    ✓ 83: Articuno
+    ✓ 84: Articuno ex
+    ✓ 85: Ducklett
+    ✓ 86: Swanna
+    ✓ 87: Froakie
+    ✓ 88: Frogadier
+    ✓ 89: Greninja
+    ✓ 90: Pyukumuku
+    ✓ 91: Bruxish
+    ✓ 92: Snom
+    ✓ 93: Frosmoth
+    ✓ 94: Pikachu
+    ✓ 95: Raichu
+    ✓ 96: Pikachu ex
+    ✓ 97: Magnemite
+    ✓ 98: Magneton
+    ✓ 99: Voltorb
+    ✓ 100: Electrode
+    ✓ 101: Electabuzz
+    ✓ 102: Jolteon
+    ✓ 103: Zapdos
+    ✓ 104: Zapdos ex
+    ✓ 105: Blitzle
+    ✓ 106: Zebstrika
+    ✓ 107: Tynamo
+    ✓ 108: Eelektrik
+    ✓ 109: Eelektross
+    ✓ 110: Helioptile
+    ✓ 111: Heliolisk
+    ✓ 112: Pincurchin
+    ✓ 113: Clefairy
+    ✓ 114: Clefable
+    ✓ 115: Abra
+    ✓ 116: Kadabra
+    ✓ 117: Alakazam
+    ✓ 118: Slowpoke
+    ✓ 119: Slowbro
+    ✓ 120: Gastly
+    ✓ 121: Haunter
+    ✓ 122: Gengar
+    ✓ 123: Gengar ex
+    ✓ 124: Drowzee
+    ✓ 125: Hypno
+    ✓ 126: Mr. Mime
+    ✓ 127: Jynx
+    ✓ 128: Mewtwo
+    ✓ 129: Mewtwo ex
+    ✓ 130: Ralts
+    ✓ 131: Kirlia
+    ✓ 132: Gardevoir
+    ✓ 133: Woobat
+    ✓ 134: Swoobat
+    ✓ 135: Golett
+    ✓ 136: Golurk
+    ✓ 137: Sandshrew
+    ✓ 138: Sandslash
+    ✓ 139: Diglett
+    ✓ 140: Dugtrio
+    ✓ 141: Mankey
+    ✓ 142: Primeape
+    ✓ 143: Machop
+    ✓ 144: Machoke
+    ✓ 145: Machamp
+    ✓ 146: Machamp ex
+    ✓ 147: Geodude
+    ✓ 148: Graveler
+    ✓ 149: Golem
+    ✓ 150: Onix
+    ✓ 151: Cubone
+    ✓ 152: Marowak
+    ✓ 153: Marowak ex
+    ✓ 154: Hitmonlee
+    ✓ 155: Hitmonchan
+    ✓ 156: Rhyhorn
+    ✓ 157: Rhydon
+    ✓ 158: Kabuto
+    ✓ 159: Kabutops
+    ✓ 160: Mienfoo
+    ✓ 161: Mienshao
+    ✓ 162: Clobbopus
+    ✓ 163: Grapploct
+    ✓ 164: Ekans
+    ✓ 165: Arbok
+    ✓ 166: Nidoran♀
+    ✓ 167: Nidorina
+    ✓ 168: Nidoqueen
+    ✓ 169: Nidoran♂
+    ✓ 170: Nidorino
+    ✓ 171: Nidoking
+    ✓ 172: Zubat
+    ✓ 173: Golbat
+    ✓ 174: Grimer
+    ✓ 175: Muk
+    ✓ 176: Koffing
+    ✓ 177: Weezing
+    ✓ 178: Mawile
+    ✓ 179: Pawniard
+    ✓ 180: Bisharp
+    ✓ 181: Meltan
+    ✓ 182: Melmetal
+    ✓ 183: Dratini
+    ✓ 184: Dragonair
+    ✓ 185: Dragonite
+    ✓ 186: Pidgey
+    ✓ 187: Pidgeotto
+    ✓ 188: Pidgeot
+    ✓ 189: Rattata
+    ✓ 190: Raticate
+    ✓ 191: Spearow
+    ✓ 192: Fearow
+    ✓ 193: Jigglypuff
+    ✓ 194: Wigglytuff
+    ✓ 195: Wigglytuff ex
+    ✓ 196: Meowth
+    ✓ 197: Persian
+    ✓ 198: Farfetch'd
+    ✓ 199: Doduo
+    ✓ 200: Dodrio
+    -> 200 cards
+  Scraping a1a (Mythical Island)...
+    ✓ 1: Exeggcute
+    ✓ 2: Exeggutor
+    ✓ 3: Celebi ex
+    ✓ 4: Snivy
+    ✓ 5: Servine
+    ✓ 6: Serperior
+    ✓ 7: Morelull
+    ✓ 8: Shiinotic
+    ✓ 9: Dhelmise
+    ✓ 10: Ponyta
+    ✓ 11: Rapidash
+    ✓ 12: Magmar
+    ✓ 13: Larvesta
+    ✓ 14: Volcarona
+    ✓ 15: Salandit
+    ✓ 16: Salazzle
+    ✓ 17: Magikarp
+    ✓ 18: Gyarados ex
+    ✓ 19: Vaporeon
+    ✓ 20: Finneon
+    ✓ 21: Lumineon
+    ✓ 22: Chewtle
+    ✓ 23: Drednaw
+    ✓ 24: Cramorant
+    ✓ 25: Pikachu
+    ✓ 26: Raichu
+    ✓ 27: Electabuzz
+    ✓ 28: Joltik
+    ✓ 29: Galvantula
+    ✓ 30: Dedenne
+    ✓ 31: Mew
+    ✓ 32: Mew ex
+    ✓ 33: Sigilyph
+    ✓ 34: Elgyem
+    ✓ 35: Beheeyem
+    ✓ 36: Flabébé
+    ✓ 37: Floette
+    ✓ 38: Florges
+    ✓ 39: Swirlix
+    ✓ 40: Slurpuff
+    ✓ 41: Mankey
+    ✓ 42: Primeape
+    ✓ 43: Geodude
+    ✓ 44: Graveler
+    ✓ 45: Golem
+    ✓ 46: Aerodactyl ex
+    ✓ 47: Marshadow
+    ✓ 48: Stonjourner
+    ✓ 49: Koffing
+    ✓ 50: Weezing
+    ✓ 51: Purrloin
+    ✓ 52: Liepard
+    ✓ 53: Venipede
+    ✓ 54: Whirlipede
+    ✓ 55: Scolipede
+    ✓ 56: Druddigon
+    ✓ 57: Pidgey
+    ✓ 58: Pidgeotto
+    ✓ 59: Pidgeot ex
+    ✓ 60: Tauros
+    ✓ 61: Eevee
+    ✓ 62: Chatot
+    ✓ 63: Old Amber
+    ✓ 64: Pokémon Flute
+    ✓ 65: Mythical Slab
+    ✓ 66: Budding Expeditioner
+    ✓ 67: Blue
+    ✓ 68: Leaf
+    ✓ 69: Exeggutor
+    ✓ 70: Serperior
+    ✓ 71: Salandit
+    ✓ 72: Vaporeon
+    ✓ 73: Dedenne
+    ✓ 74: Marshadow
+    ✓ 75: Celebi ex
+    ✓ 76: Gyarados ex
+    ✓ 77: Mew ex
+    ✓ 78: Aerodactyl ex
+    ✓ 79: Pidgeot ex
+    ✓ 80: Budding Expeditioner
+    ✓ 81: Blue
+    ✓ 82: Leaf
+    ✓ 83: Mew ex
+    ✓ 84: Aerodactyl ex
+    ✓ 85: Celebi ex
+    ✓ 86: Mew ex
+    -> 86 cards
+  Scraping promo (Promo)...
+    -> 0 cards
+  Scraping a2 (Space-Time Smackdown)...
+    ✓ 1: Oddish
+    ✓ 2: Gloom
+    ✓ 3: Bellossom
+    ✓ 4: Tangela
+    ✓ 5: Tangrowth
+    ✓ 6: Yanma
+    ✓ 7: Yanmega ex
+    ✓ 8: Roselia
+    ✓ 9: Roserade
+    ✓ 10: Turtwig
+    ✓ 11: Grotle
+    ✓ 12: Torterra
+    ✓ 13: Kricketot
+    ✓ 14: Kricketune
+    ✓ 15: Burmy
+    ✓ 16: Wormadam
+    ✓ 17: Combee
+    ✓ 18: Vespiquen
+    ✓ 19: Carnivine
+    ✓ 20: Leafeon
+    ✓ 21: Mow Rotom
+    ✓ 22: Shaymin
+    ✓ 23: Magmar
+    ✓ 24: Magmortar
+    ✓ 25: Slugma
+    ✓ 26: Magcargo
+    ✓ 27: Chimchar
+    ✓ 28: Monferno
+    ✓ 29: Infernape ex
+    ✓ 30: Heat Rotom
+    ✓ 31: Swinub
+    ✓ 32: Piloswine
+    ✓ 33: Mamoswine
+    ✓ 34: Regice
+    ✓ 35: Piplup
+    ✓ 36: Prinplup
+    ✓ 37: Empoleon
+    ✓ 38: Buizel
+    ✓ 39: Floatzel
+    ✓ 40: Shellos
+    ✓ 41: Gastrodon
+    ✓ 42: Finneon
+    ✓ 43: Lumineon
+    ✓ 44: Snover
+    ✓ 45: Abomasnow
+    ✓ 46: Glaceon
+    ✓ 47: Wash Rotom
+    ✓ 48: Frost Rotom
+    ✓ 49: Palkia ex
+    ✓ 50: Manaphy
+    ✓ 51: Magnemite
+    ✓ 52: Magneton
+    ✓ 53: Magnezone
+    ✓ 54: Voltorb
+    ✓ 55: Electrode
+    ✓ 56: Electabuzz
+    ✓ 57: Electivire
+    ✓ 58: Shinx
+    ✓ 59: Luxio
+    ✓ 60: Luxray
+    ✓ 61: Pachirisu ex
+    ✓ 62: Rotom
+    ✓ 63: Togepi
+    ✓ 64: Togetic
+    ✓ 65: Togekiss
+    ✓ 66: Misdreavus
+    ✓ 67: Mismagius ex
+    ✓ 68: Ralts
+    ✓ 69: Kirlia
+    ✓ 70: Duskull
+    ✓ 71: Dusclops
+    ✓ 72: Dusknoir
+    ✓ 73: Drifloon
+    ✓ 74: Drifblim
+    ✓ 75: Uxie
+    ✓ 76: Mesprit
+    ✓ 77: Azelf
+    ✓ 78: Giratina
+    ✓ 79: Cresselia
+    ✓ 80: Rhyhorn
+    ✓ 81: Rhydon
+    ✓ 82: Rhyperior
+    ✓ 83: Gligar
+    ✓ 84: Gliscor
+    ✓ 85: Hitmontop
+    ✓ 86: Nosepass
+    ✓ 87: Regirock
+    ✓ 88: Cranidos
+    ✓ 89: Rampardos
+    ✓ 90: Wormadam
+    ✓ 91: Riolu
+    ✓ 92: Lucario
+    ✓ 93: Hippopotas
+    ✓ 94: Hippowdon
+    ✓ 95: Gallade ex
+    ✓ 96: Murkrow
+    ✓ 97: Honchkrow
+    ✓ 98: Sneasel
+    ✓ 99: Weavile ex
+    ✓ 100: Poochyena
+    ✓ 101: Mightyena
+    ✓ 102: Stunky
+    ✓ 103: Skuntank
+    ✓ 104: Spiritomb
+    ✓ 105: Skorupi
+    ✓ 106: Drapion
+    ✓ 107: Croagunk
+    ✓ 108: Toxicroak
+    ✓ 109: Darkrai
+    ✓ 110: Darkrai ex
+    ✓ 111: Skarmory
+    ✓ 112: Registeel
+    ✓ 113: Shieldon
+    ✓ 114: Bastiodon
+    ✓ 115: Wormadam
+    ✓ 116: Bronzor
+    ✓ 117: Bronzong
+    ✓ 118: Probopass
+    ✓ 119: Dialga ex
+    ✓ 120: Heatran
+    ✓ 121: Gible
+    ✓ 122: Gabite
+    ✓ 123: Garchomp
+    ✓ 124: Lickitung
+    ✓ 125: Lickilicky ex
+    ✓ 126: Eevee
+    ✓ 127: Porygon
+    ✓ 128: Porygon2
+    ✓ 129: Porygon-Z
+    ✓ 130: Aipom
+    ✓ 131: Ambipom
+    ✓ 132: Starly
+    ✓ 133: Staravia
+    ✓ 134: Staraptor
+    ✓ 135: Bidoof
+    ✓ 136: Bibarel
+    ✓ 137: Buneary
+    ✓ 138: Lopunny
+    ✓ 139: Glameow
+    ✓ 140: Purugly
+    ✓ 141: Chatot
+    ✓ 142: Fan Rotom
+    ✓ 143: Regigigas
+    ✓ 144: Skull Fossil
+    ✓ 145: Armor Fossil
+    ✓ 146: Pokémon Communication
+    ✓ 147: Giant Cape
+    ✓ 148: Rocky Helmet
+    ✓ 149: Lum Berry
+    ✓ 150: Cyrus
+    ✓ 151: Team Galactic Grunt
+    ✓ 152: Cynthia
+    ✓ 153: Volkner
+    ✓ 154: Dawn
+    ✓ 155: Mars
+    ✓ 156: Tangrowth
+    ✓ 157: Combee
+    ✓ 158: Carnivine
+    ✓ 159: Shaymin
+    ✓ 160: Mamoswine
+    ✓ 161: Gastrodon
+    ✓ 162: Manaphy
+    ✓ 163: Shinx
+    ✓ 164: Rotom
+    ✓ 165: Drifloon
+    ✓ 166: Mesprit
+    ✓ 167: Giratina
+    ✓ 168: Cresselia
+    ✓ 169: Rhyperior
+    ✓ 170: Lucario
+    ✓ 171: Hippopotas
+    ✓ 172: Spiritomb
+    ✓ 173: Croagunk
+    ✓ 174: Heatran
+    ✓ 175: Garchomp
+    ✓ 176: Staraptor
+    ✓ 177: Bidoof
+    ✓ 178: Glameow
+    ✓ 179: Regigigas
+    ✓ 180: Yanmega ex
+    ✓ 181: Infernape ex
+    ✓ 182: Palkia ex
+    ✓ 183: Pachirisu ex
+    ✓ 184: Mismagius ex
+    ✓ 185: Gallade ex
+    ✓ 186: Weavile ex
+    ✓ 187: Darkrai ex
+    ✓ 188: Dialga ex
+    ✓ 189: Lickilicky ex
+    ✓ 190: Cyrus
+    ✓ 191: Team Galactic Grunt
+    ✓ 192: Cynthia
+    ✓ 193: Volkner
+    ✓ 194: Dawn
+    ✓ 195: Mars
+    ✓ 196: Yanmega ex
+    ✓ 197: Infernape ex
+    ✓ 198: Pachirisu ex
+    ✓ 199: Mismagius ex
+    ✓ 200: Gallade ex
+    -> 200 cards
+  Scraping a2a (Triumphant Light)...
+    ✓ 1: Heracross
+    ✓ 2: Burmy
+    ✓ 3: Mothim
+    ✓ 4: Combee
+    ✓ 5: Vespiquen
+    ✓ 6: Cherubi
+    ✓ 7: Cherrim
+    ✓ 8: Cherrim
+    ✓ 9: Carnivine
+    ✓ 10: Leafeon ex
+    ✓ 11: Houndour
+    ✓ 12: Houndoom
+    ✓ 13: Heatran
+    ✓ 14: Marill
+    ✓ 15: Azumarill
+    ✓ 16: Barboach
+    ✓ 17: Whiscash
+    ✓ 18: Snorunt
+    ✓ 19: Froslass
+    ✓ 20: Snover
+    ✓ 21: Abomasnow
+    ✓ 22: Glaceon ex
+    ✓ 23: Origin Forme Palkia
+    ✓ 24: Phione
+    ✓ 25: Pikachu
+    ✓ 26: Raichu
+    ✓ 27: Electrike
+    ✓ 28: Manectric
+    ✓ 29: Clefairy
+    ✓ 30: Clefable
+    ✓ 31: Gastly
+    ✓ 32: Haunter
+    ✓ 33: Gengar
+    ✓ 34: Unown
+    ✓ 35: Rotom
+    ✓ 36: Sudowoodo
+    ✓ 37: Phanpy
+    ✓ 38: Donphan
+    ✓ 39: Larvitar
+    ✓ 40: Pupitar
+    ✓ 41: Tyranitar
+    ✓ 42: Nosepass
+    ✓ 43: Meditite
+    ✓ 44: Medicham
+    ✓ 45: Gible
+    ✓ 46: Gabite
+    ✓ 47: Garchomp ex
+    ✓ 48: Zubat
+    ✓ 49: Golbat
+    ✓ 50: Crobat
+    ✓ 51: Croagunk
+    ✓ 52: Toxicroak
+    ✓ 53: Magnemite
+    ✓ 54: Magneton
+    ✓ 55: Magnezone
+    ✓ 56: Mawile
+    ✓ 57: Probopass ex
+    ✓ 58: Bronzor
+    ✓ 59: Bronzong
+    ✓ 60: Origin Forme Dialga
+    ✓ 61: Giratina
+    ✓ 62: Eevee
+    ✓ 63: Snorlax
+    ✓ 64: Hoothoot
+    ✓ 65: Noctowl
+    ✓ 66: Starly
+    ✓ 67: Staravia
+    ✓ 68: Staraptor
+    ✓ 69: Shaymin
+    ✓ 70: Arceus
+    ✓ 71: Arceus ex
+    ✓ 72: Irida
+    ✓ 73: Celestic Town Elder
+    ✓ 74: Barry
+    ✓ 75: Adaman
+    ✓ 76: Houndoom
+    ✓ 77: Marill
+    ✓ 78: Unown
+    ✓ 79: Sudowoodo
+    ✓ 80: Magnemite
+    ✓ 81: Shaymin
+    ✓ 82: Leafeon ex
+    ✓ 83: Glaceon ex
+    ✓ 84: Garchomp ex
+    ✓ 85: Probopass ex
+    ✓ 86: Arceus ex
+    ✓ 87: Irida
+    ✓ 88: Celestic Town Elder
+    ✓ 89: Barry
+    ✓ 90: Adaman
+    ✓ 91: Leafeon ex
+    ✓ 92: Glaceon ex
+    ✓ 93: Garchomp ex
+    ✓ 94: Probopass ex
+    ✓ 95: Arceus ex
+    ✓ 96: Arceus ex
+    -> 96 cards
+  Scraping a2b (Shining Revelry)...
+    ✓ 1: Weedle
+    ✓ 2: Kakuna
+    ✓ 3: Beedrill ex
+    ✓ 4: Pinsir
+    ✓ 5: Sprigatito
+    ✓ 6: Floragato
+    ✓ 7: Meowscarada
+    ✓ 8: Charmander
+    ✓ 9: Charmeleon
+    ✓ 10: Charizard ex
+    ✓ 11: Magmar
+    ✓ 12: Magmortar
+    ✓ 13: Paldean Tauros
+    ✓ 14: Tentacool
+    ✓ 15: Tentacruel
+    ✓ 16: Buizel
+    ✓ 17: Floatzel
+    ✓ 18: Wiglett
+    ✓ 19: Wugtrio ex
+    ✓ 20: Dondozo
+    ✓ 21: Tatsugiri
+    ✓ 22: Pikachu ex
+    ✓ 23: Voltorb
+    ✓ 24: Electrode
+    ✓ 25: Pachirisu
+    ✓ 26: Pawmi
+    ✓ 27: Pawmo
+    ✓ 28: Pawmot
+    ✓ 29: Abra
+    ✓ 30: Kadabra
+    ✓ 31: Alakazam
+    ✓ 32: Mr. Mime
+    ✓ 33: Drifloon
+    ✓ 34: Drifblim
+    ✓ 35: Giratina ex
+    ✓ 36: Gimmighoul
+    ✓ 37: Machop
+    ✓ 38: Machoke
+    ✓ 39: Machamp
+    ✓ 40: Hitmonlee
+    ✓ 41: Hitmonchan
+    ✓ 42: Riolu
+    ✓ 43: Lucario ex
+    ✓ 44: Flamigo
+    ✓ 45: Ekans
+    ✓ 46: Arbok
+    ✓ 47: Paldean Wooper
+    ✓ 48: Paldean Clodsire ex
+    ✓ 49: Spiritomb
+    ✓ 50: Shroodle
+    ✓ 51: Grafaiai
+    ✓ 52: Tinkatink
+    ✓ 53: Tinkatuff
+    ✓ 54: Tinkaton ex
+    ✓ 55: Varoom
+    ✓ 56: Revavroom
+    ✓ 57: Gholdengo
+    ✓ 58: Rattata
+    ✓ 59: Raticate
+    ✓ 60: Jigglypuff
+    ✓ 61: Wigglytuff
+    ✓ 62: Lickitung
+    ✓ 63: Lickilicky
+    ✓ 64: Bidoof
+    ✓ 65: Bibarel ex
+    ✓ 66: Buneary
+    ✓ 67: Lopunny
+    ✓ 68: Cyclizar
+    ✓ 69: Iono
+    ✓ 70: Pokémon Center Lady
+    ✓ 71: Red
+    ✓ 72: Team Rocket Grunt
+    ✓ 73: Meowscarada
+    ✓ 74: Buizel
+    ✓ 75: Tatsugiri
+    ✓ 76: Grafaiai
+    ✓ 77: Gholdengo
+    ✓ 78: Wigglytuff
+    ✓ 79: Beedrill ex
+    ✓ 80: Charizard ex
+    ✓ 81: Wugtrio ex
+    ✓ 82: Pikachu ex
+    ✓ 83: Giratina ex
+    ✓ 84: Lucario ex
+    ✓ 85: Paldean Clodsire ex
+    ✓ 86: Tinkaton ex
+    ✓ 87: Bibarel ex
+    ✓ 88: Iono
+    ✓ 89: Pokémon Center Lady
+    ✓ 90: Red
+    ✓ 91: Team Rocket Grunt
+    ✓ 92: Pikachu ex
+    ✓ 93: Paldean Clodsire ex
+    ✓ 94: Tinkaton ex
+    ✓ 95: Bibarel ex
+    ✓ 96: Giratina ex
+    ✓ 97: Weedle
+    ✓ 98: Kakuna
+    ✓ 99: Charmander
+    ✓ 100: Charmeleon
+    ✓ 101: Wiglett
+    ✓ 102: Dondozo
+    ✓ 103: Pachirisu
+    ✓ 104: Riolu
+    ✓ 105: Varoom
+    ✓ 106: Revavroom
+    ✓ 107: Beedrill ex
+    ✓ 108: Charizard ex
+    ✓ 109: Wugtrio ex
+    ✓ 110: Lucario ex
+    ✓ 111: Poké Ball
+    -> 111 cards
+  Scraping a3 (Celestial Guardians)...
+    ✓ 1: Exeggcute
+    ✓ 2: Alolan Exeggutor
+    ✓ 3: Surskit
+    ✓ 4: Masquerain
+    ✓ 5: Maractus
+    ✓ 6: Karrablast
+    ✓ 7: Phantump
+    ✓ 8: Trevenant
+    ✓ 9: Rowlet
+    ✓ 10: Rowlet
+    ✓ 11: Dartrix
+    ✓ 12: Decidueye ex
+    ✓ 13: Grubbin
+    ✓ 14: Fomantis
+    ✓ 15: Lurantis
+    ✓ 16: Morelull
+    ✓ 17: Shiinotic
+    ✓ 18: Bounsweet
+    ✓ 19: Steenee
+    ✓ 20: Tsareena
+    ✓ 21: Wimpod
+    ✓ 22: Golisopod
+    ✓ 23: Dhelmise ex
+    ✓ 24: Tapu Bulu
+    ✓ 25: Growlithe
+    ✓ 26: Arcanine
+    ✓ 27: Alolan Marowak
+    ✓ 28: Fletchinder
+    ✓ 29: Talonflame
+    ✓ 30: Litten
+    ✓ 31: Litten
+    ✓ 32: Torracat
+    ✓ 33: Incineroar ex
+    ✓ 34: Oricorio
+    ✓ 35: Salandit
+    ✓ 36: Salazzle
+    ✓ 37: Turtonator
+    ✓ 38: Alolan Sandshrew
+    ✓ 39: Alolan Sandslash
+    ✓ 40: Alolan Vulpix
+    ✓ 41: Alolan Ninetales
+    ✓ 42: Shellder
+    ✓ 43: Cloyster
+    ✓ 44: Lapras
+    ✓ 45: Popplio
+    ✓ 46: Popplio
+    ✓ 47: Brionne
+    ✓ 48: Primarina
+    ✓ 49: Crabominable ex
+    ✓ 50: Wishiwashi
+    ✓ 51: Wishiwashi ex
+    ✓ 52: Dewpider
+    ✓ 53: Araquanid
+    ✓ 54: Pyukumuku
+    ✓ 55: Bruxish
+    ✓ 56: Tapu Fini
+    ✓ 57: Pikachu
+    ✓ 58: Alolan Raichu ex
+    ✓ 59: Alolan Geodude
+    ✓ 60: Alolan Graveler
+    ✓ 61: Alolan Golem
+    ✓ 62: Helioptile
+    ✓ 63: Heliolisk
+    ✓ 64: Charjabug
+    ✓ 65: Vikavolt
+    ✓ 66: Oricorio
+    ✓ 67: Togedemaru
+    ✓ 68: Tapu Koko
+    ✓ 69: Mr. Mime
+    ✓ 70: Sableye
+    ✓ 71: Spoink
+    ✓ 72: Grumpig
+    ✓ 73: Lunatone
+    ✓ 74: Shuppet
+    ✓ 75: Banette
+    ✓ 76: Oricorio
+    ✓ 77: Oricorio
+    ✓ 78: Cutiefly
+    ✓ 79: Ribombee
+    ✓ 80: Comfey
+    ✓ 81: Sandygast
+    ✓ 82: Palossand
+    ✓ 83: Mimikyu
+    ✓ 84: Tapu Lele
+    ✓ 85: Cosmog
+    ✓ 86: Cosmoem
+    ✓ 87: Lunala ex
+    ✓ 88: Necrozma
+    ✓ 89: Cubone
+    ✓ 90: Makuhita
+    ✓ 91: Hariyama
+    ✓ 92: Solrock
+    ✓ 93: Drilbur
+    ✓ 94: Timburr
+    ✓ 95: Gurdurr
+    ✓ 96: Conkeldurr
+    ✓ 97: Crabrawler
+    ✓ 98: Rockruff
+    ✓ 99: Rockruff
+    ✓ 100: Lycanroc
+    ✓ 101: Lycanroc
+    ✓ 102: Mudbray
+    ✓ 103: Mudsdale
+    ✓ 104: Passimian ex
+    ✓ 105: Minior
+    ✓ 106: Alolan Rattata
+    ✓ 107: Alolan Raticate
+    ✓ 108: Alolan Meowth
+    ✓ 109: Alolan Persian
+    ✓ 110: Alolan Grimer
+    ✓ 111: Alolan Muk ex
+    ✓ 112: Absol
+    ✓ 113: Trubbish
+    ✓ 114: Garbodor
+    ✓ 115: Mareanie
+    ✓ 116: Toxapex
+    ✓ 117: Alolan Diglett
+    ✓ 118: Alolan Dugtrio
+    ✓ 119: Excadrill
+    ✓ 120: Escavalier
+    ✓ 121: Klefki
+    ✓ 122: Solgaleo ex
+    ✓ 123: Magearna
+    ✓ 124: Drampa
+    ✓ 125: Jangmo-o
+    ✓ 126: Hakamo-o
+    ✓ 127: Kommo-o
+    ✓ 128: Tauros
+    ✓ 129: Skitty
+    ✓ 130: Delcatty
+    ✓ 131: Fletchling
+    ✓ 132: Hawlucha
+    ✓ 133: Pikipek
+    ✓ 134: Trumbeak
+    ✓ 135: Toucannon
+    ✓ 136: Yungoos
+    ✓ 137: Gumshoos
+    ✓ 138: Stufful
+    ✓ 139: Bewear
+    ✓ 140: Oranguru
+    ✓ 141: Komala
+    ✓ 142: Big Malasada
+    ✓ 143: Fishing Net
+    ✓ 144: Rare Candy
+    ✓ 145: Rotom Dex
+    ✓ 146: Poison Barb
+    ✓ 147: Leaf Cape
+    ✓ 148: Acerola
+    ✓ 149: Ilima
+    ✓ 150: Kiawe
+    ✓ 151: Guzma
+    ✓ 152: Lana
+    ✓ 153: Sophocles
+    ✓ 154: Mallow
+    ✓ 155: Lillie
+    ✓ 156: Alolan Exeggutor
+    ✓ 157: Morelull
+    ✓ 158: Tsareena
+    ✓ 159: Tapu Bulu
+    ✓ 160: Alolan Marowak
+    ✓ 161: Turtonator
+    ✓ 162: Alolan Vulpix
+    ✓ 163: Pyukumuku
+    ✓ 164: Tapu Fini
+    ✓ 165: Oricorio
+    ✓ 166: Tapu Koko
+    ✓ 167: Cutiefly
+    ✓ 168: Comfey
+    ✓ 169: Sandygast
+    ✓ 170: Tapu Lele
+    ✓ 171: Cosmog
+    ✓ 172: Rockruff
+    ✓ 173: Mudsdale
+    ✓ 174: Minior
+    ✓ 175: Magearna
+    ✓ 176: Drampa
+    ✓ 177: Pikipek
+    ✓ 178: Bewear
+    ✓ 179: Komala
+    ✓ 180: Decidueye ex
+    ✓ 181: Dhelmise ex
+    ✓ 182: Incineroar ex
+    ✓ 183: Crabominable ex
+    ✓ 184: Wishiwashi ex
+    ✓ 185: Alolan Raichu ex
+    ✓ 186: Lunala ex
+    ✓ 187: Passimian ex
+    ✓ 188: Alolan Muk ex
+    ✓ 189: Solgaleo ex
+    ✓ 190: Acerola
+    ✓ 191: Ilima
+    ✓ 192: Kiawe
+    ✓ 193: Guzma
+    ✓ 194: Lana
+    ✓ 195: Sophocles
+    ✓ 196: Mallow
+    ✓ 197: Lillie
+    ✓ 198: Decidueye ex
+    ✓ 199: Dhelmise ex
+    ✓ 200: Incineroar ex
+    -> 200 cards
+  Scraping a3a (Extradimensional Crisis)...
+    ✓ 1: Petilil
+    ✓ 2: Lilligant
+    ✓ 3: Rowlet
+    ✓ 4: Dartrix
+    ✓ 5: Decidueye
+    ✓ 6: Buzzwole ex
+    ✓ 7: Pheromosa
+    ✓ 8: Kartana
+    ✓ 9: Blacephalon
+    ✓ 10: Mantine
+    ✓ 11: Carvanha
+    ✓ 12: Sharpedo
+    ✓ 13: Shinx
+    ✓ 14: Luxio
+    ✓ 15: Luxray
+    ✓ 16: Blitzle
+    ✓ 17: Zebstrika
+    ✓ 18: Emolga
+    ✓ 19: Tapu Koko ex
+    ✓ 20: Xurkitree
+    ✓ 21: Zeraora
+    ✓ 22: Clefairy
+    ✓ 23: Clefable
+    ✓ 24: Phantump
+    ✓ 25: Trevenant
+    ✓ 26: Morelull
+    ✓ 27: Shiinotic
+    ✓ 28: Meditite
+    ✓ 29: Medicham
+    ✓ 30: Baltoy
+    ✓ 31: Claydol
+    ✓ 32: Rockruff
+    ✓ 33: Lycanroc ex
+    ✓ 34: Passimian
+    ✓ 35: Sandygast
+    ✓ 36: Palossand
+    ✓ 37: Alolan Meowth
+    ✓ 38: Alolan Persian
+    ✓ 39: Sandile
+    ✓ 40: Krokorok
+    ✓ 41: Krookodile
+    ✓ 42: Nihilego
+    ✓ 43: Guzzlord ex
+    ✓ 44: Poipole
+    ✓ 45: Naganadel
+    ✓ 46: Alolan Diglett
+    ✓ 47: Alolan Dugtrio ex
+    ✓ 48: Aron
+    ✓ 49: Lairon
+    ✓ 50: Aggron
+    ✓ 51: Ferroseed
+    ✓ 52: Ferrothorn
+    ✓ 53: Stakataka
+    ✓ 54: Lillipup
+    ✓ 55: Herdier
+    ✓ 56: Stoutland
+    ✓ 57: Stufful
+    ✓ 58: Bewear
+    ✓ 59: Oranguru
+    ✓ 60: Type: Null
+    ✓ 61: Silvally
+    ✓ 62: Celesteela
+    ✓ 63: Beast Wall
+    ✓ 64: Repel
+    ✓ 65: Electrical Cord
+    ✓ 66: Beastite
+    ✓ 67: Gladion
+    ✓ 68: Looker
+    ✓ 69: Lusamine
+    ✓ 70: Rowlet
+    ✓ 71: Pheromosa
+    ✓ 72: Blacephalon
+    ✓ 73: Alolan Meowth
+    ✓ 74: Silvally
+    ✓ 75: Celesteela
+    ✓ 76: Buzzwole ex
+    ✓ 77: Tapu Koko ex
+    ✓ 78: Lycanroc ex
+    ✓ 79: Guzzlord ex
+    ✓ 80: Alolan Dugtrio ex
+    ✓ 81: Gladion
+    ✓ 82: Looker
+    ✓ 83: Lusamine
+    ✓ 84: Tapu Koko ex
+    ✓ 85: Lycanroc ex
+    ✓ 86: Guzzlord ex
+    ✓ 87: Alolan Dugtrio ex
+    ✓ 88: Buzzwole ex
+    ✓ 89: Growlithe
+    ✓ 90: Arcanine
+    ✓ 91: Froakie
+    ✓ 92: Frogadier
+    ✓ 93: Greninja
+    ✓ 94: Jynx
+    ✓ 95: Pidgey
+    ✓ 96: Pidgeotto
+    ✓ 97: Pidgeot
+    ✓ 98: Aerodactyl
+    ✓ 99: Celebi ex
+    ✓ 100: Arcanine ex
+    ✓ 101: Aerodactyl ex
+    ✓ 102: Pidgeot ex
+    ✓ 103: Nihilego
+    -> 103 cards
+  Scraping a3b (Eevee Grove)...
+    ✓ 1: Tropius
+    ✓ 2: Leafeon
+    ✓ 3: Bounsweet
+    ✓ 4: Steenee
+    ✓ 5: Tsareena
+    ✓ 6: Applin
+    ✓ 7: Appletun
+    ✓ 8: Flareon
+    ✓ 9: Flareon ex
+    ✓ 10: Torkoal
+    ✓ 11: Litten
+    ✓ 12: Torracat
+    ✓ 13: Incineroar
+    ✓ 14: Salandit
+    ✓ 15: Salazzle
+    ✓ 16: Vaporeon
+    ✓ 17: Glaceon
+    ✓ 18: Vanillite
+    ✓ 19: Vanillish
+    ✓ 20: Vanilluxe
+    ✓ 21: Alomomola
+    ✓ 22: Popplio
+    ✓ 23: Brionne
+    ✓ 24: Primarina ex
+    ✓ 25: Jolteon
+    ✓ 26: Joltik
+    ✓ 27: Galvantula
+    ✓ 28: Espeon
+    ✓ 29: Woobat
+    ✓ 30: Swoobat
+    ✓ 31: Swirlix
+    ✓ 32: Slurpuff
+    ✓ 33: Sylveon
+    ✓ 34: Sylveon ex
+    ✓ 35: Mimikyu
+    ✓ 36: Milcery
+    ✓ 37: Alcremie
+    ✓ 38: Barboach
+    ✓ 39: Whiscash
+    ✓ 40: Mienfoo
+    ✓ 41: Mienshao
+    ✓ 42: Carbink
+    ✓ 43: Umbreon
+    ✓ 44: Sableye
+    ✓ 45: Purrloin
+    ✓ 46: Liepard
+    ✓ 47: Mawile
+    ✓ 48: Togedemaru
+    ✓ 49: Meltan
+    ✓ 50: Melmetal
+    ✓ 51: Dratini
+    ✓ 52: Dragonair
+    ✓ 53: Dragonite ex
+    ✓ 54: Drampa
+    ✓ 55: Eevee
+    ✓ 56: Eevee ex
+    ✓ 57: Snorlax ex
+    ✓ 58: Aipom
+    ✓ 59: Ambipom
+    ✓ 60: Chatot
+    ✓ 61: Audino
+    ✓ 62: Minccino
+    ✓ 63: Cinccino
+    ✓ 64: Skwovet
+    ✓ 65: Greedent
+    ✓ 66: Eevee Bag
+    ✓ 67: Leftovers
+    ✓ 68: Hau
+    ✓ 69: Penny
+    ✓ 70: Leafeon
+    ✓ 71: Flareon
+    ✓ 72: Vaporeon
+    ✓ 73: Glaceon
+    ✓ 74: Jolteon
+    ✓ 75: Espeon
+    ✓ 76: Sylveon
+    ✓ 77: Umbreon
+    ✓ 78: Eevee
+    ✓ 79: Flareon ex
+    ✓ 80: Primarina ex
+    ✓ 81: Sylveon ex
+    ✓ 82: Dragonite ex
+    ✓ 83: Eevee ex
+    ✓ 84: Snorlax ex
+    ✓ 85: Hau
+    ✓ 86: Penny
+    ✓ 87: Flareon ex
+    ✓ 88: Primarina ex
+    ✓ 89: Sylveon ex
+    ✓ 90: Dragonite ex
+    ✓ 91: Snorlax ex
+    ✓ 92: Eevee ex
+    ✓ 93: Pinsir
+    ✓ 94: Lapras
+    ✓ 95: Voltorb
+    ✓ 96: Electrode
+    ✓ 97: Ralts
+    ✓ 98: Kirlia
+    ✓ 99: Gardevoir
+    ✓ 100: Ekans
+    ✓ 101: Arbok
+    ✓ 102: Farfetch'd
+    ✓ 103: Moltres ex
+    ✓ 104: Articuno ex
+    ✓ 105: Zapdos ex
+    ✓ 106: Gallade ex
+    ✓ 107: Eevee Bag
+    -> 107 cards
+  Scraping a4 (Wisdom of Sea and Sky)...
+    ✓ 1: Oddish
+    ✓ 2: Gloom
+    ✓ 3: Bellossom
+    ✓ 4: Tangela
+    ✓ 5: Tangrowth
+    ✓ 6: Scyther
+    ✓ 7: Pinsir
+    ✓ 8: Chikorita
+    ✓ 9: Bayleef
+    ✓ 10: Meganium
+    ✓ 11: Ledyba
+    ✓ 12: Ledian
+    ✓ 13: Hoppip
+    ✓ 14: Skiploom
+    ✓ 15: Jumpluff
+    ✓ 16: Sunkern
+    ✓ 17: Sunflora
+    ✓ 18: Yanma
+    ✓ 19: Yanmega
+    ✓ 20: Pineco
+    ✓ 21: Shuckle ex
+    ✓ 22: Heracross
+    ✓ 23: Cherubi
+    ✓ 24: Cherrim
+    ✓ 25: Vulpix
+    ✓ 26: Ninetales
+    ✓ 27: Cyndaquil
+    ✓ 28: Quilava
+    ✓ 29: Typhlosion
+    ✓ 30: Slugma
+    ✓ 31: Magcargo
+    ✓ 32: Magby
+    ✓ 33: Entei
+    ✓ 34: Ho-Oh ex
+    ✓ 35: Darumaka
+    ✓ 36: Darmanitan
+    ✓ 37: Heatmor
+    ✓ 38: Poliwag
+    ✓ 39: Poliwhirl
+    ✓ 40: Politoed
+    ✓ 41: Horsea
+    ✓ 42: Seadra
+    ✓ 43: Kingdra ex
+    ✓ 44: Magikarp
+    ✓ 45: Gyarados
+    ✓ 46: Totodile
+    ✓ 47: Croconaw
+    ✓ 48: Feraligatr
+    ✓ 49: Marill
+    ✓ 50: Azumarill
+    ✓ 51: Wooper
+    ✓ 52: Quagsire
+    ✓ 53: Qwilfish
+    ✓ 54: Corsola
+    ✓ 55: Remoraid
+    ✓ 56: Octillery
+    ✓ 57: Delibird
+    ✓ 58: Mantine
+    ✓ 59: Suicune
+    ✓ 60: Corphish
+    ✓ 61: Crawdaunt
+    ✓ 62: Ducklett
+    ✓ 63: Swanna
+    ✓ 64: Chinchou
+    ✓ 65: Lanturn ex
+    ✓ 66: Pichu
+    ✓ 67: Mareep
+    ✓ 68: Flaaffy
+    ✓ 69: Ampharos
+    ✓ 70: Elekid
+    ✓ 71: Raikou
+    ✓ 72: Emolga
+    ✓ 73: Slowpoke
+    ✓ 74: Slowking
+    ✓ 75: Smoochum
+    ✓ 76: Jynx
+    ✓ 77: Cleffa
+    ✓ 78: Togepi
+    ✓ 79: Togetic
+    ✓ 80: Togekiss
+    ✓ 81: Natu
+    ✓ 82: Xatu
+    ✓ 83: Espeon ex
+    ✓ 84: Unown
+    ✓ 85: Unown
+    ✓ 86: Wobbuffet
+    ✓ 87: Girafarig
+    ✓ 88: Snubbull
+    ✓ 89: Granbull
+    ✓ 90: Munna
+    ✓ 91: Musharna
+    ✓ 92: Onix
+    ✓ 93: Sudowoodo
+    ✓ 94: Gligar
+    ✓ 95: Gliscor
+    ✓ 96: Swinub
+    ✓ 97: Piloswine
+    ✓ 98: Mamoswine
+    ✓ 99: Phanpy
+    ✓ 100: Donphan ex
+    ✓ 101: Tyrogue
+    ✓ 102: Hitmontop
+    ✓ 103: Larvitar
+    ✓ 104: Pupitar
+    ✓ 105: Binacle
+    ✓ 106: Barbaracle
+    ✓ 107: Zubat
+    ✓ 108: Golbat
+    ✓ 109: Crobat ex
+    ✓ 110: Spinarak
+    ✓ 111: Ariados
+    ✓ 112: Umbreon ex
+    ✓ 113: Murkrow
+    ✓ 114: Honchkrow
+    ✓ 115: Sneasel
+    ✓ 116: Weavile
+    ✓ 117: Houndour
+    ✓ 118: Houndoom
+    ✓ 119: Tyranitar
+    ✓ 120: Absol
+    ✓ 121: Forretress
+    ✓ 122: Steelix
+    ✓ 123: Scizor
+    ✓ 124: Skarmory ex
+    ✓ 125: Mawile
+    ✓ 126: Klink
+    ✓ 127: Klang
+    ✓ 128: Klinklang
+    ✓ 129: Spearow
+    ✓ 130: Fearow
+    ✓ 131: Chansey
+    ✓ 132: Blissey
+    ✓ 133: Kangaskhan
+    ✓ 134: Eevee
+    ✓ 135: Porygon
+    ✓ 136: Porygon2
+    ✓ 137: Porygon-Z
+    ✓ 138: Sentret
+    ✓ 139: Furret
+    ✓ 140: Hoothoot
+    ✓ 141: Noctowl
+    ✓ 142: Aipom
+    ✓ 143: Ambipom
+    ✓ 144: Dunsparce
+    ✓ 145: Teddiursa
+    ✓ 146: Ursaring
+    ✓ 147: Stantler
+    ✓ 148: Smeargle
+    ✓ 149: Lugia ex
+    ✓ 150: Bouffalant
+    ✓ 151: Elemental Switch
+    ✓ 152: Squirt Bottle
+    ✓ 153: Steel Apron
+    ✓ 154: Dark Pendant
+    ✓ 155: Rescue Scarf
+    ✓ 156: Will
+    ✓ 157: Lyra
+    ✓ 158: Silver
+    ✓ 159: Fisher
+    ✓ 160: Jasmine
+    ✓ 161: Hiker
+    ✓ 162: Chikorita
+    ✓ 163: Bellossom
+    ✓ 164: Heracross
+    ✓ 165: Cyndaquil
+    ✓ 166: Magby
+    ✓ 167: Totodile
+    ✓ 168: Qwilfish
+    ✓ 169: Octillery
+    ✓ 170: Delibird
+    ✓ 171: Pichu
+    ✓ 172: Ampharos
+    ✓ 173: Togepi
+    ✓ 174: Xatu
+    ✓ 175: Wobbuffet
+    ✓ 176: Gligar
+    ✓ 177: Spinarak
+    ✓ 178: Murkrow
+    ✓ 179: Tyranitar
+    ✓ 180: Scizor
+    ✓ 181: Sentret
+    ✓ 182: Hoothoot
+    ✓ 183: Stantler
+    ✓ 184: Smeargle
+    ✓ 185: Blissey
+    ✓ 186: Shuckle ex
+    ✓ 187: Ho-Oh ex
+    ✓ 188: Kingdra ex
+    ✓ 189: Lanturn ex
+    ✓ 190: Espeon ex
+    ✓ 191: Donphan ex
+    ✓ 192: Crobat ex
+    ✓ 193: Umbreon ex
+    ✓ 194: Skarmory ex
+    ✓ 195: Lugia ex
+    ✓ 196: Will
+    ✓ 197: Lyra
+    ✓ 198: Silver
+    ✓ 199: Fisher
+    ✓ 200: Jasmine
+    -> 200 cards
+  Scraping a4a (Secluded Springs)...
+    ✓ 1: Hoppip
+    ✓ 2: Skiploom
+    ✓ 3: Jumpluff ex
+    ✓ 4: Sunkern
+    ✓ 5: Sunflora
+    ✓ 6: Celebi
+    ✓ 7: Durant
+    ✓ 8: Slugma
+    ✓ 9: Magcargo
+    ✓ 10: Entei ex
+    ✓ 11: Fletchinder
+    ✓ 12: Talonflame
+    ✓ 13: Poliwag
+    ✓ 14: Poliwhirl
+    ✓ 15: Tentacool
+    ✓ 16: Tentacruel
+    ✓ 17: Slowpoke
+    ✓ 18: Slowking
+    ✓ 19: Jynx
+    ✓ 20: Suicune ex
+    ✓ 21: Feebas
+    ✓ 22: Milotic
+    ✓ 23: Mantyke
+    ✓ 24: Cryogonal
+    ✓ 25: Raikou ex
+    ✓ 26: Tynamo
+    ✓ 27: Eelektrik
+    ✓ 28: Eelektross
+    ✓ 29: Stunfisk
+    ✓ 30: Yamper
+    ✓ 31: Boltund
+    ✓ 32: Misdreavus
+    ✓ 33: Mismagius
+    ✓ 34: Galarian Corsola
+    ✓ 35: Galarian Cursola
+    ✓ 36: Latias
+    ✓ 37: Latios
+    ✓ 38: Frillish
+    ✓ 39: Jellicent
+    ✓ 40: Diglett
+    ✓ 41: Dugtrio
+    ✓ 42: Poliwrath ex
+    ✓ 43: Phanpy
+    ✓ 44: Donphan
+    ✓ 45: Relicanth
+    ✓ 46: Dwebble
+    ✓ 47: Crustle
+    ✓ 48: Seviper
+    ✓ 49: Zorua
+    ✓ 50: Zoroark
+    ✓ 51: Inkay
+    ✓ 52: Malamar
+    ✓ 53: Skrelp
+    ✓ 54: Dragalge
+    ✓ 55: Altaria
+    ✓ 56: Farfetch'd
+    ✓ 57: Lickitung
+    ✓ 58: Lickilicky
+    ✓ 59: Igglybuff
+    ✓ 60: Teddiursa
+    ✓ 61: Ursaring
+    ✓ 62: Miltank
+    ✓ 63: Azurill
+    ✓ 64: Swablu
+    ✓ 65: Zangoose
+    ✓ 66: Fletchling
+    ✓ 67: Inflatable Boat
+    ✓ 68: Memory Light
+    ✓ 69: Whitney
+    ✓ 70: Traveling Merchant
+    ✓ 71: Morty
+    ✓ 72: Milotic
+    ✓ 73: Stunfisk
+    ✓ 74: Yamper
+    ✓ 75: Latios
+    ✓ 76: Phanpy
+    ✓ 77: Azurill
+    ✓ 78: Jumpluff ex
+    ✓ 79: Entei ex
+    ✓ 80: Suicune ex
+    ✓ 81: Raikou ex
+    ✓ 82: Poliwrath ex
+    ✓ 83: Whitney
+    ✓ 84: Traveling Merchant
+    ✓ 85: Morty
+    ✓ 86: Jumpluff ex
+    ✓ 87: Entei ex
+    ✓ 88: Raikou ex
+    ✓ 89: Poliwrath ex
+    ✓ 90: Suicune ex
+    ✓ 91: Chimchar
+    ✓ 92: Monferno
+    ✓ 93: Psyduck
+    ✓ 94: Golduck
+    ✓ 95: Krabby
+    ✓ 96: Kingler
+    ✓ 97: Pyukumuku
+    ✓ 98: Gible
+    ✓ 99: Gabite
+    ✓ 100: Paldean Wooper
+    ✓ 101: Infernape ex
+    ✓ 102: Mew ex
+    ✓ 103: Garchomp ex
+    ✓ 104: Paldean Clodsire ex
+    ✓ 105: Mantyke
+    -> 105 cards
+  Scraping a4b (Deluxe Pack: ex)...
+    ✓ 1: Bulbasaur
+    ✓ 2: Bulbasaur
+    ✓ 3: Ivysaur
+    ✓ 4: Ivysaur
+    ✓ 5: Venusaur ex
+    ✓ 6: Weedle
+    ✓ 7: Weedle
+    ✓ 8: Kakuna
+    ✓ 9: Kakuna
+    ✓ 10: Beedrill ex
+    ✓ 11: Exeggcute
+    ✓ 12: Exeggcute
+    ✓ 13: Exeggutor ex
+    ✓ 14: Hoppip
+    ✓ 15: Hoppip
+    ✓ 16: Skiploom
+    ✓ 17: Skiploom
+    ✓ 18: Jumpluff
+    ✓ 19: Jumpluff
+    ✓ 20: Yanma
+    ✓ 21: Yanma
+    ✓ 22: Yanmega ex
+    ✓ 23: Shuckle ex
+    ✓ 24: Celebi ex
+    ✓ 25: Cherubi
+    ✓ 26: Cherubi
+    ✓ 27: Cherrim
+    ✓ 28: Cherrim
+    ✓ 29: Leafeon ex
+    ✓ 30: Shaymin
+    ✓ 31: Shaymin
+    ✓ 32: Snivy
+    ✓ 33: Snivy
+    ✓ 34: Servine
+    ✓ 35: Servine
+    ✓ 36: Serperior
+    ✓ 37: Serperior
+    ✓ 38: Rowlet
+    ✓ 39: Rowlet
+    ✓ 40: Dartrix
+    ✓ 41: Dartrix
+    ✓ 42: Decidueye ex
+    ✓ 43: Dhelmise ex
+    ✓ 44: Buzzwole ex
+    ✓ 45: Pheromosa
+    ✓ 46: Pheromosa
+    ✓ 47: Kartana
+    ✓ 48: Kartana
+    ✓ 49: Sprigatito
+    ✓ 50: Sprigatito
+    ✓ 51: Floragato
+    ✓ 52: Floragato
+    ✓ 53: Meowscarada
+    ✓ 54: Meowscarada
+    ✓ 55: Charmander
+    ✓ 56: Charmander
+    ✓ 57: Charmeleon
+    ✓ 58: Charmeleon
+    ✓ 59: Charizard ex
+    ✓ 60: Charizard ex
+    ✓ 61: Growlithe
+    ✓ 62: Growlithe
+    ✓ 63: Arcanine ex
+    ✓ 64: Flareon
+    ✓ 65: Flareon
+    ✓ 66: Flareon ex
+    ✓ 67: Moltres ex
+    ✓ 68: Ho-Oh ex
+    ✓ 69: Torkoal
+    ✓ 70: Torkoal
+    ✓ 71: Chimchar
+    ✓ 72: Chimchar
+    ✓ 73: Monferno
+    ✓ 74: Monferno
+    ✓ 75: Infernape ex
+    ✓ 76: Heatran
+    ✓ 77: Heatran
+    ✓ 78: Litten
+    ✓ 79: Litten
+    ✓ 80: Torracat
+    ✓ 81: Torracat
+    ✓ 82: Incineroar ex
+    ✓ 83: Squirtle
+    ✓ 84: Squirtle
+    ✓ 85: Wartortle
+    ✓ 86: Wartortle
+    ✓ 87: Blastoise ex
+    ✓ 88: Horsea
+    ✓ 89: Horsea
+    ✓ 90: Seadra
+    ✓ 91: Seadra
+    ✓ 92: Kingdra ex
+    ✓ 93: Staryu
+    ✓ 94: Staryu
+    ✓ 95: Starmie ex
+    ✓ 96: Magikarp
+    ✓ 97: Magikarp
+    ✓ 98: Gyarados ex
+    ✓ 99: Vaporeon
+    ✓ 100: Vaporeon
+    ✓ 101: Articuno ex
+    ✓ 102: Corphish
+    ✓ 103: Corphish
+    ✓ 104: Crawdaunt
+    ✓ 105: Crawdaunt
+    ✓ 106: Glaceon ex
+    ✓ 107: Palkia ex
+    ✓ 108: Manaphy
+    ✓ 109: Manaphy
+    ✓ 110: Froakie
+    ✓ 111: Froakie
+    ✓ 112: Frogadier
+    ✓ 113: Frogadier
+    ✓ 114: Greninja
+    ✓ 115: Greninja
+    ✓ 116: Popplio
+    ✓ 117: Popplio
+    ✓ 118: Brionne
+    ✓ 119: Brionne
+    ✓ 120: Primarina ex
+    ✓ 121: Crabominable ex
+    ✓ 122: Wishiwashi
+    ✓ 123: Wishiwashi
+    ✓ 124: Wishiwashi ex
+    ✓ 125: Wiglett
+    ✓ 126: Wiglett
+    ✓ 127: Wugtrio ex
+    ✓ 128: Pikachu
+    ✓ 129: Pikachu
+    ✓ 130: Alolan Raichu ex
+    ✓ 131: Pikachu ex
+    ✓ 132: Pikachu ex
+    ✓ 133: Magnemite
+    ✓ 134: Magnemite
+    ✓ 135: Magneton
+    ✓ 136: Magneton
+    ✓ 137: Magnezone
+    ✓ 138: Magnezone
+    ✓ 139: Zapdos ex
+    ✓ 140: Chinchou
+    ✓ 141: Chinchou
+    ✓ 142: Lanturn ex
+    ✓ 143: Pachirisu
+    ✓ 144: Pachirisu
+    ✓ 145: Pachirisu ex
+    ✓ 146: Oricorio
+    ✓ 147: Oricorio
+    ✓ 148: Tapu Koko ex
+    ✓ 149: Zeraora
+    ✓ 150: Zeraora
+    ✓ 151: Gastly
+    ✓ 152: Gastly
+    ✓ 153: Haunter
+    ✓ 154: Haunter
+    ✓ 155: Gengar ex
+    ✓ 156: Jynx
+    ✓ 157: Jynx
+    ✓ 158: Mewtwo ex
+    ✓ 159: Mew ex
+    ✓ 160: Espeon ex
+    ✓ 161: Misdreavus
+    ✓ 162: Misdreavus
+    ✓ 163: Mismagius ex
+    ✓ 164: Ralts
+    ✓ 165: Ralts
+    ✓ 166: Kirlia
+    ✓ 167: Kirlia
+    ✓ 168: Gardevoir
+    ✓ 169: Gardevoir
+    ✓ 170: Giratina
+    ✓ 171: Giratina
+    ✓ 172: Giratina ex
+    ✓ 173: Swirlix
+    ✓ 174: Swirlix
+    ✓ 175: Slurpuff
+    ✓ 176: Slurpuff
+    ✓ 177: Sylveon ex
+    ✓ 178: Oricorio
+    ✓ 179: Oricorio
+    ✓ 180: Cosmog
+    ✓ 181: Cosmog
+    ✓ 182: Cosmoem
+    ✓ 183: Cosmoem
+    ✓ 184: Lunala ex
+    ✓ 185: Milcery
+    ✓ 186: Milcery
+    ✓ 187: Alcremie
+    ✓ 188: Alcremie
+    ✓ 189: Machop
+    ✓ 190: Machop
+    ✓ 191: Machoke
+    ✓ 192: Machoke
+    ✓ 193: Machamp ex
+    ✓ 194: Cubone
+    ✓ 195: Cubone
+    ✓ 196: Marowak ex
+    ✓ 197: Aerodactyl ex
+    ✓ 198: Sudowoodo
+    ✓ 199: Sudowoodo
+    ✓ 200: Phanpy
+    -> 200 cards
+  Scraping b1 (Mega Rising)...
+    ✓ 1: Pinsir
+    ✓ 2: Mega Pinsir ex
+    ✓ 3: Wurmple
+    ✓ 4: Silcoon
+    ✓ 5: Beautifly
+    ✓ 6: Cascoon
+    ✓ 7: Dustox
+    ✓ 8: Seedot
+    ✓ 9: Nuzleaf
+    ✓ 10: Shiftry
+    ✓ 11: Shroomish
+    ✓ 12: Breloom
+    ✓ 13: Pansage
+    ✓ 14: Simisage
+    ✓ 15: Cottonee
+    ✓ 16: Whimsicott ex
+    ✓ 17: Petilil
+    ✓ 18: Lilligant
+    ✓ 19: Maractus
+    ✓ 20: Virizion
+    ✓ 21: Skiddo
+    ✓ 22: Gogoat
+    ✓ 23: Phantump
+    ✓ 24: Trevenant
+    ✓ 25: Grookey
+    ✓ 26: Thwackey
+    ✓ 27: Rillaboom
+    ✓ 28: Growlithe
+    ✓ 29: Arcanine
+    ✓ 30: Ponyta
+    ✓ 31: Rapidash ex
+    ✓ 32: Ho-Oh
+    ✓ 33: Torchic
+    ✓ 34: Combusken
+    ✓ 35: Blaziken
+    ✓ 36: Mega Blaziken ex
+    ✓ 37: Pansear
+    ✓ 38: Simisear
+    ✓ 39: Darumaka
+    ✓ 40: Darmanitan
+    ✓ 41: Litwick
+    ✓ 42: Lampent
+    ✓ 43: Chandelure
+    ✓ 44: Heatmor
+    ✓ 45: Litleo
+    ✓ 46: Pyroar
+    ✓ 47: Turtonator
+    ✓ 48: Psyduck
+    ✓ 49: Golduck
+    ✓ 50: Magikarp
+    ✓ 51: Gyarados
+    ✓ 52: Mega Gyarados ex
+    ✓ 53: Lotad
+    ✓ 54: Lombre
+    ✓ 55: Ludicolo
+    ✓ 56: Wailmer
+    ✓ 57: Wailord
+    ✓ 58: Corphish
+    ✓ 59: Crawdaunt
+    ✓ 60: Luvdisc
+    ✓ 61: Panpour
+    ✓ 62: Simipour
+    ✓ 63: Tympole
+    ✓ 64: Palpitoad
+    ✓ 65: Seismitoad
+    ✓ 66: Tirtouga
+    ✓ 67: Carracosta
+    ✓ 68: Frillish
+    ✓ 69: Jellicent
+    ✓ 70: Keldeo
+    ✓ 71: Froakie
+    ✓ 72: Frogadier
+    ✓ 73: Greninja ex
+    ✓ 74: Bergmite
+    ✓ 75: Avalugg
+    ✓ 76: Chewtle
+    ✓ 77: Drednaw
+    ✓ 78: Arrokuda
+    ✓ 79: Barraskewda
+    ✓ 80: Eiscue
+    ✓ 81: Jolteon ex
+    ✓ 82: Mareep
+    ✓ 83: Flaaffy
+    ✓ 84: Ampharos
+    ✓ 85: Mega Ampharos ex
+    ✓ 86: Shinx
+    ✓ 87: Luxio
+    ✓ 88: Luxray
+    ✓ 89: Pachirisu
+    ✓ 90: Blitzle
+    ✓ 91: Zebstrika
+    ✓ 92: Joltik
+    ✓ 93: Galvantula
+    ✓ 94: Dedenne
+    ✓ 95: Yamper
+    ✓ 96: Boltund
+    ✓ 97: Natu
+    ✓ 98: Xatu
+    ✓ 99: Misdreavus
+    ✓ 100: Mismagius
+    ✓ 101: Sableye
+    ✓ 102: Mega Altaria ex
+    ✓ 103: Duskull
+    ✓ 104: Dusclops
+    ✓ 105: Dusknoir
+    ✓ 106: Jirachi
+    ✓ 107: Drifloon
+    ✓ 108: Drifblim
+    ✓ 109: Chingling
+    ✓ 110: Yamask
+    ✓ 111: Cofagrigus
+    ✓ 112: Gothita
+    ✓ 113: Gothorita
+    ✓ 114: Gothitelle
+    ✓ 115: Spritzee
+    ✓ 116: Aromatisse
+    ✓ 117: Swirlix
+    ✓ 118: Slurpuff
+    ✓ 119: Carbink
+    ✓ 120: Klefki
+    ✓ 121: Indeedee ex
+    ✓ 122: Sandshrew
+    ✓ 123: Sandslash
+    ✓ 124: Hitmonchan ex
+    ✓ 125: Sudowoodo
+    ✓ 126: Makuhita
+    ✓ 127: Hariyama
+    ✓ 128: Hippopotas
+    ✓ 129: Hippowdon
+    ✓ 130: Sandile
+    ✓ 131: Krokorok
+    ✓ 132: Krookodile
+    ✓ 133: Archen
+    ✓ 134: Archeops
+    ✓ 135: Golett
+    ✓ 136: Golurk
+    ✓ 137: Terrakion
+    ✓ 138: Pancham
+    ✓ 139: Crabrawler
+    ✓ 140: Crabominable
+    ✓ 141: Stufful
+    ✓ 142: Bewear
+    ✓ 143: Sandygast
+    ✓ 144: Palossand
+    ✓ 145: Rolycoly
+    ✓ 146: Carkol
+    ✓ 147: Coalossal
+    ✓ 148: Murkrow
+    ✓ 149: Honchkrow
+    ✓ 150: Absol
+    ✓ 151: Mega Absol ex
+    ✓ 152: Skorupi
+    ✓ 153: Drapion
+    ✓ 154: Darkrai
+    ✓ 155: Deino
+    ✓ 156: Zweilous
+    ✓ 157: Hydreigon
+    ✓ 158: Pangoro
+    ✓ 159: Skrelp
+    ✓ 160: Dragalge ex
+    ✓ 161: Mareanie
+    ✓ 162: Toxapex
+    ✓ 163: Impidimp
+    ✓ 164: Morgrem
+    ✓ 165: Grimmsnarl
+    ✓ 166: Ferroseed
+    ✓ 167: Ferrothorn
+    ✓ 168: Durant
+    ✓ 169: Cobalion
+    ✓ 170: Honedge
+    ✓ 171: Doublade
+    ✓ 172: Aegislash
+    ✓ 173: Meltan
+    ✓ 174: Melmetal ex
+    ✓ 175: Corviknight
+    ✓ 176: Druddigon
+    ✓ 177: Goomy
+    ✓ 178: Sliggoo
+    ✓ 179: Goodra
+    ✓ 180: Pidgey
+    ✓ 181: Pidgeotto
+    ✓ 182: Pidgeot
+    ✓ 183: Tauros ex
+    ✓ 184: Eevee
+    ✓ 185: Aipom
+    ✓ 186: Ambipom
+    ✓ 187: Miltank
+    ✓ 188: Zigzagoon
+    ✓ 189: Linoone
+    ✓ 190: Whismur
+    ✓ 191: Loudred
+    ✓ 192: Exploud
+    ✓ 193: Skitty
+    ✓ 194: Delcatty
+    ✓ 195: Spinda
+    ✓ 196: Swablu
+    ✓ 197: Altaria
+    ✓ 198: Chatot
+    ✓ 199: Patrat
+    ✓ 200: Watchog
+    -> 200 cards
+  Scraping b1a (Crimson Blaze)...
+    ✓ 1: Bulbasaur
+    ✓ 2: Ivysaur
+    ✓ 3: Venusaur
+    ✓ 4: Mega Venusaur ex
+    ✓ 5: Spinarak
+    ✓ 6: Ariados
+    ✓ 7: Sunkern
+    ✓ 8: Sunflora
+    ✓ 9: Burmy
+    ✓ 10: Mothim
+    ✓ 11: Charmander
+    ✓ 12: Charmeleon
+    ✓ 13: Charizard
+    ✓ 14: Mega Charizard Y ex
+    ✓ 15: Houndour
+    ✓ 16: Houndoom
+    ✓ 17: Squirtle
+    ✓ 18: Wartortle
+    ✓ 19: Blastoise
+    ✓ 20: Mega Blastoise ex
+    ✓ 21: Basculin
+    ✓ 22: Clauncher
+    ✓ 23: Clawitzer
+    ✓ 24: Magnemite
+    ✓ 25: Magneton
+    ✓ 26: Magnezone
+    ✓ 27: Emolga
+    ✓ 28: Helioptile
+    ✓ 29: Heliolisk
+    ✓ 30: Misdreavus
+    ✓ 31: Mismagius
+    ✓ 32: Solosis
+    ✓ 33: Duosion
+    ✓ 34: Reuniclus
+    ✓ 35: Spritzee
+    ✓ 36: Aromatisse
+    ✓ 37: Xerneas
+    ✓ 38: Onix
+    ✓ 39: Makuhita
+    ✓ 40: Hariyama
+    ✓ 41: Nosepass
+    ✓ 42: Mega Lopunny ex
+    ✓ 43: Mienfoo
+    ✓ 44: Mienshao
+    ✓ 45: Grimer
+    ✓ 46: Muk
+    ✓ 47: Purrloin
+    ✓ 48: Liepard
+    ✓ 49: Trubbish
+    ✓ 50: Garbodor
+    ✓ 51: Steelix
+    ✓ 52: Mega Steelix ex
+    ✓ 53: Probopass
+    ✓ 54: Genesect
+    ✓ 55: Ditto
+    ✓ 56: Porygon
+    ✓ 57: Porygon2
+    ✓ 58: Porygon-Z
+    ✓ 59: Starly
+    ✓ 60: Staravia
+    ✓ 61: Staraptor
+    ✓ 62: Buneary
+    ✓ 63: Lopunny
+    ✓ 64: Bouffalant
+    ✓ 65: Furfrou
+    ✓ 66: Clemont's Backpack
+    ✓ 67: Quick-Grow Extract
+    ✓ 68: Clemont
+    ✓ 69: Serena
+    ✓ 70: Ariados
+    ✓ 71: Sunflora
+    ✓ 72: Reuniclus
+    ✓ 73: Xerneas
+    ✓ 74: Trubbish
+    ✓ 75: Buneary
+    ✓ 76: Mega Venusaur ex
+    ✓ 77: Mega Charizard Y ex
+    ✓ 78: Mega Blastoise ex
+    ✓ 79: Mega Lopunny ex
+    ✓ 80: Mega Steelix ex
+    ✓ 81: Clemont
+    ✓ 82: Serena
+    ✓ 83: Mega Venusaur ex
+    ✓ 84: Mega Blastoise ex
+    ✓ 85: Mega Lopunny ex
+    ✓ 86: Mega Steelix ex
+    ✓ 87: Mega Charizard Y ex
+    ✓ 88: Oddish
+    ✓ 89: Gloom
+    ✓ 90: Vileplume
+    ✓ 91: Charizard
+    ✓ 92: Shellder
+    ✓ 93: Cloyster
+    ✓ 94: Sandshrew
+    ✓ 95: Sandslash
+    ✓ 96: Type: Null
+    ✓ 97: Silvally
+    ✓ 98: Buzzwole ex
+    ✓ 99: Lunala ex
+    ✓ 100: Guzzlord ex
+    ✓ 101: Solgaleo ex
+    ✓ 102: Aegislash
+    ✓ 103: Quick-Grow Extract
+    -> 103 cards
+  Scraping b2 (Fantastical Parade)...
+    ✓ 1: Ledyba
+    ✓ 2: Ledian
+    ✓ 3: Shuckle
+    ✓ 4: Roselia
+    ✓ 5: Roserade
+    ✓ 6: Cacnea
+    ✓ 7: Cacturne
+    ✓ 8: Chespin
+    ✓ 9: Quilladin
+    ✓ 10: Chesnaught
+    ✓ 11: Scatterbug
+    ✓ 12: Spewpa
+    ✓ 13: Vivillon
+    ✓ 14: Buzzwole
+    ✓ 15: Gossifleur
+    ✓ 16: Eldegoss
+    ✓ 17: Teal Mask Ogerpon ex
+    ✓ 18: Alolan Marowak
+    ✓ 19: Reshiram
+    ✓ 20: Litleo
+    ✓ 21: Pyroar
+    ✓ 22: Oricorio
+    ✓ 23: Blacephalon ex
+    ✓ 24: Scorbunny
+    ✓ 25: Raboot
+    ✓ 26: Cinderace
+    ✓ 27: Hearthflame Mask Ogerpon
+    ✓ 28: Alolan Vulpix
+    ✓ 29: Alolan Ninetales ex
+    ✓ 30: Galarian Mr. Mime
+    ✓ 31: Galarian Mr. Rime
+    ✓ 32: Delibird
+    ✓ 33: Mudkip
+    ✓ 34: Marshtomp
+    ✓ 35: Swampert
+    ✓ 36: Mega Swampert ex
+    ✓ 37: Vanillite
+    ✓ 38: Vanillish
+    ✓ 39: Vanilluxe
+    ✓ 40: Cryogonal
+    ✓ 41: Amaura
+    ✓ 42: Aurorus
+    ✓ 43: Chewtle
+    ✓ 44: Drednaw
+    ✓ 45: Cramorant
+    ✓ 46: Arrokuda
+    ✓ 47: Barraskewda
+    ✓ 48: Wellspring Mask Ogerpon
+    ✓ 49: Pikachu
+    ✓ 50: Alolan Raichu
+    ✓ 51: Zapdos
+    ✓ 52: Plusle
+    ✓ 53: Minun
+    ✓ 54: Toxel
+    ✓ 55: Toxtricity ex
+    ✓ 56: Tadbulb
+    ✓ 57: Bellibolt
+    ✓ 58: Galarian Ponyta
+    ✓ 59: Galarian Rapidash
+    ✓ 60: Wobbuffet
+    ✓ 61: Snubbull
+    ✓ 62: Granbull
+    ✓ 63: Ralts
+    ✓ 64: Kirlia
+    ✓ 65: Gardevoir
+    ✓ 66: Mega Gardevoir ex
+    ✓ 67: Litwick
+    ✓ 68: Lampent
+    ✓ 69: Chandelure
+    ✓ 70: Meloetta
+    ✓ 71: Pumpkaboo
+    ✓ 72: Gourgeist
+    ✓ 73: Mimikyu ex
+    ✓ 74: Sinistea
+    ✓ 75: Polteageist
+    ✓ 76: Indeedee
+    ✓ 77: Sandshrew
+    ✓ 78: Sandslash
+    ✓ 79: Machop
+    ✓ 80: Machoke
+    ✓ 81: Machamp
+    ✓ 82: Cubone
+    ✓ 83: Meditite
+    ✓ 84: Medicham
+    ✓ 85: Roggenrola
+    ✓ 86: Boldore
+    ✓ 87: Gigalith ex
+    ✓ 88: Drilbur
+    ✓ 89: Tyrunt
+    ✓ 90: Tyrantrum
+    ✓ 91: Passimian
+    ✓ 92: Falinks
+    ✓ 93: Cornerstone Mask Ogerpon
+    ✓ 94: Alolan Meowth
+    ✓ 95: Alolan Persian
+    ✓ 96: Alolan Grimer
+    ✓ 97: Alolan Muk
+    ✓ 98: Galarian Zigzagoon
+    ✓ 99: Galarian Linoone
+    ✓ 100: Galarian Obstagoon
+    ✓ 101: Stunky
+    ✓ 102: Skuntank
+    ✓ 103: Spiritomb
+    ✓ 104: Purrloin
+    ✓ 105: Liepard
+    ✓ 106: Scraggy
+    ✓ 107: Scrafty
+    ✓ 108: Yveltal
+    ✓ 109: Guzzlord
+    ✓ 110: Galarian Meowth
+    ✓ 111: Galarian Perrserker
+    ✓ 112: Mawile
+    ✓ 113: Mega Mawile ex
+    ✓ 114: Excadrill
+    ✓ 115: Ferroseed
+    ✓ 116: Ferrothorn
+    ✓ 117: Galarian Stunfisk
+    ✓ 118: Honedge
+    ✓ 119: Doublade
+    ✓ 120: Aegislash
+    ✓ 121: Bagon
+    ✓ 122: Shelgon
+    ✓ 123: Salamence
+    ✓ 124: Meowth
+    ✓ 125: Persian
+    ✓ 126: Kangaskhan
+    ✓ 127: Mega Kangaskhan ex
+    ✓ 128: Sentret
+    ✓ 129: Furret
+    ✓ 130: Smeargle
+    ✓ 131: Lugia
+    ✓ 132: Taillow
+    ✓ 133: Swellow
+    ✓ 134: Slakoth
+    ✓ 135: Vigoroth
+    ✓ 136: Slaking
+    ✓ 137: Spinda
+    ✓ 138: Tornadus
+    ✓ 139: Bunnelby
+    ✓ 140: Diggersby
+    ✓ 141: Furfrou
+    ✓ 142: Tandemaus
+    ✓ 143: Maushold
+    ✓ 144: Jaw Fossil
+    ✓ 145: Lucky Ice Pop
+    ✓ 146: Sail Fossil
+    ✓ 147: Protective Poncho
+    ✓ 148: Metal Core Barrier
+    ✓ 149: Diantha
+    ✓ 150: Sightseer
+    ✓ 151: Juggler
+    ✓ 152: Piers
+    ✓ 153: Training Area
+    ✓ 154: Starting Plains
+    ✓ 155: Peculiar Plaza
+    ✓ 156: Cacnea
+    ✓ 157: Roserade
+    ✓ 158: Vivillon
+    ✓ 159: Buzzwole
+    ✓ 160: Reshiram
+    ✓ 161: Oricorio
+    ✓ 162: Scorbunny
+    ✓ 163: Aurorus
+    ✓ 164: Cramorant
+    ✓ 165: Minun
+    ✓ 166: Toxel
+    ✓ 167: Galarian Ponyta
+    ✓ 168: Snubbull
+    ✓ 169: Indeedee
+    ✓ 170: Sandshrew
+    ✓ 171: Tyrantrum
+    ✓ 172: Falinks
+    ✓ 173: Alolan Muk
+    ✓ 174: Purrloin
+    ✓ 175: Yveltal
+    ✓ 176: Galarian Obstagoon
+    ✓ 177: Galarian Perrserker
+    ✓ 178: Salamence
+    ✓ 179: Slakoth
+    ✓ 180: Teal Mask Ogerpon ex
+    ✓ 181: Blacephalon ex
+    ✓ 182: Alolan Ninetales ex
+    ✓ 183: Mega Swampert ex
+    ✓ 184: Toxtricity ex
+    ✓ 185: Mega Gardevoir ex
+    ✓ 186: Mimikyu ex
+    ✓ 187: Gigalith ex
+    ✓ 188: Mega Mawile ex
+    ✓ 189: Mega Kangaskhan ex
+    ✓ 190: Diantha
+    ✓ 191: Sightseer
+    ✓ 192: Juggler
+    ✓ 193: Piers
+    ✓ 194: Teal Mask Ogerpon ex
+    ✓ 195: Blacephalon ex
+    ✓ 196: Alolan Ninetales ex
+    ✓ 197: Mega Swampert ex
+    ✓ 198: Toxtricity ex
+    ✓ 199: Mimikyu ex
+    ✓ 200: Gigalith ex
+    -> 200 cards
+
+Saved 2111 cards to api/cache/limitless_cards.json
+
+============================================================
+Total cards: 2111
+
+Cards per set:
+  a1: 200
+  a1a: 86
+  a2: 200
+  a2a: 96
+  a2b: 111
+  a3: 200
+  a3a: 103
+  a3b: 107
+  a4: 200
+  a4a: 105
+  a4b: 200
+  b1: 200
+  b1a: 103
+  b2: 200

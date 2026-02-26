@@ -28,6 +28,35 @@ from extraction import (
 )
 import database
 from api.local_lookup import lookup_card, load_cards
+from api.german_mappings import GERMAN_TO_ENGLISH
+
+
+def translate_to_english(text: str) -> str:
+    """Translate German card names to English using mapping."""
+    text_lower = text.lower().strip()
+    
+    # Check for "ex" suffix before translation
+    has_ex = text_lower.endswith(' ex') or ' ex' in text_lower
+    
+    # Try direct match first
+    if text_lower in GERMAN_TO_ENGLISH:
+        result = GERMAN_TO_ENGLISH[text_lower]
+        if has_ex and 'ex' not in result.lower():
+            result = result + ' ex'
+        return result.title() if result[0].islower() else result
+    
+    # Try partial match - look for German substring
+    for ger, eng in GERMAN_TO_ENGLISH.items():
+        if ger in text_lower:
+            result = eng
+            if has_ex and 'ex' not in result.lower():
+                result = result + ' ex'
+            return result.title() if result[0].islower() else result
+    
+    return text
+
+
+# Continue with rest of imports/classes
 from api.limitless import scrape_card
 
 
@@ -55,36 +84,73 @@ def minimal_ocr_name(img: Image.Image, card_type: CardType) -> str | None:
     """
     MINIMAL OCR: Extract only the card NAME.
     This is all we need to match against the API database.
+    
+    Tries multiple zones as fallback for full art cards.
     """
     extractor = ZoneExtractor()
     
-    # For Pokemon: Zone 1 (name area)
-    # For Trainer: Zone 2 (name area)
+    # Define zones to try in order of preference
+    # For Pokemon: name -> card_number -> bottom edge
+    # For Trainer: name -> type
+    zones_to_try = []
+    
     if card_type == CardType.POKEMON:
-        zone = extractor.extract(img, 'name', CardType.POKEMON)
+        zones_to_try = [
+            ('name', CardType.POKEMON),
+            ('card_number', CardType.POKEMON),
+            ('evolution', CardType.POKEMON),
+        ]
     else:
-        zone = extractor.extract(img, 'name', CardType.TRAINER)
+        zones_to_try = [
+            ('name', CardType.TRAINER),
+            ('type', CardType.TRAINER),
+        ]
     
-    if zone is None:
-        return None
+    for zone_name, ctype in zones_to_try:
+        zone = extractor.extract(img, zone_name, ctype)
+        
+        if zone is None:
+            continue
+        
+        # Try multiple PSM modes for better OCR
+        for psm in ['6', '4', '11']:
+            text = pytesseract.image_to_string(zone, config=f'--psm {psm}')
+            
+            if not text:
+                continue
+            
+            # Extract name - find capitalized words
+            lines = text.strip().split('\n')[:5]
+            for line in lines:
+                words = line.split()
+                for word in words:
+                    clean = ''.join(c for c in word if c.isalpha())
+                    # Skip OCR artifacts and short words
+                    if len(clean) >= 3 and clean[0].isupper():
+                        clean = clean.upper()
+                        # Skip common OCR artifacts
+                        if clean.startswith('EAS'):
+                            continue
+                        if clean in ['THE', 'AND', 'FOR', 'BUT', 'NOT', 'YOU', 'ARE', 'HAS', 'HAD', 'WAS', 'WERE']:
+                            continue
+                        # Valid name found
+                        return clean
     
-    # OCR the zone - no preprocessing for better name reading
-    text = pytesseract.image_to_string(zone, config='--psm 6')
-    
-    if not text:
-        return None
-    
-    # Extract name - find capitalized words
-    lines = text.strip().split('\n')[:5]
-    for line in lines:
-        words = line.split()
-        for word in words:
-            clean = ''.join(c for c in word if c.isalpha())
-            # Skip OCR artifacts
-            if len(clean) >= 3 and clean[0].isupper():
-                # Clean up common OCR errors
-                clean = clean.upper()
-                if not clean.startswith('EAS'):  # OCR artifact
+    # Last resort: try full image OCR for very different card layouts
+    # This is slower but might catch full art cards
+    for psm in ['6', '3']:
+        text = pytesseract.image_to_string(img, config=f'--psm {psm}')
+        if text:
+            # Look for Pokemon-like names (capitalized words)
+            words = text.split()
+            for i, word in enumerate(words):
+                clean = ''.join(c for c in word if c.isalpha())
+                if len(clean) >= 4 and clean[0].isupper():
+                    # Check if next word might be 'ex' or similar
+                    next_word = words[i+1] if i+1 < len(words) else ''
+                    next_clean = ''.join(c for c in next_word if c.isalpha())
+                    if next_clean.lower() in ['ex', 'gx', 'vmax', 'v']:
+                        return clean + ' ex'
                     return clean
     
     return None
@@ -133,11 +199,12 @@ def card_to_dict(card) -> dict:
             else:
                 attacks_list.append({'name': str(att), 'damage': '', 'effect': ''})
     
-    # Format weakness with + damage
+    # Format weakness with + damage (non-EX = 2x, EX = 1x)
     weakness = card.weakness or ''
     if weakness and card.hp:
-        # Calculate weakness damage (usually 2x for non-EX)
-        weakness = f"{weakness}"  # Just the type, damage calculated elsewhere
+        # Calculate weakness damage: non-EX = 2xHP, EX = 1xHP
+        damage = card.hp * 2 if 'ex' not in card.name.lower() else card.hp
+        weakness = f"{weakness}+{damage}"
     
     return {
         'name': card.name,
@@ -150,7 +217,7 @@ def card_to_dict(card) -> dict:
         'energy_type': card.energy_type or '',
         'evolution_from': card.evolution_from or '',
         'attacks': attacks_list,
-        'weakness': card.weakness or '',
+        'weakness': weakness,
         'retreat_cost': str(card.retreat) if card.retreat else '',
         'rarity': card.rarity or '',
         'illustrator': card.illustrator or '',
@@ -184,6 +251,12 @@ def process_card_v2(image_path: str) -> tuple[bool, dict | None]:
         return False, None
     
     print(f"       -> OCR Name: {ocr_name}")
+    
+    # Translate German to English if needed
+    translated_name = translate_to_english(ocr_name)
+    if translated_name != ocr_name:
+        print(f"       -> Translated: {translated_name}")
+        ocr_name = translated_name
     
     # Step 4: API Match
     print(f"  \033[90m[4/4] API Match...\033[0m")
