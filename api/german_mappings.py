@@ -280,7 +280,6 @@ GERMAN_TO_ENGLISH = {
     'waumboll': 'Cottonee',
     'elfun': 'Whimsicott',
     'lilminip': 'Lilligant',
-    'dressella': 'Leafeon',
     'mähikel': 'Skiddo',
     'chevrumm': 'Gogoat',
     'glumanda': 'Charmander',

@@ -146,6 +146,7 @@ German Trainer cards:
 - `api/cache/german_cards_complete.json` - German cards (4834 cards)
 - `api/cache/german_cards.csv` - German CSV export
 - `api/cache/eng_to_ger_names.json` - English to German name mapping
+- `api/cache/set_mapping.json` - English to German set names
 - `api/cache/cards_database.db` - SQLite database (tables: scraped_cards, german_cards)
 - `collection.db` - User's captured cards (main collection)
 

@@ -183,6 +183,7 @@ def get_stats():
     row = cursor.fetchone()
     stats['total_unique'] = row['total'] or 0
     stats['total_quantity'] = row['total_qty'] or 0
+    stats['total'] = stats['total_unique']  # Alias for convenience
     
     # By category
     cursor.execute("""
@@ -190,6 +191,13 @@ def get_stats():
         FROM cards GROUP BY category
     """)
     stats['by_category'] = [dict(row) for row in cursor.fetchall()]
+    
+    # By set
+    cursor.execute("""
+        SELECT set_name, COUNT(*) as count, SUM(quantity) as qty 
+        FROM cards GROUP BY set_name
+    """)
+    stats['by_set'] = [dict(row) for row in cursor.fetchall()]
     
     # Failed captures
     cursor.execute("SELECT COUNT(*) FROM failed_captures")

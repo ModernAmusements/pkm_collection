@@ -32,26 +32,25 @@ from api.german_mappings import GERMAN_TO_ENGLISH
 
 
 def translate_to_english(text: str) -> str:
-    """Translate German card names to English using mapping."""
+    """Translate German card names to English using mapping.
+    
+    Only use EXACT matches to avoid wrong translations.
+    Partial matches are too error-prone.
+    """
     text_lower = text.lower().strip()
     
     # Check for "ex" suffix before translation
     has_ex = text_lower.endswith(' ex') or ' ex' in text_lower
     
-    # Try direct match first
+    # ONLY use exact match - partial matches cause wrong translations
     if text_lower in GERMAN_TO_ENGLISH:
         result = GERMAN_TO_ENGLISH[text_lower]
         if has_ex and 'ex' not in result.lower():
             result = result + ' ex'
         return result.title() if result[0].islower() else result
     
-    # Try partial match - look for German substring
-    for ger, eng in GERMAN_TO_ENGLISH.items():
-        if ger in text_lower:
-            result = eng
-            if has_ex and 'ex' not in result.lower():
-                result = result + ' ex'
-            return result.title() if result[0].islower() else result
+    # Don't use partial match - it's too error-prone
+    # e.g., "DRESSELLA" incorrectly matches something
     
     return text
 
@@ -61,11 +60,35 @@ from api.limitless import scrape_card
 
 
 SCREENSHOT_DIR = "screenshots/to_process"
+PKM_CARDS_DIR = "PKM_CARDS"  # Folder with set subdirectories (e.g., PKM_CARDS/B1/)
 CAPTURED_DIR = "screenshots/captured"
 CROPPED_DIR = "screenshots/cropped"
 FAILED_DIR = "screenshots/failed_to_capture"
 PROGRESS_FILE = "extraction_progress.json"
 BATCH_SIZE = 25
+
+
+def get_all_images():
+    """Get all images from both to_process and PKM_CARDS/*/ folders."""
+    files = []
+    
+    # Check PKM_CARDS first (prioritize this)
+    if os.path.exists(PKM_CARDS_DIR):
+        for set_folder in os.listdir(PKM_CARDS_DIR):
+            set_path = os.path.join(PKM_CARDS_DIR, set_folder)
+            if os.path.isdir(set_path):
+                set_files = glob.glob(os.path.join(set_path, "*.png")) + \
+                           glob.glob(os.path.join(set_path, "*.PNG"))
+                for f in set_files:
+                    files.append((f, set_folder))  # (filepath, set_name)
+    
+    # Also check to_process
+    to_proc = glob.glob(os.path.join(SCREENSHOT_DIR, "*.png")) + \
+              glob.glob(os.path.join(SCREENSHOT_DIR, "*.PNG"))
+    for f in to_proc:
+        files.append((f, None))  # No set info
+    
+    return sorted(files)
 
 
 def load_progress():
@@ -156,7 +179,158 @@ def minimal_ocr_name(img: Image.Image, card_type: CardType) -> str | None:
     return None
 
 
-def match_with_api(ocr_name: str, card_type: str) -> tuple[dict | None, float]:
+def enhanced_ocr_extract(img: Image.Image, card_type: CardType) -> dict:
+    """
+    ENHANCED OCR: Extract multiple signals from the card using FULL IMAGE OCR.
+    
+    Full image OCR is slower but more accurate than zone-based OCR.
+    """
+    import re
+    
+    signals = {
+        'name': None,
+        'hp': None,
+        'attacks': [],
+        'weakness': None,
+        'retreat': None,
+    }
+    
+    # Full image OCR - more accurate for name extraction
+    full_text = pytesseract.image_to_string(img, config='--psm 6')
+    lines = full_text.split('\n')
+    
+    # Extract Name - look for Pokemon name at the top
+    for line in lines[:10]:
+        words = line.split()
+        for word in words:
+            clean = ''.join(c for c in word if c.isalpha())
+            if len(clean) >= 4 and clean[0].isupper():
+                clean = clean.upper()
+                # Skip common OCR artifacts
+                if clean in ['THE', 'AND', 'FOR', 'BUT', 'NOT', 'YOU', 'ARE', 'HAS', 'HAD', 'WAS', 'WERE',
+                            'PHASE', 'KPOV', 'EAS', 'SSS', 'TTF', 'PNG', 'JPG']:
+                    continue
+                signals['name'] = clean
+                break
+        if signals['name']:
+            break
+    
+    # Extract HP - look for "NAME 80" pattern (number right after name)
+    # This is more reliable than zone-based OCR
+    hp_match = None
+    
+    # Try pattern: PokemonName Number (followed by space or KP)
+    for line in lines[:10]:
+        # Look for: word + space + number + space/end
+        match = re.search(r'([A-Za-z]+)\s+(\d{2,3})\s', line)
+        if match:
+            potential_name = match.group(1)
+            potential_hp = match.group(2)
+            # HP should be reasonable (20-340 for Pokemon cards)
+            if potential_hp and 20 <= int(potential_hp) <= 340:
+                signals['hp'] = potential_hp
+                break
+    
+    # Extract Weakness - look for energy icon + damage
+    weak_match = re.search(r'(Fire|Wasser|Pflanze|Psycho|Kampf|Dunkel|Drache|Fee|Ice|Elektro|Stahl)\s*\+\s*(\d+)', 
+                          full_text, re.IGNORECASE)
+    if weak_match:
+        energy = weak_match.group(1)
+        damage = weak_match.group(2)
+        energy_map = {
+            'Feuer': 'Fire', 'Wasser': 'Water', 'Pflanze': 'Grass',
+            'Psycho': 'Psychic', 'Kampf': 'Fighting', 'Dunkel': 'Dark',
+            'Drache': 'Dragon', 'Fee': 'Fairy', 'Ice': 'Ice', 
+            'Elektro': 'Lightning', 'Stahl': 'Metal'
+        }
+        signals['weakness'] = f"{energy_map.get(energy.title(), energy.title())}+{damage}"
+    
+    # Extract Retreat
+    retreat_match = re.search(r'Rückzug.*?(\d+)', full_text)
+    if retreat_match:
+        signals['retreat'] = retreat_match.group(1)
+    
+    # Extract Attacks - look for capitalized words in middle section
+    width, height = img.size
+    attack_zone = img.crop((0, height * 0.4, width, height * 0.8))
+    attack_text = pytesseract.image_to_string(attack_zone, config='--psm 6')
+    attack_lines = attack_text.split('\n')
+    
+    for line in attack_lines[:10]:
+        line = line.strip()
+        if len(line) >= 3 and len(line) <= 30:
+            if line.isdigit():
+                continue
+            if any(x in line.upper() for x in ['KP', 'HP', 'EX', 'GX', 'NR', 'FIG']):
+                continue
+            clean = ''.join(c for c in line if c.isalpha() or c.isspace())
+            if len(clean) >= 3 and clean[0].isupper():
+                signals['attacks'].append(clean)
+    
+    return signals
+    
+    # Extract Weakness - look for energy icon + damage
+    try:
+        # Find weakness section
+        weakness_section = None
+        # Try to find text containing weakness keyword
+        full_text = pytesseract.image_to_string(img, config='--psm 6')
+        
+        # Look for weakness pattern: energy type + number
+        weak_match = re.search(r'(Fire|Wasser|Pflanze|Psycho|Kampf|Dunkel|Drache|Fee|Ice|Elektro|Stahl)\s*\+\s*(\d+)', 
+                              full_text, re.IGNORECASE)
+        if weak_match:
+            energy = weak_match.group(1)
+            damage = weak_match.group(2)
+            # Map German to English
+            energy_map = {
+                'Feuer': 'Fire', 'Wasser': 'Water', 'Pflanze': 'Grass',
+                'Psycho': 'Psychic', 'Kampf': 'Fighting', 'Dunkel': 'Dark',
+                'Drache': 'Dragon', 'Fee': 'Fairy', 'Ice': 'Ice', 
+                'Elektro': 'Lightning', 'Stahl': 'Metal'
+            }
+            signals['weakness'] = f"{energy_map.get(energy.title(), energy.title())}+{damage}"
+    except:
+        pass
+    
+    # Extract Retreat - look for retreat cost
+    try:
+        full_text = pytesseract.image_to_string(img, config='--psm 6')
+        retreat_match = re.search(r'Rückzug.*?(\d+)', full_text)
+        if retreat_match:
+            signals['retreat'] = retreat_match.group(1)
+    except:
+        pass
+    
+    # Extract Attack names - look for attack section
+    try:
+        # Get bottom part of card where attacks usually are
+        width, height = img.size
+        attack_zone = img.crop((0, height * 0.5, width, height * 0.85))
+        attack_text = pytesseract.image_to_string(attack_zone, config='--psm 6')
+        
+        # Extract attack names (usually capitalized words followed by damage)
+        lines = attack_text.split('\n')
+        for line in lines[:8]:  # First few lines in attack zone
+            line = line.strip()
+            if len(line) >= 3 and len(line) <= 30:
+                # Skip lines that are just damage numbers
+                if line.isdigit():
+                    continue
+                # Skip common OCR artifacts
+                if any(x in line.upper() for x in ['KP', 'HP', 'EX', 'GX']):
+                    continue
+                # This might be an attack name
+                clean = ''.join(c for c in line if c.isalpha() or c.isspace())
+                if len(clean) >= 3 and clean[0].isupper():
+                    signals['attacks'].append(clean)
+    except:
+        pass
+    
+    return signals
+
+
+def match_with_api(ocr_name: str, card_type: str, target_set: str = None) -> tuple[dict | None, float]:
     """
     Match OCR name with API database.
     Returns: (matched_card_data, confidence)
@@ -169,8 +343,8 @@ def match_with_api(ocr_name: str, card_type: str) -> tuple[dict | None, float]:
     if not ocr_name:
         return None, 0.0
     
-    # Try local JSON database first (fast, offline)
-    result = lookup_card(ocr_name)
+    # Try local JSON database first (fast, offline) - with set filter
+    result = lookup_card(ocr_name, target_set=target_set)
     
     if result.success and result.card:
         # Check match type and assign confidence
@@ -224,64 +398,103 @@ def card_to_dict(card) -> dict:
     }
 
 
-def process_card_v2(image_path: str) -> tuple[bool, dict | None]:
+def process_card_v2(image_path: str, target_set: str = None) -> tuple[bool, dict | None]:
     """
-    Process a single card using Minimal OCR + API Match.
-    Goal: 100% confidence by matching with scraped API data.
+    Process a single card using Enhanced OCR + Multi-Signal API Match.
+    
+    Extraction signals:
+    1. Name (OCR)
+    2. HP (parse from text)
+    3. Attack names (OCR)
+    4. Weakness (energy type + damage)
+    5. Retreat cost
+    
+    Matching priority:
+    1. Exact name match (100%)
+    2. Fuzzy name + HP match (90%)
+    3. HP + Attack + Set match (85%)
+    4. HP + Weakness + Set match (80%)
+    5. HP + Retreat + Set match (75%)
+    6. Manual review (0%)
     """
     filename = os.path.basename(image_path)
     print(f"\n\033[1;36m[Processing V2]\033[0m {filename}")
     
     # Step 1: Preprocess - crop to card
-    print(f"  \033[90m[1/4] Preprocessing...\033[0m")
+    print(f"  \033[90m[1/5] Preprocessing...\033[0m")
     img = preprocess_image(image_path)
     print(f"       -> Size: {img.size}")
     
     # Step 2: Detect card type
-    print(f"  \033[90m[2/4] Detecting card type...\033[0m")
+    print(f"  \033[90m[2/5] Detecting card type...\033[0m")
     card_type = detect_card_type(img)
     print(f"       -> {card_type.value}")
     
-    # Step 3: MINIMAL OCR - Extract ONLY name
-    print(f"  \033[90m[3/4] Minimal OCR (name only)...\033[0m")
-    ocr_name = minimal_ocr_name(img, card_type)
+    # Step 3: ENHANCED OCR - Extract multiple signals
+    print(f"  \033[90m[3/5] Enhanced OCR (multiple signals)...\033[0m")
+    signals = enhanced_ocr_extract(img, card_type)
+    print(f"       -> Name: {signals.get('name')}")
+    print(f"       -> HP: {signals.get('hp')}")
+    print(f"       -> Weakness: {signals.get('weakness')}")
+    print(f"       -> Retreat: {signals.get('retreat')}")
+    print(f"       -> Attacks: {len(signals.get('attacks', []))}")
+    
+    ocr_name = signals.get('name')
     
     if not ocr_name:
         print(f"  \033[91m[✗] ERROR: Could not extract name\033[0m")
         return False, None
     
-    print(f"       -> OCR Name: {ocr_name}")
-    
     # Translate German to English if needed
     translated_name = translate_to_english(ocr_name)
     if translated_name != ocr_name:
         print(f"       -> Translated: {translated_name}")
-        ocr_name = translated_name
+        signals['name'] = translated_name
     
-    # Step 4: API Match
-    print(f"  \033[90m[4/4] API Match...\033[0m")
-    api_data, confidence = match_with_api(ocr_name, card_type.value)
+    # Step 4: Multi-Signal API Match
+    print(f"  \033[90m[4/5] Multi-Signal API Match...\033[0m")
     
-    if api_data and confidence >= 0.9:
-        # 100% confidence - use ALL API data
+    # Import the multi-signal matching function
+    from api.local_lookup import match_by_signals
+    
+    result = match_by_signals(signals, target_set)
+    
+    if result.success and result.confidence >= 0.6:
+        # Use matched card data
+        api_data = card_to_dict(result.card)
+        api_data['category'] = card_type.value.title()
+        
+        match_method = result.match_type.replace('_', ' ').title()
+        print(f"  \033[92m[✓] MATCH FOUND: {result.card.name}\033[0m")
+        print(f"       -> Method: {match_method}")
+        print(f"       -> Confidence: {result.confidence*100:.0f}%")
+        print(f"       -> HP: {api_data.get('hp', 'N/A')}")
+        print(f"       -> Set: {api_data.get('set', 'N/A')} #{api_data.get('card_number', 'N/A')}")
+        if api_data.get('attacks'):
+            print(f"       -> Attacks: {len(api_data['attacks'])}")
+        
         card_data = api_data
-        card_data['category'] = card_type.value.title()
-        print(f"  \033[92m[✓] MATCH FOUND: {card_data['name']}\033[0m")
-        print(f"       -> Confidence: {confidence*100:.0f}%")
-        print(f"       -> HP: {card_data.get('hp', 'N/A')}")
-        print(f"       -> Set: {card_data.get('set', 'N/A')} #{card_data.get('card_number', 'N/A')}")
-        if card_data.get('attacks'):
-            print(f"       -> Attacks: {len(card_data['attacks'])}")
+        confidence = result.confidence
     else:
-        # No match - use minimal OCR data, flag for review
-        print(f"  \033[93m[!] NO API MATCH\033[0m")
-        print(f"       -> Using OCR data only (low confidence)")
+        # No match - save for manual review with extracted signals
+        print(f"  \033[93m[!] NO MATCH - Saving for manual review\033[0m")
+        
+        # Create filename with signals
+        hp = signals.get('hp', 'N')
+        weak = signals.get('weakness', '').replace('+', '') if signals.get('weakness') else 'NW'
+        attack = signals.get('attacks', [''])[0][:5] if signals.get('attacks') else 'NA'
+        
         card_data = {
             'name': ocr_name,
             'category': card_type.value.title(),
-            'set': 'OCR',
+            'set': target_set or 'OCR',
             'card_number': '0',
+            'hp': signals.get('hp', ''),
+            'weakness': signals.get('weakness', ''),
+            'retreat': signals.get('retreat', ''),
+            'attacks': [{'name': a, 'damage': ''} for a in signals.get('attacks', [])],
             'confidence': 0.0,
+            'extracted_signals': signals,  # Save for debugging
         }
         confidence = 0.0
     
@@ -350,16 +563,24 @@ def add_to_collection(card_data: dict):
     print(f"       [DB] Added: {card['name']}")
 
 
-def run_batch_v2(start_index=0, batch_size=BATCH_SIZE):
+def run_batch_v2(start_index=0, batch_size=BATCH_SIZE, target_set=None):
     progress = load_progress()
     processed_files = set(progress.get('processed', []))
     failed_files = set(progress.get('failed', []))
     
-    all_files = sorted(glob.glob(os.path.join(SCREENSHOT_DIR, "*.png")) + 
-                      glob.glob(os.path.join(SCREENSHOT_DIR, "*.PNG")))
+    # Get all images with set info
+    all_files_with_set = get_all_images()
+    
+    # Filter by set if specified
+    if target_set:
+        all_files_with_set = [(f, s) for f, s in all_files_with_set if s and s.upper() == target_set.upper()]
+        print(f"\n[FILTER] Processing set: {target_set}")
+    
+    # Extract just filepaths for filtering
+    all_files = [f for f, s in all_files_with_set]
     
     files_to_process = [
-        f for f in all_files 
+        (f, s) for f, s in all_files_with_set 
         if os.path.basename(f) not in processed_files 
         and os.path.basename(f) not in failed_files
     ]
@@ -377,6 +598,8 @@ def run_batch_v2(start_index=0, batch_size=BATCH_SIZE):
     print(f"\n\033[1;36m{'═'*50}\033[0m")
     print(f"\033[1;36m  BATCH V2 - Minimal OCR + API Match\033[0m")
     print(f"\033[90m  Cards {start_index+1}-{min(start_index+batch_size, len(files_to_process))} of {len(files_to_process)}\033[0m")
+    if target_set:
+        print(f"\033[90m  Set filter: {target_set}\033[0m")
     print(f"\033[1;36m{'═'*50}\033[0m")
     
     # Pre-load API database
@@ -386,11 +609,11 @@ def run_batch_v2(start_index=0, batch_size=BATCH_SIZE):
     
     results = []
     
-    for i, filepath in enumerate(batch):
+    for i, (filepath, set_name) in enumerate(batch):
         idx = start_index + i
         filename = os.path.basename(filepath)
         
-        success, card = process_card_v2(filepath)
+        success, card = process_card_v2(filepath, target_set=set_name)
         
         if success:
             results.append(card)
@@ -444,11 +667,18 @@ def main():
         show_status()
         print("Usage:")
         print("  python3 extract_batch_v2.py status")
-        print("  python3 extract_batch_v2.py run [count]")
+        print("  python3 extract_batch_v2.py run [count] [--set SET]")
         print("  python3 extract_batch_v2.py reset")
         return
     
     cmd = sys.argv[1]
+    target_set = None
+    
+    # Check for --set flag
+    if '--set' in sys.argv:
+        set_idx = sys.argv.index('--set')
+        if set_idx + 1 < len(sys.argv):
+            target_set = sys.argv[set_idx + 1]
     
     if cmd == 'status':
         show_status()
@@ -457,10 +687,10 @@ def main():
             os.remove(PROGRESS_FILE)
         print("[RESET] Done")
     elif cmd == 'run':
-        batch_size = int(sys.argv[2]) if len(sys.argv) > 2 else BATCH_SIZE
+        batch_size = int(sys.argv[2]) if len(sys.argv) > 2 and sys.argv[2].isdigit() else BATCH_SIZE
         progress = load_progress()
         start = progress.get('last_index', -1) + 1
-        run_batch_v2(start, batch_size)
+        run_batch_v2(start, batch_size, target_set)
     else:
         print(f"Unknown: {cmd}")
 

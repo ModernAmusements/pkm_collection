@@ -428,7 +428,7 @@ def find_limitless_card(cards: list, name: str, hp: str = None) -> list:
 
 
 def lookup_card(name: str, hp: str = None, energy: str = None,
-                pokedex: str = None) -> MatchResult:
+                pokedex: str = None, target_set: str = None) -> MatchResult:
     """
     Lookup card from local database.
     
@@ -440,10 +440,15 @@ def lookup_card(name: str, hp: str = None, energy: str = None,
     Matching:
     - Name match = exact
     - Name + HP match = exact
+    - Set filter = target_set (if provided, prioritize cards from that set)
     """
     # FIRST: Try German cards (for German OCR)
     german_cards = load_german_cards()
     german_result = None
+    
+    # Filter by set if target_set is provided
+    if target_set and german_cards:
+        german_cards = [c for c in german_cards if c.get('set_id', '').upper() == target_set.upper()]
     
     if german_cards:
         results = find_german_card(german_cards, name, hp)
@@ -488,6 +493,10 @@ def lookup_card(name: str, hp: str = None, energy: str = None,
     
     # SECOND: Try Limitless scraped data (has MORE fields)
     limitless_cards = load_limitless_cards()
+    
+    # Filter by set if target_set is provided
+    if target_set and limitless_cards:
+        limitless_cards = [c for c in limitless_cards if c.get('set_id', '').upper() == target_set.upper()]
     
     if limitless_cards:
         results = find_limitless_card(limitless_cards, name, hp)
@@ -703,3 +712,197 @@ if __name__ == "__main__":
     if result.card:
         print(f"  Found: {result.card.name} ({result.card.hp} HP, {result.card.energy_type})")
         print(f"  Set: {result.card.set_id}, Artist: {result.card.illustrator}")
+
+
+def match_by_signals(signals: dict, target_set: str = None) -> MatchResult:
+    """
+    Multi-signal matching using OCR-extracted signals.
+    
+    Signals dict should contain:
+    - name: OCR'd name (often wrong)
+    - hp: hit points
+    - attacks: list of attack names
+    - weakness: "Fire+20" format
+    - retreat: retreat cost
+    
+    Matching priority:
+    1. Exact name match (100%)
+    2. Fuzzy name + HP match (90%)
+    3. HP + Attack + Set match (85%)
+    4. HP + Weakness + Set match (80%)
+    5. HP + Retreat + Set match (75%)
+    """
+    name = signals.get('name', '')
+    hp = signals.get('hp', '')
+    attacks = signals.get('attacks', [])
+    weakness = signals.get('weakness', '')
+    retreat = signals.get('retreat', '')
+    
+    # Priority 1: Exact name match
+    if name:
+        result = lookup_card(name, target_set=target_set)
+        if result.success and result.match_type == 'exact' and result.confidence >= 1.0:
+            result.match_type = 'exact_name'
+            return result
+    
+    # Priority 2: Fuzzy name + HP match
+    if name and hp:
+        result = lookup_card(name, hp=hp, target_set=target_set)
+        if result.success:
+            result.match_type = 'fuzzy_name_hp'
+            result.confidence = 0.9
+            return result
+    
+    # Priority 3: HP + Attack + Set match
+    if hp and attacks and target_set:
+        result = match_by_hp_attack_set(hp, attacks[0] if attacks else '', target_set)
+        if result.success:
+            result.match_type = 'hp_attack_set'
+            result.confidence = 0.85
+            return result
+    
+    # Priority 4: HP + Weakness + Set match
+    if hp and weakness and target_set:
+        result = match_by_hp_weakness_set(hp, weakness, target_set)
+        if result.success:
+            result.match_type = 'hp_weakness_set'
+            result.confidence = 0.80
+            return result
+    
+    # Priority 5: HP + Retreat + Set match
+    if hp and retreat and target_set:
+        result = match_by_hp_retreat_set(hp, retreat, target_set)
+        if result.success:
+            result.match_type = 'hp_retreat_set'
+            result.confidence = 0.75
+            return result
+    
+    # Priority 6: HP + Set only (last resort)
+    if hp and target_set:
+        result = match_by_hp_set(hp, target_set)
+        if result.success:
+            result.match_type = 'hp_set'
+            result.confidence = 0.60
+            return result
+    
+    return MatchResult(success=False, match_type='none', confidence=0.0)
+
+
+def match_by_hp_attack_set(hp: str, attack: str, target_set: str) -> MatchResult:
+    """Match by HP + Attack name + Set."""
+    german_cards = load_german_cards()
+    german_cards = [c for c in german_cards if c.get('set_id', '').upper() == target_set.upper()]
+    
+    if not german_cards:
+        return MatchResult(success=False, match_type='none', confidence=0.0)
+    
+    # Match by HP
+    hp_matches = [c for c in german_cards if str(c.get('hp')) == hp]
+    
+    if not hp_matches:
+        return MatchResult(success=False, match_type='none', confidence=0.0)
+    
+    # If only one HP match, use it
+    if len(hp_matches) == 1:
+        card = hp_matches[0]
+        english_match = find_english_by_name_and_set(card.get('german_name', ''), target_set)
+        card_data = german_to_carddata(card, english_match)
+        return MatchResult(success=True, card=card_data, match_type='hp_attack', confidence=0.85)
+    
+    # Multiple HP matches - try attack
+    if attack:
+        attack_lower = attack.lower()
+        for c in hp_matches:
+            card_attacks = c.get('attacks', [])
+            if isinstance(card_attacks, str):
+                import json
+                card_attacks = json.loads(card_attacks) if card_attacks else []
+            if card_attacks:
+                for a in card_attacks:
+                    if attack_lower in a.get('name', '').lower():
+                        english_match = find_english_by_name_and_set(c.get('german_name', ''), target_set)
+                        card_data = german_to_carddata(c, english_match)
+                        return MatchResult(success=True, card=card_data, match_type='hp_attack', confidence=0.85)
+    
+    # No attack match - return first HP match
+    card = hp_matches[0]
+    english_match = find_english_by_name_and_set(card.get('german_name', ''), target_set)
+    card_data = german_to_carddata(card, english_match)
+    return MatchResult(success=True, card=card_data, match_type='hp_only', confidence=0.60)
+
+
+def match_by_hp_weakness_set(hp: str, weakness: str, target_set: str) -> MatchResult:
+    """Match by HP + Weakness + Set."""
+    german_cards = load_german_cards()
+    german_cards = [c for c in german_cards if c.get('set_id', '').upper() == target_set.upper()]
+    
+    if not german_cards:
+        return MatchResult(success=False, match_type='none', confidence=0.0)
+    
+    # Extract weakness type from "Fire+20" format
+    weak_type = weakness.split('+')[0] if weakness else ''
+    
+    # Match by HP + Weakness type
+    for c in german_cards:
+        if str(c.get('hp')) == hp:
+            card_weak = c.get('weakness', '')
+            if card_weak and weak_type.lower() in card_weak.lower():
+                english_match = find_english_by_name_and_set(c.get('german_name', ''), target_set)
+                card_data = german_to_carddata(c, english_match)
+                return MatchResult(success=True, card=card_data, match_type='hp_weakness', confidence=0.80)
+    
+    return MatchResult(success=False, match_type='none', confidence=0.0)
+
+
+def match_by_hp_retreat_set(hp: str, retreat: str, target_set: str) -> MatchResult:
+    """Match by HP + Retreat + Set."""
+    german_cards = load_german_cards()
+    german_cards = [c for c in german_cards if c.get('set_id', '').upper() == target_set.upper()]
+    
+    if not german_cards:
+        return MatchResult(success=False, match_type='none', confidence=0.0)
+    
+    # Match by HP + Retreat
+    for c in german_cards:
+        if str(c.get('hp')) == hp:
+            card_retreat = str(c.get('retreat', ''))
+            if card_retreat == retreat:
+                english_match = find_english_by_name_and_set(c.get('german_name', ''), target_set)
+                card_data = german_to_carddata(c, english_match)
+                return MatchResult(success=True, card=card_data, match_type='hp_retreat', confidence=0.75)
+    
+    return MatchResult(success=False, match_type='none', confidence=0.0)
+
+
+def match_by_hp_set(hp: str, target_set: str) -> MatchResult:
+    """Match by HP + Set only (last resort)."""
+    german_cards = load_german_cards()
+    german_cards = [c for c in german_cards if c.get('set_id', '').upper() == target_set.upper()]
+    
+    if not german_cards:
+        return MatchResult(success=False, match_type='none', confidence=0.0)
+    
+    # Match by HP
+    hp_matches = [c for c in german_cards if str(c.get('hp')) == hp]
+    
+    if hp_matches:
+        card = hp_matches[0]
+        english_match = find_english_by_name_and_set(card.get('german_name', ''), target_set)
+        card_data = german_to_carddata(card, english_match)
+        return MatchResult(success=True, card=card_data, match_type='hp_set', confidence=0.60)
+    
+    return MatchResult(success=False, match_type='none', confidence=0.0)
+
+
+def find_english_by_name_and_set(german_name: str, target_set: str):
+    """Find English card by German name + set."""
+    english_name = get_english_name(german_name)
+    if not english_name:
+        return None
+    
+    limitless_cards = load_limitless_cards()
+    for ec in limitless_cards:
+        if ec.get('name', '').lower() == english_name.lower() and \
+           ec.get('set_id', '').upper() == target_set.upper():
+            return ec
+    return None
