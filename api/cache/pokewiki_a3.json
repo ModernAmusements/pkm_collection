@@ -75,7 +75,7 @@
     "retreat": "",
     "attacks": [
       {
-        "name": "Windsto\u00df",
+        "name": "Windstoß",
         "damage": "50",
         "cost": [
           "Colorless",
@@ -106,7 +106,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "K\u00e4ferbiss",
+        "name": "Käferbiss",
         "damage": "20",
         "cost": [
           "Grass"
@@ -273,8 +273,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Kraftkopplung",
+    "ability_effect": "Wenn du Arceus oder Arceus-exim Spiel hast, fügen die von diesem Pokémon eingesetzten Attacken dem Aktiven Pokémon deines Gegners + 30 Schadenspunkte zu.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0455",
@@ -311,8 +311,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Waldatem",
+    "ability_effect": "Einmal während deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, kannst du 1-Energie aus deinem Energiebereich an 1 deiner-Pokémon anlegen.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "",
@@ -363,7 +363,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Bedr\u00e4ngen",
+        "name": "Bedrängen",
         "damage": "60",
         "cost": [
           "Fire",
@@ -409,8 +409,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Tempokopplung",
+    "ability_effect": "Wenn du Arceus oder Arceus-exim Spiel hast, hat dieses Pokémon keine Rückzugskosten.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0485",
@@ -664,8 +664,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Vitalkopplung",
+    "ability_effect": "Wenn du Arceus oder Arceus-exim Spiel hast, verringern sich die Kosten der von diesem Pokémon eingesetzten Attacken um 1-Energie.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0460",
@@ -702,8 +702,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Schneefeld",
+    "ability_effect": "Wenn dieses Pokémon beim Pokémon-Check in der Aktiven Position ist, füge dem Aktiven Pokémon deines Gegners 10 Schadenspunkte zu.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "",
@@ -832,8 +832,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Widerstandskopplung",
+    "ability_effect": "Wenn du Arceus oder Arceus-exim Spiel hast, werden diesem Pokémon durch Attacken - 30 Schadenspunkte zugefügt.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0026",
@@ -1083,8 +1083,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "CHECK",
+    "ability_effect": "Einmal während deines Zuges kannst du einen Spieler auswählen. Schau dir die oberste Karte des Decks dieses Spielers an.",
     "rarity": "1 Diamond",
     "illustrator": "",
     "pokedex_number": "0201",
@@ -1119,8 +1119,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Tempokopplung",
+    "ability_effect": "Wenn du Arceus oder Arceus-exim Spiel hast, hat dieses Pokémon keine Rückzugskosten.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0479",
@@ -1141,7 +1141,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "K\u00e4mpferische Kopfnuss",
+        "name": "Kämpferische Kopfnuss",
         "damage": "20",
         "cost": [
           "Fighting"
@@ -1313,8 +1313,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Kraftkopplung",
+    "ability_effect": "Wenn du Arceus oder Arceus-exim Spiel hast, fügen die von diesem Pokémon eingesetzten Attacken dem Aktiven Pokémon deines Gegners + 30 Schadenspunkte zu.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0248",
@@ -1587,14 +1587,14 @@
         "effect": ""
       },
       {
-        "name": "F\u00e4nge der Dunkelheit",
+        "name": "Fänge der Dunkelheit",
         "damage": "50",
         "cost": [],
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Trickkopplung",
+    "ability_effect": "Wenn du Arceus oder Arceus-exim Spiel hast, kannst du einmal während deines Zuges dem Aktiven Pokémon deines Gegners 30 Schadenspunkte zufügen.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0169",
@@ -1615,7 +1615,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Verpr\u00fcgler",
+        "name": "Verprügler",
         "damage": "20",
         "cost": [],
         "effect": ""
@@ -1748,8 +1748,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Widerstandskopplung",
+    "ability_effect": "Wenn du Arceus oder Arceus-exim Spiel hast, werden diesem Pokémon durch Attacken - 30 Schadenspunkte zugefügt.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0462",
@@ -1770,7 +1770,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Stahlger\u00fcstbrecher",
+        "name": "Stahlgerüstbrecher",
         "damage": "20",
         "cost": [
           "Colorless"
@@ -2052,7 +2052,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Lautlose Fl\u00fcgel",
+        "name": "Lautlose Flügel",
         "damage": "50",
         "cost": [
           "Colorless",
@@ -2113,7 +2113,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Fl\u00fcgelschlag",
+        "name": "Flügelschlag",
         "damage": "30",
         "cost": [
           "Colorless"
@@ -2190,8 +2190,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Himmelshilfe",
+    "ability_effect": "Solange sich dieses Pokémon auf deiner Bank befindet, verringern sich die Rückzugskosten deines Aktiven Basis-Pokémon um 1.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0492",
@@ -2223,8 +2223,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Sagenhafter Glanz",
+    "ability_effect": "Dieses Pokémon kann nicht von Speziellen Zuständen betroffen werden.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0493",
@@ -2261,8 +2261,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Sagenhafter Glanz",
+    "ability_effect": "Dieses Pokémon kann nicht von Speziellen Zuständen betroffen werden.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "",
@@ -2283,7 +2283,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Bedr\u00e4ngen",
+        "name": "Bedrängen",
         "damage": "60",
         "cost": [
           "Fire",
@@ -2358,8 +2358,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "CHECK",
+    "ability_effect": "Einmal während deines Zuges kannst du einen Spieler auswählen. Schau dir die oberste Karte des Decks dieses Spielers an.",
     "rarity": "1 Diamond",
     "illustrator": "",
     "pokedex_number": "0201",
@@ -2380,7 +2380,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "K\u00e4mpferische Kopfnuss",
+        "name": "Kämpferische Kopfnuss",
         "damage": "20",
         "cost": [
           "Fighting"
@@ -2455,8 +2455,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Himmelshilfe",
+    "ability_effect": "Solange sich dieses Pokémon auf deiner Bank befindet, verringern sich die Rückzugskosten deines Aktiven Basis-Pokémon um 1.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0492",
@@ -2493,8 +2493,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Waldatem",
+    "ability_effect": "Einmal während deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, kannst du 1-Energie aus deinem Energiebereich an 1 deiner-Pokémon anlegen.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "",
@@ -2531,8 +2531,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Schneefeld",
+    "ability_effect": "Wenn dieses Pokémon beim Pokémon-Check in der Aktiven Position ist, füge dem Aktiven Pokémon deines Gegners 10 Schadenspunkte zu.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "",
@@ -2641,8 +2641,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Sagenhafter Glanz",
+    "ability_effect": "Dieses Pokémon kann nicht von Speziellen Zuständen betroffen werden.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "",
@@ -2679,8 +2679,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Waldatem",
+    "ability_effect": "Einmal während deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, kannst du 1-Energie aus deinem Energiebereich an 1 deiner-Pokémon anlegen.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "",
@@ -2717,8 +2717,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Schneefeld",
+    "ability_effect": "Wenn dieses Pokémon beim Pokémon-Check in der Aktiven Position ist, füge dem Aktiven Pokémon deines Gegners 10 Schadenspunkte zu.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "",
@@ -2827,8 +2827,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Sagenhafter Glanz",
+    "ability_effect": "Dieses Pokémon kann nicht von Speziellen Zuständen betroffen werden.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "",
@@ -2865,8 +2865,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Sagenhafter Glanz",
+    "ability_effect": "Dieses Pokémon kann nicht von Speziellen Zuständen betroffen werden.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "",

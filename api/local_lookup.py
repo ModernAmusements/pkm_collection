@@ -29,6 +29,11 @@ def load_german_cards() -> list:
     return []
 
 
+def load_cards() -> list:
+    """Alias for load_german_cards() - backward compatibility."""
+    return load_german_cards()
+
+
 # Pokedex number mapping (built from card names - simplified)
 # In reality, this would need a proper mapping
 POKEMON_POKEDEX = {

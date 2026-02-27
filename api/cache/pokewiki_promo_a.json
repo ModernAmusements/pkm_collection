@@ -144,7 +144,7 @@
         "effect": ""
       },
       {
-        "name": "Windsto\u00df",
+        "name": "Windstoß",
         "damage": "60",
         "cost": [
           "Grass",
@@ -154,8 +154,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Puderheilung",
+    "ability_effect": "Einmal während deines Zuges kannst du 20 Schadenspunkte bei jedem deiner Pokémon heilen.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0012",
@@ -346,8 +346,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Wasser-Shuriken",
+    "ability_effect": "Einmal während deines Zuges kannst du 1 Pokémon deines Gegners 20 Schadenspunkte zufügen.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0658",
@@ -368,7 +368,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "\u00dcberraschungsangriff",
+        "name": "Überraschungsangriff",
         "damage": "50",
         "cost": [
           "Psychic"
@@ -529,7 +529,7 @@
         "effect": ""
       },
       {
-        "name": "Hitzesto\u00df",
+        "name": "Hitzestoß",
         "damage": "70",
         "cost": [
           "Fire",
@@ -693,8 +693,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Volivoli-Entwicklung",
+    "ability_effect": "Dieses Pokémon kann sich zu einem beliebigen Pokémon entwickeln, das sich aus Evoli entwickelt, wenn du es aus deiner Hand auf dieses Pokémon spielst.(Dieses Pokémon kann sich während deines ersten Zuges oder während des Zuges, in dem du es spielst, nicht entwickeln.)",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0133",
@@ -915,8 +915,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Lunargefieder",
+    "ability_effect": "Heile jedes Mal, wenn du 1-Energie aus dem Energiebereich an dieses Pokémon anlegst, 20 Schadenspunkte bei diesem Pokémon.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "",
@@ -1071,8 +1071,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Alptraum-Aura",
+    "ability_effect": "Füge jedes Mal, wenn du 1-Energie aus dem Energiebereich an dieses Pokémon anlegst, dem Aktiven Pokémon deines Gegners 20 Schadenspunkte zu.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "",
@@ -1139,8 +1139,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Widerstandskopplung",
+    "ability_effect": "Wenn du Arceus oder Arceus-exim Spiel hast, werden diesem Pokémon durch Attacken - 30 Schadenspunkte zugefügt.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0026",
@@ -1222,13 +1222,13 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Sch\u00fctzender Wirbelwind",
+        "name": "Schützender Wirbelwind",
         "damage": "",
         "cost": [],
         "effect": ""
       },
       {
-        "name": "Fl\u00fcgelschlag",
+        "name": "Flügelschlag",
         "damage": "90",
         "cost": [
           "Colorless",
@@ -1238,8 +1238,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Schützender Wirbelwind",
+    "ability_effect": "Diesem Pokémon werden durch Attacken von-Pokémon - 30 Schadenspunkte zugefügt.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0398",
@@ -1323,7 +1323,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Psychosph\u00e4re",
+        "name": "Psychosphäre",
         "damage": "50",
         "cost": [
           "Psychic",
@@ -1365,7 +1365,7 @@
     "retreat": "",
     "attacks": [
       {
-        "name": "\u00dcberbeschleunigung",
+        "name": "Überbeschleunigung",
         "damage": "20",
         "cost": [
           "Colorless"
@@ -1470,8 +1470,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Gegenangriff",
+    "ability_effect": "Wenn dieses Pokémon in der Aktiven Position ist und durch eine Attacke von Pokémon deines Gegners Schaden erhält, füge dem Angreifenden Pokémon 20 Schadenspunkte zu.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0923",
@@ -2093,8 +2093,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Blendender Blitzsturm",
+    "ability_effect": "Am Ende deines ersten Zuges lege 1-Energie aus deinem Energiebereich an dieses Pokémon an.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0807",
@@ -2414,7 +2414,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "S\u00fc\u00dfe Staffel",
+        "name": "Süße Staffel",
         "damage": "10",
         "cost": [
           "Water"
@@ -2474,7 +2474,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "S\u00fc\u00dfer \u00dcberfluss",
+        "name": "Süßer Überfluss",
         "damage": "40",
         "cost": [
           "Colorless"
@@ -2636,8 +2636,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Volivoli-Entwicklung",
+    "ability_effect": "Dieses Pokémon kann sich zu einem beliebigen Pokémon entwickeln, das sich aus Evoli entwickelt, wenn du es aus deiner Hand auf dieses Pokémon spielst.(Dieses Pokémon kann sich während deines ersten Zuges oder während des Zuges, in dem du es spielst, nicht entwickeln.)",
     "rarity": "2 Diamond",
     "illustrator": "",
     "pokedex_number": "0133",
@@ -2716,7 +2716,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Lockendes Gl\u00fchen",
+        "name": "Lockendes Glühen",
         "damage": "",
         "cost": [
           "Electric"
@@ -2774,7 +2774,7 @@
     "retreat": "3",
     "attacks": [
       {
-        "name": "\u00dcberkreuzzerschneider",
+        "name": "Überkreuzzerschneider",
         "damage": "20",
         "cost": [
           "Colorless"
@@ -2895,7 +2895,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "\u00dcberkreuzflug",
+        "name": "Überkreuzflug",
         "damage": "20",
         "cost": [
           "Psychic"
@@ -2925,7 +2925,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Doppelsto\u00df",
+        "name": "Doppelstoß",
         "damage": "40",
         "cost": [
           "Colorless",
@@ -2956,7 +2956,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "\u00dcberraschungsangriff",
+        "name": "Überraschungsangriff",
         "damage": "40",
         "cost": [
           "Colorless"
@@ -3001,8 +3001,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Heilende Wellen",
+    "ability_effect": "Einmal während deines Zuges, wenn du dieses Pokémon von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du 60 Schadenspunkte bei 1 deiner-Pokémon heilen.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0350",
@@ -3051,7 +3051,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Tr\u00fcgerische Trickserei",
+        "name": "Trügerische Trickserei",
         "damage": "",
         "cost": [],
         "effect": ""
@@ -3063,8 +3063,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Trügerische Trickserei",
+    "ability_effect": "Wenn das Pokémon deines Gegners durch Schaden der Attacken dieses Pokémon kampfunfähig wird, verhindere während des nächsten Zuges deines Gegners allen Schaden durch und alle Effekte von Attacken, die diesem Pokémon zugefügt werden.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0571",
@@ -3159,8 +3159,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Volivoli-Entwicklung",
+    "ability_effect": "Dieses Pokémon kann sich zu einem beliebigen Pokémon entwickeln, das sich aus Evoli entwickelt, wenn du es aus deiner Hand auf dieses Pokémon spielst.(Dieses Pokémon kann sich während deines ersten Zuges oder während des Zuges, in dem du es spielst, nicht entwickeln.)",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "",
@@ -3181,13 +3181,13 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Legend\u00e4rer Puls",
+        "name": "Legendärer Puls",
         "damage": "",
         "cost": [],
         "effect": ""
       },
       {
-        "name": "Lodernder Niederpr\u00fcgler",
+        "name": "Lodernder Niederprügler",
         "damage": "60",
         "cost": [
           "Fire",
@@ -3196,8 +3196,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Legendärer Puls",
+    "ability_effect": "Am Ende deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, ziehe 1 Karte.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "",
@@ -3259,8 +3259,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Widerstandskopplung",
+    "ability_effect": "Wenn du Arceus oder Arceus-exim Spiel hast, werden diesem Pokémon durch Attacken - 30 Schadenspunkte zugefügt.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "",
@@ -3392,8 +3392,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Duftender Blumengarten",
+    "ability_effect": "Einmal während deines Zuges kannst du 10 Schadenspunkte bei jedem deiner Pokémon heilen.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0492",
@@ -3414,7 +3414,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "\u00dcberspringen",
+        "name": "Überspringen",
         "damage": "",
         "cost": [],
         "effect": ""

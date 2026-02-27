@@ -45,7 +45,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Bl\u00e4tterkanonade",
+        "name": "Blätterkanonade",
         "damage": "10",
         "cost": [
           "Colorless"
@@ -135,7 +135,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Abw\u00e4rtstritt",
+        "name": "Abwärtstritt",
         "damage": "50",
         "cost": [
           "Grass"
@@ -195,7 +195,7 @@
     "retreat": "3",
     "attacks": [
       {
-        "name": "S\u00fc\u00dfe Staffel",
+        "name": "Süße Staffel",
         "damage": "40",
         "cost": [
           "Grass"
@@ -256,7 +256,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "\u00dcberhitzen",
+        "name": "Überhitzen",
         "damage": "",
         "cost": [],
         "effect": ""
@@ -449,7 +449,7 @@
     "retreat": "",
     "attacks": [
       {
-        "name": "Gl\u00fchen",
+        "name": "Glühen",
         "damage": "40",
         "cost": [
           "Fire"
@@ -542,7 +542,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "S\u00fc\u00dfe Staffel",
+        "name": "Süße Staffel",
         "damage": "10",
         "cost": [
           "Water"
@@ -572,7 +572,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "S\u00fc\u00dfe Staffel",
+        "name": "Süße Staffel",
         "damage": "30",
         "cost": [
           "Water"
@@ -665,7 +665,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Gie\u00dfen",
+        "name": "Gießen",
         "damage": "30",
         "cost": [
           "Water",
@@ -797,7 +797,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Durchr\u00fctteln",
+        "name": "Durchrütteln",
         "damage": "10",
         "cost": [
           "Electric"
@@ -888,7 +888,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Windsto\u00df",
+        "name": "Windstoß",
         "damage": "20",
         "cost": [
           "Psychic"
@@ -948,7 +948,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "S\u00fc\u00dfe Staffel",
+        "name": "Süße Staffel",
         "damage": "10",
         "cost": [
           "Colorless"
@@ -978,7 +978,7 @@
     "retreat": "3",
     "attacks": [
       {
-        "name": "S\u00fc\u00dfe Staffel",
+        "name": "Süße Staffel",
         "damage": "30",
         "cost": [
           "Colorless",
@@ -1040,7 +1040,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Gl\u00fccksb\u00e4nder",
+        "name": "Glücksbänder",
         "damage": "",
         "cost": [],
         "effect": ""
@@ -1108,7 +1108,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "S\u00fc\u00dfe Staffel",
+        "name": "Süße Staffel",
         "damage": "10",
         "cost": [
           "Colorless"
@@ -1138,7 +1138,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "S\u00fc\u00dfer \u00dcberfluss",
+        "name": "Süßer Überfluss",
         "damage": "40",
         "cost": [
           "Colorless"
@@ -1262,7 +1262,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Fu\u00dfkick",
+        "name": "Fußkick",
         "damage": "70",
         "cost": [
           "Fighting",
@@ -1560,7 +1560,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Verpr\u00fcgler",
+        "name": "Verprügler",
         "damage": "20",
         "cost": [
           "Colorless"
@@ -1621,7 +1621,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Gigasto\u00df",
+        "name": "Gigastoß",
         "damage": "180",
         "cost": [
           "Water",
@@ -1750,7 +1750,7 @@
     "retreat": "4",
     "attacks": [
       {
-        "name": "St\u00e4ndiges Vollstopfen",
+        "name": "Ständiges Vollstopfen",
         "damage": "",
         "cost": [],
         "effect": ""
@@ -2040,7 +2040,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Bl\u00e4tterkanonade",
+        "name": "Blätterkanonade",
         "damage": "10",
         "cost": [
           "Colorless"
@@ -2313,7 +2313,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "\u00dcberhitzen",
+        "name": "Überhitzen",
         "damage": "",
         "cost": [],
         "effect": ""
@@ -2391,7 +2391,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Gl\u00fccksb\u00e4nder",
+        "name": "Glücksbänder",
         "damage": "",
         "cost": [],
         "effect": ""
@@ -2428,7 +2428,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Gigasto\u00df",
+        "name": "Gigastoß",
         "damage": "180",
         "cost": [
           "Water",
@@ -2496,7 +2496,7 @@
     "retreat": "4",
     "attacks": [
       {
-        "name": "St\u00e4ndiges Vollstopfen",
+        "name": "Ständiges Vollstopfen",
         "damage": "",
         "cost": [],
         "effect": ""
@@ -2535,7 +2535,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "\u00dcberhitzen",
+        "name": "Überhitzen",
         "damage": "",
         "cost": [],
         "effect": ""
@@ -2613,7 +2613,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Gl\u00fccksb\u00e4nder",
+        "name": "Glücksbänder",
         "damage": "",
         "cost": [],
         "effect": ""
@@ -2650,7 +2650,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Gigasto\u00df",
+        "name": "Gigastoß",
         "damage": "180",
         "cost": [
           "Water",
@@ -2682,7 +2682,7 @@
     "retreat": "4",
     "attacks": [
       {
-        "name": "St\u00e4ndiges Vollstopfen",
+        "name": "Ständiges Vollstopfen",
         "damage": "",
         "cost": [],
         "effect": ""
@@ -2819,7 +2819,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Gro\u00dfe Explosion",
+        "name": "Große Explosion",
         "damage": "30",
         "cost": [
           "Electric"
@@ -3005,7 +3005,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Bedr\u00e4ngen",
+        "name": "Bedrängen",
         "damage": "60",
         "cost": [
           "Colorless"
@@ -3073,7 +3073,7 @@
         "effect": ""
       },
       {
-        "name": "Hitzesto\u00df",
+        "name": "Hitzestoß",
         "damage": "70",
         "cost": [
           "Fire",

@@ -387,7 +387,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "K\u00e4ferbiss",
+        "name": "Käferbiss",
         "damage": "20",
         "cost": [
           "Grass"
@@ -603,7 +603,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Bl\u00e4ttergewirbel",
+        "name": "Blättergewirbel",
         "damage": "90",
         "cost": [
           "Grass",
@@ -680,8 +680,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Duftender Blumengarten",
+    "ability_effect": "Einmal während deines Zuges kannst du 10 Schadenspunkte bei jedem deiner Pokémon heilen.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0492",
@@ -917,7 +917,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Hei\u00dfer Atem",
+        "name": "Heißer Atem",
         "damage": "30",
         "cost": [
           "Fire",
@@ -985,7 +985,7 @@
         "effect": ""
       },
       {
-        "name": "Einh\u00e4mmer",
+        "name": "Einhämmer",
         "damage": "60",
         "cost": [
           "Water",
@@ -995,8 +995,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Speckschicht",
+    "ability_effect": "Diesem Pokémon werden durch Attacken von- oder-Pokémon − 20 Schadenspunkte zugefügt.",
     "rarity": "1 Diamond",
     "illustrator": "",
     "pokedex_number": "0221",
@@ -1023,7 +1023,7 @@
         "effect": ""
       },
       {
-        "name": "Frostige Pl\u00e4ttung",
+        "name": "Frostige Plättung",
         "damage": "120",
         "cost": [
           "Water",
@@ -1034,8 +1034,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Speckschicht",
+    "ability_effect": "Diesem Pokémon werden durch Attacken von- oder-Pokémon − 30 Schadenspunkte zugefügt.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0473",
@@ -1056,7 +1056,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Kristallk\u00f6rper",
+        "name": "Kristallkörper",
         "damage": "",
         "cost": [],
         "effect": ""
@@ -1071,8 +1071,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Kristallkörper",
+    "ability_effect": "Verhindere alle Effekte der von Pokémon deines Gegners eingesetzten Attacken, die diesem Pokémon zugefügt werden.",
     "rarity": "1 Diamond",
     "illustrator": "",
     "pokedex_number": "0378",
@@ -1154,7 +1154,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Wasserd\u00fcse",
+        "name": "Wasserdüse",
         "damage": "80",
         "cost": [
           "Water",
@@ -1216,7 +1216,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "D\u00fcsenschraube",
+        "name": "Düsenschraube",
         "damage": "30",
         "cost": [
           "Water"
@@ -1277,7 +1277,7 @@
     "retreat": "3",
     "attacks": [
       {
-        "name": "Lehmbr\u00fche",
+        "name": "Lehmbrühe",
         "damage": "60",
         "cost": [
           "Water",
@@ -1688,7 +1688,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Gro\u00dfe Explosion",
+        "name": "Große Explosion",
         "damage": "30",
         "cost": [
           "Electric"
@@ -1902,7 +1902,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Ger\u00e4tefunken",
+        "name": "Gerätefunken",
         "damage": "40",
         "cost": [
           "Electric",
@@ -2253,8 +2253,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Dunkles Nichts",
+    "ability_effect": "Beliebig oft während deines Zuges kannst du 1 deiner Pokémon wählen, dem bereits Schaden zugefügt wurde, und seinen gesamten Schaden auf dieses Pokémon verschieben.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0477",
@@ -2366,7 +2366,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Allm\u00e4chtiger Schuss",
+        "name": "Allmächtiger Schuss",
         "damage": "160",
         "cost": [
           "Psychic",
@@ -2444,8 +2444,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Schwebe",
+    "ability_effect": "Wenn an dieses Pokémon mindestens 1 Energie angelegt ist, hat es keine Rückzugskosten.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0487",
@@ -2732,8 +2732,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Exoskelett",
+    "ability_effect": "Diesem Pokémon werden durch Attacken − 20 Schadenspunkte zugefügt.",
     "rarity": "1 Diamond",
     "illustrator": "",
     "pokedex_number": "0377",
@@ -2784,7 +2784,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Kopfsto\u00df",
+        "name": "Kopfstoß",
         "damage": "130",
         "cost": [
           "Fighting"
@@ -2891,8 +2891,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Kampfcoach",
+    "ability_effect": "Die Attacken deiner-Pokémon fügen dem Aktiven Pokémon deines Gegners + 20 Schadenspunkte zu.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0448",
@@ -3037,7 +3037,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Ge\u00fcbter Sturzflug",
+        "name": "Geübter Sturzflug",
         "damage": "",
         "cost": [],
         "effect": ""
@@ -3149,7 +3149,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "F\u00e4nge der Dunkelheit",
+        "name": "Fänge der Dunkelheit",
         "damage": "60",
         "cost": [
           "Colorless"
@@ -3325,7 +3325,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Gruppenpr\u00fcgler",
+        "name": "Gruppenprügler",
         "damage": "20",
         "cost": [],
         "effect": ""
@@ -3353,7 +3353,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Gruppenpr\u00fcgler",
+        "name": "Gruppenprügler",
         "damage": "40",
         "cost": [],
         "effect": ""
@@ -3389,8 +3389,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Alptraum-Aura",
+    "ability_effect": "Füge jedes Mal, wenn du 1-Energie aus dem Energiebereich an dieses Pokémon anlegst, dem Aktiven Pokémon deines Gegners 20 Schadenspunkte zu.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0491",
@@ -3425,8 +3425,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Alptraum-Aura",
+    "ability_effect": "Füge jedes Mal, wenn du 1-Energie aus dem Energiebereich an dieses Pokémon anlegst, dem Aktiven Pokémon deines Gegners 20 Schadenspunkte zu.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "",
@@ -3556,8 +3556,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Kopfschutz",
+    "ability_effect": "Wenn diesem Pokémon durch Attacken Schaden zugefügt wird, wirf 1 Münze. Bei Kopf werden diesem Pokémon durch diese Attacke − 100 Schadenspunkte zugefügt.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0411",
@@ -3578,7 +3578,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Eisensch\u00e4del",
+        "name": "Eisenschädel",
         "damage": "50",
         "cost": [
           "Metal",
@@ -3840,7 +3840,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "R\u00fccksichtsloses Scheren",
+        "name": "Rücksichtsloses Scheren",
         "damage": "",
         "cost": [],
         "effect": ""
@@ -3855,8 +3855,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Rücksichtsloses Scheren",
+    "ability_effect": "Du musst 1 Karte von deiner Hand auf deinen Ablagestapel legen, um diese Fähigkeit einzusetzen. Einmal während deines Zuges kannst du 1 Karte ziehen.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0445",
@@ -4034,7 +4034,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Schweifsto\u00df",
+        "name": "Schweifstoß",
         "damage": "20",
         "cost": [
           "Colorless"
@@ -4094,7 +4094,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Pfl\u00fccker",
+        "name": "Pflücker",
         "damage": "20",
         "cost": [
           "Colorless"
@@ -4124,7 +4124,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Fl\u00fcgelschlag",
+        "name": "Flügelschlag",
         "damage": "40",
         "cost": [
           "Colorless",
@@ -4339,7 +4339,7 @@
     "retreat": "3",
     "attacks": [
       {
-        "name": "St\u00f6ren",
+        "name": "Stören",
         "damage": "60",
         "cost": [
           "Colorless",
@@ -4575,8 +4575,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Duftender Blumengarten",
+    "ability_effect": "Einmal während deines Zuges kannst du 10 Schadenspunkte bei jedem deiner Pokémon heilen.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0492",
@@ -4603,7 +4603,7 @@
         "effect": ""
       },
       {
-        "name": "Frostige Pl\u00e4ttung",
+        "name": "Frostige Plättung",
         "damage": "120",
         "cost": [
           "Water",
@@ -4614,8 +4614,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Speckschicht",
+    "ability_effect": "Diesem Pokémon werden durch Attacken von- oder-Pokémon − 30 Schadenspunkte zugefügt.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0473",
@@ -4636,7 +4636,7 @@
     "retreat": "3",
     "attacks": [
       {
-        "name": "Lehmbr\u00fche",
+        "name": "Lehmbrühe",
         "damage": "60",
         "cost": [
           "Water",
@@ -4788,7 +4788,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Allm\u00e4chtiger Schuss",
+        "name": "Allmächtiger Schuss",
         "damage": "160",
         "cost": [
           "Psychic",
@@ -4836,8 +4836,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Schwebe",
+    "ability_effect": "Wenn an dieses Pokémon mindestens 1 Energie angelegt ist, hat es keine Rückzugskosten.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0487",
@@ -4937,8 +4937,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Kampfcoach",
+    "ability_effect": "Die Attacken deiner-Pokémon fügen dem Aktiven Pokémon deines Gegners + 20 Schadenspunkte zu.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0448",
@@ -5021,7 +5021,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Gruppenpr\u00fcgler",
+        "name": "Gruppenprügler",
         "damage": "20",
         "cost": [],
         "effect": ""
@@ -5081,7 +5081,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "R\u00fccksichtsloses Scheren",
+        "name": "Rücksichtsloses Scheren",
         "damage": "",
         "cost": [],
         "effect": ""
@@ -5096,8 +5096,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Rücksichtsloses Scheren",
+    "ability_effect": "Du musst 1 Karte von deiner Hand auf deinen Ablagestapel legen, um diese Fähigkeit einzusetzen. Einmal während deines Zuges kannst du 1 Karte ziehen.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0445",
@@ -5348,7 +5348,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Ger\u00e4tefunken",
+        "name": "Gerätefunken",
         "damage": "40",
         "cost": [
           "Electric",
@@ -5483,8 +5483,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Alptraum-Aura",
+    "ability_effect": "Füge jedes Mal, wenn du 1-Energie aus dem Energiebereich an dieses Pokémon anlegst, dem Aktiven Pokémon deines Gegners 20 Schadenspunkte zu.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "",
@@ -5643,7 +5643,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Ger\u00e4tefunken",
+        "name": "Gerätefunken",
         "damage": "40",
         "cost": [
           "Electric",
@@ -5778,8 +5778,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Alptraum-Aura",
+    "ability_effect": "Füge jedes Mal, wenn du 1-Energie aus dem Energiebereich an dieses Pokémon anlegst, dem Aktiven Pokémon deines Gegners 20 Schadenspunkte zu.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "",

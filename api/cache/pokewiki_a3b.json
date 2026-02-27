@@ -164,7 +164,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Bl\u00e4tter der Zeit",
+        "name": "Blätter der Zeit",
         "damage": "40",
         "cost": [
           "Grass",
@@ -226,7 +226,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Gl\u00fchen",
+        "name": "Glühen",
         "damage": "40",
         "cost": [
           "Fire",
@@ -257,7 +257,7 @@
     "retreat": "3",
     "attacks": [
       {
-        "name": "Hitzesto\u00df",
+        "name": "Hitzestoß",
         "damage": "90",
         "cost": [
           "Fire",
@@ -289,13 +289,13 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Legend\u00e4rer Puls",
+        "name": "Legendärer Puls",
         "damage": "",
         "cost": [],
         "effect": ""
       },
       {
-        "name": "Lodernder Niederpr\u00fcgler",
+        "name": "Lodernder Niederprügler",
         "damage": "60",
         "cost": [
           "Fire",
@@ -326,7 +326,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Feuerfl\u00fcgel",
+        "name": "Feuerflügel",
         "damage": "40",
         "cost": [
           "Fire"
@@ -539,7 +539,7 @@
     "retreat": "3",
     "attacks": [
       {
-        "name": "Abf\u00e4lle",
+        "name": "Abfälle",
         "damage": "50",
         "cost": [
           "Water"
@@ -600,7 +600,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Legend\u00e4rer Puls",
+        "name": "Legendärer Puls",
         "damage": "",
         "cost": [],
         "effect": ""
@@ -704,7 +704,7 @@
     "retreat": "",
     "attacks": [
       {
-        "name": "Pl\u00e4tscherwurf",
+        "name": "Plätscherwurf",
         "damage": "",
         "cost": [],
         "effect": ""
@@ -763,7 +763,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Legend\u00e4rer Puls",
+        "name": "Legendärer Puls",
         "damage": "",
         "cost": [],
         "effect": ""
@@ -861,7 +861,7 @@
     "retreat": "3",
     "attacks": [
       {
-        "name": "Stromsto\u00df",
+        "name": "Stromstoß",
         "damage": "120",
         "cost": [
           "Electric",
@@ -1082,7 +1082,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Unheilsk\u00f6rper",
+        "name": "Unheilskörper",
         "damage": "",
         "cost": [],
         "effect": ""
@@ -1119,7 +1119,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "\u00dcberkreuzflug",
+        "name": "Überkreuzflug",
         "damage": "20",
         "cost": [
           "Psychic"
@@ -1309,7 +1309,7 @@
     "retreat": "3",
     "attacks": [
       {
-        "name": "Hydrokn\u00f6chel",
+        "name": "Hydroknöchel",
         "damage": "100",
         "cost": [
           "Fighting",
@@ -1504,7 +1504,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Verh\u00e4ngnisvolle F\u00e4nge",
+        "name": "Verhängnisvolle Fänge",
         "damage": "40",
         "cost": [
           "Colorless"
@@ -1562,7 +1562,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Tr\u00fcgerische Trickserei",
+        "name": "Trügerische Trickserei",
         "damage": "",
         "cost": [],
         "effect": ""
@@ -1864,7 +1864,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "\u00dcberraschungsangriff",
+        "name": "Überraschungsangriff",
         "damage": "40",
         "cost": [
           "Colorless"
@@ -2306,13 +2306,13 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Legend\u00e4rer Puls",
+        "name": "Legendärer Puls",
         "damage": "",
         "cost": [],
         "effect": ""
       },
       {
-        "name": "Lodernder Niederpr\u00fcgler",
+        "name": "Lodernder Niederprügler",
         "damage": "60",
         "cost": [
           "Fire",
@@ -2343,7 +2343,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Legend\u00e4rer Puls",
+        "name": "Legendärer Puls",
         "damage": "",
         "cost": [],
         "effect": ""
@@ -2380,7 +2380,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Legend\u00e4rer Puls",
+        "name": "Legendärer Puls",
         "damage": "",
         "cost": [],
         "effect": ""
@@ -2417,7 +2417,7 @@
     "retreat": "3",
     "attacks": [
       {
-        "name": "Hydrokn\u00f6chel",
+        "name": "Hydroknöchel",
         "damage": "100",
         "cost": [
           "Fighting",
@@ -2479,13 +2479,13 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Legend\u00e4rer Puls",
+        "name": "Legendärer Puls",
         "damage": "",
         "cost": [],
         "effect": ""
       },
       {
-        "name": "Lodernder Niederpr\u00fcgler",
+        "name": "Lodernder Niederprügler",
         "damage": "60",
         "cost": [
           "Fire",
@@ -2516,7 +2516,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Legend\u00e4rer Puls",
+        "name": "Legendärer Puls",
         "damage": "",
         "cost": [],
         "effect": ""
@@ -2553,7 +2553,7 @@
     "retreat": "3",
     "attacks": [
       {
-        "name": "Hydrokn\u00f6chel",
+        "name": "Hydroknöchel",
         "damage": "100",
         "cost": [
           "Fighting",
@@ -2585,7 +2585,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Legend\u00e4rer Puls",
+        "name": "Legendärer Puls",
         "damage": "",
         "cost": [],
         "effect": ""
@@ -2812,7 +2812,7 @@
         "effect": ""
       },
       {
-        "name": "Wasserspr\u00fcher",
+        "name": "Wassersprüher",
         "damage": "20",
         "cost": [
           "Water"
@@ -3069,7 +3069,7 @@
     "retreat": "",
     "attacks": [
       {
-        "name": "Pl\u00e4tscherwurf",
+        "name": "Plätscherwurf",
         "damage": "",
         "cost": [],
         "effect": ""

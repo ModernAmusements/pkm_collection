@@ -278,8 +278,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Extraheilung",
+    "ability_effect": "Einmal während deines Zuges kannst du 60 Schadenspunkte bei 1 deiner Pokémon-exheilen, an das mindestens 1 Energie angelegt ist. Wenn du das machst, lege 1 zufällige Energie von jenem Pokémon ab.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0930",
@@ -485,7 +485,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Fr\u00f6hlicher Gesang",
+        "name": "Fröhlicher Gesang",
         "damage": "",
         "cost": [
           "Colorless"
@@ -561,8 +561,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Feurige Stimme",
+    "ability_effect": "Einmal während deines Zuges kannst du 1-Energie von diesem Pokémon ablegen, um diese Fähigkeit einzusetzen. Während dieses Zuges fügen Attacken deiner-Pokémon dem Aktiven Pokémon deines Gegners + 50 Schadenspunkte zu.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0911",
@@ -613,13 +613,13 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "R\u00fcstung",
+        "name": "Rüstung",
         "damage": "",
         "cost": [],
         "effect": ""
       },
       {
-        "name": "R\u00fcstungskanone",
+        "name": "Rüstungskanone",
         "damage": "120",
         "cost": [
           "Fire",
@@ -629,8 +629,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Rüstung",
+    "ability_effect": "Diesem Pokémon werden durch Attacken - 30 Schadenspunkte zugefügt.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "",
@@ -759,8 +759,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Sturzbach",
+    "ability_effect": "Wenn dieses Pokémon 50 oder weniger verbleibende KP hat, fügen seine Attacken dem Aktiven Pokémon deines Gegners + 60 Schadenspunkte zu.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0914",
@@ -871,7 +871,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "D\u00fcsenhieb",
+        "name": "Düsenhieb",
         "damage": "50",
         "cost": [
           "Water",
@@ -1001,7 +1001,7 @@
     "retreat": "4",
     "attacks": [
       {
-        "name": "Gigasto\u00df",
+        "name": "Gigastoß",
         "damage": "120",
         "cost": [
           "Water",
@@ -1064,7 +1064,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Fr\u00f6steln",
+        "name": "Frösteln",
         "damage": "20",
         "cost": [
           "Water"
@@ -1131,7 +1131,7 @@
         "effect": ""
       },
       {
-        "name": "Zetr\u00fcmmerndern Schweif",
+        "name": "Zetrümmerndern Schweif",
         "damage": "90",
         "cost": [
           "Water",
@@ -1141,8 +1141,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Eismacher",
+    "ability_effect": "Einmal während deines Zuges kannst du 1-Energie aus deinem Energiebereich an dein Aktives-Pokémon anlegen.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0998",
@@ -1203,7 +1203,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Zuf\u00e4lliger Funke",
+        "name": "Zufälliger Funke",
         "damage": "",
         "cost": [
           "Electric"
@@ -1447,7 +1447,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "R\u00fcckw\u00e4rtskick",
+        "name": "Rückwärtskick",
         "damage": "20",
         "cost": [
           "Psychic"
@@ -1692,7 +1692,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Dauerm\u00fcnzwurf",
+        "name": "Dauermünzwurf",
         "damage": "20",
         "cost": [
           "Colorless"
@@ -1782,7 +1782,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Dynamitsto\u00df",
+        "name": "Dynamitstoß",
         "damage": "90",
         "cost": [
           "Fighting"
@@ -1812,7 +1812,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "R\u00fcckw\u00e4rtskick",
+        "name": "Rückwärtskick",
         "damage": "100",
         "cost": [
           "Fighting",
@@ -1968,7 +1968,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Tobende F\u00e4nge",
+        "name": "Tobende Fänge",
         "damage": "120",
         "cost": [
           "Fighting",
@@ -2241,7 +2241,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Verpr\u00fcgler",
+        "name": "Verprügler",
         "damage": "30",
         "cost": [
           "Metal",
@@ -2642,7 +2642,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Fl\u00fcgelschlag",
+        "name": "Flügelschlag",
         "damage": "50",
         "cost": [
           "Colorless",
@@ -2673,7 +2673,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Fr\u00f6hlicher Gesang",
+        "name": "Fröhlicher Gesang",
         "damage": "",
         "cost": [
           "Colorless"
@@ -2733,7 +2733,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Dauerm\u00fcnzwurf",
+        "name": "Dauermünzwurf",
         "damage": "20",
         "cost": [
           "Colorless"
@@ -2893,13 +2893,13 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "R\u00fcstung",
+        "name": "Rüstung",
         "damage": "",
         "cost": [],
         "effect": ""
       },
       {
-        "name": "R\u00fcstungskanone",
+        "name": "Rüstungskanone",
         "damage": "120",
         "cost": [
           "Fire",
@@ -2909,8 +2909,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Rüstung",
+    "ability_effect": "Diesem Pokémon werden durch Attacken - 30 Schadenspunkte zugefügt.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "",
@@ -3071,13 +3071,13 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "R\u00fcstung",
+        "name": "Rüstung",
         "damage": "",
         "cost": [],
         "effect": ""
       },
       {
-        "name": "R\u00fcstungskanone",
+        "name": "Rüstungskanone",
         "damage": "120",
         "cost": [
           "Fire",
@@ -3087,8 +3087,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Rüstung",
+    "ability_effect": "Diesem Pokémon werden durch Attacken - 30 Schadenspunkte zugefügt.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "",
@@ -3301,7 +3301,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Zuf\u00e4lliger Funke",
+        "name": "Zufälliger Funke",
         "damage": "",
         "cost": [
           "Electric"
@@ -3392,7 +3392,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Dauerm\u00fcnzwurf",
+        "name": "Dauermünzwurf",
         "damage": "20",
         "cost": [
           "Colorless"
@@ -3422,7 +3422,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Verpr\u00fcgler",
+        "name": "Verprügler",
         "damage": "30",
         "cost": [
           "Metal",
@@ -3516,13 +3516,13 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Legend\u00e4rer Puls",
+        "name": "Legendärer Puls",
         "damage": "",
         "cost": [],
         "effect": ""
       },
       {
-        "name": "Lodernder Niederpr\u00fcgler",
+        "name": "Lodernder Niederprügler",
         "damage": "60",
         "cost": [
           "Fire",
@@ -3531,8 +3531,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Legendärer Puls",
+    "ability_effect": "Am Ende deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, ziehe 1 Karte.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "",
@@ -3553,7 +3553,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Legend\u00e4rer Puls",
+        "name": "Legendärer Puls",
         "damage": "",
         "cost": [],
         "effect": ""
@@ -3568,8 +3568,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Legendärer Puls",
+    "ability_effect": "Am Ende deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, ziehe 1 Karte.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "",
@@ -3590,7 +3590,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Legend\u00e4rer Puls",
+        "name": "Legendärer Puls",
         "damage": "",
         "cost": [],
         "effect": ""
@@ -3605,8 +3605,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Legendärer Puls",
+    "ability_effect": "Am Ende deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, ziehe 1 Karte.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "",
@@ -3627,7 +3627,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Heftiges H\u00e4mmern",
+        "name": "Heftiges Hämmern",
         "damage": "80",
         "cost": [
           "Metal",
@@ -3665,7 +3665,7 @@
         "effect": ""
       },
       {
-        "name": "Zetr\u00fcmmerndern Schweif",
+        "name": "Zetrümmerndern Schweif",
         "damage": "90",
         "cost": [
           "Water",
@@ -3675,8 +3675,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Eismacher",
+    "ability_effect": "Einmal während deines Zuges kannst du 1-Energie aus deinem Energiebereich an dein Aktives-Pokémon anlegen.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0998",

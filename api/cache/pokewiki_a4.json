@@ -74,7 +74,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Bl\u00e4ttertanz",
+        "name": "Blättertanz",
         "damage": "60",
         "cost": [
           "Grass",
@@ -291,7 +291,7 @@
     "retreat": "3",
     "attacks": [
       {
-        "name": "Bl\u00fctenglanz",
+        "name": "Blütenglanz",
         "damage": "80",
         "cost": [
           "Grass",
@@ -323,7 +323,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "K\u00e4ferbiss",
+        "name": "Käferbiss",
         "damage": "20",
         "cost": [
           "Grass"
@@ -571,7 +571,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "K\u00e4fergebrumm",
+        "name": "Käfergebrumm",
         "damage": "60",
         "cost": [
           "Colorless",
@@ -706,7 +706,7 @@
         "effect": ""
       },
       {
-        "name": "S\u00fc\u00dfe Staffel",
+        "name": "Süße Staffel",
         "damage": "10",
         "cost": [
           "Grass"
@@ -766,7 +766,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Gl\u00fchende Kohlen",
+        "name": "Glühende Kohlen",
         "damage": "30",
         "cost": [
           "Fire",
@@ -859,7 +859,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Gl\u00fchen",
+        "name": "Glühen",
         "damage": "30",
         "cost": [
           "Fire"
@@ -1016,7 +1016,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Gro\u00dfes Auflodern",
+        "name": "Großes Auflodern",
         "damage": "110",
         "cost": [
           "Fire",
@@ -1049,7 +1049,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Ph\u00f6nix-Turbo",
+        "name": "Phönix-Turbo",
         "damage": "80",
         "cost": [
           "Colorless",
@@ -1112,7 +1112,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Hitzesto\u00df",
+        "name": "Hitzestoß",
         "damage": "70",
         "cost": [
           "Fire",
@@ -1132,7 +1132,7 @@
   },
   {
     "url": "https://www.pokewiki.de/Furnifra%C3%9F_(Weisheit_von_Meer_und_Himmel_037)",
-    "german_name": "Furnifra\u00df",
+    "german_name": "Furnifraß",
     "set_id": "A4",
     "set_name": "Weisheit von Meer und Himmel",
     "card_number": "37",
@@ -1333,7 +1333,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Sturmgef\u00e4ngnis",
+        "name": "Sturmgefängnis",
         "damage": "90",
         "cost": [
           "Water",
@@ -1896,7 +1896,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Unb\u00e4ndige Schere",
+        "name": "Unbändige Schere",
         "damage": "",
         "cost": [],
         "effect": ""
@@ -2177,7 +2177,7 @@
     "retreat": "",
     "attacks": [
       {
-        "name": "F\u00fcnkchenschuss",
+        "name": "Fünkchenschuss",
         "damage": "",
         "cost": [],
         "effect": ""
@@ -2355,7 +2355,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "K\u00f6derklaps",
+        "name": "Köderklaps",
         "damage": "30",
         "cost": [
           "Psychic",
@@ -2475,7 +2475,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Sph\u00e4rischer Segen",
+        "name": "Sphärischer Segen",
         "damage": "",
         "cost": [],
         "effect": ""
@@ -2962,7 +2962,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Scharfe F\u00e4nge",
+        "name": "Scharfe Fänge",
         "damage": "60",
         "cost": [
           "Colorless",
@@ -3024,7 +3024,7 @@
     "retreat": "3",
     "attacks": [
       {
-        "name": "Abrupter Kopfsto\u00df",
+        "name": "Abrupter Kopfstoß",
         "damage": "70",
         "cost": [
           "Fighting",
@@ -3149,7 +3149,7 @@
     "retreat": "",
     "attacks": [
       {
-        "name": "Kr\u00e4ftige Kn\u00f6chel",
+        "name": "Kräftige Knöchel",
         "damage": "20",
         "cost": [],
         "effect": ""
@@ -3477,7 +3477,7 @@
         "effect": ""
       },
       {
-        "name": "F\u00e4nge der Dunkelheit",
+        "name": "Fänge der Dunkelheit",
         "damage": "80",
         "cost": [],
         "effect": ""
@@ -3681,7 +3681,7 @@
         "effect": ""
       },
       {
-        "name": "Zertr\u00fcmmernder Schweif",
+        "name": "Zertrümmernder Schweif",
         "damage": "130",
         "cost": [
           "Colorless"
@@ -3711,7 +3711,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "\u00dcberspringen",
+        "name": "Überspringen",
         "damage": "",
         "cost": [],
         "effect": ""
@@ -3804,7 +3804,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Orkansto\u00df",
+        "name": "Orkanstoß",
         "damage": "50",
         "cost": [
           "Metal",
@@ -3835,7 +3835,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Stahlfl\u00fcgel",
+        "name": "Stahlflügel",
         "damage": "70",
         "cost": [
           "Metal",
@@ -4049,7 +4049,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Z\u00e4hneknirschen",
+        "name": "Zähneknirschen",
         "damage": "",
         "cost": [
           "Colorless",
@@ -4112,7 +4112,7 @@
     "retreat": "3",
     "attacks": [
       {
-        "name": "\u00dcberkreuzzerschneider",
+        "name": "Überkreuzzerschneider",
         "damage": "20",
         "cost": [
           "Colorless"
@@ -4336,7 +4336,7 @@
         "effect": ""
       },
       {
-        "name": "Fl\u00fcgelschlag",
+        "name": "Flügelschlag",
         "damage": "30",
         "cost": [
           "Colorless",
@@ -4399,7 +4399,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Nach\u00e4ffen",
+        "name": "Nachäffen",
         "damage": "",
         "cost": [
           "Colorless"
@@ -4429,7 +4429,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Schweifsto\u00df",
+        "name": "Schweifstoß",
         "damage": "40",
         "cost": [
           "Colorless"
@@ -4459,7 +4459,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Pl\u00f6tzlicher Blitz",
+        "name": "Plötzlicher Blitz",
         "damage": "20",
         "cost": [
           "Colorless"
@@ -4551,7 +4551,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Spezial-H\u00f6rner",
+        "name": "Spezial-Hörner",
         "damage": "20",
         "cost": [
           "Colorless",
@@ -4645,7 +4645,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Anhaltender Kopfsto\u00df",
+        "name": "Anhaltender Kopfstoß",
         "damage": "70",
         "cost": [
           "Colorless",
@@ -4707,7 +4707,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Bl\u00e4ttertanz",
+        "name": "Blättertanz",
         "damage": "60",
         "cost": [
           "Grass",
@@ -5191,7 +5191,7 @@
         "effect": ""
       },
       {
-        "name": "Zertr\u00fcmmernder Schweif",
+        "name": "Zertrümmernder Schweif",
         "damage": "130",
         "cost": [
           "Colorless"
@@ -5221,7 +5221,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Orkansto\u00df",
+        "name": "Orkanstoß",
         "damage": "50",
         "cost": [
           "Metal",
@@ -5288,7 +5288,7 @@
         "effect": ""
       },
       {
-        "name": "Fl\u00fcgelschlag",
+        "name": "Flügelschlag",
         "damage": "30",
         "cost": [
           "Colorless",
@@ -5319,7 +5319,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Spezial-H\u00f6rner",
+        "name": "Spezial-Hörner",
         "damage": "20",
         "cost": [
           "Colorless",
@@ -5449,7 +5449,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Ph\u00f6nix-Turbo",
+        "name": "Phönix-Turbo",
         "damage": "80",
         "cost": [
           "Colorless",
@@ -5481,7 +5481,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Sturmgef\u00e4ngnis",
+        "name": "Sturmgefängnis",
         "damage": "90",
         "cost": [
           "Water",
@@ -5645,7 +5645,7 @@
         "effect": ""
       },
       {
-        "name": "F\u00e4nge der Dunkelheit",
+        "name": "Fänge der Dunkelheit",
         "damage": "80",
         "cost": [],
         "effect": ""
@@ -5673,7 +5673,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Stahlfl\u00fcgel",
+        "name": "Stahlflügel",
         "damage": "70",
         "cost": [
           "Metal",
@@ -5772,7 +5772,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Sturmgef\u00e4ngnis",
+        "name": "Sturmgefängnis",
         "damage": "90",
         "cost": [
           "Water",
@@ -5936,7 +5936,7 @@
         "effect": ""
       },
       {
-        "name": "F\u00e4nge der Dunkelheit",
+        "name": "Fänge der Dunkelheit",
         "damage": "80",
         "cost": [],
         "effect": ""
@@ -5964,7 +5964,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Stahlfl\u00fcgel",
+        "name": "Stahlflügel",
         "damage": "70",
         "cost": [
           "Metal",
@@ -5995,7 +5995,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Ph\u00f6nix-Turbo",
+        "name": "Phönix-Turbo",
         "damage": "80",
         "cost": [
           "Colorless",
@@ -6392,7 +6392,7 @@
   },
   {
     "url": "https://www.pokewiki.de/Nidoran%E2%99%80_(Weisheit_von_Meer_und_Himmel_223)",
-    "german_name": "Nidoran\u2640",
+    "german_name": "Nidoran♀",
     "set_id": "A4",
     "set_name": "Weisheit von Meer und Himmel",
     "card_number": "223",
@@ -6478,7 +6478,7 @@
   },
   {
     "url": "https://www.pokewiki.de/Nidoran%E2%99%82_(Weisheit_von_Meer_und_Himmel_226)",
-    "german_name": "Nidoran\u2642",
+    "german_name": "Nidoran♂",
     "set_id": "A4",
     "set_name": "Weisheit von Meer und Himmel",
     "card_number": "226",
@@ -6809,7 +6809,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Ger\u00e4tefunken",
+        "name": "Gerätefunken",
         "damage": "40",
         "cost": [
           "Electric",
@@ -6932,7 +6932,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Ph\u00f6nix-Turbo",
+        "name": "Phönix-Turbo",
         "damage": "80",
         "cost": [
           "Colorless",

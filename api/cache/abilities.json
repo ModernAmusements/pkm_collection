@@ -1,0 +1,870 @@
+[
+  {
+    "card_name": "Smettbo",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "ability": "Puderheilung",
+    "ability_effect": "Einmal während deines Zuges kannst du 20 Schadenspunkte bei jedem deiner Pokémon heilen."
+  },
+  {
+    "card_name": "Sarzenia",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "ability": "Aromafalle",
+    "ability_effect": "Einmal während deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, kannst du 1 Basis-Pokémon von der Bank deines Gegners in die Aktive Position einwechseln."
+  },
+  {
+    "card_name": "Quappo",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "ability": "Gegenangriff",
+    "ability_effect": "Wenn dieses Pokémon in der Aktiven Position ist und durch eine Attacke von Pokémon deines Gegners Schaden erhält, füge dem Angreifenden Pokémon 20 Schadenspunkte zu."
+  },
+  {
+    "card_name": "Austos",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "ability": "Panzerhaut",
+    "ability_effect": "Diesem Pokémon werden durch Attacken - 10 Schadenspunkte zugefügt."
+  },
+  {
+    "card_name": "Quajutsu",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "ability": "Wasser-Shuriken",
+    "ability_effect": "Einmal während deines Zuges kannst du 1 Pokémon deines Gegners 20 Schadenspunkte zufügen."
+  },
+  {
+    "card_name": "Magneton",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "ability": "Voltladung",
+    "ability_effect": "Einmal während deines Zuges kannst du 1-Energie aus deinem Energiebereich an dieses Pokémon anlegen."
+  },
+  {
+    "card_name": "Gengar-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "ability": "Schattenbann",
+    "ability_effect": "Solange dieses Pokémon in der Aktiven Position ist, kann dein Gegner keine Unterstützerkarten aus seiner Hand spielen."
+  },
+  {
+    "card_name": "Hypno",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "ability": "Schlafpendel",
+    "ability_effect": "Einmal während deines Zuges kannst du 1 Münze werfen. Bei Kopf schläft das Aktive Pokémon jetzt."
+  },
+  {
+    "card_name": "Guardevoir",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "ability": "Psischatten",
+    "ability_effect": "Einmal während deines Zuges kannst du 1-Energie aus deinem Energiebereich an dein Aktives-Pokémon anlegen."
+  },
+  {
+    "card_name": "Smogmog",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "ability": "Gasleck",
+    "ability_effect": "Einmal während deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, kannst du entscheiden, ob das Aktive Pokémon deines Gegners nun vergiftet ist."
+  },
+  {
+    "card_name": "Melmetal",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "ability": "Schutzschicht",
+    "ability_effect": "Diesem Pokémon werden durch Attacken - 20 Schadenspunkte zugefügt."
+  },
+  {
+    "card_name": "Tauboss",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "ability": "Wegtreiben",
+    "ability_effect": "Einmal während deines Zuges kannst du das Aktive Pokémon deines Gegners auf seine Bank auswechseln.(Dein Gegner wählt das neue Aktive Pokémon.)"
+  },
+  {
+    "card_name": "Porygon",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "ability": "Daten-Scan",
+    "ability_effect": "Einmal während deines Zuges kannst du dir die oberste Karte deines Decks anschauen."
+  },
+  {
+    "card_name": "Shaymin",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "ability": "Duftender Blumengarten",
+    "ability_effect": "Einmal während deines Zuges kannst du 10 Schadenspunkte bei jedem deiner Pokémon heilen."
+  },
+  {
+    "card_name": "Keifel",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "ability": "Speckschicht",
+    "ability_effect": "Diesem Pokémon werden durch Attacken von- oder-Pokémon − 20 Schadenspunkte zugefügt."
+  },
+  {
+    "card_name": "Mamutel",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "ability": "Speckschicht",
+    "ability_effect": "Diesem Pokémon werden durch Attacken von- oder-Pokémon − 30 Schadenspunkte zugefügt."
+  },
+  {
+    "card_name": "Regice",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "ability": "Kristallkörper",
+    "ability_effect": "Verhindere alle Effekte der von Pokémon deines Gegners eingesetzten Attacken, die diesem Pokémon zugefügt werden."
+  },
+  {
+    "card_name": "Zwirrfinst",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "ability": "Dunkles Nichts",
+    "ability_effect": "Beliebig oft während deines Zuges kannst du 1 deiner Pokémon wählen, dem bereits Schaden zugefügt wurde, und seinen gesamten Schaden auf dieses Pokémon verschieben."
+  },
+  {
+    "card_name": "Giratina",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "ability": "Schwebe",
+    "ability_effect": "Wenn an dieses Pokémon mindestens 1 Energie angelegt ist, hat es keine Rückzugskosten."
+  },
+  {
+    "card_name": "Regirock",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "ability": "Exoskelett",
+    "ability_effect": "Diesem Pokémon werden durch Attacken − 20 Schadenspunkte zugefügt."
+  },
+  {
+    "card_name": "Lucario",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "ability": "Kampfcoach",
+    "ability_effect": "Die Attacken deiner-Pokémon fügen dem Aktiven Pokémon deines Gegners + 20 Schadenspunkte zu."
+  },
+  {
+    "card_name": "Darkrai-ex",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "ability": "Alptraum-Aura",
+    "ability_effect": "Füge jedes Mal, wenn du 1-Energie aus dem Energiebereich an dieses Pokémon anlegst, dem Aktiven Pokémon deines Gegners 20 Schadenspunkte zu."
+  },
+  {
+    "card_name": "Bollterus",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "ability": "Kopfschutz",
+    "ability_effect": "Wenn diesem Pokémon durch Attacken Schaden zugefügt wird, wirf 1 Münze. Bei Kopf werden diesem Pokémon durch diese Attacke − 100 Schadenspunkte zugefügt."
+  },
+  {
+    "card_name": "Knakrack",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "ability": "Rücksichtsloses Scheren",
+    "ability_effect": "Du musst 1 Karte von deiner Hand auf deinen Ablagestapel legen, um diese Fähigkeit einzusetzen. Einmal während deines Zuges kannst du 1 Karte ziehen."
+  },
+  {
+    "card_name": "Venuflibis",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "ability": "Kraftkopplung",
+    "ability_effect": "Wenn du Arceus oder Arceus-exim Spiel hast, fügen die von diesem Pokémon eingesetzten Attacken dem Aktiven Pokémon deines Gegners + 30 Schadenspunkte zu."
+  },
+  {
+    "card_name": "Folipurba-ex",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "ability": "Waldatem",
+    "ability_effect": "Einmal während deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, kannst du 1-Energie aus deinem Energiebereich an 1 deiner-Pokémon anlegen."
+  },
+  {
+    "card_name": "Heatran",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "ability": "Tempokopplung",
+    "ability_effect": "Wenn du Arceus oder Arceus-exim Spiel hast, hat dieses Pokémon keine Rückzugskosten."
+  },
+  {
+    "card_name": "Rexblisar",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "ability": "Vitalkopplung",
+    "ability_effect": "Wenn du Arceus oder Arceus-exim Spiel hast, verringern sich die Kosten der von diesem Pokémon eingesetzten Attacken um 1-Energie."
+  },
+  {
+    "card_name": "Glaziola-ex",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "ability": "Schneefeld",
+    "ability_effect": "Wenn dieses Pokémon beim Pokémon-Check in der Aktiven Position ist, füge dem Aktiven Pokémon deines Gegners 10 Schadenspunkte zu."
+  },
+  {
+    "card_name": "Raichu",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "ability": "Widerstandskopplung",
+    "ability_effect": "Wenn du Arceus oder Arceus-exim Spiel hast, werden diesem Pokémon durch Attacken - 30 Schadenspunkte zugefügt."
+  },
+  {
+    "card_name": "Icognito",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "ability": "CHECK",
+    "ability_effect": "Einmal während deines Zuges kannst du einen Spieler auswählen. Schau dir die oberste Karte des Decks dieses Spielers an."
+  },
+  {
+    "card_name": "Rotom",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "ability": "Tempokopplung",
+    "ability_effect": "Wenn du Arceus oder Arceus-exim Spiel hast, hat dieses Pokémon keine Rückzugskosten."
+  },
+  {
+    "card_name": "Despotar",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "ability": "Kraftkopplung",
+    "ability_effect": "Wenn du Arceus oder Arceus-exim Spiel hast, fügen die von diesem Pokémon eingesetzten Attacken dem Aktiven Pokémon deines Gegners + 30 Schadenspunkte zu."
+  },
+  {
+    "card_name": "Iksbat",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "ability": "Trickkopplung",
+    "ability_effect": "Wenn du Arceus oder Arceus-exim Spiel hast, kannst du einmal während deines Zuges dem Aktiven Pokémon deines Gegners 30 Schadenspunkte zufügen."
+  },
+  {
+    "card_name": "Magnezone",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "ability": "Widerstandskopplung",
+    "ability_effect": "Wenn du Arceus oder Arceus-exim Spiel hast, werden diesem Pokémon durch Attacken - 30 Schadenspunkte zugefügt."
+  },
+  {
+    "card_name": "Shaymin",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "ability": "Himmelshilfe",
+    "ability_effect": "Solange sich dieses Pokémon auf deiner Bank befindet, verringern sich die Rückzugskosten deines Aktiven Basis-Pokémon um 1."
+  },
+  {
+    "card_name": "Arceus-ex",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "ability": "Sagenhafter Glanz",
+    "ability_effect": "Dieses Pokémon kann nicht von Speziellen Zuständen betroffen werden."
+  },
+  {
+    "card_name": "Luxtra",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "ability": "Hammerhauer",
+    "ability_effect": "Solange dieses Pokémon in der Aktiven Position ist, fügen die Attacken des Aktiven Pokémon deines Gegners − 20 Schadenspunkte zu."
+  },
+  {
+    "card_name": "Zeraora",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "ability": "Blendender Blitzsturm",
+    "ability_effect": "Am Ende deines ersten Zuges lege 1-Energie aus deinem Energiebereich an dieses Pokémon an."
+  },
+  {
+    "card_name": "Lamellux",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "ability": "Erleuchtung",
+    "ability_effect": "Einmal während deines Zuges kannst du 1 zufälliges Pokémon aus deinem Deck auf deine Hand nehmen."
+  },
+  {
+    "card_name": "Lepumentas",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "ability": "Heilblockade",
+    "ability_effect": "Pokémon(deine und die deines Gegners)können nicht geheilt werden."
+  },
+  {
+    "card_name": "Anego",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "ability": "Giftschub",
+    "ability_effect": "Dem Aktiven Pokémon deines Gegners werden + 10 Schadenspunkte zugefügt, wenn es vergiftet ist."
+  },
+  {
+    "card_name": "Tentantel",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "ability": "Stahldornen",
+    "ability_effect": "Wenn dieses Pokémon in der Aktiven Position ist und durch eine Attacke von Pokémon deines Gegners Schaden erhält, füge dem Angreifenden Pokémon 20 Schadenspunkte zu."
+  },
+  {
+    "card_name": "Bissbark",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "ability": "Wachhundblick",
+    "ability_effect": "Solange dieses Pokémon in der Atkiven Position ist, erhöhen sich die Kosten der vom Aktiven Pokémon deines Gegners eingesetzten Attacken um 1."
+  },
+  {
+    "card_name": "Kaguron",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "ability": "Ultradüsen",
+    "ability_effect": "Einmal während deines Zuges kannst du deine Aktive Ultrabestie gegen 1 Ultrabestie auf deiner Bank austauschen."
+  },
+  {
+    "card_name": "Quajutsu",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "ability": "Wasser-Shuriken",
+    "ability_effect": "Einmal während deines Zuges kannst du 1 Pokémon deines Gegners 20 Schadenspunkte zufügen."
+  },
+  {
+    "card_name": "Tauboss",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "ability": "Wegtreiben",
+    "ability_effect": "Einmal während deines Zuges kannst du das Aktive Pokémon deines Gegners auf seine Bank auswechseln.(Dein Gegner wählt das neue Aktive Pokémon.)"
+  },
+  {
+    "card_name": "Aerodactyl-ex",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "ability": "Gesetz der Urzeit",
+    "ability_effect": "Dein Gegner kann keine Pokémon aus seiner Hand spielen, um sein Aktives Pokémon zu entwickeln."
+  },
+  {
+    "card_name": "Flamara-ex",
+    "set_id": "A3b",
+    "set_name": "Evoli-Hain",
+    "ability": "Überhitzen",
+    "ability_effect": "Einmal während deines Zuges kannst du 1-Energie aus deinem Ablagestapel an dieses Pokémon anlegen. Wenn du das machst, füge diesem Pokémon 20 Schadenspunkte zu."
+  },
+  {
+    "card_name": "Feelinara-ex",
+    "set_id": "A3b",
+    "set_name": "Evoli-Hain",
+    "ability": "Glücksbänder",
+    "ability_effect": "Einmal während deines Zuges, wenn du dieses Pokémon von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du 2 Karten ziehen."
+  },
+  {
+    "card_name": "Evoli-ex",
+    "set_id": "A3b",
+    "set_name": "Evoli-Hain",
+    "ability": "Volivoli-Entwicklung",
+    "ability_effect": "Dieses Pokémon kann sich zu einem beliebigen Pokémon entwickeln, das sich aus Evoli entwickelt, wenn du es aus deiner Hand auf dieses Pokémon spielst.(Dieses Pokémon kann sich während deines ersten Zuges oder während des Zuges, in dem du es spielst, nicht entwickeln.)"
+  },
+  {
+    "card_name": "Relaxo-ex",
+    "set_id": "A3b",
+    "set_name": "Evoli-Hain",
+    "ability": "Ständiges Vollstopfen",
+    "ability_effect": "Am Ende deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, heile 20 Schadenspunkte bei ihm."
+  },
+  {
+    "card_name": "Ambidiffel",
+    "set_id": "A3b",
+    "set_name": "Evoli-Hain",
+    "ability": "Greifschweif",
+    "ability_effect": "Einmal während deines Zuges kannst du 1 zufällige Pokémon-Ausrüstung aus deinem Deck auf deine Hand nehmen."
+  },
+  {
+    "card_name": "Guardevoir",
+    "set_id": "A3b",
+    "set_name": "Evoli-Hain",
+    "ability": "Psischatten",
+    "ability_effect": "Einmal während deines Zuges kannst du 1-Energie aus deinem Energiebereich an dein Aktives-Pokémon anlegen."
+  },
+  {
+    "card_name": "Papungha",
+    "set_id": "A2b",
+    "set_name": "Weisheit von Meer und Himmel",
+    "ability": "Flauschiger Flug",
+    "ability_effect": "Dein Aktives Pokémon hat keine Rückzugskosten."
+  },
+  {
+    "card_name": "Pottrott-ex",
+    "set_id": "A2b",
+    "set_name": "Weisheit von Meer und Himmel",
+    "ability": "Solider Panzer",
+    "ability_effect": "Diesem Pokémon werden durch Attacken – 20 Schadenspunkte zugefügt."
+  },
+  {
+    "card_name": "Kikugi",
+    "set_id": "A2b",
+    "set_name": "Weisheit von Meer und Himmel",
+    "ability": "Volle Frucht voraus",
+    "ability_effect": "Wenn an dieses Pokémon 1 Pokémon-Ausrüstung angelegt ist, verringern sich die Kosten der von diesem Pokémon eingesetzten Attacken um 1-Energie."
+  },
+  {
+    "card_name": "Tornupto",
+    "set_id": "A2b",
+    "set_name": "Weisheit von Meer und Himmel",
+    "ability": "Feueratem",
+    "ability_effect": "Einmal während deines Zuges kannst du entscheiden, ob das Aktive Pokémon deines Gegners nun verbrannt ist."
+  },
+  {
+    "card_name": "Quaxo",
+    "set_id": "A2b",
+    "set_name": "Weisheit von Meer und Himmel",
+    "ability": "Glorreiches Anfeuern",
+    "ability_effect": "Solange sich dieses Pokémon auf deiner Bank befindet, fügen die Attacken deiner Pokémon, die sich aus Quaputzi entwickeln, dem Aktiven Pokémon deines Gegners + 40 Schadenspunkte zu."
+  },
+  {
+    "card_name": "Azumarill",
+    "set_id": "A2b",
+    "set_name": "Weisheit von Meer und Himmel",
+    "ability": "Speckschicht",
+    "ability_effect": "Diesem Pokémon werden durch Attacken von- oder-Pokémon – 30 Schadenspunkte zugefügt."
+  },
+  {
+    "card_name": "Krebutack",
+    "set_id": "A2b",
+    "set_name": "Weisheit von Meer und Himmel",
+    "ability": "Unbändige Schere",
+    "ability_effect": "Einmal während deines Zuges, wenn du dieses Pokémon von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du 1 zufällige Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel legen."
+  },
+  {
+    "card_name": "Togekiss",
+    "set_id": "A2b",
+    "set_name": "Weisheit von Meer und Himmel",
+    "ability": "Sphärischer Segen",
+    "ability_effect": "Wenn diesem Pokémon durch Attacken Schaden zugefügt wird, wirf 1 Münze. Verhindere bei Kopf jenen Schaden."
+  },
+  {
+    "card_name": "Psiana-ex",
+    "set_id": "A2b",
+    "set_name": "Weisheit von Meer und Himmel",
+    "ability": "Psychoheilung",
+    "ability_effect": "Einmal während deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, kannst du 30 Schadenspunkte bei 1 deiner Pokémon heilen."
+  },
+  {
+    "card_name": "Icognito",
+    "set_id": "A2b",
+    "set_name": "Weisheit von Meer und Himmel",
+    "ability": "GUARD",
+    "ability_effect": "Diese Fähigkeit zeigt nur Wirkung, wenn du ein Icognito im Spiel hast, das eine andere Fähigkeit als GUARD besitzt. Allen deinen Pokémon werden - 10 Schadenspunkte durch Attacken von Pokémon des Gegners zugefügt."
+  },
+  {
+    "card_name": "Nachtara-ex",
+    "set_id": "A2b",
+    "set_name": "Weisheit von Meer und Himmel",
+    "ability": "Finstere Verfolgung",
+    "ability_effect": "Einmal während  deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, kannst du 1 Pokémon, dem bereits Schaden zugefügt wurde, von der Bank deines Gegners in die Aktive Position einwechseln."
+  },
+  {
+    "card_name": "Despotar",
+    "set_id": "A2b",
+    "set_name": "Weisheit von Meer und Himmel",
+    "ability": "Energieraub",
+    "ability_effect": "Einmal während deines Zuges kannst du alle-Energien von jedem deiner Pokémon auf dieses Pokémon verschieben."
+  },
+  {
+    "card_name": "Porygon2",
+    "set_id": "A2b",
+    "set_name": "Weisheit von Meer und Himmel",
+    "ability": "Glitch-Entwicklung",
+    "ability_effect": "Lege jedes Mal, wenn du eine Energie aus dem Energiebereich an dieses Pokémon anlegst, eine zufällige Karte aus deinem Deck, die sich aus diesem Pokémon entwickelt, auf dieses Pokémon, um es zu entwickeln."
+  },
+  {
+    "card_name": "Hoothoot",
+    "set_id": "A2b",
+    "set_name": "Weisheit von Meer und Himmel",
+    "ability": "Insomnia",
+    "ability_effect": "Dieses Pokémon kann nicht von Schlaf betroffen werden."
+  },
+  {
+    "card_name": "Magneton",
+    "set_id": "A2b",
+    "set_name": "Weisheit von Meer und Himmel",
+    "ability": "Voltladung",
+    "ability_effect": "Einmal während deines Zuges kannst du 1-Energie aus deinem Energiebereich an dieses Pokémon anlegen."
+  },
+  {
+    "card_name": "Folipurba-ex",
+    "set_id": "A2b",
+    "set_name": "Weisheit von Meer und Himmel",
+    "ability": "Waldatem",
+    "ability_effect": "Einmal während deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, kannst du 1-Energie aus deinem Energiebereich an 1 deiner-Pokémon anlegen."
+  },
+  {
+    "card_name": "Glaziola-ex",
+    "set_id": "A2b",
+    "set_name": "Weisheit von Meer und Himmel",
+    "ability": "Schneefeld",
+    "ability_effect": "Wenn dieses Pokémon beim Pokémon-Check in der Aktiven Position ist, füge dem Aktiven Pokémon deines Gegners 10 Schadenspunkte zu."
+  },
+  {
+    "card_name": "Entei-ex",
+    "set_id": "A4a",
+    "set_name": "Verborgene Quelle",
+    "ability": "Legendärer Puls",
+    "ability_effect": "Am Ende deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, ziehe 1 Karte."
+  },
+  {
+    "card_name": "Suicune-ex",
+    "set_id": "A4a",
+    "set_name": "Verborgene Quelle",
+    "ability": "Legendärer Puls",
+    "ability_effect": "Am Ende deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, ziehe 1 Karte."
+  },
+  {
+    "card_name": "Milotic",
+    "set_id": "A4a",
+    "set_name": "Verborgene Quelle",
+    "ability": "Heilende Wellen",
+    "ability_effect": "Einmal während deines Zuges, wenn du dieses Pokémon von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du 60 Schadenspunkte bei 1 deiner-Pokémon heilen."
+  },
+  {
+    "card_name": "Raikou-ex",
+    "set_id": "A4a",
+    "set_name": "Verborgene Quelle",
+    "ability": "Legendärer Puls",
+    "ability_effect": "Am Ende deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, ziehe 1 Karte."
+  },
+  {
+    "card_name": "Traunfugil",
+    "set_id": "A4a",
+    "set_name": "Verborgene Quelle",
+    "ability": "Heimliche Inspektion",
+    "ability_effect": "Einmal während deines Zuges, wenn du dieses Pokémon aus deiner Hand auf die Bank spielst, kannst du deinen Gegner dazu veranlassen, dir seine Handkarten zu zeigen."
+  },
+  {
+    "card_name": "Galar-Gorgasonn",
+    "set_id": "A4a",
+    "set_name": "Verborgene Quelle",
+    "ability": "Unheilskörper",
+    "ability_effect": "Wenn dieses Pokémon in der Aktiven Position ist und durch Schaden einer Attacke von Pokémon deines Gegners kampfunfähig wird, wirf 1 Münze. Bei Kopf ist das Angreifende Pokémon kampfunfähig."
+  },
+  {
+    "card_name": "Latios",
+    "set_id": "A4a",
+    "set_name": "Verborgene Quelle",
+    "ability": "Traumhaftes Schweben",
+    "ability_effect": "Wenn du Latias im Spiel hast, hat dieses Pokémon keine Rückzugskosten."
+  },
+  {
+    "card_name": "Donphan",
+    "set_id": "A4a",
+    "set_name": "Verborgene Quelle",
+    "ability": "Exoskellet",
+    "ability_effect": "Diesem Pokémon werden durch Attacken - 20 Schadenspunkte zugefügt."
+  },
+  {
+    "card_name": "Zoroark",
+    "set_id": "A4a",
+    "set_name": "Verborgene Quelle",
+    "ability": "Trügerische Trickserei",
+    "ability_effect": "Wenn das Pokémon deines Gegners durch Schaden der Attacken dieses Pokémon kampfunfähig wird, verhindere während des nächsten Zuges deines Gegners allen Schaden durch und alle Effekte von Attacken, die diesem Pokémon zugefügt werden."
+  },
+  {
+    "card_name": "Sengo",
+    "set_id": "A4a",
+    "set_name": "Verborgene Quelle",
+    "ability": "Gegenangriff",
+    "ability_effect": "Wenn dieses Pokémon in der Aktiven Position ist und durch eine Attacke von Pokémon deines Gegners Schaden erhält, füge dem Angreifenden Pokémon 20 Schadenspunkte zu."
+  },
+  {
+    "card_name": "Gufa",
+    "set_id": "A4a",
+    "set_name": "Verborgene Quelle",
+    "ability": "Magenkrempler",
+    "ability_effect": "Wenn dieses Pokémon in der Aktiven Position ist und durch Schaden einer Attacke von Pokémon deines Gegners kampfunfähig wird, füge dem Angreifenden Pokémon 50 Schadenspunkte zu."
+  },
+  {
+    "card_name": "Olithena",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "ability": "Extraheilung",
+    "ability_effect": "Einmal während deines Zuges kannst du 60 Schadenspunkte bei 1 deiner Pokémon-exheilen, an das mindestens 1 Energie angelegt ist. Wenn du das machst, lege 1 zufällige Energie von jenem Pokémon ab."
+  },
+  {
+    "card_name": "Skelokrok",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "ability": "Feurige Stimme",
+    "ability_effect": "Einmal während deines Zuges kannst du 1-Energie von diesem Pokémon ablegen, um diese Fähigkeit einzusetzen. Während dieses Zuges fügen Attacken deiner-Pokémon dem Aktiven Pokémon deines Gegners + 50 Schadenspunkte zu."
+  },
+  {
+    "card_name": "Crimanzo-ex",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "ability": "Rüstung",
+    "ability_effect": "Diesem Pokémon werden durch Attacken - 30 Schadenspunkte zugefügt."
+  },
+  {
+    "card_name": "Bailonda",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "ability": "Sturzbach",
+    "ability_effect": "Wenn dieses Pokémon 50 oder weniger verbleibende KP hat, fügen seine Attacken dem Aktiven Pokémon deines Gegners + 60 Schadenspunkte zu."
+  },
+  {
+    "card_name": "Espinodon",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "ability": "Eismacher",
+    "ability_effect": "Einmal während deines Zuges kannst du 1-Energie aus deinem Energiebereich an dein Aktives-Pokémon anlegen."
+  },
+  {
+    "card_name": "Entei-ex",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "ability": "Legendärer Puls",
+    "ability_effect": "Am Ende deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, ziehe 1 Karte."
+  },
+  {
+    "card_name": "Suicune-ex",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "ability": "Legendärer Puls",
+    "ability_effect": "Am Ende deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, ziehe 1 Karte."
+  },
+  {
+    "card_name": "Raikou-ex",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "ability": "Legendärer Puls",
+    "ability_effect": "Am Ende deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, ziehe 1 Karte."
+  },
+  {
+    "card_name": "T%C3%BCrkisgr%C3%BCne-Maske-Ogerpon-ex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "ability": "Wohltuender Wind",
+    "ability_effect": "Jedes deiner Pokémon, an das mindestens 1 Energie angelegt ist, erholt sich von allen Speziellen Zuständen und kann von keinen Speziellen Zuständen betroffen werden."
+  },
+  {
+    "card_name": "Alola-Raichu",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "ability": "Surf-Schweif",
+    "ability_effect": "Wenn eine Stadionkarte im Spiel ist, hat dieses Pokémon keine Rückzugskosten."
+  },
+  {
+    "card_name": "Meloetta",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "ability": "Geheimnisvoller Gesang",
+    "ability_effect": "Zu Beginn deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, nimm 1 zufälliges-Pokémon aus deinem Deck auf deine Hand."
+  },
+  {
+    "card_name": "Mimigma-ex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "ability": "Kostümspuk",
+    "ability_effect": "Wenn diesem Pokémon zum ersten Mal Schaden durch eine Attacke zugefügt wird, nachdem es ins Spiel gebracht wurde, verhindere jenen Schaden."
+  },
+  {
+    "card_name": "Mortipot",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "ability": "Erfrischender Tee",
+    "ability_effect": "Einmal während deines Zuges, wenn du dieses Pokémon von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du deinen Gegner dazu veranlassen, seine Handkarten in sein Deck zu mischen. Für jeden verbleibenden Punkt, den dein Gegner benötigt, um zu gewinnen, zieht er eine Karte."
+  },
+  {
+    "card_name": "Legios",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "ability": "Koordinierte Einheit",
+    "ability_effect": "Wenn du ein weiteres Legios im Spiel hast, werden dem Aktiven Pokémon deines Gegners durch Attacken von diesem Pokémon + 20 Schadenspunkte zugefügt und diesem Pokémon werden durch Attacken von Pokémon deines Gegners - 20 Schadenspunkte zugefügt."
+  },
+  {
+    "card_name": "Alola-Sleimok",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "ability": "Chemiekraft",
+    "ability_effect": "Basis-Pokémon im Spiel(deine und die deines Gegners)haben keine Fähigkeiten."
+  },
+  {
+    "card_name": "Kryppuk",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "ability": "Finaler Schrei",
+    "ability_effect": "Wenn dieses Pokémon in der Aktiven Position ist und durch Schaden einer Attacke von Pokémon deines Gegners kampfunfähig wird, füge jedem Pokémon deines Gegners 10 Schadenspunkte zu."
+  },
+  {
+    "card_name": "Galar-Mauzinger",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "ability": "Ausbuddeln",
+    "ability_effect": "Einmal während deines Zuges, wenn du dieses Pokémon von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du 2 zufällige Pokémon-Ausrüstungen aus deinem Ablagestapel auf deine Hand nehmen."
+  },
+  {
+    "card_name": "Mauzi",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "ability": "Unbekümmerte Schritte",
+    "ability_effect": "Wenn diesem Pokémon durch Attacken Schaden zugefügt wird, wirf 1 Münze. Verhindere bei Kopf jenen Schaden."
+  },
+  {
+    "card_name": "Farbeagle",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "ability": "Porträt",
+    "ability_effect": "Einmal während deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, kannst du dir 1 zufällige Unterstützerkarte aus der Hand deines Gegners ansehen. Setze den Effekt jener Karte als Effekt dieser Fähigkeit ein."
+  },
+  {
+    "card_name": "Schwalboss",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "ability": "Zurückwerfender Wind",
+    "ability_effect": "Einmal während deines Zuges kannst du das Aktive Basis-Pokémon deines Gegners auf seine Bank auswechseln.(Dein Gegner wählt das neue Aktive Pokémon.)"
+  },
+  {
+    "card_name": "Letarking",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "ability": "Gewohnheitsschlaf",
+    "ability_effect": "Jedes Mal, wenn du 1 Energie aus dem Energiebereich an dieses Pokémon anlegst und es sich in der Aktiven Position befindet, schläft dieses Pokémon jetzt."
+  },
+  {
+    "card_name": "Coiffwaff",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "ability": "Fellkleid",
+    "ability_effect": "Diesem Pokémon werden durch Attacken - 20 Schadenspunkte zugefügt."
+  },
+  {
+    "card_name": "Latios",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "ability": "Traumhaftes Schweben",
+    "ability_effect": "Wenn du Latias im Spiel hast, hat dieses Pokémon keine Rückzugskosten."
+  },
+  {
+    "card_name": "Flamara-ex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "ability": "Überhitzen",
+    "ability_effect": "Einmal während deines Zuges kannst du 1-Energie aus deinem Ablagestapel an dieses Pokémon anlegen. Wenn du das machst, füge diesem Pokémon 20 Schadenspunkte zu."
+  },
+  {
+    "card_name": "Psiana-ex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "ability": "Psychoheilung",
+    "ability_effect": "Einmal während deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, kannst du 30 Schadenspunkte bei 1 deiner Pokémon heilen."
+  },
+  {
+    "card_name": "Feelinara-ex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "ability": "Glücksbänder",
+    "ability_effect": "Einmal während deines Zuges, wenn du dieses Pokémon von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du 2 Karten ziehen."
+  },
+  {
+    "card_name": "Nachtara-ex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "ability": "Finstere Verfolgung",
+    "ability_effect": "Einmal während  deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, kannst du 1 Pokémon, dem bereits Schaden zugefügt wurde, von der Bank deines Gegners in die Aktive Position einwechseln."
+  },
+  {
+    "card_name": "Smettbo",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "ability": "Puderheilung",
+    "ability_effect": "Einmal während deines Zuges kannst du 20 Schadenspunkte bei jedem deiner Pokémon heilen."
+  },
+  {
+    "card_name": "Quajutsu",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "ability": "Wasser-Shuriken",
+    "ability_effect": "Einmal während deines Zuges kannst du 1 Pokémon deines Gegners 20 Schadenspunkte zufügen."
+  },
+  {
+    "card_name": "Cresselia-ex",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "ability": "Lunargefieder",
+    "ability_effect": "Heile jedes Mal, wenn du 1-Energie aus dem Energiebereich an dieses Pokémon anlegst, 20 Schadenspunkte bei diesem Pokémon."
+  },
+  {
+    "card_name": "Darkrai-ex",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "ability": "Alptraum-Aura",
+    "ability_effect": "Füge jedes Mal, wenn du 1-Energie aus dem Energiebereich an dieses Pokémon anlegst, dem Aktiven Pokémon deines Gegners 20 Schadenspunkte zu."
+  },
+  {
+    "card_name": "Raichu",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "ability": "Widerstandskopplung",
+    "ability_effect": "Wenn du Arceus oder Arceus-exim Spiel hast, werden diesem Pokémon durch Attacken - 30 Schadenspunkte zugefügt."
+  },
+  {
+    "card_name": "Staraptor",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "ability": "Schützender Wirbelwind",
+    "ability_effect": "Diesem Pokémon werden durch Attacken von-Pokémon - 30 Schadenspunkte zugefügt."
+  },
+  {
+    "card_name": "Pamomamo",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "ability": "Gegenangriff",
+    "ability_effect": "Wenn dieses Pokémon in der Aktiven Position ist und durch eine Attacke von Pokémon deines Gegners Schaden erhält, füge dem Angreifenden Pokémon 20 Schadenspunkte zu."
+  },
+  {
+    "card_name": "Zeraora",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "ability": "Blendender Blitzsturm",
+    "ability_effect": "Am Ende deines ersten Zuges lege 1-Energie aus deinem Energiebereich an dieses Pokémon an."
+  },
+  {
+    "card_name": "Milotic",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "ability": "Heilende Wellen",
+    "ability_effect": "Einmal während deines Zuges, wenn du dieses Pokémon von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du 60 Schadenspunkte bei 1 deiner-Pokémon heilen."
+  },
+  {
+    "card_name": "Zoroark",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "ability": "Trügerische Trickserei",
+    "ability_effect": "Wenn das Pokémon deines Gegners durch Schaden der Attacken dieses Pokémon kampfunfähig wird, verhindere während des nächsten Zuges deines Gegners allen Schaden durch und alle Effekte von Attacken, die diesem Pokémon zugefügt werden."
+  },
+  {
+    "card_name": "Evoli-ex",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "ability": "Volivoli-Entwicklung",
+    "ability_effect": "Dieses Pokémon kann sich zu einem beliebigen Pokémon entwickeln, das sich aus Evoli entwickelt, wenn du es aus deiner Hand auf dieses Pokémon spielst.(Dieses Pokémon kann sich während deines ersten Zuges oder während des Zuges, in dem du es spielst, nicht entwickeln.)"
+  },
+  {
+    "card_name": "Entei-ex",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "ability": "Legendärer Puls",
+    "ability_effect": "Am Ende deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, ziehe 1 Karte."
+  },
+  {
+    "card_name": "Shaymin",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "ability": "Duftender Blumengarten",
+    "ability_effect": "Einmal während deines Zuges kannst du 10 Schadenspunkte bei jedem deiner Pokémon heilen."
+  },
+  {
+    "card_name": "Evoli",
+    "set_id": "PROMO-B",
+    "set_name": "PROMO-B",
+    "ability": "Evolutionsschub",
+    "ability_effect": "Solange dieses Pokémon in der Aktiven Position ist, kann es sich während deines ersten Zuges oder während des Zuges, in dem du es spielst, enwickeln."
+  },
+  {
+    "card_name": "Glutexo",
+    "set_id": "PROMO-B",
+    "set_name": "PROMO-B",
+    "ability": "Zündung",
+    "ability_effect": "Einmal während deines Zuges, wenn du dieses Pokémon von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du 1-Energie aus deinem Energiebereich an dein Aktives-Pokémon anlegen."
+  }
+]

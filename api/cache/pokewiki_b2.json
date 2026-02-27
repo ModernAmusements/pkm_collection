@@ -196,7 +196,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Zerrei\u00dfende Dornen",
+        "name": "Zerreißende Dornen",
         "damage": "60",
         "cost": [
           "Grass",
@@ -324,7 +324,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "K\u00e4ferbiss",
+        "name": "Käferbiss",
         "damage": "10",
         "cost": [
           "Colorless"
@@ -384,7 +384,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Farbenpr\u00e4chtiger Puder",
+        "name": "Farbenprächtiger Puder",
         "damage": "60",
         "cost": [
           "Grass",
@@ -599,7 +599,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Hitzesto\u00df",
+        "name": "Hitzestoß",
         "damage": "70",
         "cost": [
           "Fire",
@@ -630,7 +630,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Motivierender T\u00e4nzer",
+        "name": "Motivierender Tänzer",
         "damage": "10",
         "cost": [
           "Fire"
@@ -945,7 +945,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Box voller \u00dcberraschungen",
+        "name": "Box voller Überraschungen",
         "damage": "",
         "cost": [
           "Colorless",
@@ -1037,7 +1037,7 @@
     "retreat": "3",
     "attacks": [
       {
-        "name": "Gro\u00dfer Strudel",
+        "name": "Großer Strudel",
         "damage": "100",
         "cost": [
           "Water",
@@ -1069,7 +1069,7 @@
     "retreat": "3",
     "attacks": [
       {
-        "name": "Erbarmungsloser Zerst\u00f6rer",
+        "name": "Erbarmungsloser Zerstörer",
         "damage": "150",
         "cost": [
           "Water",
@@ -1101,7 +1101,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Fr\u00f6steln",
+        "name": "Frösteln",
         "damage": "20",
         "cost": [
           "Water"
@@ -1161,7 +1161,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "S\u00fc\u00dfe Staffel",
+        "name": "Süße Staffel",
         "damage": "60",
         "cost": [
           "Water",
@@ -1471,7 +1471,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Donnerr\u00fcttler",
+        "name": "Donnerrüttler",
         "damage": "30",
         "cost": [
           "Electric"
@@ -1516,8 +1516,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Surf-Schweif",
+    "ability_effect": "Wenn eine Stadionkarte im Spiel ist, hat dieses Pokémon keine Rückzugskosten.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0026",
@@ -1815,7 +1815,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Umsto\u00dfen",
+        "name": "Umstoßen",
         "damage": "80",
         "cost": [
           "Psychic",
@@ -1847,7 +1847,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Scharfe F\u00e4nge",
+        "name": "Scharfe Fänge",
         "damage": "30",
         "cost": [
           "Colorless",
@@ -1878,7 +1878,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "St\u00e4rke",
+        "name": "Stärke",
         "damage": "90",
         "cost": [
           "Psychic",
@@ -2138,8 +2138,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Geheimnisvoller Gesang",
+    "ability_effect": "Zu Beginn deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, nimm 1 zufälliges-Pokémon aus deinem Deck auf deine Hand.",
     "rarity": "1 Diamond",
     "illustrator": "",
     "pokedex_number": "0648",
@@ -2220,7 +2220,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Kost\u00fcmspuk",
+        "name": "Kostümspuk",
         "damage": "",
         "cost": [],
         "effect": ""
@@ -2235,8 +2235,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Kostümspuk",
+    "ability_effect": "Wenn diesem Pokémon zum ersten Mal Schaden durch eine Attacke zugefügt wird, nachdem es ins Spiel gebracht wurde, verhindere jenen Schaden.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "",
@@ -2301,8 +2301,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Erfrischender Tee",
+    "ability_effect": "Einmal während deines Zuges, wenn du dieses Pokémon von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du deinen Gegner dazu veranlassen, seine Handkarten in sein Deck zu mischen. Für jeden verbleibenden Punkt, den dein Gegner benötigt, um zu gewinnen, zieht er eine Karte.",
     "rarity": "1 Diamond",
     "illustrator": "",
     "pokedex_number": "0855",
@@ -2415,7 +2415,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Zertr\u00fcmmern",
+        "name": "Zertrümmern",
         "damage": "10",
         "cost": [
           "Colorless"
@@ -2693,7 +2693,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Abrupter Kopfsto\u00df",
+        "name": "Abrupter Kopfstoß",
         "damage": "30",
         "cost": [
           "Colorless",
@@ -2724,7 +2724,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Einh\u00e4mmern",
+        "name": "Einhämmern",
         "damage": "60",
         "cost": [
           "Fighting",
@@ -2755,7 +2755,7 @@
     "retreat": "3",
     "attacks": [
       {
-        "name": "Tyrannischer Rei\u00dfer",
+        "name": "Tyrannischer Reißer",
         "damage": "100",
         "cost": [
           "Fighting",
@@ -2831,8 +2831,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Koordinierte Einheit",
+    "ability_effect": "Wenn du ein weiteres Legios im Spiel hast, werden dem Aktiven Pokémon deines Gegners durch Attacken von diesem Pokémon + 20 Schadenspunkte zugefügt und diesem Pokémon werden durch Attacken von Pokémon deines Gegners - 20 Schadenspunkte zugefügt.",
     "rarity": "1 Diamond",
     "illustrator": "",
     "pokedex_number": "0870",
@@ -2890,8 +2890,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Unbekümmerte Schritte",
+    "ability_effect": "Wenn diesem Pokémon durch Attacken Schaden zugefügt wird, wirf 1 Münze. Verhindere bei Kopf jenen Schaden.",
     "rarity": "2 Diamond",
     "illustrator": "",
     "pokedex_number": "0052",
@@ -2986,8 +2986,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Chemiekraft",
+    "ability_effect": "Basis-Pokémon im Spiel(deine und die deines Gegners)haben keine Fähigkeiten.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0089",
@@ -3036,7 +3036,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "R\u00fcckw\u00e4rtskick",
+        "name": "Rückwärtskick",
         "damage": "40",
         "cost": [],
         "effect": ""
@@ -3092,7 +3092,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Spr\u00fchwasser",
+        "name": "Sprühwasser",
         "damage": "30",
         "cost": [
           "Colorless"
@@ -3167,8 +3167,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Finaler Schrei",
+    "ability_effect": "Wenn dieses Pokémon in der Aktiven Position ist und durch Schaden einer Attacke von Pokémon deines Gegners kampfunfähig wird, füge jedem Pokémon deines Gegners 10 Schadenspunkte zu.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0442",
@@ -3367,8 +3367,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Ausbuddeln",
+    "ability_effect": "Einmal während deines Zuges, wenn du dieses Pokémon von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du 2 zufällige Pokémon-Ausrüstungen aus deinem Ablagestapel auf deine Hand nehmen.",
     "rarity": "2 Diamond",
     "illustrator": "",
     "pokedex_number": "0052",
@@ -3404,8 +3404,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Ausbuddeln",
+    "ability_effect": "Einmal während deines Zuges, wenn du dieses Pokémon von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du 2 zufällige Pokémon-Ausrüstungen aus deinem Ablagestapel auf deine Hand nehmen.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "863",
@@ -3612,7 +3612,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Zerh\u00e4ckseln",
+        "name": "Zerhäckseln",
         "damage": "20",
         "cost": [
           "Metal"
@@ -3798,13 +3798,13 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Unbek\u00fcmmerte Schritte",
+        "name": "Unbekümmerte Schritte",
         "damage": "",
         "cost": [],
         "effect": ""
       },
       {
-        "name": "Wohl f\u00fchlen",
+        "name": "Wohl fühlen",
         "damage": "",
         "cost": [
           "Colorless"
@@ -3812,8 +3812,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Unbekümmerte Schritte",
+    "ability_effect": "Wenn diesem Pokémon durch Attacken Schaden zugefügt wird, wirf 1 Münze. Verhindere bei Kopf jenen Schaden.",
     "rarity": "2 Diamond",
     "illustrator": "",
     "pokedex_number": "0052",
@@ -3959,7 +3959,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Abrupter Kopfsto\u00df",
+        "name": "Abrupter Kopfstoß",
         "damage": "40",
         "cost": [
           "Colorless"
@@ -3989,7 +3989,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Portr\u00e4t",
+        "name": "Porträt",
         "damage": "",
         "cost": [],
         "effect": ""
@@ -4004,8 +4004,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Porträt",
+    "ability_effect": "Einmal während deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, kannst du dir 1 zufällige Unterstützerkarte aus der Hand deines Gegners ansehen. Setze den Effekt jener Karte als Effekt dieser Fähigkeit ein.",
     "rarity": "1 Diamond",
     "illustrator": "",
     "pokedex_number": "0235",
@@ -4026,7 +4026,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Luftsto\u00df",
+        "name": "Luftstoß",
         "damage": "80",
         "cost": [
           "Colorless",
@@ -4089,13 +4089,13 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Zur\u00fcckwerfender Wind",
+        "name": "Zurückwerfender Wind",
         "damage": "",
         "cost": [],
         "effect": ""
       },
       {
-        "name": "Fl\u00fcgelschlag",
+        "name": "Flügelschlag",
         "damage": "50",
         "cost": [
           "Colorless",
@@ -4104,8 +4104,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Zurückwerfender Wind",
+    "ability_effect": "Einmal während deines Zuges kannst du das Aktive Basis-Pokémon deines Gegners auf seine Bank auswechseln.(Dein Gegner wählt das neue Aktive Pokémon.)",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0277",
@@ -4126,7 +4126,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "G\u00e4hner",
+        "name": "Gähner",
         "damage": "",
         "cost": [
           "Colorless"
@@ -4203,8 +4203,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Gewohnheitsschlaf",
+    "ability_effect": "Jedes Mal, wenn du 1 Energie aus dem Energiebereich an dieses Pokémon anlegst und es sich in der Aktiven Position befindet, schläft dieses Pokémon jetzt.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0289",
@@ -4353,7 +4353,7 @@
         "effect": ""
       },
       {
-        "name": "Einh\u00e4mmern",
+        "name": "Einhämmern",
         "damage": "70",
         "cost": [
           "Colorless",
@@ -4363,8 +4363,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Fellkleid",
+    "ability_effect": "Diesem Pokémon werden durch Attacken - 20 Schadenspunkte zugefügt.",
     "rarity": "1 Diamond",
     "illustrator": "",
     "pokedex_number": "0676",
@@ -4385,7 +4385,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Ausschw\u00e4rmen",
+        "name": "Ausschwärmen",
         "damage": "",
         "cost": [
           "Colorless"
@@ -4415,7 +4415,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Familienniederpr\u00fcgler",
+        "name": "Familienniederprügler",
         "damage": "60",
         "cost": [
           "Colorless"
@@ -4507,7 +4507,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Farbenpr\u00e4chtiger Puder",
+        "name": "Farbenprächtiger Puder",
         "damage": "60",
         "cost": [
           "Grass",
@@ -4601,7 +4601,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Motivierender T\u00e4nzer",
+        "name": "Motivierender Tänzer",
         "damage": "10",
         "cost": [
           "Fire"
@@ -4814,7 +4814,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Scharfe F\u00e4nge",
+        "name": "Scharfe Fänge",
         "damage": "30",
         "cost": [
           "Colorless",
@@ -4907,7 +4907,7 @@
     "retreat": "3",
     "attacks": [
       {
-        "name": "Tyrannischer Rei\u00dfer",
+        "name": "Tyrannischer Reißer",
         "damage": "100",
         "cost": [
           "Fighting",
@@ -4953,8 +4953,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Koordinierte Einheit",
+    "ability_effect": "Wenn du ein weiteres Legios im Spiel hast, werden dem Aktiven Pokémon deines Gegners durch Attacken von diesem Pokémon + 20 Schadenspunkte zugefügt und diesem Pokémon werden durch Attacken von Pokémon deines Gegners - 20 Schadenspunkte zugefügt.",
     "rarity": "1 Diamond",
     "illustrator": "",
     "pokedex_number": "0870",
@@ -4990,8 +4990,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Chemiekraft",
+    "ability_effect": "Basis-Pokémon im Spiel(deine und die deines Gegners)haben keine Fähigkeiten.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0089",
@@ -5111,8 +5111,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Ausbuddeln",
+    "ability_effect": "Einmal während deines Zuges, wenn du dieses Pokémon von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du 2 zufällige Pokémon-Ausrüstungen aus deinem Ablagestapel auf deine Hand nehmen.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "863",
@@ -5165,7 +5165,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "G\u00e4hner",
+        "name": "Gähner",
         "damage": "",
         "cost": [
           "Colorless"
@@ -5266,7 +5266,7 @@
     "retreat": "3",
     "attacks": [
       {
-        "name": "Erbarmungsloser Zerst\u00f6rer",
+        "name": "Erbarmungsloser Zerstörer",
         "damage": "150",
         "cost": [
           "Water",
@@ -5361,7 +5361,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Kost\u00fcmspuk",
+        "name": "Kostümspuk",
         "damage": "",
         "cost": [],
         "effect": ""
@@ -5376,8 +5376,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Kostümspuk",
+    "ability_effect": "Wenn diesem Pokémon zum ersten Mal Schaden durch eine Attacke zugefügt wird, nachdem es ins Spiel gebracht wurde, verhindere jenen Schaden.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "",
@@ -5565,7 +5565,7 @@
     "retreat": "3",
     "attacks": [
       {
-        "name": "Erbarmungsloser Zerst\u00f6rer",
+        "name": "Erbarmungsloser Zerstörer",
         "damage": "150",
         "cost": [
           "Water",
@@ -5629,7 +5629,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Kost\u00fcmspuk",
+        "name": "Kostümspuk",
         "damage": "",
         "cost": [],
         "effect": ""
@@ -5644,8 +5644,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Kostümspuk",
+    "ability_effect": "Wenn diesem Pokémon zum ersten Mal Schaden durch eine Attacke zugefügt wird, nachdem es ins Spiel gebracht wurde, verhindere jenen Schaden.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "",
@@ -5793,13 +5793,13 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Unbek\u00fcmmerte Schritte",
+        "name": "Unbekümmerte Schritte",
         "damage": "",
         "cost": [],
         "effect": ""
       },
       {
-        "name": "Wohl f\u00fchlen",
+        "name": "Wohl fühlen",
         "damage": "",
         "cost": [
           "Colorless"
@@ -5807,8 +5807,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Unbekümmerte Schritte",
+    "ability_effect": "Wenn diesem Pokémon durch Attacken Schaden zugefügt wird, wirf 1 Münze. Verhindere bei Kopf jenen Schaden.",
     "rarity": "2 Diamond",
     "illustrator": "",
     "pokedex_number": "0052",
@@ -5979,7 +5979,7 @@
     "retreat": "",
     "attacks": [
       {
-        "name": "Pl\u00e4tscherwurf",
+        "name": "Plätscherwurf",
         "damage": "",
         "cost": [],
         "effect": ""
@@ -6157,7 +6157,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "\u00dcberkreuzflug",
+        "name": "Überkreuzflug",
         "damage": "20",
         "cost": [
           "Psychic"
@@ -6203,8 +6203,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Traumhaftes Schweben",
+    "ability_effect": "Wenn du Latias im Spiel hast, hat dieses Pokémon keine Rückzugskosten.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0381",
@@ -6375,7 +6375,7 @@
     "retreat": "",
     "attacks": [
       {
-        "name": "Kr\u00e4ftige Kn\u00f6chel",
+        "name": "Kräftige Knöchel",
         "damage": "20",
         "cost": [],
         "effect": ""
@@ -6435,7 +6435,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "\u00dcberhitzen",
+        "name": "Überhitzen",
         "damage": "",
         "cost": [],
         "effect": ""
@@ -6451,8 +6451,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Überhitzen",
+    "ability_effect": "Einmal während deines Zuges kannst du 1-Energie aus deinem Ablagestapel an dieses Pokémon anlegen. Wenn du das machst, füge diesem Pokémon 20 Schadenspunkte zu.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "",
@@ -6473,7 +6473,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Ph\u00f6nix-Turbo",
+        "name": "Phönix-Turbo",
         "damage": "80",
         "cost": [
           "Colorless",
@@ -6505,7 +6505,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Sturmgef\u00e4ngnis",
+        "name": "Sturmgefängnis",
         "damage": "90",
         "cost": [
           "Water",
@@ -6551,8 +6551,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Psychoheilung",
+    "ability_effect": "Einmal während deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, kannst du 30 Schadenspunkte bei 1 deiner Pokémon heilen.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "",
@@ -6573,7 +6573,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Gl\u00fccksb\u00e4nder",
+        "name": "Glücksbänder",
         "damage": "",
         "cost": [],
         "effect": ""
@@ -6588,8 +6588,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Glücksbänder",
+    "ability_effect": "Einmal während deines Zuges, wenn du dieses Pokémon von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du 2 Karten ziehen.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "",
@@ -6646,14 +6646,14 @@
         "effect": ""
       },
       {
-        "name": "F\u00e4nge der Dunkelheit",
+        "name": "Fänge der Dunkelheit",
         "damage": "80",
         "cost": [],
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Finstere Verfolgung",
+    "ability_effect": "Einmal während  deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, kannst du 1 Pokémon, dem bereits Schaden zugefügt wurde, von der Bank deines Gegners in die Aktive Position einwechseln.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "",
@@ -6721,8 +6721,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Geheimnisvoller Gesang",
+    "ability_effect": "Zu Beginn deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, nimm 1 zufälliges-Pokémon aus deinem Deck auf deine Hand.",
     "rarity": "1 Diamond",
     "illustrator": "",
     "pokedex_number": "0648",

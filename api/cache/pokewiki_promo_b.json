@@ -43,7 +43,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "\u00dcberraschungsangriff",
+        "name": "Überraschungsangriff",
         "damage": "30",
         "cost": [
           "Grass"
@@ -331,8 +331,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Evolutionsschub",
+    "ability_effect": "Solange dieses Pokémon in der Aktiven Position ist, kann es sich während deines ersten Zuges oder während des Zuges, in dem du es spielst, enwickeln.",
     "rarity": "2 Diamond",
     "illustrator": "",
     "pokedex_number": "0133",
@@ -444,7 +444,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "R\u00fcckw\u00e4rtskick",
+        "name": "Rückwärtskick",
         "damage": "10",
         "cost": [
           "Electric"
@@ -597,7 +597,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Z\u00fcndung",
+        "name": "Zündung",
         "damage": "",
         "cost": [],
         "effect": ""
@@ -613,8 +613,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Zündung",
+    "ability_effect": "Einmal während deines Zuges, wenn du dieses Pokémon von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du 1-Energie aus deinem Energiebereich an dein Aktives-Pokémon anlegen.",
     "rarity": "1 Diamond",
     "illustrator": "",
     "pokedex_number": "0005",
@@ -730,7 +730,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "\u00dcberschallimpuls",
+        "name": "Überschallimpuls",
         "damage": "160",
         "cost": [
           "Water",
@@ -792,7 +792,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "\u00dcberraschungsangriff",
+        "name": "Überraschungsangriff",
         "damage": "40",
         "cost": [
           "Water"
@@ -1036,7 +1036,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "N\u00e4hrstoffe",
+        "name": "Nährstoffe",
         "damage": "",
         "cost": [
           "Grass"
@@ -1126,7 +1126,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Verh\u00e4rten",
+        "name": "Verhärten",
         "damage": "",
         "cost": [
           "Water"
@@ -1188,7 +1188,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Zuf\u00e4lliger Funke",
+        "name": "Zufälliger Funke",
         "damage": "",
         "cost": [
           "Electric"

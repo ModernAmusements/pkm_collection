@@ -104,7 +104,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Ge\u00fcbter Sturzflug",
+        "name": "Geübter Sturzflug",
         "damage": "",
         "cost": [
           "Grass"
@@ -134,7 +134,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Pr\u00e4zisionspfeil",
+        "name": "Präzisionspfeil",
         "damage": "",
         "cost": [
           "Grass",
@@ -467,8 +467,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Hammerhauer",
+    "ability_effect": "Solange dieses Pokémon in der Aktiven Position ist, fügen die Attacken des Aktiven Pokémon deines Gegners − 20 Schadenspunkte zu.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0405",
@@ -489,7 +489,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "R\u00fcckw\u00e4rtskick",
+        "name": "Rückwärtskick",
         "damage": "40",
         "cost": [
           "Electric",
@@ -668,8 +668,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Blendender Blitzsturm",
+    "ability_effect": "Am Ende deines ersten Zuges lege 1-Energie aus deinem Energiebereich an dieses Pokémon an.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0807",
@@ -859,8 +859,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Erleuchtung",
+    "ability_effect": "Einmal während deines Zuges kannst du 1 zufälliges Pokémon aus deinem Deck auf deine Hand nehmen.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0756",
@@ -988,8 +988,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Heilblockade",
+    "ability_effect": "Pokémon(deine und die deines Gegners)können nicht geheilt werden.",
     "rarity": "1 Diamond",
     "illustrator": "",
     "pokedex_number": "0344",
@@ -1041,7 +1041,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Wolwef\u00e4nge",
+        "name": "Wolwefänge",
         "damage": "130",
         "cost": [
           "Fighting",
@@ -1284,7 +1284,7 @@
     "retreat": "3",
     "attacks": [
       {
-        "name": "Herausrei\u00dfer",
+        "name": "Herausreißer",
         "damage": "90",
         "cost": [
           "Colorless"
@@ -1328,8 +1328,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Giftschub",
+    "ability_effect": "Dem Aktiven Pokémon deines Gegners werden + 10 Schadenspunkte zugefügt, wenn es vergiftet ist.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0793",
@@ -1569,7 +1569,7 @@
     "retreat": "4",
     "attacks": [
       {
-        "name": "Gigasto\u00df",
+        "name": "Gigastoß",
         "damage": "150",
         "cost": [
           "Metal",
@@ -1649,8 +1649,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Stahldornen",
+    "ability_effect": "Wenn dieses Pokémon in der Aktiven Position ist und durch eine Attacke von Pokémon deines Gegners Schaden erhält, füge dem Angreifenden Pokémon 20 Schadenspunkte zu.",
     "rarity": "1 Diamond",
     "illustrator": "",
     "pokedex_number": "0598",
@@ -1768,7 +1768,7 @@
         "effect": ""
       },
       {
-        "name": "Scharfe F\u00e4nge",
+        "name": "Scharfe Fänge",
         "damage": "70",
         "cost": [
           "Colorless",
@@ -1777,8 +1777,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Wachhundblick",
+    "ability_effect": "Solange dieses Pokémon in der Atkiven Position ist, erhöhen sich die Kosten der vom Aktiven Pokémon deines Gegners eingesetzten Attacken um 1.",
     "rarity": "1 Diamond",
     "illustrator": "",
     "pokedex_number": "0508",
@@ -1862,7 +1862,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Einh\u00e4mmern",
+        "name": "Einhämmern",
         "damage": "70",
         "cost": [
           "Colorless",
@@ -1894,7 +1894,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "K\u00fchne Kumpel",
+        "name": "Kühne Kumpel",
         "damage": "50",
         "cost": [
           "Colorless",
@@ -1925,7 +1925,7 @@
     "retreat": "4",
     "attacks": [
       {
-        "name": "Ultrad\u00fcsen",
+        "name": "Ultradüsen",
         "damage": "",
         "cost": [],
         "effect": ""
@@ -1941,8 +1941,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Ultradüsen",
+    "ability_effect": "Einmal während deines Zuges kannst du deine Aktive Ultrabestie gegen 1 Ultrabestie auf deiner Bank austauschen.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0797",
@@ -2083,7 +2083,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "K\u00fchne Kumpel",
+        "name": "Kühne Kumpel",
         "damage": "50",
         "cost": [
           "Colorless",
@@ -2114,7 +2114,7 @@
     "retreat": "4",
     "attacks": [
       {
-        "name": "Ultrad\u00fcsen",
+        "name": "Ultradüsen",
         "damage": "",
         "cost": [],
         "effect": ""
@@ -2130,8 +2130,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Ultradüsen",
+    "ability_effect": "Einmal während deines Zuges kannst du deine Aktive Ultrabestie gegen 1 Ultrabestie auf deiner Bank austauschen.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0797",
@@ -2233,7 +2233,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Wolwef\u00e4nge",
+        "name": "Wolwefänge",
         "damage": "130",
         "cost": [
           "Fighting",
@@ -2375,7 +2375,7 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Wolwef\u00e4nge",
+        "name": "Wolwefänge",
         "damage": "130",
         "cost": [
           "Fighting",
@@ -2656,8 +2656,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Wasser-Shuriken",
+    "ability_effect": "Einmal während deines Zuges kannst du 1 Pokémon deines Gegners 20 Schadenspunkte zufügen.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0658",
@@ -2709,7 +2709,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Windsto\u00df",
+        "name": "Windstoß",
         "damage": "10",
         "cost": [
           "Colorless"
@@ -2739,7 +2739,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Windsto\u00df",
+        "name": "Windstoß",
         "damage": "30",
         "cost": [
           "Colorless"
@@ -2775,7 +2775,7 @@
         "effect": ""
       },
       {
-        "name": "Fl\u00fcgelschlag",
+        "name": "Flügelschlag",
         "damage": "70",
         "cost": [
           "Colorless",
@@ -2784,8 +2784,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Wegtreiben",
+    "ability_effect": "Einmal während deines Zuges kannst du das Aktive Pokémon deines Gegners auf seine Bank auswechseln.(Dein Gegner wählt das neue Aktive Pokémon.)",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0018",
@@ -2815,8 +2815,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Gesetz der Urzeit",
+    "ability_effect": "Dein Gegner kann keine Pokémon aus seiner Hand spielen, um sein Aktives Pokémon zu entwickeln.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0142",
@@ -2837,7 +2837,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Kraftvolles Bl\u00fchen",
+        "name": "Kraftvolles Blühen",
         "damage": "50",
         "cost": [
           "Grass",
@@ -2915,8 +2915,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Gesetz der Urzeit",
+    "ability_effect": "Dein Gegner kann keine Pokémon aus seiner Hand spielen, um sein Aktives Pokémon zu entwickeln.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "",
@@ -2937,7 +2937,7 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "W\u00fctender Zyklon",
+        "name": "Wütender Zyklon",
         "damage": "80",
         "cost": [
           "Colorless",
@@ -2947,8 +2947,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Wegtreiben",
+    "ability_effect": "Einmal während deines Zuges kannst du das Aktive Pokémon deines Gegners auf seine Bank auswechseln.(Dein Gegner wählt das neue Aktive Pokémon.)",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "",
@@ -2983,8 +2983,8 @@
         "effect": ""
       }
     ],
-    "ability": null,
-    "ability_effect": null,
+    "ability": "Giftschub",
+    "ability_effect": "Dem Aktiven Pokémon deines Gegners werden + 10 Schadenspunkte zugefügt, wenn es vergiftet ist.",
     "rarity": "",
     "illustrator": "",
     "pokedex_number": "0793",
