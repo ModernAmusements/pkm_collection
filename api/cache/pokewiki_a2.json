@@ -1,0 +1,5988 @@
+[
+  {
+    "url": "https://www.pokewiki.de/Myrapla_(Kollision_von_Raum_und_Zeit_001)",
+    "german_name": "Myrapla",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "1",
+    "hp": "60",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Klecks",
+        "damage": "10",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0043",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Duflor_(Kollision_von_Raum_und_Zeit_002)",
+    "german_name": "Duflor",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "2",
+    "hp": "80",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Rasierblatt",
+        "damage": "30",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0044",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Blubella_(Kollision_von_Raum_und_Zeit_003)",
+    "german_name": "Blubella",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "3",
+    "hp": "130",
+    "energy_type": "Grass",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Blattschritt",
+        "damage": "80",
+        "cost": [
+          "Grass",
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0182",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tangela_(Kollision_von_Raum_und_Zeit_004)",
+    "german_name": "Tangela",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "4",
+    "hp": "70",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Rankenhieb",
+        "damage": "30",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0114",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tangoloss_(Kollision_von_Raum_und_Zeit_005)",
+    "german_name": "Tangoloss",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "5",
+    "hp": "130",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Megasauger",
+        "damage": "90",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0465",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Yanma_(Kollision_von_Raum_und_Zeit_006)",
+    "german_name": "Yanma",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "6",
+    "hp": "50",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Flattern",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0193",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Yanmega-ex_(Kollision_von_Raum_und_Zeit_007)",
+    "german_name": "Yanmega-ex",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "7",
+    "hp": "140",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Luftschnitt",
+        "damage": "120",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Roselia_(Kollision_von_Raum_und_Zeit_008)",
+    "german_name": "Roselia",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "8",
+    "hp": "70",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Einstich",
+        "damage": "20",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0315",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Roserade_(Kollision_von_Raum_und_Zeit_009)",
+    "german_name": "Roserade",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "9",
+    "hp": "100",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Giftpeitsche",
+        "damage": "50",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0407",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Chelast_(Kollision_von_Raum_und_Zeit_010)",
+    "german_name": "Chelast",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "10",
+    "hp": "80",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Biss",
+        "damage": "30",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "387",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Chelcarain_(Kollision_von_Raum_und_Zeit_011)",
+    "german_name": "Chelcarain",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "11",
+    "hp": "100",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Rasierblatt",
+        "damage": "60",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0388",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Chelterrar_(Kollision_von_Raum_und_Zeit_012)",
+    "german_name": "Chelterrar",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "12",
+    "hp": "160",
+    "energy_type": "Grass",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Flora-Statue",
+        "damage": "150",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0389",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Zirpurze_(Kollision_von_Raum_und_Zeit_013)",
+    "german_name": "Zirpurze",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "13",
+    "hp": "60",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "K\u00e4ferbiss",
+        "damage": "20",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0401",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Zirpeise_(Kollision_von_Raum_und_Zeit_014)",
+    "german_name": "Zirpeise",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "14",
+    "hp": "90",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Zaubermelodie",
+        "damage": "50",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0402",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Burmy_(Kollision_von_Raum_und_Zeit_015)",
+    "german_name": "Burmy",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "15",
+    "hp": "60",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Tackle",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0412",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Burmadame_(Kollision_von_Raum_und_Zeit_016)",
+    "german_name": "Burmadame",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "16",
+    "hp": "120",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Blattschere",
+        "damage": "60",
+        "cost": [
+          "Grass",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0413",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Wadribie_(Kollision_von_Raum_und_Zeit_017)",
+    "german_name": "Wadribie",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "17",
+    "hp": "50",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Familienruf",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0415",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Honweisel_(Kollision_von_Raum_und_Zeit_018)",
+    "german_name": "Honweisel",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "18",
+    "hp": "100",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Durchbohren",
+        "damage": "70",
+        "cost": [
+          "Grass",
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0416",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Venuflibis_(Kollision_von_Raum_und_Zeit_019)",
+    "german_name": "Venuflibis",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "19",
+    "hp": "90",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Auspeitscher",
+        "damage": "40",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0455",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Folipurba_(Kollision_von_Raum_und_Zeit_020)",
+    "german_name": "Folipurba",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "20",
+    "hp": "90",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Bl\u00e4ttergewirbel",
+        "damage": "90",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0470",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schneid-Rotom_(Kollision_von_Raum_und_Zeit_021)",
+    "german_name": "Schneid-Rotom",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "21",
+    "hp": "80",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Energiesperre",
+        "damage": "30",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0479",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Shaymin_(Kollision_von_Raum_und_Zeit_022)",
+    "german_name": "Shaymin",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "22",
+    "hp": "60",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Duftender Blumengarten",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Plumps",
+        "damage": "30",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0492",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Magmar_(Kollision_von_Raum_und_Zeit_023)",
+    "german_name": "Magmar",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "23",
+    "hp": "80",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Anheizen",
+        "damage": "",
+        "cost": [
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0126",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Magbrant_(Kollision_von_Raum_und_Zeit_024)",
+    "german_name": "Magbrant",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "24",
+    "hp": "130",
+    "energy_type": "Fire",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Flammendes Inferno",
+        "damage": "100",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Fire",
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0467",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schneckmag_(Kollision_von_Raum_und_Zeit_025)",
+    "german_name": "Schneckmag",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "25",
+    "hp": "70",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Flackern",
+        "damage": "20",
+        "cost": [
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0218",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Magcargo_(Kollision_von_Raum_und_Zeit_026)",
+    "german_name": "Magcargo",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "26",
+    "hp": "120",
+    "energy_type": "Fire",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Sengende Flammen",
+        "damage": "30",
+        "cost": [
+          "Fire",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0219",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Panflam_(Kollision_von_Raum_und_Zeit_027)",
+    "german_name": "Panflam",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "27",
+    "hp": "60",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kratzer",
+        "damage": "20",
+        "cost": [
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0390",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Panpyro_(Kollision_von_Raum_und_Zeit_028)",
+    "german_name": "Panpyro",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "28",
+    "hp": "80",
+    "energy_type": "Fire",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Flammenschlag",
+        "damage": "30",
+        "cost": [
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0391",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Panferno-ex_(Kollision_von_Raum_und_Zeit_029)",
+    "german_name": "Panferno-ex",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "29",
+    "hp": "170",
+    "energy_type": "Fire",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "",
+    "attacks": [
+      {
+        "name": "Flammenblitz",
+        "damage": "140",
+        "cost": [
+          "Fire",
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Hitze-Rotom_(Kollision_von_Raum_und_Zeit_030)",
+    "german_name": "Hitze-Rotom",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "30",
+    "hp": "80",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Hei\u00dfer Atem",
+        "damage": "30",
+        "cost": [
+          "Fire",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0479",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Quiekel_(Kollision_von_Raum_und_Zeit_031)",
+    "german_name": "Quiekel",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "31",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Kopfnuss",
+        "damage": "40",
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0220",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Keifel_(Kollision_von_Raum_und_Zeit_032)",
+    "german_name": "Keifel",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "32",
+    "hp": "110",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Speckschicht",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Einh\u00e4mmer",
+        "damage": "60",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0221",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mamutel_(Kollision_von_Raum_und_Zeit_033)",
+    "german_name": "Mamutel",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "33",
+    "hp": "160",
+    "energy_type": "Water",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Speckschicht",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Frostige Pl\u00e4ttung",
+        "damage": "120",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0473",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Regice_(Kollision_von_Raum_und_Zeit_034)",
+    "german_name": "Regice",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "34",
+    "hp": "110",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Kristallk\u00f6rper",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Frostschlag",
+        "damage": "50",
+        "cost": [
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0378",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Plinfa_(Kollision_von_Raum_und_Zeit_035)",
+    "german_name": "Plinfa",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "35",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Nickerchen",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0393",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pliprin_(Kollision_von_Raum_und_Zeit_036)",
+    "german_name": "Pliprin",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "36",
+    "hp": "90",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Surfer",
+        "damage": "30",
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0394",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Impoleon_(Kollision_von_Raum_und_Zeit_037)",
+    "german_name": "Impoleon",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "37",
+    "hp": "150",
+    "energy_type": "Water",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Wasserd\u00fcse",
+        "damage": "80",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0395",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bamelin_(Kollision_von_Raum_und_Zeit_038)",
+    "german_name": "Bamelin",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "38",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Aquaknarre",
+        "damage": "20",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0418",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bojelin_(Kollision_von_Raum_und_Zeit_039)",
+    "german_name": "Bojelin",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "39",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "D\u00fcsenschraube",
+        "damage": "30",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0419",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schalellos_(Kollision_von_Raum_und_Zeit_040)",
+    "german_name": "Schalellos",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "40",
+    "hp": "70",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Lehmschelle",
+        "damage": "30",
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0422",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Gastrodon_(Kollision_von_Raum_und_Zeit_041)",
+    "german_name": "Gastrodon",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "41",
+    "hp": "120",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Lehmbr\u00fche",
+        "damage": "60",
+        "cost": [
+          "Water",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0493",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Finneon_(Kollision_von_Raum_und_Zeit_042)",
+    "german_name": "Finneon",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "42",
+    "hp": "50",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Elegantes Schwimmen",
+        "damage": "10",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0456",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lumineon_(Kollision_von_Raum_und_Zeit_043)",
+    "german_name": "Lumineon",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "43",
+    "hp": "90",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kaskade",
+        "damage": "50",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0457",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Shnebedeck_(Kollision_von_Raum_und_Zeit_044)",
+    "german_name": "Shnebedeck",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "44",
+    "hp": "70",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Eissplitter",
+        "damage": "10",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0459",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Rexblisar_(Kollision_von_Raum_und_Zeit_045)",
+    "german_name": "Rexblisar",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "45",
+    "hp": "140",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Eisesodem",
+        "damage": "120",
+        "cost": [
+          "Water",
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0460",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Glaziola_(Kollision_von_Raum_und_Zeit_046)",
+    "german_name": "Glaziola",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "46",
+    "hp": "90",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Eisstrahl",
+        "damage": "60",
+        "cost": [
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0471",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Wasch-Rotom_(Kollision_von_Raum_und_Zeit_047)",
+    "german_name": "Wasch-Rotom",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "47",
+    "hp": "80",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Wellenplatscher",
+        "damage": "30",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0479",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Frost-Rotom_(Kollision_von_Raum_und_Zeit_048)",
+    "german_name": "Frost-Rotom",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "48",
+    "hp": "80",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Blizzard",
+        "damage": "30",
+        "cost": [
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0479",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Palkia-ex_(Kollision_von_Raum_und_Zeit_049)",
+    "german_name": "Palkia-ex",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "49",
+    "hp": "150",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Schlitzer",
+        "damage": "30",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Dimensionssturm",
+        "damage": "150",
+        "cost": [
+          "Water",
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Manaphy_(Kollision_von_Raum_und_Zeit_050)",
+    "german_name": "Manaphy",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "50",
+    "hp": "50",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Geschenk des Meeres",
+        "damage": "",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0490",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Magnetilo_(Kollision_von_Raum_und_Zeit_051)",
+    "german_name": "Magnetilo",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "51",
+    "hp": "60",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Ramme",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0081",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Magneton_(Kollision_von_Raum_und_Zeit_052)",
+    "german_name": "Magneton",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "52",
+    "hp": "80",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kugelblitz",
+        "damage": "50",
+        "cost": [
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0082",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Magnezone_(Kollision_von_Raum_und_Zeit_053)",
+    "german_name": "Magnezone",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "53",
+    "hp": "140",
+    "energy_type": "Electric",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Donnerkeil",
+        "damage": "110",
+        "cost": [
+          "Electric",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0462",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Voltobal_(Kollision_von_Raum_und_Zeit_054)",
+    "german_name": "Voltobal",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "54",
+    "hp": "60",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Gro\u00dfe Explosion",
+        "damage": "30",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0100",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lektrobal_(Kollision_von_Raum_und_Zeit_055)",
+    "german_name": "Lektrobal",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "55",
+    "hp": "80",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Rollender Angriff",
+        "damage": "50",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0101",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Elektek_(Kollision_von_Raum_und_Zeit_056)",
+    "german_name": "Elektek",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "56",
+    "hp": "80",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Ladevorgang",
+        "damage": "",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0125",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Elevoltek_(Kollision_von_Raum_und_Zeit_057)",
+    "german_name": "Elevoltek",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "57",
+    "hp": "120",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Knisternde Spannung",
+        "damage": "40",
+        "cost": [
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0466",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Sheinux_(Kollision_von_Raum_und_Zeit_058)",
+    "german_name": "Sheinux",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "58",
+    "hp": "60",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Verstecken",
+        "damage": "",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0403",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Luxio_(Kollision_von_Raum_und_Zeit_059)",
+    "german_name": "Luxio",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "59",
+    "hp": "90",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Elektrokrallen",
+        "damage": "40",
+        "cost": [
+          "Electric",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0404",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Luxtra_(Kollision_von_Raum_und_Zeit_060)",
+    "german_name": "Luxtra",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "60",
+    "hp": "130",
+    "energy_type": "Electric",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "",
+    "attacks": [
+      {
+        "name": "Strombolzen",
+        "damage": "",
+        "cost": [
+          "Electric",
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0405",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pachirisu-ex_(Kollision_von_Raum_und_Zeit_061)",
+    "german_name": "Pachirisu-ex",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "61",
+    "hp": "120",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Ger\u00e4tefunken",
+        "damage": "40",
+        "cost": [
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Rotom_(Kollision_von_Raum_und_Zeit_062)",
+    "german_name": "Rotom",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "62",
+    "hp": "70",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Offensiv-Laser",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0479",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Togepi_(Kollision_von_Raum_und_Zeit_063)",
+    "german_name": "Togepi",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "63",
+    "hp": "50",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Klaps",
+        "damage": "20",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0175",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Togetic_(Kollision_von_Raum_und_Zeit_064)",
+    "german_name": "Togetic",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "64",
+    "hp": "80",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Feenbrise",
+        "damage": "40",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0176",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Togekiss_(Kollision_von_Raum_und_Zeit_065)",
+    "german_name": "Togekiss",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "65",
+    "hp": "140",
+    "energy_type": "Psychic",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Turbosmash",
+        "damage": "60",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0468",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Traunfugil_(Kollision_von_Raum_und_Zeit_066)",
+    "german_name": "Traunfugil",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "66",
+    "hp": "60",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Grummeln",
+        "damage": "20",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0200",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Traunmagil-ex_(Kollision_von_Raum_und_Zeit_067)",
+    "german_name": "Traunmagil-ex",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "67",
+    "hp": "140",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Magischer Wahn",
+        "damage": "70",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Trasla_(Kollision_von_Raum_und_Zeit_068)",
+    "german_name": "Trasla",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "68",
+    "hp": "60",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Teleport",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0280",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kirlia_(Kollision_von_Raum_und_Zeit_069)",
+    "german_name": "Kirlia",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "69",
+    "hp": "80",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Hieb",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0281",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Zwirrlicht_(Kollision_von_Raum_und_Zeit_070)",
+    "german_name": "Zwirrlicht",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "70",
+    "hp": "60",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Irrlicht",
+        "damage": "20",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0355",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Zwirrklop_(Kollision_von_Raum_und_Zeit_071)",
+    "german_name": "Zwirrklop",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "71",
+    "hp": "90",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Psyhieb",
+        "damage": "50",
+        "cost": [
+          "Psychic",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0356",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Zwirrfinst_(Kollision_von_Raum_und_Zeit_072)",
+    "german_name": "Zwirrfinst",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "72",
+    "hp": "130",
+    "energy_type": "Psychic",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Dunkles Nichts",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Seelenverschlinger",
+        "damage": "70",
+        "cost": [
+          "Psychic",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0477",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Driftlon_(Kollision_von_Raum_und_Zeit_073)",
+    "german_name": "Driftlon",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "73",
+    "hp": "50",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Ausdehnen",
+        "damage": "10",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0425",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Drifzepeli_(Kollision_von_Raum_und_Zeit_074)",
+    "german_name": "Drifzepeli",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "74",
+    "hp": "100",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Ballonhieb",
+        "damage": "60",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0426",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Selfe_(Kollision_von_Raum_und_Zeit_075)",
+    "german_name": "Selfe",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "75",
+    "hp": "70",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Gedankenhieb",
+        "damage": "20",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0480",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Vesprit_(Kollision_von_Raum_und_Zeit_076)",
+    "german_name": "Vesprit",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "76",
+    "hp": "70",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Allm\u00e4chtiger Schuss",
+        "damage": "160",
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0481",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tobutz_(Kollision_von_Raum_und_Zeit_077)",
+    "german_name": "Tobutz",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "77",
+    "hp": "70",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Psychopfeil",
+        "damage": "",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0482",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Giratina_(Kollision_von_Raum_und_Zeit_078)",
+    "german_name": "Giratina",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "78",
+    "hp": "120",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Schwebe",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Spukschuss",
+        "damage": "70",
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0487",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Cresselia_(Kollision_von_Raum_und_Zeit_079)",
+    "german_name": "Cresselia",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "79",
+    "hp": "110",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Mondlichtabsorption",
+        "damage": "50",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0488",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Rihorn_(Kollision_von_Raum_und_Zeit_080)",
+    "german_name": "Rihorn",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "80",
+    "hp": "80",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Hornattacke",
+        "damage": "40",
+        "cost": [
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0111",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Rizeros_(Kollision_von_Raum_und_Zeit_081)",
+    "german_name": "Rizeros",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "81",
+    "hp": "110",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Niederschleudern",
+        "damage": "70",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0112",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Rihornior_(Kollision_von_Raum_und_Zeit_082)",
+    "german_name": "Rihornior",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "82",
+    "hp": "160",
+    "energy_type": "Fighting",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Bergschwinger",
+        "damage": "150",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0464",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Skorgla_(Kollision_von_Raum_und_Zeit_083)",
+    "german_name": "Skorgla",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "83",
+    "hp": "60",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Durchbohren",
+        "damage": "20",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0207",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Skorgro_(Kollision_von_Raum_und_Zeit_084)",
+    "german_name": "Skorgro",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "84",
+    "hp": "100",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Akrobatik",
+        "damage": "20",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0472",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kapoera_(Kollision_von_Raum_und_Zeit_085)",
+    "german_name": "Kapoera",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "85",
+    "hp": "80",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Rundumangriff",
+        "damage": "50",
+        "cost": [
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0237",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Nasgnet_(Kollision_von_Raum_und_Zeit_086)",
+    "german_name": "Nasgnet",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "86",
+    "hp": "70",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Ramme",
+        "damage": "30",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0299",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Regirock_(Kollision_von_Raum_und_Zeit_087)",
+    "german_name": "Regirock",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "87",
+    "hp": "120",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Exoskelett",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Felsenquetscher",
+        "damage": "100",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0377",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Koknodon_(Kollision_von_Raum_und_Zeit_088)",
+    "german_name": "Koknodon",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "88",
+    "hp": "90",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Kopfnuss",
+        "damage": "50",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0408",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Rameidon_(Kollision_von_Raum_und_Zeit_089)",
+    "german_name": "Rameidon",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "89",
+    "hp": "150",
+    "energy_type": "Fighting",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Kopfsto\u00df",
+        "damage": "130",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0409",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Burmadame_(Kollision_von_Raum_und_Zeit_090)",
+    "german_name": "Burmadame",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "90",
+    "hp": "120",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Schollenbrecher",
+        "damage": "70",
+        "cost": [
+          "Fighting",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0413",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Riolu_(Kollision_von_Raum_und_Zeit_091)",
+    "german_name": "Riolu",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "91",
+    "hp": "60",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Boxschlag",
+        "damage": "20",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0447",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lucario_(Kollision_von_Raum_und_Zeit_092)",
+    "german_name": "Lucario",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "92",
+    "hp": "100",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Kampfcoach",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Unterseehieb",
+        "damage": "40",
+        "cost": [
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0448",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Hippopotas_(Kollision_von_Raum_und_Zeit_093)",
+    "german_name": "Hippopotas",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "93",
+    "hp": "80",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Rolltackle",
+        "damage": "60",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0449",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Hippoterus_(Kollision_von_Raum_und_Zeit_094)",
+    "german_name": "Hippoterus",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "94",
+    "hp": "140",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Bodenpresse",
+        "damage": "120",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0450",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Galagladi-ex_(Kollision_von_Raum_und_Zeit_095)",
+    "german_name": "Galagladi-ex",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "95",
+    "hp": "170",
+    "energy_type": "Fighting",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Energieklinge",
+        "damage": "70",
+        "cost": [
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kramurx_(Kollision_von_Raum_und_Zeit_096)",
+    "german_name": "Kramurx",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "96",
+    "hp": "60",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Pikser",
+        "damage": "20",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0198",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kramshef_(Kollision_von_Raum_und_Zeit_097)",
+    "german_name": "Kramshef",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "97",
+    "hp": "100",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Ge\u00fcbter Sturzflug",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0430",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Sniebel_(Kollision_von_Raum_und_Zeit_098)",
+    "german_name": "Sniebel",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "98",
+    "hp": "60",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Doppelkratzer",
+        "damage": "20",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0215",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Snibunna-ex_(Kollision_von_Raum_und_Zeit_099)",
+    "german_name": "Snibunna-ex",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "99",
+    "hp": "140",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kratzende Krallen",
+        "damage": "30",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Fiffyen_(Kollision_von_Raum_und_Zeit_100)",
+    "german_name": "Fiffyen",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "100",
+    "hp": "60",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Biss",
+        "damage": "20",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0261",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Magnayen_(Kollision_von_Raum_und_Zeit_101)",
+    "german_name": "Magnayen",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "101",
+    "hp": "90",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "F\u00e4nge der Dunkelheit",
+        "damage": "60",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0262",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Skunkapuh_(Kollision_von_Raum_und_Zeit_102)",
+    "german_name": "Skunkapuh",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "102",
+    "hp": "70",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kratzer",
+        "damage": "10",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0434",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Skuntank_(Kollision_von_Raum_und_Zeit_103)",
+    "german_name": "Skuntank",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "103",
+    "hp": "100",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Giftwolke",
+        "damage": "50",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0435",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kryppuk_(Kollision_von_Raum_und_Zeit_104)",
+    "german_name": "Kryppuk",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "104",
+    "hp": "80",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Wirbelndes Desaster",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0442",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pionskora_(Kollision_von_Raum_und_Zeit_105)",
+    "german_name": "Pionskora",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "105",
+    "hp": "70",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Durchbohren",
+        "damage": "30",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0451",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Piondragi_(Kollision_von_Raum_und_Zeit_106)",
+    "german_name": "Piondragi",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "106",
+    "hp": "120",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Giftstreich",
+        "damage": "40",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0452",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Glibunkel_(Kollision_von_Raum_und_Zeit_107)",
+    "german_name": "Glibunkel",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "107",
+    "hp": "60",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Gruppenpr\u00fcgler",
+        "damage": "20",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0453",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Toxiquak_(Kollision_von_Raum_und_Zeit_108)",
+    "german_name": "Toxiquak",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "108",
+    "hp": "90",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Gruppenpr\u00fcgler",
+        "damage": "40",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0454",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Darkrai_(Kollision_von_Raum_und_Zeit_109)",
+    "german_name": "Darkrai",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "109",
+    "hp": "110",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Schlummerort",
+        "damage": "60",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0491",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Darkrai-ex_(Kollision_von_Raum_und_Zeit_110)",
+    "german_name": "Darkrai-ex",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "110",
+    "hp": "140",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Alptraum-Aura",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Dunkles Prisma",
+        "damage": "80",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Panzaeron_(Kollision_von_Raum_und_Zeit_111)",
+    "german_name": "Panzaeron",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "111",
+    "hp": "80",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Metallarme",
+        "damage": "20",
+        "cost": [
+          "Metal"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0227",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Registeel_(Kollision_von_Raum_und_Zeit_112)",
+    "german_name": "Registeel",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "112",
+    "hp": "110",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Metallklaue",
+        "damage": "90",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Metal"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0379",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schilterus_(Kollision_von_Raum_und_Zeit_113)",
+    "german_name": "Schilterus",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "113",
+    "hp": "100",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Kopfnuss",
+        "damage": "50",
+        "cost": [
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0410",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bollterus_(Kollision_von_Raum_und_Zeit_114)",
+    "german_name": "Bollterus",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "114",
+    "hp": "160",
+    "energy_type": "Metal",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Kopfschutz",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Headbangen",
+        "damage": "80",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0411",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Burmadame_(Kollision_von_Raum_und_Zeit_115)",
+    "german_name": "Burmadame",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "115",
+    "hp": "110",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Eisensch\u00e4del",
+        "damage": "50",
+        "cost": [
+          "Metal",
+          "Metal"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0413",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bronzel_(Kollision_von_Raum_und_Zeit_116)",
+    "german_name": "Bronzel",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "116",
+    "hp": "60",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Tackle",
+        "damage": "30",
+        "cost": [
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0436",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bronzong_(Kollision_von_Raum_und_Zeit_117)",
+    "german_name": "Bronzong",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "117",
+    "hp": "120",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Schutzdruck",
+        "damage": "60",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0437",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Voluminas_(Kollision_von_Raum_und_Zeit_118)",
+    "german_name": "Voluminas",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "118",
+    "hp": "130",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Dreifachnase",
+        "damage": "30",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0476",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Dialga-ex_(Kollision_von_Raum_und_Zeit_119)",
+    "german_name": "Dialga-ex",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "119",
+    "hp": "150",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Metallturbo",
+        "damage": "30",
+        "cost": [
+          "Metal",
+          "Metal"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Schwerer Einschlag",
+        "damage": "100",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Heatran_(Kollision_von_Raum_und_Zeit_120)",
+    "german_name": "Heatran",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "120",
+    "hp": "120",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Stahltackle",
+        "damage": "110",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Metal"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0485",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kaumalat_(Kollision_von_Raum_und_Zeit_121)",
+    "german_name": "Kaumalat",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "121",
+    "hp": "60",
+    "energy_type": "Dragon",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Nagen",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0443",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Knarksel_(Kollision_von_Raum_und_Zeit_122)",
+    "german_name": "Knarksel",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "122",
+    "hp": "90",
+    "energy_type": "Dragon",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Schlitzer",
+        "damage": "60",
+        "cost": [
+          "Water",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0444",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Knakrack_(Kollision_von_Raum_und_Zeit_123)",
+    "german_name": "Knakrack",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "123",
+    "hp": "140",
+    "energy_type": "Dragon",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "R\u00fccksichtsloses Scheren",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Drachenklaue",
+        "damage": "100",
+        "cost": [
+          "Water",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0445",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schlurp_(Kollision_von_Raum_und_Zeit_124)",
+    "german_name": "Schlurp",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "124",
+    "hp": "80",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Zungenschelle",
+        "damage": "50",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0108",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schlurplek-ex_(Kollision_von_Raum_und_Zeit_125)",
+    "german_name": "Schlurplek-ex",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "125",
+    "hp": "160",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Schleckwut",
+        "damage": "100",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Evoli_(Kollision_von_Raum_und_Zeit_126)",
+    "german_name": "Evoli",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "126",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Ruckzuckhieb",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0133",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Porygon_(Kollision_von_Raum_und_Zeit_127)",
+    "german_name": "Porygon",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "127",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Strahl",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0137",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Porygon-Z_(Kollision_von_Raum_und_Zeit_129)",
+    "german_name": "Porygon-Z",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "129",
+    "hp": "140",
+    "energy_type": "Colorless",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Glitch-Strahl",
+        "damage": "80",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0474",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Griffel_(Kollision_von_Raum_und_Zeit_130)",
+    "german_name": "Griffel",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "130",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Schweifsto\u00df",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0190",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Ambidiffel_(Kollision_von_Raum_und_Zeit_131)",
+    "german_name": "Ambidiffel",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "131",
+    "hp": "90",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Doppelschlag",
+        "damage": "40",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0424",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Staralili_(Kollision_von_Raum_und_Zeit_132)",
+    "german_name": "Staralili",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "132",
+    "hp": "50",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Pfl\u00fccker",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0396",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Staravia_(Kollision_von_Raum_und_Zeit_133)",
+    "german_name": "Staravia",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "133",
+    "hp": "80",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Fl\u00fcgelschlag",
+        "damage": "40",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0397",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Staraptor_(Kollision_von_Raum_und_Zeit_134)",
+    "german_name": "Staraptor",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "134",
+    "hp": "140",
+    "energy_type": "Colorless",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Greifer",
+        "damage": "80",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0398",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bidiza_(Kollision_von_Raum_und_Zeit_135)",
+    "german_name": "Bidiza",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "135",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Superzahn",
+        "damage": "",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0399",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bidifas_(Kollision_von_Raum_und_Zeit_136)",
+    "german_name": "Bidifas",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "136",
+    "hp": "110",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Rolltackle",
+        "damage": "60",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0400",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Haspiror_(Kollision_von_Raum_und_Zeit_137)",
+    "german_name": "Haspiror",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "137",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Platscher",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0427",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schlapor_(Kollision_von_Raum_und_Zeit_138)",
+    "german_name": "Schlapor",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "138",
+    "hp": "90",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Sprungkick",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0428",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Charmian_(Kollision_von_Raum_und_Zeit_139)",
+    "german_name": "Charmian",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "139",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Posieren",
+        "damage": "40",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0431",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Shnurgarst_(Kollision_von_Raum_und_Zeit_140)",
+    "german_name": "Shnurgarst",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "140",
+    "hp": "110",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "St\u00f6ren",
+        "damage": "60",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0432",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Plaudagei_(Kollision_von_Raum_und_Zeit_141)",
+    "german_name": "Plaudagei",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "141",
+    "hp": "70",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Furienschlag",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0441",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Wirbel-Rotom_(Kollision_von_Raum_und_Zeit_142)",
+    "german_name": "Wirbel-Rotom",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "142",
+    "hp": "80",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Sturmwirbel",
+        "damage": "",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "479",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Regigigas_(Kollision_von_Raum_und_Zeit_143)",
+    "german_name": "Regigigas",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "143",
+    "hp": "140",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Wuthammer",
+        "damage": "50",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0486",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tangoloss_(Kollision_von_Raum_und_Zeit_156)",
+    "german_name": "Tangoloss",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "156",
+    "hp": "130",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Megasauger",
+        "damage": "90",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0465",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Wadribie_(Kollision_von_Raum_und_Zeit_157)",
+    "german_name": "Wadribie",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "157",
+    "hp": "50",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Familienruf",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0415",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Venuflibis_(Kollision_von_Raum_und_Zeit_158)",
+    "german_name": "Venuflibis",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "158",
+    "hp": "90",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Auspeitscher",
+        "damage": "40",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0455",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Shaymin_(Kollision_von_Raum_und_Zeit_159)",
+    "german_name": "Shaymin",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "159",
+    "hp": "60",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Duftender Blumengarten",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Plumps",
+        "damage": "30",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0492",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mamutel_(Kollision_von_Raum_und_Zeit_160)",
+    "german_name": "Mamutel",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "160",
+    "hp": "160",
+    "energy_type": "Water",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Speckschicht",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Frostige Pl\u00e4ttung",
+        "damage": "120",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0473",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Gastrodon_(Kollision_von_Raum_und_Zeit_161)",
+    "german_name": "Gastrodon",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "161",
+    "hp": "120",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Lehmbr\u00fche",
+        "damage": "60",
+        "cost": [
+          "Water",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0493",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Manaphy_(Kollision_von_Raum_und_Zeit_162)",
+    "german_name": "Manaphy",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "162",
+    "hp": "50",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Geschenk des Meeres",
+        "damage": "",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0490",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Sheinux_(Kollision_von_Raum_und_Zeit_163)",
+    "german_name": "Sheinux",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "163",
+    "hp": "60",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Verstecken",
+        "damage": "",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0403",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Rotom_(Kollision_von_Raum_und_Zeit_164)",
+    "german_name": "Rotom",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "164",
+    "hp": "70",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Offensiv-Laser",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0479",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Driftlon_(Kollision_von_Raum_und_Zeit_165)",
+    "german_name": "Driftlon",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "165",
+    "hp": "50",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Ausdehnen",
+        "damage": "10",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0425",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Vesprit_(Kollision_von_Raum_und_Zeit_166)",
+    "german_name": "Vesprit",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "166",
+    "hp": "70",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Allm\u00e4chtiger Schuss",
+        "damage": "160",
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0481",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Giratina_(Kollision_von_Raum_und_Zeit_167)",
+    "german_name": "Giratina",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "167",
+    "hp": "120",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Schwebe",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Spukschuss",
+        "damage": "70",
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0487",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Cresselia_(Kollision_von_Raum_und_Zeit_168)",
+    "german_name": "Cresselia",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "168",
+    "hp": "110",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Mondlichtabsorption",
+        "damage": "50",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0488",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Rihornior_(Kollision_von_Raum_und_Zeit_169)",
+    "german_name": "Rihornior",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "169",
+    "hp": "160",
+    "energy_type": "Fighting",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Bergschwinger",
+        "damage": "150",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0464",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lucario_(Kollision_von_Raum_und_Zeit_170)",
+    "german_name": "Lucario",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "170",
+    "hp": "100",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Kampfcoach",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Unterseehieb",
+        "damage": "40",
+        "cost": [
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0448",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Hippopotas_(Kollision_von_Raum_und_Zeit_171)",
+    "german_name": "Hippopotas",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "171",
+    "hp": "80",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Rolltackle",
+        "damage": "60",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0449",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kryppuk_(Kollision_von_Raum_und_Zeit_172)",
+    "german_name": "Kryppuk",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "172",
+    "hp": "80",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Wirbelndes Desaster",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0442",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Glibunkel_(Kollision_von_Raum_und_Zeit_173)",
+    "german_name": "Glibunkel",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "173",
+    "hp": "60",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Gruppenpr\u00fcgler",
+        "damage": "20",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0453",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Heatran_(Kollision_von_Raum_und_Zeit_174)",
+    "german_name": "Heatran",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "174",
+    "hp": "120",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Stahltackle",
+        "damage": "110",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Metal"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0485",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Knakrack_(Kollision_von_Raum_und_Zeit_175)",
+    "german_name": "Knakrack",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "175",
+    "hp": "140",
+    "energy_type": "Dragon",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "R\u00fccksichtsloses Scheren",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Drachenklaue",
+        "damage": "100",
+        "cost": [
+          "Water",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0445",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Staraptor_(Kollision_von_Raum_und_Zeit_176)",
+    "german_name": "Staraptor",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "176",
+    "hp": "140",
+    "energy_type": "Colorless",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Greifer",
+        "damage": "80",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0398",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bidiza_(Kollision_von_Raum_und_Zeit_177)",
+    "german_name": "Bidiza",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "177",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Superzahn",
+        "damage": "",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0399",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Charmian_(Kollision_von_Raum_und_Zeit_178)",
+    "german_name": "Charmian",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "178",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Posieren",
+        "damage": "40",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0431",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Regigigas_(Kollision_von_Raum_und_Zeit_179)",
+    "german_name": "Regigigas",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "179",
+    "hp": "140",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Wuthammer",
+        "damage": "50",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0486",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Yanmega-ex_(Kollision_von_Raum_und_Zeit_180)",
+    "german_name": "Yanmega-ex",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "180",
+    "hp": "140",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Luftschnitt",
+        "damage": "120",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Panferno-ex_(Kollision_von_Raum_und_Zeit_181)",
+    "german_name": "Panferno-ex",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "181",
+    "hp": "170",
+    "energy_type": "Fire",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "",
+    "attacks": [
+      {
+        "name": "Flammenblitz",
+        "damage": "140",
+        "cost": [
+          "Fire",
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Palkia-ex_(Kollision_von_Raum_und_Zeit_182)",
+    "german_name": "Palkia-ex",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "182",
+    "hp": "150",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Schlitzer",
+        "damage": "30",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Dimensionssturm",
+        "damage": "150",
+        "cost": [
+          "Water",
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pachirisu-ex_(Kollision_von_Raum_und_Zeit_183)",
+    "german_name": "Pachirisu-ex",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "183",
+    "hp": "120",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Ger\u00e4tefunken",
+        "damage": "40",
+        "cost": [
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Traunmagil-ex_(Kollision_von_Raum_und_Zeit_184)",
+    "german_name": "Traunmagil-ex",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "184",
+    "hp": "140",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Magischer Wahn",
+        "damage": "70",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Galagladi-ex_(Kollision_von_Raum_und_Zeit_185)",
+    "german_name": "Galagladi-ex",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "185",
+    "hp": "170",
+    "energy_type": "Fighting",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Energieklinge",
+        "damage": "70",
+        "cost": [
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Snibunna-ex_(Kollision_von_Raum_und_Zeit_186)",
+    "german_name": "Snibunna-ex",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "186",
+    "hp": "140",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kratzende Krallen",
+        "damage": "30",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Darkrai-ex_(Kollision_von_Raum_und_Zeit_187)",
+    "german_name": "Darkrai-ex",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "187",
+    "hp": "140",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Alptraum-Aura",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Dunkles Prisma",
+        "damage": "80",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Dialga-ex_(Kollision_von_Raum_und_Zeit_188)",
+    "german_name": "Dialga-ex",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "188",
+    "hp": "150",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Metallturbo",
+        "damage": "30",
+        "cost": [
+          "Metal",
+          "Metal"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Schwerer Einschlag",
+        "damage": "100",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schlurplek-ex_(Kollision_von_Raum_und_Zeit_189)",
+    "german_name": "Schlurplek-ex",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "189",
+    "hp": "160",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Schleckwut",
+        "damage": "100",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Yanmega-ex_(Kollision_von_Raum_und_Zeit_196)",
+    "german_name": "Yanmega-ex",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "196",
+    "hp": "140",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Luftschnitt",
+        "damage": "120",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Panferno-ex_(Kollision_von_Raum_und_Zeit_197)",
+    "german_name": "Panferno-ex",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "197",
+    "hp": "170",
+    "energy_type": "Fire",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "",
+    "attacks": [
+      {
+        "name": "Flammenblitz",
+        "damage": "140",
+        "cost": [
+          "Fire",
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pachirisu-ex_(Kollision_von_Raum_und_Zeit_198)",
+    "german_name": "Pachirisu-ex",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "198",
+    "hp": "120",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Ger\u00e4tefunken",
+        "damage": "40",
+        "cost": [
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Traunmagil-ex_(Kollision_von_Raum_und_Zeit_199)",
+    "german_name": "Traunmagil-ex",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "199",
+    "hp": "140",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Magischer Wahn",
+        "damage": "70",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Galagladi-ex_(Kollision_von_Raum_und_Zeit_200)",
+    "german_name": "Galagladi-ex",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "200",
+    "hp": "170",
+    "energy_type": "Fighting",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Energieklinge",
+        "damage": "70",
+        "cost": [
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Snibunna-ex_(Kollision_von_Raum_und_Zeit_201)",
+    "german_name": "Snibunna-ex",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "201",
+    "hp": "140",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kratzende Krallen",
+        "damage": "30",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Darkrai-ex_(Kollision_von_Raum_und_Zeit_202)",
+    "german_name": "Darkrai-ex",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "202",
+    "hp": "140",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Alptraum-Aura",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Dunkles Prisma",
+        "damage": "80",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schlurplek-ex_(Kollision_von_Raum_und_Zeit_203)",
+    "german_name": "Schlurplek-ex",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "203",
+    "hp": "160",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Schleckwut",
+        "damage": "100",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Palkia-ex_(Kollision_von_Raum_und_Zeit_204)",
+    "german_name": "Palkia-ex",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "204",
+    "hp": "150",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Schlitzer",
+        "damage": "30",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Dimensionssturm",
+        "damage": "150",
+        "cost": [
+          "Water",
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Dialga-ex_(Kollision_von_Raum_und_Zeit_205)",
+    "german_name": "Dialga-ex",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "205",
+    "hp": "150",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Metallturbo",
+        "damage": "30",
+        "cost": [
+          "Metal",
+          "Metal"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Schwerer Einschlag",
+        "damage": "100",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Palkia-ex_(Kollision_von_Raum_und_Zeit_206)",
+    "german_name": "Palkia-ex",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "206",
+    "hp": "150",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Schlitzer",
+        "damage": "30",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Dimensionssturm",
+        "damage": "150",
+        "cost": [
+          "Water",
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Dialga-ex_(Kollision_von_Raum_und_Zeit_207)",
+    "german_name": "Dialga-ex",
+    "set_id": "A2",
+    "set_name": "Kollision von Raum und Zeit",
+    "card_number": "207",
+    "hp": "150",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Metallturbo",
+        "damage": "30",
+        "cost": [
+          "Metal",
+          "Metal"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Schwerer Einschlag",
+        "damage": "100",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  }
+]

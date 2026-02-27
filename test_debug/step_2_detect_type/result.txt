@@ -1,0 +1,2 @@
+Card type: CardType.POKEMON
+Value: pokemon

@@ -1,0 +1,6985 @@
+[
+  {
+    "url": "https://www.pokewiki.de/Myrapla_(Weisheit_von_Meer_und_Himmel_001)",
+    "german_name": "Myrapla",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "1",
+    "hp": "50",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Giftpuder",
+        "damage": "10",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0043",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Duflor_(Weisheit_von_Meer_und_Himmel_002)",
+    "german_name": "Duflor",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "2",
+    "hp": "80",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Blattschritt",
+        "damage": "40",
+        "cost": [
+          "Grass",
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0044",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Blubella_(Weisheit_von_Meer_und_Himmel_003)",
+    "german_name": "Blubella",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "3",
+    "hp": "130",
+    "energy_type": "Grass",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Bl\u00e4ttertanz",
+        "damage": "60",
+        "cost": [
+          "Grass",
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0182",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tangela_(Weisheit_von_Meer_und_Himmel_004)",
+    "german_name": "Tangela",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "4",
+    "hp": "80",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Schlafpuder",
+        "damage": "20",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0114",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tangoloss_(Weisheit_von_Meer_und_Himmel_005)",
+    "german_name": "Tangoloss",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "5",
+    "hp": "130",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Strauchler",
+        "damage": "10",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0465",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Sichlor_(Weisheit_von_Meer_und_Himmel_006)",
+    "german_name": "Sichlor",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "6",
+    "hp": "70",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Schlitzer",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0123",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pinsir_(Weisheit_von_Meer_und_Himmel_007)",
+    "german_name": "Pinsir",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "7",
+    "hp": "90",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Guillotine",
+        "damage": "70",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0127",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Endivie_(Weisheit_von_Meer_und_Himmel_008)",
+    "german_name": "Endivie",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "8",
+    "hp": "60",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Rasierblatt",
+        "damage": "20",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0152",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lorblatt_(Weisheit_von_Meer_und_Himmel_009)",
+    "german_name": "Lorblatt",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "9",
+    "hp": "90",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Rankenhieb",
+        "damage": "40",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0153",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Meganie_(Weisheit_von_Meer_und_Himmel_010)",
+    "german_name": "Meganie",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "10",
+    "hp": "150",
+    "energy_type": "Grass",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Bl\u00fctenglanz",
+        "damage": "80",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0154",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Ledyba_(Weisheit_von_Meer_und_Himmel_011)",
+    "german_name": "Ledyba",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "11",
+    "hp": "70",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "K\u00e4ferbiss",
+        "damage": "20",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0165",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Ledian_(Weisheit_von_Meer_und_Himmel_012)",
+    "german_name": "Ledian",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "12",
+    "hp": "80",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Boxhieb",
+        "damage": "50",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0166",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Hoppspross_(Weisheit_von_Meer_und_Himmel_013)",
+    "german_name": "Hoppspross",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "13",
+    "hp": "50",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Tackle",
+        "damage": "20",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0187",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Hubelupf_(Weisheit_von_Meer_und_Himmel_014)",
+    "german_name": "Hubelupf",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "14",
+    "hp": "70",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Samenbomben",
+        "damage": "40",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0188",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Papungha_(Weisheit_von_Meer_und_Himmel_015)",
+    "german_name": "Papungha",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "15",
+    "hp": "120",
+    "energy_type": "Grass",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Flauschiger Flug",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Rundumangriff",
+        "damage": "60",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0189",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Sonnkern_(Weisheit_von_Meer_und_Himmel_016)",
+    "german_name": "Sonnkern",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "16",
+    "hp": "40",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Klecks",
+        "damage": "20",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0191",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Sonnflora_(Weisheit_von_Meer_und_Himmel_017)",
+    "german_name": "Sonnflora",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "17",
+    "hp": "90",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Solarstrahl",
+        "damage": "70",
+        "cost": [
+          "Grass",
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0192",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Yanma_(Weisheit_von_Meer_und_Himmel_018)",
+    "german_name": "Yanma",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "18",
+    "hp": "60",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kehrtwende",
+        "damage": "20",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0193",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Yanmega_(Weisheit_von_Meer_und_Himmel_019)",
+    "german_name": "Yanmega",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "19",
+    "hp": "90",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "K\u00e4fergebrumm",
+        "damage": "60",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0469",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tannza_(Weisheit_von_Meer_und_Himmel_020)",
+    "german_name": "Tannza",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "20",
+    "hp": "60",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Ramme",
+        "damage": "30",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0204",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pottrott-ex_(Weisheit_von_Meer_und_Himmel_021)",
+    "german_name": "Pottrott-ex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "21",
+    "hp": "120",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Solider Panzer",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Triplexhieb",
+        "damage": "20",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Skaraborn_(Weisheit_von_Meer_und_Himmel_022)",
+    "german_name": "Skaraborn",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "22",
+    "hp": "90",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Einzelsprung",
+        "damage": "40",
+        "cost": [
+          "Grass",
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0214",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kikugi_(Weisheit_von_Meer_und_Himmel_023)",
+    "german_name": "Kikugi",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "23",
+    "hp": "50",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Volle Frucht voraus",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "S\u00fc\u00dfe Staffel",
+        "damage": "10",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0420",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kinoso_(Weisheit_von_Meer_und_Himmel_024)",
+    "german_name": "Kinoso",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "24",
+    "hp": "80",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Samenbomben",
+        "damage": "40",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0421",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Vulpix_(Weisheit_von_Meer_und_Himmel_025)",
+    "german_name": "Vulpix",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "25",
+    "hp": "60",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Gl\u00fchende Kohlen",
+        "damage": "30",
+        "cost": [
+          "Fire",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0037",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Vulnona_(Weisheit_von_Meer_und_Himmel_026)",
+    "german_name": "Vulnona",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "26",
+    "hp": "100",
+    "energy_type": "Fire",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Sengender Atem",
+        "damage": "120",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0038",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Feurigel_(Weisheit_von_Meer_und_Himmel_027)",
+    "german_name": "Feurigel",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "27",
+    "hp": "60",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Flackern",
+        "damage": "20",
+        "cost": [
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0155",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Igelavar_(Weisheit_von_Meer_und_Himmel_028)",
+    "german_name": "Igelavar",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "28",
+    "hp": "80",
+    "energy_type": "Fire",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Gl\u00fchen",
+        "damage": "30",
+        "cost": [
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0156",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tornupto_(Weisheit_von_Meer_und_Himmel_029)",
+    "german_name": "Tornupto",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "29",
+    "hp": "140",
+    "energy_type": "Fire",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Feueratem",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Magmahieb",
+        "damage": "60",
+        "cost": [
+          "Fire",
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0157",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schneckmag_(Weisheit_von_Meer_und_Himmel_030)",
+    "german_name": "Schneckmag",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "30",
+    "hp": "70",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Zertrampeln",
+        "damage": "30",
+        "cost": [
+          "Fire",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0218",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Magcargo_(Weisheit_von_Meer_und_Himmel_031)",
+    "german_name": "Magcargo",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "31",
+    "hp": "120",
+    "energy_type": "Fire",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Asubrechende Flammen",
+        "damage": "",
+        "cost": [
+          "Fire",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0219",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Magby_(Weisheit_von_Meer_und_Himmel_032)",
+    "german_name": "Magby",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "32",
+    "hp": "30",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "",
+    "attacks": [
+      {
+        "name": "Warmer Wurf",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0240",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Entei_(Weisheit_von_Meer_und_Himmel_033)",
+    "german_name": "Entei",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "33",
+    "hp": "110",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Gro\u00dfes Auflodern",
+        "damage": "110",
+        "cost": [
+          "Fire",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0244",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Ho-Oh-ex_(Weisheit_von_Meer_und_Himmel_034)",
+    "german_name": "Ho-Oh-ex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "34",
+    "hp": "150",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Ph\u00f6nix-Turbo",
+        "damage": "80",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Flampion_(Weisheit_von_Meer_und_Himmel_035)",
+    "german_name": "Flampion",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "35",
+    "hp": "70",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Plumps",
+        "damage": "30",
+        "cost": [
+          "Fire",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0554",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Flampivian_(Weisheit_von_Meer_und_Himmel_036)",
+    "german_name": "Flampivian",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "36",
+    "hp": "120",
+    "energy_type": "Fire",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Hitzesto\u00df",
+        "damage": "70",
+        "cost": [
+          "Fire",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0555",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Furnifra%C3%9F_(Weisheit_von_Meer_und_Himmel_037)",
+    "german_name": "Furnifra\u00df",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "37",
+    "hp": "90",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Bratende Hitze",
+        "damage": "30",
+        "cost": [
+          "Fire",
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0631",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Quapsel_(Weisheit_von_Meer_und_Himmel_038)",
+    "german_name": "Quapsel",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "38",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Aquaknarre",
+        "damage": "20",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0060",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Quaputzi_(Weisheit_von_Meer_und_Himmel_039)",
+    "german_name": "Quaputzi",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "39",
+    "hp": "90",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Wellenplatscher",
+        "damage": "30",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0061",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Quaxo_(Weisheit_von_Meer_und_Himmel_040)",
+    "german_name": "Quaxo",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "40",
+    "hp": "140",
+    "energy_type": "Water",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Glorreiches Anfeuern",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Schallwelle",
+        "damage": "60",
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0186",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Seeper_(Weisheit_von_Meer_und_Himmel_041)",
+    "german_name": "Seeper",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "41",
+    "hp": "50",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Haken",
+        "damage": "30",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0116",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Seemon_(Weisheit_von_Meer_und_Himmel_042)",
+    "german_name": "Seemon",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "42",
+    "hp": "80",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Rasierflosse",
+        "damage": "50",
+        "cost": [
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0117",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Seedraking-ex_(Weisheit_von_Meer_und_Himmel_043)",
+    "german_name": "Seedraking-ex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "43",
+    "hp": "170",
+    "energy_type": "Water",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Sturmgef\u00e4ngnis",
+        "damage": "90",
+        "cost": [
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Karpador_(Weisheit_von_Meer_und_Himmel_044)",
+    "german_name": "Karpador",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "44",
+    "hp": "30",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Ausweichplatscher",
+        "damage": "10",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0129",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Garados_(Weisheit_von_Meer_und_Himmel_045)",
+    "german_name": "Garados",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "45",
+    "hp": "130",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Tosender Schwung",
+        "damage": "20",
+        "cost": [
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0130",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Karnimani_(Weisheit_von_Meer_und_Himmel_046)",
+    "german_name": "Karnimani",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "46",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Wellenplatscher",
+        "damage": "20",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0158",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tyracroc_(Weisheit_von_Meer_und_Himmel_047)",
+    "german_name": "Tyracroc",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "47",
+    "hp": "90",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Biss",
+        "damage": "40",
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0159",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Impergator_(Weisheit_von_Meer_und_Himmel_048)",
+    "german_name": "Impergator",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "48",
+    "hp": "150",
+    "energy_type": "Water",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Schrecklicher Strudel",
+        "damage": "90",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0160",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Marill_(Weisheit_von_Meer_und_Himmel_049)",
+    "german_name": "Marill",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "49",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Tackle",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0183",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Azumarill_(Weisheit_von_Meer_und_Himmel_050)",
+    "german_name": "Azumarill",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "50",
+    "hp": "110",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Speckschicht",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Schweifschlag",
+        "damage": "60",
+        "cost": [
+          "Water",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0184",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Felino_(Weisheit_von_Meer_und_Himmel_051)",
+    "german_name": "Felino",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "51",
+    "hp": "70",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Regenplatscher",
+        "damage": "30",
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0194",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Morlord_(Weisheit_von_Meer_und_Himmel_052)",
+    "german_name": "Morlord",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "52",
+    "hp": "130",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Surfer",
+        "damage": "80",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0195",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Baldorfish_(Weisheit_von_Meer_und_Himmel_053)",
+    "german_name": "Baldorfish",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "53",
+    "hp": "80",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Giftstachel",
+        "damage": "20",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0211",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Corasonn_(Weisheit_von_Meer_und_Himmel_054)",
+    "german_name": "Corasonn",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "54",
+    "hp": "80",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Freunde finden",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0222",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Remoraid_(Weisheit_von_Meer_und_Himmel_055)",
+    "german_name": "Remoraid",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "55",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Aquaknarre",
+        "damage": "20",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0223",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Octillery_(Weisheit_von_Meer_und_Himmel_056)",
+    "german_name": "Octillery",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "56",
+    "hp": "100",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Octazooka",
+        "damage": "50",
+        "cost": [
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0224",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Botogel_(Weisheit_von_Meer_und_Himmel_057)",
+    "german_name": "Botogel",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "57",
+    "hp": "70",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Stolperzieher",
+        "damage": "10",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0225",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mantax_(Weisheit_von_Meer_und_Himmel_058)",
+    "german_name": "Mantax",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "58",
+    "hp": "100",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Taucher",
+        "damage": "80",
+        "cost": [
+          "Water",
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0226",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Suicune_(Weisheit_von_Meer_und_Himmel_059)",
+    "german_name": "Suicune",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "59",
+    "hp": "100",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Heilfluss",
+        "damage": "70",
+        "cost": [
+          "Water",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0245",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Krebscorps_(Weisheit_von_Meer_und_Himmel_060)",
+    "german_name": "Krebscorps",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "60",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Klammer",
+        "damage": "30",
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0341",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Krebutack_(Weisheit_von_Meer_und_Himmel_061)",
+    "german_name": "Krebutack",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "61",
+    "hp": "100",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Unb\u00e4ndige Schere",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Krabbhammer",
+        "damage": "70",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0342",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Piccolente_(Weisheit_von_Meer_und_Himmel_062)",
+    "german_name": "Piccolente",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "62",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Regenplatscher",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0580",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Swaroness_(Weisheit_von_Meer_und_Himmel_063)",
+    "german_name": "Swaroness",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "63",
+    "hp": "80",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "",
+    "attacks": [
+      {
+        "name": "Feder-Zyklon",
+        "damage": "60",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0581",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lampi_(Weisheit_von_Meer_und_Himmel_064)",
+    "german_name": "Lampi",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "64",
+    "hp": "70",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kugelblitz",
+        "damage": "10",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0170",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lanturn-ex_(Weisheit_von_Meer_und_Himmel_065)",
+    "german_name": "Lanturn-ex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "65",
+    "hp": "150",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Aufblitzendes Signal",
+        "damage": "80",
+        "cost": [
+          "Electric",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pichu_(Weisheit_von_Meer_und_Himmel_066)",
+    "german_name": "Pichu",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "66",
+    "hp": "30",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "",
+    "attacks": [
+      {
+        "name": "Funkenwurf",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0172",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Voltilamm_(Weisheit_von_Meer_und_Himmel_067)",
+    "german_name": "Voltilamm",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "67",
+    "hp": "60",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Statischer Schock",
+        "damage": "20",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0179",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Waaty_(Weisheit_von_Meer_und_Himmel_068)",
+    "german_name": "Waaty",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "68",
+    "hp": "90",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Stromtritt",
+        "damage": "50",
+        "cost": [
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0180",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Ampharos_(Weisheit_von_Meer_und_Himmel_069)",
+    "german_name": "Ampharos",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "69",
+    "hp": "150",
+    "energy_type": "Electric",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Donnerschlag",
+        "damage": "80",
+        "cost": [
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0181",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Elekid_(Weisheit_von_Meer_und_Himmel_070)",
+    "german_name": "Elekid",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "70",
+    "hp": "30",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "",
+    "attacks": [
+      {
+        "name": "F\u00fcnkchenschuss",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0239",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Raikou_(Weisheit_von_Meer_und_Himmel_071)",
+    "german_name": "Raikou",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "71",
+    "hp": "90",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Donner",
+        "damage": "70",
+        "cost": [
+          "Electric",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0243",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Emolga_(Weisheit_von_Meer_und_Himmel_072)",
+    "german_name": "Emolga",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "72",
+    "hp": "70",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Tosender Donner",
+        "damage": "40",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0587",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Flegmon_(Weisheit_von_Meer_und_Himmel_073)",
+    "german_name": "Flegmon",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "73",
+    "hp": "70",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Erholung",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0079",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Laschoking_(Weisheit_von_Meer_und_Himmel_074)",
+    "german_name": "Laschoking",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "74",
+    "hp": "110",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Psychokinese",
+        "damage": "10",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0199",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kussilla_(Weisheit_von_Meer_und_Himmel_075)",
+    "german_name": "Kussilla",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "75",
+    "hp": "30",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "",
+    "attacks": [
+      {
+        "name": "Bibberwelle",
+        "damage": "20",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0238",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Rossana_(Weisheit_von_Meer_und_Himmel_076)",
+    "german_name": "Rossana",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "76",
+    "hp": "80",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "K\u00f6derklaps",
+        "damage": "30",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0124",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pii_(Weisheit_von_Meer_und_Himmel_077)",
+    "german_name": "Pii",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "77",
+    "hp": "30",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "",
+    "attacks": [
+      {
+        "name": "Funkelruf",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0173",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Togepi_(Weisheit_von_Meer_und_Himmel_078)",
+    "german_name": "Togepi",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "78",
+    "hp": "60",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Charme",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0175",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Togetic_(Weisheit_von_Meer_und_Himmel_079)",
+    "german_name": "Togetic",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "79",
+    "hp": "90",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Tempohechtsprung",
+        "damage": "30",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0176",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Togekiss_(Weisheit_von_Meer_und_Himmel_080)",
+    "german_name": "Togekiss",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "80",
+    "hp": "140",
+    "energy_type": "Psychic",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Sph\u00e4rischer Segen",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Magischer Schuss",
+        "damage": "70",
+        "cost": [
+          "Psychic",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0468",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Natu_(Weisheit_von_Meer_und_Himmel_081)",
+    "german_name": "Natu",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "81",
+    "hp": "50",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Pikser",
+        "damage": "20",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0177",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Xatu_(Weisheit_von_Meer_und_Himmel_082)",
+    "german_name": "Xatu",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "82",
+    "hp": "80",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Lebensentzug",
+        "damage": "",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0178",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Psiana-ex_(Weisheit_von_Meer_und_Himmel_083)",
+    "german_name": "Psiana-ex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "83",
+    "hp": "140",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Psychoheilung",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Super-Psischlag",
+        "damage": "80",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Icognito_(Weisheit_von_Meer_und_Himmel_084)",
+    "german_name": "Icognito",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "84",
+    "hp": "60",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "GUARD",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Kraftreserve",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0201",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Icognito_(Weisheit_von_Meer_und_Himmel_085)",
+    "german_name": "Icognito",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "85",
+    "hp": "60",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "POWER",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Kraftreserve",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0201",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Woingenau_(Weisheit_von_Meer_und_Himmel_086)",
+    "german_name": "Woingenau",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "86",
+    "hp": "90",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Energische Antwort",
+        "damage": "30",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0202",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Girafarig_(Weisheit_von_Meer_und_Himmel_087)",
+    "german_name": "Girafarig",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "87",
+    "hp": "80",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Psystrahl",
+        "damage": "50",
+        "cost": [
+          "Psychic",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0203",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Snubbull_(Weisheit_von_Meer_und_Himmel_088)",
+    "german_name": "Snubbull",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "88",
+    "hp": "60",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Ramme",
+        "damage": "20",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0209",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Granbull_(Weisheit_von_Meer_und_Himmel_089)",
+    "german_name": "Granbull",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "89",
+    "hp": "120",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Wilder Tackle",
+        "damage": "100",
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0210",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Somniam_(Weisheit_von_Meer_und_Himmel_090)",
+    "german_name": "Somniam",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "90",
+    "hp": "70",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Psychoschuss",
+        "damage": "70",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0517",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Somnivora_(Weisheit_von_Meer_und_Himmel_091)",
+    "german_name": "Somnivora",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "91",
+    "hp": "110",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Traumtanz",
+        "damage": "60",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0518",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Onix_(Weisheit_von_Meer_und_Himmel_092)",
+    "german_name": "Onix",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "92",
+    "hp": "100",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Kopfnuss",
+        "damage": "50",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0095",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mogelbaum_(Weisheit_von_Meer_und_Himmel_093)",
+    "german_name": "Mogelbaum",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "93",
+    "hp": "90",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Steinwurf",
+        "damage": "50",
+        "cost": [
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0185",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Skorgla_(Weisheit_von_Meer_und_Himmel_094)",
+    "german_name": "Skorgla",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "94",
+    "hp": "60",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Gleiten",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0207",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Skorgro_(Weisheit_von_Meer_und_Himmel_095)",
+    "german_name": "Skorgro",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "95",
+    "hp": "100",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Scharfe F\u00e4nge",
+        "damage": "60",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0472",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Quiekel_(Weisheit_von_Meer_und_Himmel_096)",
+    "german_name": "Quiekel",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "96",
+    "hp": "70",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Lehmschelle",
+        "damage": "30",
+        "cost": [
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0220",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Keifel_(Weisheit_von_Meer_und_Himmel_097)",
+    "german_name": "Keifel",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "97",
+    "hp": "100",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Abrupter Kopfsto\u00df",
+        "damage": "70",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0221",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mamutel_(Weisheit_von_Meer_und_Himmel_098)",
+    "german_name": "Mamutel",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "98",
+    "hp": "160",
+    "energy_type": "Fighting",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Erdbeben",
+        "damage": "160",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0473",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Phanpy_(Weisheit_von_Meer_und_Himmel_099)",
+    "german_name": "Phanpy",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "99",
+    "hp": "70",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Waghalsiger Sturmangriff",
+        "damage": "30",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0231",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Donphan-ex_(Weisheit_von_Meer_und_Himmel_100)",
+    "german_name": "Donphan-ex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "100",
+    "hp": "160",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Gigantische Presse",
+        "damage": "50",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Rabauz_(Weisheit_von_Meer_und_Himmel_101)",
+    "german_name": "Rabauz",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "101",
+    "hp": "30",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "",
+    "attacks": [
+      {
+        "name": "Kr\u00e4ftige Kn\u00f6chel",
+        "damage": "20",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0236",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kapoera_(Weisheit_von_Meer_und_Himmel_102)",
+    "german_name": "Kapoera",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "102",
+    "hp": "80",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Durchdringende Drehung",
+        "damage": "20",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0237",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Larvitar_(Weisheit_von_Meer_und_Himmel_103)",
+    "german_name": "Larvitar",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "103",
+    "hp": "60",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Tackle",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0246",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pupitar_(Weisheit_von_Meer_und_Himmel_104)",
+    "german_name": "Pupitar",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "104",
+    "hp": "80",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Schutzdruck",
+        "damage": "20",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0247",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bithora_(Weisheit_von_Meer_und_Himmel_105)",
+    "german_name": "Bithora",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "105",
+    "hp": "80",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Doppelhieb",
+        "damage": "30",
+        "cost": [
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0688",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Thanathora_(Weisheit_von_Meer_und_Himmel_106)",
+    "german_name": "Thanathora",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "106",
+    "hp": "120",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Wuchthieb",
+        "damage": "70",
+        "cost": [
+          "Fighting",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0689",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Zubat_(Weisheit_von_Meer_und_Himmel_107)",
+    "german_name": "Zubat",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "107",
+    "hp": "50",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Gifthauer",
+        "damage": "10",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0041",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Golbat_(Weisheit_von_Meer_und_Himmel_108)",
+    "german_name": "Golbat",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "108",
+    "hp": "70",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Gifthauer",
+        "damage": "20",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0042",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Iksbat-ex_(Weisheit_von_Meer_und_Himmel_109)",
+    "german_name": "Iksbat-ex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "109",
+    "hp": "170",
+    "energy_type": "",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Giftschlitzer",
+        "damage": "70",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Webarak_(Weisheit_von_Meer_und_Himmel_110)",
+    "german_name": "Webarak",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "110",
+    "hp": "60",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Durchbohren",
+        "damage": "20",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0167",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Ariados_(Weisheit_von_Meer_und_Himmel_111)",
+    "german_name": "Ariados",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "111",
+    "hp": "80",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Anbinden",
+        "damage": "40",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0168",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Nachtara-ex_(Weisheit_von_Meer_und_Himmel_112)",
+    "german_name": "Nachtara-ex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "112",
+    "hp": "140",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Finstere Verfolgung",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "F\u00e4nge der Dunkelheit",
+        "damage": "80",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kramurx_(Weisheit_von_Meer_und_Himmel_113)",
+    "german_name": "Kramurx",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "113",
+    "hp": "60",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Erstauner",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0198",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kramshef_(Weisheit_von_Meer_und_Himmel_114)",
+    "german_name": "Kramshef",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "114",
+    "hp": "120",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Dunkler Zerschneider",
+        "damage": "60",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0430",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Sniebel_(Weisheit_von_Meer_und_Himmel_115)",
+    "german_name": "Sniebel",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "115",
+    "hp": "60",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kratzer",
+        "damage": "20",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0215",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Snibunna_(Weisheit_von_Meer_und_Himmel_116)",
+    "german_name": "Snibunna",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "116",
+    "hp": "80",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "",
+    "attacks": [
+      {
+        "name": "Schlitzer",
+        "damage": "50",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0461",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Hunduster_(Weisheit_von_Meer_und_Himmel_117)",
+    "german_name": "Hunduster",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "117",
+    "hp": "60",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Biss",
+        "damage": "40",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0228",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Hundemon_(Weisheit_von_Meer_und_Himmel_118)",
+    "german_name": "Hundemon",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "118",
+    "hp": "110",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Sturzklau",
+        "damage": "70",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0229",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Despotar_(Weisheit_von_Meer_und_Himmel_119)",
+    "german_name": "Despotar",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "119",
+    "hp": "160",
+    "energy_type": "",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Energieraub",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Zertr\u00fcmmernder Schweif",
+        "damage": "130",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0248",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Absol_(Weisheit_von_Meer_und_Himmel_120)",
+    "german_name": "Absol",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "120",
+    "hp": "80",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "\u00dcberspringen",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0359",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Forstellka_(Weisheit_von_Meer_und_Himmel_121)",
+    "german_name": "Forstellka",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "121",
+    "hp": "130",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Schaleneinschlag",
+        "damage": "80",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0205",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Stahlos_(Weisheit_von_Meer_und_Himmel_122)",
+    "german_name": "Stahlos",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "122",
+    "hp": "150",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Schwerer Einschlag",
+        "damage": "110",
+        "cost": [
+          "Metal",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0208",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Scherox_(Weisheit_von_Meer_und_Himmel_123)",
+    "german_name": "Scherox",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "123",
+    "hp": "100",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Orkansto\u00df",
+        "damage": "50",
+        "cost": [
+          "Metal",
+          "Metal"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0212",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Panzaeron-ex_(Weisheit_von_Meer_und_Himmel_124)",
+    "german_name": "Panzaeron-ex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "124",
+    "hp": "140",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Stahlfl\u00fcgel",
+        "damage": "70",
+        "cost": [
+          "Metal",
+          "Metal"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Flunkifer_(Weisheit_von_Meer_und_Himmel_125)",
+    "german_name": "Flunkifer",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "125",
+    "hp": "70",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Biss",
+        "damage": "30",
+        "cost": [
+          "Metal"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0303",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Klikk_(Weisheit_von_Meer_und_Himmel_126)",
+    "german_name": "Klikk",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "126",
+    "hp": "60",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Klammer",
+        "damage": "20",
+        "cost": [
+          "Metal"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0599",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kliklak_(Weisheit_von_Meer_und_Himmel_127)",
+    "german_name": "Kliklak",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "127",
+    "hp": "80",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Schneidgetriebe",
+        "damage": "40",
+        "cost": [
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0600",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Klikdiklak_(Weisheit_von_Meer_und_Himmel_128)",
+    "german_name": "Klikdiklak",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "128",
+    "hp": "150",
+    "energy_type": "Metal",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Radschleuder",
+        "damage": "70",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0601",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Habitak_(Weisheit_von_Meer_und_Himmel_129)",
+    "german_name": "Habitak",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "129",
+    "hp": "70",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Gleiten",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0021",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Ibitak_(Weisheit_von_Meer_und_Himmel_130)",
+    "german_name": "Ibitak",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "130",
+    "hp": "90",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Insektenleser",
+        "damage": "30",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0022",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Chaneira_(Weisheit_von_Meer_und_Himmel_131)",
+    "german_name": "Chaneira",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "131",
+    "hp": "100",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Z\u00e4hneknirschen",
+        "damage": "",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0113",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Heiteira_(Weisheit_von_Meer_und_Himmel_132)",
+    "german_name": "Heiteira",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "132",
+    "hp": "150",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Energieschlag",
+        "damage": "20",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0242",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kangama_(Weisheit_von_Meer_und_Himmel_133)",
+    "german_name": "Kangama",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "133",
+    "hp": "100",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "\u00dcberkreuzzerschneider",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0115",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Evoli_(Weisheit_von_Meer_und_Himmel_134)",
+    "german_name": "Evoli",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "134",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Freunde finden",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0133",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Porygon_(Weisheit_von_Meer_und_Himmel_135)",
+    "german_name": "Porygon",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "135",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Ramme",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0137",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Porygon2_(Weisheit_von_Meer_und_Himmel_136)",
+    "german_name": "Porygon2",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "136",
+    "hp": "80",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Glitch-Entwicklung",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Rundumangriff",
+        "damage": "40",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0233",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Porygon-Z_(Weisheit_von_Meer_und_Himmel_137)",
+    "german_name": "Porygon-Z",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "137",
+    "hp": "130",
+    "energy_type": "Colorless",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Bremsender Strahl",
+        "damage": "70",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0474",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Wiesor_(Weisheit_von_Meer_und_Himmel_138)",
+    "german_name": "Wiesor",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "138",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kratzer",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0161",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Wiesenior_(Weisheit_von_Meer_und_Himmel_139)",
+    "german_name": "Wiesenior",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "139",
+    "hp": "90",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Schwanzschmetterer",
+        "damage": "80",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0162",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Hoothoot_(Weisheit_von_Meer_und_Himmel_140)",
+    "german_name": "Hoothoot",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "140",
+    "hp": "50",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Insomnia",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Fl\u00fcgelschlag",
+        "damage": "30",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0163",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Noctuh_(Weisheit_von_Meer_und_Himmel_141)",
+    "german_name": "Noctuh",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "141",
+    "hp": "100",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Fliegen",
+        "damage": "90",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0164",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Griffel_(Weisheit_von_Meer_und_Himmel_142)",
+    "german_name": "Griffel",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "142",
+    "hp": "50",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Nach\u00e4ffen",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0190",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Ambidiffel_(Weisheit_von_Meer_und_Himmel_143)",
+    "german_name": "Ambidiffel",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "143",
+    "hp": "100",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Schweifsto\u00df",
+        "damage": "40",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0424",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Dummisel_(Weisheit_von_Meer_und_Himmel_144)",
+    "german_name": "Dummisel",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "144",
+    "hp": "50",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Pl\u00f6tzlicher Blitz",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0206",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Teddiursa_(Weisheit_von_Meer_und_Himmel_145)",
+    "german_name": "Teddiursa",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "145",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Honigschlecken",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0216",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Ursaring_(Weisheit_von_Meer_und_Himmel_146)",
+    "german_name": "Ursaring",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "146",
+    "hp": "120",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Gegenschwung",
+        "damage": "60",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0217",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Damhirplex_(Weisheit_von_Meer_und_Himmel_147)",
+    "german_name": "Damhirplex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "147",
+    "hp": "80",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Spezial-H\u00f6rner",
+        "damage": "20",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0234",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Farbeagle_(Weisheit_von_Meer_und_Himmel_148)",
+    "german_name": "Farbeagle",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "148",
+    "hp": "70",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Schmieranstrich",
+        "damage": "50",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0235",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lugia-ex_(Weisheit_von_Meer_und_Himmel_149)",
+    "german_name": "Lugia-ex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "149",
+    "hp": "150",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Urgewaltexplosion",
+        "damage": "180",
+        "cost": [
+          "Fire",
+          "Water",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bisofank_(Weisheit_von_Meer_und_Himmel_150)",
+    "german_name": "Bisofank",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "150",
+    "hp": "100",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Anhaltender Kopfsto\u00df",
+        "damage": "70",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0626",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Endivie_(Weisheit_von_Meer_und_Himmel_162)",
+    "german_name": "Endivie",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "162",
+    "hp": "60",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Rasierblatt",
+        "damage": "20",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0152",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Blubella_(Weisheit_von_Meer_und_Himmel_163)",
+    "german_name": "Blubella",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "163",
+    "hp": "130",
+    "energy_type": "Grass",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Bl\u00e4ttertanz",
+        "damage": "60",
+        "cost": [
+          "Grass",
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0182",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Skaraborn_(Weisheit_von_Meer_und_Himmel_164)",
+    "german_name": "Skaraborn",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "164",
+    "hp": "90",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Einzelsprung",
+        "damage": "40",
+        "cost": [
+          "Grass",
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0214",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Feurigel_(Weisheit_von_Meer_und_Himmel_165)",
+    "german_name": "Feurigel",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "165",
+    "hp": "60",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Flackern",
+        "damage": "20",
+        "cost": [
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0155",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Magby_(Weisheit_von_Meer_und_Himmel_166)",
+    "german_name": "Magby",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "166",
+    "hp": "30",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "",
+    "attacks": [
+      {
+        "name": "Warmer Wurf",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0240",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Karnimani_(Weisheit_von_Meer_und_Himmel_167)",
+    "german_name": "Karnimani",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "167",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Wellenplatscher",
+        "damage": "20",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0158",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Baldorfish_(Weisheit_von_Meer_und_Himmel_168)",
+    "german_name": "Baldorfish",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "168",
+    "hp": "80",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Giftstachel",
+        "damage": "20",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0211",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Octillery_(Weisheit_von_Meer_und_Himmel_169)",
+    "german_name": "Octillery",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "169",
+    "hp": "100",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Octazooka",
+        "damage": "50",
+        "cost": [
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0224",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Botogel_(Weisheit_von_Meer_und_Himmel_170)",
+    "german_name": "Botogel",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "170",
+    "hp": "70",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Stolperzieher",
+        "damage": "10",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0225",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pichu_(Weisheit_von_Meer_und_Himmel_171)",
+    "german_name": "Pichu",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "171",
+    "hp": "30",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "",
+    "attacks": [
+      {
+        "name": "Funkenwurf",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0172",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Ampharos_(Weisheit_von_Meer_und_Himmel_172)",
+    "german_name": "Ampharos",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "172",
+    "hp": "150",
+    "energy_type": "Electric",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Donnerschlag",
+        "damage": "80",
+        "cost": [
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0181",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Togepi_(Weisheit_von_Meer_und_Himmel_173)",
+    "german_name": "Togepi",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "173",
+    "hp": "60",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Charme",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0175",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Xatu_(Weisheit_von_Meer_und_Himmel_174)",
+    "german_name": "Xatu",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "174",
+    "hp": "80",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Lebensentzug",
+        "damage": "",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0178",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Woingenau_(Weisheit_von_Meer_und_Himmel_175)",
+    "german_name": "Woingenau",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "175",
+    "hp": "90",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Energische Antwort",
+        "damage": "30",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0202",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Skorgla_(Weisheit_von_Meer_und_Himmel_176)",
+    "german_name": "Skorgla",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "176",
+    "hp": "60",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Gleiten",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0207",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Webarak_(Weisheit_von_Meer_und_Himmel_177)",
+    "german_name": "Webarak",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "177",
+    "hp": "60",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Durchbohren",
+        "damage": "20",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0167",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kramurx_(Weisheit_von_Meer_und_Himmel_178)",
+    "german_name": "Kramurx",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "178",
+    "hp": "60",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Erstauner",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0198",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Despotar_(Weisheit_von_Meer_und_Himmel_179)",
+    "german_name": "Despotar",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "179",
+    "hp": "160",
+    "energy_type": "",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Energieraub",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Zertr\u00fcmmernder Schweif",
+        "damage": "130",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0248",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Scherox_(Weisheit_von_Meer_und_Himmel_180)",
+    "german_name": "Scherox",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "180",
+    "hp": "100",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Orkansto\u00df",
+        "damage": "50",
+        "cost": [
+          "Metal",
+          "Metal"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0212",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Wiesor_(Weisheit_von_Meer_und_Himmel_181)",
+    "german_name": "Wiesor",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "181",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kratzer",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0161",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Hoothoot_(Weisheit_von_Meer_und_Himmel_182)",
+    "german_name": "Hoothoot",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "182",
+    "hp": "50",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Insomnia",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Fl\u00fcgelschlag",
+        "damage": "30",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0163",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Damhirplex_(Weisheit_von_Meer_und_Himmel_183)",
+    "german_name": "Damhirplex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "183",
+    "hp": "80",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Spezial-H\u00f6rner",
+        "damage": "20",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0234",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Farbeagle_(Weisheit_von_Meer_und_Himmel_184)",
+    "german_name": "Farbeagle",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "184",
+    "hp": "70",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Schmieranstrich",
+        "damage": "50",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0235",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Heiteira_(Weisheit_von_Meer_und_Himmel_185)",
+    "german_name": "Heiteira",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "185",
+    "hp": "150",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Energieschlag",
+        "damage": "20",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0242",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pottrott-ex_(Weisheit_von_Meer_und_Himmel_186)",
+    "german_name": "Pottrott-ex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "186",
+    "hp": "120",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Solider Panzer",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Triplexhieb",
+        "damage": "20",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Ho-Oh-ex_(Weisheit_von_Meer_und_Himmel_187)",
+    "german_name": "Ho-Oh-ex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "187",
+    "hp": "150",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Ph\u00f6nix-Turbo",
+        "damage": "80",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Seedraking-ex_(Weisheit_von_Meer_und_Himmel_188)",
+    "german_name": "Seedraking-ex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "188",
+    "hp": "170",
+    "energy_type": "Water",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Sturmgef\u00e4ngnis",
+        "damage": "90",
+        "cost": [
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lanturn-ex_(Weisheit_von_Meer_und_Himmel_189)",
+    "german_name": "Lanturn-ex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "189",
+    "hp": "150",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Aufblitzendes Signal",
+        "damage": "80",
+        "cost": [
+          "Electric",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Psiana-ex_(Weisheit_von_Meer_und_Himmel_190)",
+    "german_name": "Psiana-ex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "190",
+    "hp": "140",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Psychoheilung",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Super-Psischlag",
+        "damage": "80",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Donphan-ex_(Weisheit_von_Meer_und_Himmel_191)",
+    "german_name": "Donphan-ex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "191",
+    "hp": "160",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Gigantische Presse",
+        "damage": "50",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Iksbat-ex_(Weisheit_von_Meer_und_Himmel_192)",
+    "german_name": "Iksbat-ex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "192",
+    "hp": "170",
+    "energy_type": "",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Giftschlitzer",
+        "damage": "70",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Nachtara-ex_(Weisheit_von_Meer_und_Himmel_193)",
+    "german_name": "Nachtara-ex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "193",
+    "hp": "140",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Finstere Verfolgung",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "F\u00e4nge der Dunkelheit",
+        "damage": "80",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Panzaeron-ex_(Weisheit_von_Meer_und_Himmel_194)",
+    "german_name": "Panzaeron-ex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "194",
+    "hp": "140",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Stahlfl\u00fcgel",
+        "damage": "70",
+        "cost": [
+          "Metal",
+          "Metal"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lugia-ex_(Weisheit_von_Meer_und_Himmel_195)",
+    "german_name": "Lugia-ex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "195",
+    "hp": "150",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Urgewaltexplosion",
+        "damage": "180",
+        "cost": [
+          "Fire",
+          "Water",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pottrott-ex_(Weisheit_von_Meer_und_Himmel_202)",
+    "german_name": "Pottrott-ex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "202",
+    "hp": "120",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Solider Panzer",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Triplexhieb",
+        "damage": "20",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Seedraking-ex_(Weisheit_von_Meer_und_Himmel_203)",
+    "german_name": "Seedraking-ex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "203",
+    "hp": "170",
+    "energy_type": "Water",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Sturmgef\u00e4ngnis",
+        "damage": "90",
+        "cost": [
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lanturn-ex_(Weisheit_von_Meer_und_Himmel_204)",
+    "german_name": "Lanturn-ex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "204",
+    "hp": "150",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Aufblitzendes Signal",
+        "damage": "80",
+        "cost": [
+          "Electric",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Psiana-ex_(Weisheit_von_Meer_und_Himmel_205)",
+    "german_name": "Psiana-ex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "205",
+    "hp": "140",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Psychoheilung",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Super-Psischlag",
+        "damage": "80",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Donphan-ex_(Weisheit_von_Meer_und_Himmel_206)",
+    "german_name": "Donphan-ex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "206",
+    "hp": "160",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Gigantische Presse",
+        "damage": "50",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Iksbat-ex_(Weisheit_von_Meer_und_Himmel_207)",
+    "german_name": "Iksbat-ex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "207",
+    "hp": "170",
+    "energy_type": "",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Giftschlitzer",
+        "damage": "70",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Nachtara-ex_(Weisheit_von_Meer_und_Himmel_208)",
+    "german_name": "Nachtara-ex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "208",
+    "hp": "140",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Finstere Verfolgung",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "F\u00e4nge der Dunkelheit",
+        "damage": "80",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Panzaeron-ex_(Weisheit_von_Meer_und_Himmel_209)",
+    "german_name": "Panzaeron-ex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "209",
+    "hp": "140",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Stahlfl\u00fcgel",
+        "damage": "70",
+        "cost": [
+          "Metal",
+          "Metal"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Ho-Oh-ex_(Weisheit_von_Meer_und_Himmel_210)",
+    "german_name": "Ho-Oh-ex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "210",
+    "hp": "150",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Ph\u00f6nix-Turbo",
+        "damage": "80",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lugia-ex_(Weisheit_von_Meer_und_Himmel_211)",
+    "german_name": "Lugia-ex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "211",
+    "hp": "150",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Urgewaltexplosion",
+        "damage": "180",
+        "cost": [
+          "Fire",
+          "Water",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Yanma_(Weisheit_von_Meer_und_Himmel_212)",
+    "german_name": "Yanma",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "212",
+    "hp": "60",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kehrtwende",
+        "damage": "20",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0193",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Flamara_(Weisheit_von_Meer_und_Himmel_213)",
+    "german_name": "Flamara",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "213",
+    "hp": "110",
+    "energy_type": "Fire",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Zusatzhitze",
+        "damage": "40",
+        "cost": [
+          "Fire",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0136",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Karpador_(Weisheit_von_Meer_und_Himmel_214)",
+    "german_name": "Karpador",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "214",
+    "hp": "30",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Herausspringen",
+        "damage": "",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0129",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Garados_(Weisheit_von_Meer_und_Himmel_215)",
+    "german_name": "Garados",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "215",
+    "hp": "130",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Tosender Schwung",
+        "damage": "20",
+        "cost": [
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0130",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Aquana_(Weisheit_von_Meer_und_Himmel_216)",
+    "german_name": "Aquana",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "216",
+    "hp": "130",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Blasengully",
+        "damage": "60",
+        "cost": [
+          "Water",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0134",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Magnetilo_(Weisheit_von_Meer_und_Himmel_217)",
+    "german_name": "Magnetilo",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "217",
+    "hp": "60",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kugelblitz",
+        "damage": "20",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0081",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Magneton_(Weisheit_von_Meer_und_Himmel_218)",
+    "german_name": "Magneton",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "218",
+    "hp": "80",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Voltladung",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Rundumangriff",
+        "damage": "60",
+        "cost": [
+          "Electric",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0082",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Blitza_(Weisheit_von_Meer_und_Himmel_219)",
+    "german_name": "Blitza",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "219",
+    "hp": "90",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Startspannung",
+        "damage": "40",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0135",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Traunfugil_(Weisheit_von_Meer_und_Himmel_220)",
+    "german_name": "Traunfugil",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "220",
+    "hp": "60",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Grummeln",
+        "damage": "20",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0200",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Menki_(Weisheit_von_Meer_und_Himmel_221)",
+    "german_name": "Menki",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "221",
+    "hp": "50",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Fokussierfaust",
+        "damage": "50",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0056",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Rasaff_(Weisheit_von_Meer_und_Himmel_222)",
+    "german_name": "Rasaff",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "222",
+    "hp": "90",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Zur Wehr setzen",
+        "damage": "40",
+        "cost": [
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0057",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Nidoran%E2%99%80_(Weisheit_von_Meer_und_Himmel_223)",
+    "german_name": "Nidoran\u2640",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "223",
+    "hp": "60",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Familienruf",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0029",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Nidorina_(Weisheit_von_Meer_und_Himmel_224)",
+    "german_name": "Nidorina",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "224",
+    "hp": "80",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Biss",
+        "damage": "30",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0030",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Nidoqueen_(Weisheit_von_Meer_und_Himmel_225)",
+    "german_name": "Nidoqueen",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "225",
+    "hp": "140",
+    "energy_type": "",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Liebestaumel",
+        "damage": "80",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0031",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Nidoran%E2%99%82_(Weisheit_von_Meer_und_Himmel_226)",
+    "german_name": "Nidoran\u2642",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "226",
+    "hp": "60",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Pikser",
+        "damage": "20",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0032",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Nidorino_(Weisheit_von_Meer_und_Himmel_227)",
+    "german_name": "Nidorino",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "227",
+    "hp": "90",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Hornattacke",
+        "damage": "40",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0033",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Nidoking_(Weisheit_von_Meer_und_Himmel_228)",
+    "german_name": "Nidoking",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "228",
+    "hp": "150",
+    "energy_type": "",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Gifthorn",
+        "damage": "90",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0034",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Sniebel_(Weisheit_von_Meer_und_Himmel_229)",
+    "german_name": "Sniebel",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "229",
+    "hp": "60",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kratzer",
+        "damage": "20",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0215",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schlurp_(Weisheit_von_Meer_und_Himmel_230)",
+    "german_name": "Schlurp",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "230",
+    "hp": "80",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Zungenschelle",
+        "damage": "50",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0108",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Evoli_(Weisheit_von_Meer_und_Himmel_231)",
+    "german_name": "Evoli",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "231",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Freunde finden",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0133",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Yanmega-ex_(Weisheit_von_Meer_und_Himmel_232)",
+    "german_name": "Yanmega-ex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "232",
+    "hp": "140",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Luftschnitt",
+        "damage": "120",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Folipurba-ex_(Weisheit_von_Meer_und_Himmel_233)",
+    "german_name": "Folipurba-ex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "233",
+    "hp": "140",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Waldatem",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Solarstrahl",
+        "damage": "70",
+        "cost": [
+          "Grass",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Garados-ex_(Weisheit_von_Meer_und_Himmel_234)",
+    "german_name": "Garados-ex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "234",
+    "hp": "180",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Tosender Strudel",
+        "damage": "140",
+        "cost": [
+          "Water",
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Glaziola-ex_(Weisheit_von_Meer_und_Himmel_235)",
+    "german_name": "Glaziola-ex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "235",
+    "hp": "140",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Schneefeld",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Polarwind",
+        "damage": "90",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pachirisu-ex_(Weisheit_von_Meer_und_Himmel_236)",
+    "german_name": "Pachirisu-ex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "236",
+    "hp": "120",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Ger\u00e4tefunken",
+        "damage": "40",
+        "cost": [
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Traunmagil-ex_(Weisheit_von_Meer_und_Himmel_237)",
+    "german_name": "Traunmagil-ex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "237",
+    "hp": "140",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Magischer Wahn",
+        "damage": "70",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Snibunna-ex_(Weisheit_von_Meer_und_Himmel_238)",
+    "german_name": "Snibunna-ex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "238",
+    "hp": "140",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kratzende Krallen",
+        "damage": "30",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schlurplek-ex_(Weisheit_von_Meer_und_Himmel_239)",
+    "german_name": "Schlurplek-ex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "239",
+    "hp": "160",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Schleckwut",
+        "damage": "100",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Ho-Oh-ex_(Weisheit_von_Meer_und_Himmel_240)",
+    "german_name": "Ho-Oh-ex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "240",
+    "hp": "150",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Ph\u00f6nix-Turbo",
+        "damage": "80",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lugia-ex_(Weisheit_von_Meer_und_Himmel_241)",
+    "german_name": "Lugia-ex",
+    "set_id": "A4",
+    "set_name": "Weisheit von Meer und Himmel",
+    "card_number": "241",
+    "hp": "150",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Urgewaltexplosion",
+        "damage": "180",
+        "cost": [
+          "Fire",
+          "Water",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  }
+]

@@ -1,0 +1,8426 @@
+[
+  {
+    "url": "https://www.pokewiki.de/Bisasam_(Unschlagbare_Gene_001)",
+    "german_name": "Bisasam",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "1",
+    "hp": "70",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Rankenhieb",
+        "damage": "40",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0001",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bisaknosp_(Unschlagbare_Gene_002)",
+    "german_name": "Bisaknosp",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "2",
+    "hp": "90",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Rasierblatt",
+        "damage": "60",
+        "cost": [
+          "Grass",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0002",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bisaflor_(Unschlagbare_Gene_003)",
+    "german_name": "Bisaflor",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "3",
+    "hp": "160",
+    "energy_type": "Grass",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Megasauger",
+        "damage": "80",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0003",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bisaflor-ex_(Unschlagbare_Gene_004)",
+    "german_name": "Bisaflor-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "4",
+    "hp": "190",
+    "energy_type": "Grass",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Rasierblatt",
+        "damage": "60",
+        "cost": [
+          "Grass",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Riesenbl\u00fcte",
+        "damage": "100",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Raupy_(Unschlagbare_Gene_005)",
+    "german_name": "Raupy",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "5",
+    "hp": "50",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Freunde finden",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0010",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Safcon_(Unschlagbare_Gene_006)",
+    "german_name": "Safcon",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "6",
+    "hp": "80",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "K\u00e4ferbiss",
+        "damage": "30",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0011",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Smettbo_(Unschlagbare_Gene_007)",
+    "german_name": "Smettbo",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "7",
+    "hp": "120",
+    "energy_type": "Grass",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Puderheilung",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Windsto\u00df",
+        "damage": "60",
+        "cost": [
+          "Grass",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0012",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Hornliu_(Unschlagbare_Gene_008)",
+    "german_name": "Hornliu",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "8",
+    "hp": "50",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Einstich",
+        "damage": "20",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0013",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kokuna_(Unschlagbare_Gene_009)",
+    "german_name": "Kokuna",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "9",
+    "hp": "80",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "K\u00e4ferbiss",
+        "damage": "30",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0014",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bibor_(Unschlagbare_Gene_010)",
+    "german_name": "Bibor",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "10",
+    "hp": "120",
+    "energy_type": "Grass",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Scharfer Stich",
+        "damage": "70",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0015",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Myrapla_(Unschlagbare_Gene_011)",
+    "german_name": "Myrapla",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "11",
+    "hp": "60",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Ramme",
+        "damage": "20",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0043",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Duflor_(Unschlagbare_Gene_012)",
+    "german_name": "Duflor",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "12",
+    "hp": "80",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Sabbern",
+        "damage": "40",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0044",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Giflor_(Unschlagbare_Gene_013)",
+    "german_name": "Giflor",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "13",
+    "hp": "140",
+    "energy_type": "Grass",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Beruhigender Duft",
+        "damage": "80",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0045",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Paras_(Unschlagbare_Gene_014)",
+    "german_name": "Paras",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "14",
+    "hp": "70",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kratzer",
+        "damage": "30",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0046",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Parasek_(Unschlagbare_Gene_015)",
+    "german_name": "Parasek",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "15",
+    "hp": "120",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Schlitzer",
+        "damage": "80",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0047",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bluzuk_(Unschlagbare_Gene_016)",
+    "german_name": "Bluzuk",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "16",
+    "hp": "60",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Tackle",
+        "damage": "20",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0048",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Omot_(Unschlagbare_Gene_017)",
+    "german_name": "Omot",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "17",
+    "hp": "80",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Giftpuder",
+        "damage": "30",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0049",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Knofensa_(Unschlagbare_Gene_018)",
+    "german_name": "Knofensa",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "18",
+    "hp": "60",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Rankenhieb",
+        "damage": "20",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0069",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Ultrigaria_(Unschlagbare_Gene_019)",
+    "german_name": "Ultrigaria",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "19",
+    "hp": "90",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Rasierblatt",
+        "damage": "40",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0070",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Sarzenia_(Unschlagbare_Gene_020)",
+    "german_name": "Sarzenia",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "20",
+    "hp": "140",
+    "energy_type": "Grass",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Aromafalle",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Rankenhieb",
+        "damage": "60",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0071",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Owei_(Unschlagbare_Gene_021)",
+    "german_name": "Owei",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "21",
+    "hp": "50",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Samenbomben",
+        "damage": "20",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0102",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kokowei_(Unschlagbare_Gene_022)",
+    "german_name": "Kokowei",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "22",
+    "hp": "130",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Stampfer",
+        "damage": "30",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0103",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kokowei-ex_(Unschlagbare_Gene_023)",
+    "german_name": "Kokowei-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "23",
+    "hp": "160",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Tropenschwung",
+        "damage": "40",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tangela_(Unschlagbare_Gene_024)",
+    "german_name": "Tangela",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "24",
+    "hp": "80",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Absorber",
+        "damage": "40",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0114",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Sichlor_(Unschlagbare_Gene_025)",
+    "german_name": "Sichlor",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "25",
+    "hp": "70",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Scharfe Sense",
+        "damage": "30",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0123",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pinsir_(Unschlagbare_Gene_026)",
+    "german_name": "Pinsir",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "26",
+    "hp": "90",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Doppelhorn",
+        "damage": "50",
+        "cost": [
+          "Grass",
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0127",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Waumboll_(Unschlagbare_Gene_027)",
+    "german_name": "Waumboll",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "27",
+    "hp": "50",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Festkleben",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0546",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Elfun_(Unschlagbare_Gene_028)",
+    "german_name": "Elfun",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "28",
+    "hp": "80",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Rolltackle",
+        "damage": "40",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0547",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lilminip_(Unschlagbare_Gene_029)",
+    "german_name": "Lilminip",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "29",
+    "hp": "60",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Klecks",
+        "damage": "10",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0548",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Dressella_(Unschlagbare_Gene_030)",
+    "german_name": "Dressella",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "30",
+    "hp": "100",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Bl\u00e4ttervorrat",
+        "damage": "50",
+        "cost": [
+          "Grass",
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0549",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Chevrumm_(Unschlagbare_Gene_032)",
+    "german_name": "Chevrumm",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "32",
+    "hp": "120",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Rasierblatt",
+        "damage": "70",
+        "cost": [
+          "Grass",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0673",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Glumanda_(Unschlagbare_Gene_033)",
+    "german_name": "Glumanda",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "33",
+    "hp": "60",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Glut",
+        "damage": "30",
+        "cost": [
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0004",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Glutexo_(Unschlagbare_Gene_034)",
+    "german_name": "Glutexo",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "34",
+    "hp": "90",
+    "energy_type": "Fire",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Feuerkrallen",
+        "damage": "60",
+        "cost": [
+          "Fire",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0005",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Glurak_(Unschlagbare_Gene_035)",
+    "german_name": "Glurak",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "35",
+    "hp": "150",
+    "energy_type": "Fire",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Feuerwirbel",
+        "damage": "150",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0006",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Glurak-ex_(Unschlagbare_Gene_036)",
+    "german_name": "Glurak-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "36",
+    "hp": "180",
+    "energy_type": "Fire",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Schlitzer",
+        "damage": "60",
+        "cost": [
+          "Fire",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Feuerroter Sturm",
+        "damage": "200",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Vulpix_(Unschlagbare_Gene_037)",
+    "german_name": "Vulpix",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "37",
+    "hp": "50",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Rutenschlag",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0037",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Vulnona_(Unschlagbare_Gene_038)",
+    "german_name": "Vulnona",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "38",
+    "hp": "90",
+    "energy_type": "Fire",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Flammenwurf",
+        "damage": "90",
+        "cost": [
+          "Fire",
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0038",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Fukano_(Unschlagbare_Gene_039)",
+    "german_name": "Fukano",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "39",
+    "hp": "70",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Biss",
+        "damage": "20",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0058",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Arkani_(Unschlagbare_Gene_040)",
+    "german_name": "Arkani",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "40",
+    "hp": "130",
+    "energy_type": "Fire",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Hitze-Tackle",
+        "damage": "100",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0059",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Arkani-ex_(Unschlagbare_Gene_041)",
+    "german_name": "Arkani-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "41",
+    "hp": "150",
+    "energy_type": "Fire",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Inferno-Ansturm",
+        "damage": "120",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Ponita_(Unschlagbare_Gene_042)",
+    "german_name": "Ponita",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "42",
+    "hp": "60",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Flackern",
+        "damage": "20",
+        "cost": [
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0077",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Gallopa_(Unschlagbare_Gene_043)",
+    "german_name": "Gallopa",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "43",
+    "hp": "100",
+    "energy_type": "Fire",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Flammenm\u00e4hne",
+        "damage": "40",
+        "cost": [
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0078",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Magmar_(Unschlagbare_Gene_044)",
+    "german_name": "Magmar",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "44",
+    "hp": "80",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Magmahieb",
+        "damage": "50",
+        "cost": [
+          "Fire",
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0126",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Flamara_(Unschlagbare_Gene_045)",
+    "german_name": "Flamara",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "45",
+    "hp": "120",
+    "energy_type": "Fire",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Flammenwurf",
+        "damage": "110",
+        "cost": [
+          "Fire",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0136",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lavados_(Unschlagbare_Gene_046)",
+    "german_name": "Lavados",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "46",
+    "hp": "100",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Himmelsfeger",
+        "damage": "130",
+        "cost": [
+          "Fire",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0146",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lavados-ex_(Unschlagbare_Gene_047)",
+    "german_name": "Lavados-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "47",
+    "hp": "140",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Infernotanz",
+        "damage": "",
+        "cost": [
+          "Fire"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Hitzesto\u00df",
+        "damage": "70",
+        "cost": [
+          "Fire",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Molunk_(Unschlagbare_Gene_049)",
+    "german_name": "Molunk",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "49",
+    "hp": "60",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kratzer",
+        "damage": "20",
+        "cost": [
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0757",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Amfira_(Unschlagbare_Gene_050)",
+    "german_name": "Amfira",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "50",
+    "hp": "90",
+    "energy_type": "Fire",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Feuerkrallen",
+        "damage": "60",
+        "cost": [
+          "Fire",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0758",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Thermopod_(Unschlagbare_Gene_051)",
+    "german_name": "Thermopod",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "51",
+    "hp": "60",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Nagen",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0850",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Infernopod_(Unschlagbare_Gene_052)",
+    "german_name": "Infernopod",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "52",
+    "hp": "130",
+    "energy_type": "Fire",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Feuersturm",
+        "damage": "130",
+        "cost": [
+          "Fire",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0851",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schiggy_(Unschlagbare_Gene_053)",
+    "german_name": "Schiggy",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "53",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Aquaknarre",
+        "damage": "20",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0007",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schillok_(Unschlagbare_Gene_054)",
+    "german_name": "Schillok",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "54",
+    "hp": "80",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Wellenplatscher",
+        "damage": "40",
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0008",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Turtok_(Unschlagbare_Gene_055)",
+    "german_name": "Turtok",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "55",
+    "hp": "150",
+    "energy_type": "Water",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Hydropumpe",
+        "damage": "80",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0009",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Turtok-ex_(Unschlagbare_Gene_056)",
+    "german_name": "Turtok-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "56",
+    "hp": "180",
+    "energy_type": "Water",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Surfer",
+        "damage": "40",
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Hydro-Bazooka",
+        "damage": "100",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Enton_(Unschlagbare_Gene_057)",
+    "german_name": "Enton",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "57",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kopfweh",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0054",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Entoron_(Unschlagbare_Gene_058)",
+    "german_name": "Entoron",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "58",
+    "hp": "90",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Aquaschneide",
+        "damage": "70",
+        "cost": [
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0055",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Quapsel_(Unschlagbare_Gene_059)",
+    "german_name": "Quapsel",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "59",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Rasierflosse",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0060",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Quaputzi_(Unschlagbare_Gene_060)",
+    "german_name": "Quaputzi",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "60",
+    "hp": "90",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Kn\u00f6chelhieb",
+        "damage": "40",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0061",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Quappo_(Unschlagbare_Gene_061)",
+    "german_name": "Quappo",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "61",
+    "hp": "150",
+    "energy_type": "Water",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Gegenangriff",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Megahieb",
+        "damage": "80",
+        "cost": [
+          "Water",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0062",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tentacha_(Unschlagbare_Gene_062)",
+    "german_name": "Tentacha",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "62",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Sanfter Hieb",
+        "damage": "20",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0072",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tentoxa_(Unschlagbare_Gene_063)",
+    "german_name": "Tentoxa",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "63",
+    "hp": "110",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Giftige Tentakel",
+        "damage": "50",
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0073",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Jurob_(Unschlagbare_Gene_064)",
+    "german_name": "Jurob",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "64",
+    "hp": "80",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Kopfnuss",
+        "damage": "30",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0086",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Jugong_(Unschlagbare_Gene_065)",
+    "german_name": "Jugong",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "65",
+    "hp": "120",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Surfer",
+        "damage": "90",
+        "cost": [
+          "Water",
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0087",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Muschas_(Unschlagbare_Gene_066)",
+    "german_name": "Muschas",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "66",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Zungenschelle",
+        "damage": "20",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0090",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Austos_(Unschlagbare_Gene_067)",
+    "german_name": "Austos",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "67",
+    "hp": "120",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Panzerhaut",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Surfer",
+        "damage": "70",
+        "cost": [
+          "Water",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0091",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Krabby_(Unschlagbare_Gene_068)",
+    "german_name": "Krabby",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "68",
+    "hp": "70",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Klammer",
+        "damage": "40",
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0098",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kingler_(Unschlagbare_Gene_069)",
+    "german_name": "Kingler",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "69",
+    "hp": "120",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "K.O.-Krabbe",
+        "damage": "80",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0099",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Seeper_(Unschlagbare_Gene_070)",
+    "german_name": "Seeper",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "70",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Aquaknarre",
+        "damage": "20",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0116",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Seemon_(Unschlagbare_Gene_071)",
+    "german_name": "Seemon",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "71",
+    "hp": "70",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Wasserpfeil",
+        "damage": "",
+        "cost": [
+          "Water",
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0117",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Goldini_(Unschlagbare_Gene_072)",
+    "german_name": "Goldini",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "72",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Plumps",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0118",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Golking_(Unschlagbare_Gene_073)",
+    "german_name": "Golking",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "73",
+    "hp": "100",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Gef\u00e4hrliches Horn",
+        "damage": "80",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0119",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Sterndu_(Unschlagbare_Gene_074)",
+    "german_name": "Sterndu",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "74",
+    "hp": "50",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Klatscher",
+        "damage": "20",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0120",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Starmie_(Unschlagbare_Gene_075)",
+    "german_name": "Starmie",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "75",
+    "hp": "90",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "",
+    "attacks": [
+      {
+        "name": "Wellenplatscher",
+        "damage": "40",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0121",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Starmie-ex_(Unschlagbare_Gene_076)",
+    "german_name": "Starmie-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "76",
+    "hp": "130",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "",
+    "attacks": [
+      {
+        "name": "Hydroplatscher",
+        "damage": "90",
+        "cost": [
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Karpador_(Unschlagbare_Gene_077)",
+    "german_name": "Karpador",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "77",
+    "hp": "30",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Platscher",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0129",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Garados_(Unschlagbare_Gene_078)",
+    "german_name": "Garados",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "78",
+    "hp": "150",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Hyperstrahl",
+        "damage": "100",
+        "cost": [
+          "Water",
+          "Water",
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0130",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lapras_(Unschlagbare_Gene_079)",
+    "german_name": "Lapras",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "79",
+    "hp": "100",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Hydropumpe",
+        "damage": "20",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0131",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Aquana_(Unschlagbare_Gene_080)",
+    "german_name": "Aquana",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "80",
+    "hp": "130",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Blasengully",
+        "damage": "60",
+        "cost": [
+          "Water",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0134",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Amonitas_(Unschlagbare_Gene_081)",
+    "german_name": "Amonitas",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "81",
+    "hp": "90",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Aquaknarre",
+        "damage": "40",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0138",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Amoroso_(Unschlagbare_Gene_082)",
+    "german_name": "Amoroso",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "82",
+    "hp": "140",
+    "energy_type": "Water",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Urzeitsog",
+        "damage": "70",
+        "cost": [
+          "Water",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0139",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Arktos_(Unschlagbare_Gene_083)",
+    "german_name": "Arktos",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "83",
+    "hp": "100",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Eisstrahl",
+        "damage": "60",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0144",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Arktos-ex_(Unschlagbare_Gene_084)",
+    "german_name": "Arktos-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "84",
+    "hp": "140",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Frostschwinge",
+        "damage": "40",
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Blizzard",
+        "damage": "80",
+        "cost": [
+          "Water",
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Piccolente_(Unschlagbare_Gene_085)",
+    "german_name": "Piccolente",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "85",
+    "hp": "50",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Flattern",
+        "damage": "30",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0580",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Swaroness_(Unschlagbare_Gene_086)",
+    "german_name": "Swaroness",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "86",
+    "hp": "90",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Fl\u00fcgelschlag",
+        "damage": "70",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0581",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Froxy_(Unschlagbare_Gene_087)",
+    "german_name": "Froxy",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "87",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Plumps",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0656",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Amphizel_(Unschlagbare_Gene_088)",
+    "german_name": "Amphizel",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "88",
+    "hp": "80",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Spritzwasser",
+        "damage": "30",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0657",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Quajutsu_(Unschlagbare_Gene_089)",
+    "german_name": "Quajutsu",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "89",
+    "hp": "120",
+    "energy_type": "Water",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Wasser-Shuriken",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Schleierschlitzer",
+        "damage": "60",
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0658",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Gufa_(Unschlagbare_Gene_090)",
+    "german_name": "Gufa",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "90",
+    "hp": "70",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Regenplatscher",
+        "damage": "30",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0771",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Knirfish_(Unschlagbare_Gene_091)",
+    "german_name": "Knirfish",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "91",
+    "hp": "90",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Sekund\u00e4rschlag",
+        "damage": "10",
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0779",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Snomnom_(Unschlagbare_Gene_092)",
+    "german_name": "Snomnom",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "92",
+    "hp": "50",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Ramme",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0872",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mottineva_(Unschlagbare_Gene_093)",
+    "german_name": "Mottineva",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "93",
+    "hp": "90",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Pulverschnee",
+        "damage": "40",
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0873",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pikachu_(Unschlagbare_Gene_094)",
+    "german_name": "Pikachu",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "94",
+    "hp": "60",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Nagen",
+        "damage": "20",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0025",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Raichu_(Unschlagbare_Gene_095)",
+    "german_name": "Raichu",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "95",
+    "hp": "100",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Donnerblitz",
+        "damage": "140",
+        "cost": [
+          "Electric",
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0026",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pikachu-ex_(Unschlagbare_Gene_096)",
+    "german_name": "Pikachu-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "96",
+    "hp": "120",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Rundparcours",
+        "damage": "30",
+        "cost": [
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Magnetilo_(Unschlagbare_Gene_097)",
+    "german_name": "Magnetilo",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "97",
+    "hp": "60",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kugelblitz",
+        "damage": "20",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0081",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Magneton_(Unschlagbare_Gene_098)",
+    "german_name": "Magneton",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "98",
+    "hp": "80",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Voltladung",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Rundumangriff",
+        "damage": "60",
+        "cost": [
+          "Electric",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0082",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Voltobal_(Unschlagbare_Gene_099)",
+    "german_name": "Voltobal",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "99",
+    "hp": "60",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Tackle",
+        "damage": "20",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0100",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lektrobal_(Unschlagbare_Gene_100)",
+    "german_name": "Lektrobal",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "100",
+    "hp": "80",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "",
+    "attacks": [
+      {
+        "name": "Elektroball",
+        "damage": "70",
+        "cost": [
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0101",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Elektek_(Unschlagbare_Gene_101)",
+    "german_name": "Elektek",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "101",
+    "hp": "70",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Donnerschlag",
+        "damage": "40",
+        "cost": [
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0125",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Blitza_(Unschlagbare_Gene_102)",
+    "german_name": "Blitza",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "102",
+    "hp": "90",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Nadelrakete",
+        "damage": "40",
+        "cost": [
+          "Electric",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0135",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Zapdos_(Unschlagbare_Gene_103)",
+    "german_name": "Zapdos",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "103",
+    "hp": "100",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Tosender Donner",
+        "damage": "100",
+        "cost": [
+          "Electric",
+          "Electric",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0145",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Zapdos-ex_(Unschlagbare_Gene_104)",
+    "german_name": "Zapdos-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "104",
+    "hp": "130",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Pikser",
+        "damage": "20",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Donnernder Orkan",
+        "damage": "50",
+        "cost": [
+          "Electric",
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Elezeba_(Unschlagbare_Gene_105)",
+    "german_name": "Elezeba",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "105",
+    "hp": "60",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Stromaustritt",
+        "damage": "20",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0522",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Zebritz_(Unschlagbare_Gene_106)",
+    "german_name": "Zebritz",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "106",
+    "hp": "90",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Donnerspeer",
+        "damage": "",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0523",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Zapplardin_(Unschlagbare_Gene_107)",
+    "german_name": "Zapplardin",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "107",
+    "hp": "30",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Mini-Stromsto\u00df",
+        "damage": "30",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0602",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Zapplalek_(Unschlagbare_Gene_108)",
+    "german_name": "Zapplalek",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "108",
+    "hp": "80",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Kopf-Blitz",
+        "damage": "40",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0603",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Zapplarang_(Unschlagbare_Gene_109)",
+    "german_name": "Zapplarang",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "109",
+    "hp": "140",
+    "energy_type": "Electric",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Donnerzahn",
+        "damage": "80",
+        "cost": [
+          "Electric",
+          "Electric",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0604",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Eguana_(Unschlagbare_Gene_110)",
+    "german_name": "Eguana",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "110",
+    "hp": "60",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Schweifvertrimmer",
+        "damage": "20",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0694",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Elezard_(Unschlagbare_Gene_111)",
+    "german_name": "Elezard",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "111",
+    "hp": "90",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Ruckzuckhieb",
+        "damage": "40",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0695",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Britzigel_(Unschlagbare_Gene_112)",
+    "german_name": "Britzigel",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "112",
+    "hp": "70",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Donnerschock",
+        "damage": "30",
+        "cost": [
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0871",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Piepi_(Unschlagbare_Gene_113)",
+    "german_name": "Piepi",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "113",
+    "hp": "60",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Hieb",
+        "damage": "20",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0035",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pixi_(Unschlagbare_Gene_114)",
+    "german_name": "Pixi",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "114",
+    "hp": "100",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Magischer Schuss",
+        "damage": "40",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0036",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Abra_(Unschlagbare_Gene_115)",
+    "german_name": "Abra",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "115",
+    "hp": "60",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Teleport",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0063",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kadabra_(Unschlagbare_Gene_116)",
+    "german_name": "Kadabra",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "116",
+    "hp": "80",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Super-Psischlag",
+        "damage": "60",
+        "cost": [
+          "Psychic",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0064",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Simsala_(Unschlagbare_Gene_117)",
+    "german_name": "Simsala",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "117",
+    "hp": "130",
+    "energy_type": "Psychic",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Psychokinese",
+        "damage": "60",
+        "cost": [
+          "Psychic",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0065",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Flegmon_(Unschlagbare_Gene_118)",
+    "german_name": "Flegmon",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "118",
+    "hp": "70",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Schweifvertrimmer",
+        "damage": "30",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0079",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lahmus_(Unschlagbare_Gene_119)",
+    "german_name": "Lahmus",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "119",
+    "hp": "130",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Super-Psischlag",
+        "damage": "80",
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0080",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Nebulak_(Unschlagbare_Gene_120)",
+    "german_name": "Nebulak",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "120",
+    "hp": "60",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "W\u00fcrgegas",
+        "damage": "20",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0092",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Alpollo_(Unschlagbare_Gene_121)",
+    "german_name": "Alpollo",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "121",
+    "hp": "80",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Irrlicht",
+        "damage": "30",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0093",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Gengar_(Unschlagbare_Gene_122)",
+    "german_name": "Gengar",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "122",
+    "hp": "130",
+    "energy_type": "Psychic",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Tortur",
+        "damage": "50",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0094",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Gengar-ex_(Unschlagbare_Gene_123)",
+    "german_name": "Gengar-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "123",
+    "hp": "170",
+    "energy_type": "Psychic",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Schattenbann",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Spukschuss",
+        "damage": "100",
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Traumato_(Unschlagbare_Gene_124)",
+    "german_name": "Traumato",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "124",
+    "hp": "70",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Grummeln",
+        "damage": "30",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0096",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Hypno_(Unschlagbare_Gene_125)",
+    "german_name": "Hypno",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "125",
+    "hp": "100",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Schlafpendel",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Psyhieb",
+        "damage": "50",
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0097",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pantimos_(Unschlagbare_Gene_126)",
+    "german_name": "Pantimos",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "126",
+    "hp": "80",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0122",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Rossana_(Unschlagbare_Gene_127)",
+    "german_name": "Rossana",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "127",
+    "hp": "80",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Psychokinese",
+        "damage": "30",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0124",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mewtu_(Unschlagbare_Gene_128)",
+    "german_name": "Mewtu",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "128",
+    "hp": "120",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Powerschuss",
+        "damage": "120",
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0150",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mewtu-ex_(Unschlagbare_Gene_129)",
+    "german_name": "Mewtu-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "129",
+    "hp": "150",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Psychosph\u00e4re",
+        "damage": "50",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Psycho-Antrieb",
+        "damage": "150",
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Trasla_(Unschlagbare_Gene_130)",
+    "german_name": "Trasla",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "130",
+    "hp": "60",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Ramme",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0280",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kirlia_(Unschlagbare_Gene_131)",
+    "german_name": "Kirlia",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "131",
+    "hp": "80",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Klatscher",
+        "damage": "30",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0281",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Guardevoir_(Unschlagbare_Gene_132)",
+    "german_name": "Guardevoir",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "132",
+    "hp": "110",
+    "energy_type": "Psychic",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Psischatten",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Psychoschuss",
+        "damage": "60",
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0282",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Fleknoil_(Unschlagbare_Gene_133)",
+    "german_name": "Fleknoil",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "133",
+    "hp": "60",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Nagen",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0527",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Fletiamo_(Unschlagbare_Gene_134)",
+    "german_name": "Fletiamo",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "134",
+    "hp": "90",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Herzstempel",
+        "damage": "60",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0528",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Golbit_(Unschlagbare_Gene_135)",
+    "german_name": "Golbit",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "135",
+    "hp": "90",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Megahieb",
+        "damage": "50",
+        "cost": [
+          "Psychic",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0622",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Golgantes_(Unschlagbare_Gene_136)",
+    "german_name": "Golgantes",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "136",
+    "hp": "140",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Doppel-Lasso",
+        "damage": "100",
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0623",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Sandan_(Unschlagbare_Gene_137)",
+    "german_name": "Sandan",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "137",
+    "hp": "70",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kratzer",
+        "damage": "10",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0027",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Sandamer_(Unschlagbare_Gene_138)",
+    "german_name": "Sandamer",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "138",
+    "hp": "100",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Schlitzer",
+        "damage": "70",
+        "cost": [
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0028",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Digda_(Unschlagbare_Gene_139)",
+    "german_name": "Digda",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "139",
+    "hp": "50",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Lehmschelle",
+        "damage": "20",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0050",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Digdri_(Unschlagbare_Gene_140)",
+    "german_name": "Digdri",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "140",
+    "hp": "70",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Schaufler",
+        "damage": "40",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0051",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Menki_(Unschlagbare_Gene_141)",
+    "german_name": "Menki",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "141",
+    "hp": "60",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Fu\u00dfkick",
+        "damage": "20",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0056",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Rasaff_(Unschlagbare_Gene_142)",
+    "german_name": "Rasaff",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "142",
+    "hp": "90",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Zur Wehr setzen",
+        "damage": "40",
+        "cost": [
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0057",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Machollo_(Unschlagbare_Gene_143)",
+    "german_name": "Machollo",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "143",
+    "hp": "70",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Kn\u00f6chelhieb",
+        "damage": "20",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0066",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Maschock_(Unschlagbare_Gene_144)",
+    "german_name": "Maschock",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "144",
+    "hp": "100",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "St\u00e4rke",
+        "damage": "50",
+        "cost": [
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0067",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Machomei_(Unschlagbare_Gene_145)",
+    "german_name": "Machomei",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "145",
+    "hp": "150",
+    "energy_type": "Fighting",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Geowurf",
+        "damage": "100",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0068",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Machomei-ex_(Unschlagbare_Gene_146)",
+    "german_name": "Machomei-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "146",
+    "hp": "180",
+    "energy_type": "Fighting",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Megahieb",
+        "damage": "120",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kleinstein_(Unschlagbare_Gene_147)",
+    "german_name": "Kleinstein",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "147",
+    "hp": "70",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Tackle",
+        "damage": "20",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0074",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Georok_(Unschlagbare_Gene_148)",
+    "german_name": "Georok",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "148",
+    "hp": "100",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Walzer",
+        "damage": "70",
+        "cost": [
+          "Fighting",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0075",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Geowaz_(Unschlagbare_Gene_149)",
+    "german_name": "Geowaz",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "149",
+    "hp": "160",
+    "energy_type": "Fighting",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Risikotackle",
+        "damage": "150",
+        "cost": [
+          "Fighting",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0076",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Onix_(Unschlagbare_Gene_150)",
+    "german_name": "Onix",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "150",
+    "hp": "110",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Schollenbrecher",
+        "damage": "70",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0095",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tragosso_(Unschlagbare_Gene_151)",
+    "german_name": "Tragosso",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "151",
+    "hp": "60",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Heuler",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0104",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Knogga_(Unschlagbare_Gene_152)",
+    "german_name": "Knogga",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "152",
+    "hp": "100",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Knochenpr\u00fcgel",
+        "damage": "40",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0105",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Knogga-ex_(Unschlagbare_Gene_153)",
+    "german_name": "Knogga-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "153",
+    "hp": "140",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Knochmerang",
+        "damage": "80",
+        "cost": [
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kicklee_(Unschlagbare_Gene_154)",
+    "german_name": "Kicklee",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "154",
+    "hp": "80",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Streckkick",
+        "damage": "",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0106",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Nockchan_(Unschlagbare_Gene_155)",
+    "german_name": "Nockchan",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "155",
+    "hp": "80",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Boxschlag",
+        "damage": "30",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0107",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Rihorn_(Unschlagbare_Gene_156)",
+    "german_name": "Rihorn",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "156",
+    "hp": "80",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Tackle",
+        "damage": "60",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0111",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Rizeros_(Unschlagbare_Gene_157)",
+    "german_name": "Rizeros",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "157",
+    "hp": "120",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Hornbohrer",
+        "damage": "100",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0112",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kabuto_(Unschlagbare_Gene_158)",
+    "german_name": "Kabuto",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "158",
+    "hp": "90",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Muschelangriff",
+        "damage": "40",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0140",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kabutops_(Unschlagbare_Gene_159)",
+    "german_name": "Kabutops",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "159",
+    "hp": "140",
+    "energy_type": "Fighting",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Blutsauger",
+        "damage": "50",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0141",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lin-Fu_(Unschlagbare_Gene_160)",
+    "german_name": "Lin-Fu",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "160",
+    "hp": "60",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Klaps",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0619",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Wie-Shu_(Unschlagbare_Gene_161)",
+    "german_name": "Wie-Shu",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "161",
+    "hp": "80",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Drehtritt",
+        "damage": "40",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0620",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Klopptopus_(Unschlagbare_Gene_162)",
+    "german_name": "Klopptopus",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "162",
+    "hp": "80",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Kn\u00f6chelhieb",
+        "damage": "30",
+        "cost": [
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0852",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kaocto_(Unschlagbare_Gene_163)",
+    "german_name": "Kaocto",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "163",
+    "hp": "130",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Schlag versetzen",
+        "damage": "70",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0853",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Rettan_(Unschlagbare_Gene_164)",
+    "german_name": "Rettan",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "164",
+    "hp": "60",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Biss",
+        "damage": "20",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0023",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Arbok_(Unschlagbare_Gene_165)",
+    "german_name": "Arbok",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "165",
+    "hp": "100",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Bedr\u00e4ngen",
+        "damage": "60",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0024",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Nidorina_(Unschlagbare_Gene_167)",
+    "german_name": "Nidorina",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "167",
+    "hp": "80",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Biss",
+        "damage": "30",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0030",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Nidoqueen_(Unschlagbare_Gene_168)",
+    "german_name": "Nidoqueen",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "168",
+    "hp": "140",
+    "energy_type": "",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Liebestaumel",
+        "damage": "80",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0031",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Nidorino_(Unschlagbare_Gene_170)",
+    "german_name": "Nidorino",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "170",
+    "hp": "90",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Hornattacke",
+        "damage": "40",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0033",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Nidoking_(Unschlagbare_Gene_171)",
+    "german_name": "Nidoking",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "171",
+    "hp": "150",
+    "energy_type": "",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Gifthorn",
+        "damage": "90",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0034",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Zubat_(Unschlagbare_Gene_172)",
+    "german_name": "Zubat",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "172",
+    "hp": "50",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Gleiten",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0041",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Golbat_(Unschlagbare_Gene_173)",
+    "german_name": "Golbat",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "173",
+    "hp": "70",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Fl\u00fcgelschlag",
+        "damage": "40",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0042",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Sleima_(Unschlagbare_Gene_174)",
+    "german_name": "Sleima",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "174",
+    "hp": "70",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Giftwolke",
+        "damage": "10",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0088",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Sleimok_(Unschlagbare_Gene_175)",
+    "german_name": "Sleimok",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "175",
+    "hp": "130",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Giftschock",
+        "damage": "70",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0089",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Smogon_(Unschlagbare_Gene_176)",
+    "german_name": "Smogon",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "176",
+    "hp": "70",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "W\u00fcrgegas",
+        "damage": "20",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0109",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Smogmog_(Unschlagbare_Gene_177)",
+    "german_name": "Smogmog",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "177",
+    "hp": "110",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Gasleck",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Tackle",
+        "damage": "30",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0110",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Flunkifer_(Unschlagbare_Gene_178)",
+    "german_name": "Flunkifer",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "178",
+    "hp": "70",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Knirscher",
+        "damage": "20",
+        "cost": [
+          "Metal"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0303",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Gladiantri_(Unschlagbare_Gene_179)",
+    "german_name": "Gladiantri",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "179",
+    "hp": "50",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Durchbohren",
+        "damage": "30",
+        "cost": [
+          "Metal"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0624",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Caesurio_(Unschlagbare_Gene_180)",
+    "german_name": "Caesurio",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "180",
+    "hp": "90",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Metallklaue",
+        "damage": "70",
+        "cost": [
+          "Metal",
+          "Metal"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0625",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Meltan_(Unschlagbare_Gene_181)",
+    "german_name": "Meltan",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "181",
+    "hp": "60",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Anh\u00e4ufen",
+        "damage": "",
+        "cost": [
+          "Metal"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0808",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Melmetal_(Unschlagbare_Gene_182)",
+    "german_name": "Melmetal",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "182",
+    "hp": "130",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Schutzschicht",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Schwerer Einschlag",
+        "damage": "120",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0809",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Dratini_(Unschlagbare_Gene_183)",
+    "german_name": "Dratini",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "183",
+    "hp": "70",
+    "energy_type": "Dragon",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Ramme",
+        "damage": "40",
+        "cost": [
+          "Water",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0147",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Dragonir_(Unschlagbare_Gene_184)",
+    "german_name": "Dragonir",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "184",
+    "hp": "100",
+    "energy_type": "Dragon",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Schweifschlag",
+        "damage": "80",
+        "cost": [
+          "Water",
+          "Electric",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0148",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Dragoran_(Unschlagbare_Gene_185)",
+    "german_name": "Dragoran",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "185",
+    "hp": "160",
+    "energy_type": "Dragon",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Draco Meteor",
+        "damage": "",
+        "cost": [
+          "Water",
+          "Electric",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0149",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Taubsi_(Unschlagbare_Gene_186)",
+    "german_name": "Taubsi",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "186",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Windsto\u00df",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0016",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tauboga_(Unschlagbare_Gene_187)",
+    "german_name": "Tauboga",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "187",
+    "hp": "80",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Windsto\u00df",
+        "damage": "30",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0017",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tauboss_(Unschlagbare_Gene_188)",
+    "german_name": "Tauboss",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "188",
+    "hp": "130",
+    "energy_type": "Colorless",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Wegtreiben",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Fl\u00fcgelschlag",
+        "damage": "70",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0018",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Rattfratz_(Unschlagbare_Gene_189)",
+    "german_name": "Rattfratz",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "189",
+    "hp": "40",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Nagen",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0019",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Rattikarl_(Unschlagbare_Gene_190)",
+    "german_name": "Rattikarl",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "190",
+    "hp": "80",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Biss",
+        "damage": "40",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0020",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Habitak_(Unschlagbare_Gene_191)",
+    "german_name": "Habitak",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "191",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Pikser",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0021",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Ibitak_(Unschlagbare_Gene_192)",
+    "german_name": "Ibitak",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "192",
+    "hp": "100",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Schlagbohrer",
+        "damage": "50",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0022",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pummeluff_(Unschlagbare_Gene_193)",
+    "german_name": "Pummeluff",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "193",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Klaps",
+        "damage": "30",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0039",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Knuddeluff_(Unschlagbare_Gene_194)",
+    "german_name": "Knuddeluff",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "194",
+    "hp": "100",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Schallwelle",
+        "damage": "60",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0040",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Knuddeluff-ex_(Unschlagbare_Gene_195)",
+    "german_name": "Knuddeluff-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "195",
+    "hp": "140",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Schlummerlied",
+        "damage": "80",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mauzi_(Unschlagbare_Gene_196)",
+    "german_name": "Mauzi",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "196",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Zahltag",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0052",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Snobilikat_(Unschlagbare_Gene_197)",
+    "german_name": "Snobilikat",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "197",
+    "hp": "90",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Dunkelklaue",
+        "damage": "40",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0053",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Porenta_(Unschlagbare_Gene_198)",
+    "german_name": "Porenta",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "198",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Lauchschlag",
+        "damage": "40",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0083",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Dodu_(Unschlagbare_Gene_199)",
+    "german_name": "Dodu",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "199",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Pikser",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0084",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Dodri_(Unschlagbare_Gene_200)",
+    "german_name": "Dodri",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "200",
+    "hp": "80",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "",
+    "attacks": [
+      {
+        "name": "Bohrschnabel",
+        "damage": "40",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0085",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schlurp_(Unschlagbare_Gene_201)",
+    "german_name": "Schlurp",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "201",
+    "hp": "90",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Dauerschlecker",
+        "damage": "60",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0108",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Chaneira_(Unschlagbare_Gene_202)",
+    "german_name": "Chaneira",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "202",
+    "hp": "120",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Sanfter Hieb",
+        "damage": "60",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0113",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kangama_(Unschlagbare_Gene_203)",
+    "german_name": "Kangama",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "203",
+    "hp": "100",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Irrschlag",
+        "damage": "30",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0115",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tauros_(Unschlagbare_Gene_204)",
+    "german_name": "Tauros",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "204",
+    "hp": "100",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Hornattacke",
+        "damage": "50",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0128",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Ditto_(Unschlagbare_Gene_205)",
+    "german_name": "Ditto",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "205",
+    "hp": "70",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Alleskopierer",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0132",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Evoli_(Unschlagbare_Gene_206)",
+    "german_name": "Evoli",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "206",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Tackle",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0133",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Evoli_(Unschlagbare_Gene_207)",
+    "german_name": "Evoli",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "207",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Tackle",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0133",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Evoli_(Unschlagbare_Gene_208)",
+    "german_name": "Evoli",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "208",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Tackle",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0133",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Porygon_(Unschlagbare_Gene_209)",
+    "german_name": "Porygon",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "209",
+    "hp": "50",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Daten-Scan",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Sch\u00e4rfer",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0137",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Aerodactyl_(Unschlagbare_Gene_210)",
+    "german_name": "Aerodactyl",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "210",
+    "hp": "100",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Antikschwinge",
+        "damage": "",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0142",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Relaxo_(Unschlagbare_Gene_211)",
+    "german_name": "Relaxo",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "211",
+    "hp": "150",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Walzer",
+        "damage": "70",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0143",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Picochilla_(Unschlagbare_Gene_212)",
+    "german_name": "Picochilla",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "212",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Schweifschlag",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0572",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Chillabell_(Unschlagbare_Gene_213)",
+    "german_name": "Chillabell",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "213",
+    "hp": "90",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Wellenreiten",
+        "damage": "30",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0573",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Wolly_(Unschlagbare_Gene_214)",
+    "german_name": "Wolly",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "214",
+    "hp": "70",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Tackle",
+        "damage": "30",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0831",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Zwollock_(Unschlagbare_Gene_215)",
+    "german_name": "Zwollock",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "215",
+    "hp": "120",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Rolltackle",
+        "damage": "80",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0832",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bisasam_(Unschlagbare_Gene_227)",
+    "german_name": "Bisasam",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "227",
+    "hp": "70",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Rankenhieb",
+        "damage": "40",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0001",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Duflor_(Unschlagbare_Gene_228)",
+    "german_name": "Duflor",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "228",
+    "hp": "80",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Sabbern",
+        "damage": "40",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0044",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pinsir_(Unschlagbare_Gene_229)",
+    "german_name": "Pinsir",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "229",
+    "hp": "90",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Doppelhorn",
+        "damage": "50",
+        "cost": [
+          "Grass",
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0127",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Glumanda_(Unschlagbare_Gene_230)",
+    "german_name": "Glumanda",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "230",
+    "hp": "60",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Glut",
+        "damage": "30",
+        "cost": [
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0004",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Gallopa_(Unschlagbare_Gene_231)",
+    "german_name": "Gallopa",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "231",
+    "hp": "100",
+    "energy_type": "Fire",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Flammenm\u00e4hne",
+        "damage": "40",
+        "cost": [
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0078",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schiggy_(Unschlagbare_Gene_232)",
+    "german_name": "Schiggy",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "232",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Aquaknarre",
+        "damage": "20",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0007",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Garados_(Unschlagbare_Gene_233)",
+    "german_name": "Garados",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "233",
+    "hp": "150",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Hyperstrahl",
+        "damage": "100",
+        "cost": [
+          "Water",
+          "Water",
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0130",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lapras_(Unschlagbare_Gene_234)",
+    "german_name": "Lapras",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "234",
+    "hp": "100",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Hydropumpe",
+        "damage": "20",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0131",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lektrobal_(Unschlagbare_Gene_235)",
+    "german_name": "Lektrobal",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "235",
+    "hp": "80",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "",
+    "attacks": [
+      {
+        "name": "Elektroball",
+        "damage": "70",
+        "cost": [
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0101",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Simsala_(Unschlagbare_Gene_236)",
+    "german_name": "Simsala",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "236",
+    "hp": "130",
+    "energy_type": "Psychic",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Psychokinese",
+        "damage": "60",
+        "cost": [
+          "Psychic",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0065",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Flegmon_(Unschlagbare_Gene_237)",
+    "german_name": "Flegmon",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "237",
+    "hp": "70",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Schweifvertrimmer",
+        "damage": "30",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0079",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Digda_(Unschlagbare_Gene_238)",
+    "german_name": "Digda",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "238",
+    "hp": "50",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Lehmschelle",
+        "damage": "20",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0050",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tragosso_(Unschlagbare_Gene_239)",
+    "german_name": "Tragosso",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "239",
+    "hp": "60",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Heuler",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0104",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Nidoqueen_(Unschlagbare_Gene_240)",
+    "german_name": "Nidoqueen",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "240",
+    "hp": "140",
+    "energy_type": "",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Liebestaumel",
+        "damage": "80",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0031",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Nidoking_(Unschlagbare_Gene_241)",
+    "german_name": "Nidoking",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "241",
+    "hp": "150",
+    "energy_type": "",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Gifthorn",
+        "damage": "90",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0034",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Golbat_(Unschlagbare_Gene_242)",
+    "german_name": "Golbat",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "242",
+    "hp": "70",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Fl\u00fcgelschlag",
+        "damage": "40",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0042",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Smogmog_(Unschlagbare_Gene_243)",
+    "german_name": "Smogmog",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "243",
+    "hp": "110",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Gasleck",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Tackle",
+        "damage": "30",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0110",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Dragoran_(Unschlagbare_Gene_244)",
+    "german_name": "Dragoran",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "244",
+    "hp": "160",
+    "energy_type": "Dragon",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Draco Meteor",
+        "damage": "",
+        "cost": [
+          "Water",
+          "Electric",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0149",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tauboss_(Unschlagbare_Gene_245)",
+    "german_name": "Tauboss",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "245",
+    "hp": "130",
+    "energy_type": "Colorless",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Wegtreiben",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Fl\u00fcgelschlag",
+        "damage": "70",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0018",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mauzi_(Unschlagbare_Gene_246)",
+    "german_name": "Mauzi",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "246",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Zahltag",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0052",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Ditto_(Unschlagbare_Gene_247)",
+    "german_name": "Ditto",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "247",
+    "hp": "70",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Alleskopierer",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0132",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Evoli_(Unschlagbare_Gene_248)",
+    "german_name": "Evoli",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "248",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Tackle",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0133",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Porygon_(Unschlagbare_Gene_249)",
+    "german_name": "Porygon",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "249",
+    "hp": "50",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Daten-Scan",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Sch\u00e4rfer",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0137",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Relaxo_(Unschlagbare_Gene_250)",
+    "german_name": "Relaxo",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "250",
+    "hp": "150",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Walzer",
+        "damage": "70",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0143",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bisaflor-ex_(Unschlagbare_Gene_251)",
+    "german_name": "Bisaflor-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "251",
+    "hp": "190",
+    "energy_type": "Grass",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Rasierblatt",
+        "damage": "60",
+        "cost": [
+          "Grass",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Riesenbl\u00fcte",
+        "damage": "100",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kokowei-ex_(Unschlagbare_Gene_252)",
+    "german_name": "Kokowei-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "252",
+    "hp": "160",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Tropenschwung",
+        "damage": "40",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Glurak-ex_(Unschlagbare_Gene_253)",
+    "german_name": "Glurak-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "253",
+    "hp": "180",
+    "energy_type": "Fire",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Schlitzer",
+        "damage": "60",
+        "cost": [
+          "Fire",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Feuerroter Sturm",
+        "damage": "200",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Arkani-ex_(Unschlagbare_Gene_254)",
+    "german_name": "Arkani-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "254",
+    "hp": "150",
+    "energy_type": "Fire",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Inferno-Ansturm",
+        "damage": "120",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lavados-ex_(Unschlagbare_Gene_255)",
+    "german_name": "Lavados-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "255",
+    "hp": "140",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Infernotanz",
+        "damage": "",
+        "cost": [
+          "Fire"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Hitzesto\u00df",
+        "damage": "70",
+        "cost": [
+          "Fire",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Turtok-ex_(Unschlagbare_Gene_256)",
+    "german_name": "Turtok-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "256",
+    "hp": "180",
+    "energy_type": "Water",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Surfer",
+        "damage": "40",
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Hydro-Bazooka",
+        "damage": "100",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Starmie-ex_(Unschlagbare_Gene_257)",
+    "german_name": "Starmie-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "257",
+    "hp": "130",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "",
+    "attacks": [
+      {
+        "name": "Hydroplatscher",
+        "damage": "90",
+        "cost": [
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Arktos-ex_(Unschlagbare_Gene_258)",
+    "german_name": "Arktos-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "258",
+    "hp": "140",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Frostschwinge",
+        "damage": "40",
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Blizzard",
+        "damage": "80",
+        "cost": [
+          "Water",
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pikachu-ex_(Unschlagbare_Gene_259)",
+    "german_name": "Pikachu-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "259",
+    "hp": "120",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Rundparcours",
+        "damage": "30",
+        "cost": [
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Zapdos-ex_(Unschlagbare_Gene_260)",
+    "german_name": "Zapdos-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "260",
+    "hp": "130",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Pikser",
+        "damage": "20",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Donnernder Orkan",
+        "damage": "50",
+        "cost": [
+          "Electric",
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Gengar-ex_(Unschlagbare_Gene_261)",
+    "german_name": "Gengar-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "261",
+    "hp": "170",
+    "energy_type": "Psychic",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Schattenbann",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Spukschuss",
+        "damage": "100",
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mewtu-ex_(Unschlagbare_Gene_262)",
+    "german_name": "Mewtu-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "262",
+    "hp": "150",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Psychosph\u00e4re",
+        "damage": "50",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Psycho-Antrieb",
+        "damage": "150",
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Machomei-ex_(Unschlagbare_Gene_263)",
+    "german_name": "Machomei-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "263",
+    "hp": "180",
+    "energy_type": "Fighting",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Megahieb",
+        "damage": "120",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Knogga-ex_(Unschlagbare_Gene_264)",
+    "german_name": "Knogga-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "264",
+    "hp": "140",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Knochmerang",
+        "damage": "80",
+        "cost": [
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Knuddeluff-ex_(Unschlagbare_Gene_265)",
+    "german_name": "Knuddeluff-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "265",
+    "hp": "140",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Schlummerlied",
+        "damage": "80",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lavados-ex_(Unschlagbare_Gene_274)",
+    "german_name": "Lavados-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "274",
+    "hp": "140",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Infernotanz",
+        "damage": "",
+        "cost": [
+          "Fire"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Hitzesto\u00df",
+        "damage": "70",
+        "cost": [
+          "Fire",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Arktos-ex_(Unschlagbare_Gene_275)",
+    "german_name": "Arktos-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "275",
+    "hp": "140",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Frostschwinge",
+        "damage": "40",
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Blizzard",
+        "damage": "80",
+        "cost": [
+          "Water",
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Zapdos-ex_(Unschlagbare_Gene_276)",
+    "german_name": "Zapdos-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "276",
+    "hp": "130",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Pikser",
+        "damage": "20",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Donnernder Orkan",
+        "damage": "50",
+        "cost": [
+          "Electric",
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Gengar-ex_(Unschlagbare_Gene_277)",
+    "german_name": "Gengar-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "277",
+    "hp": "170",
+    "energy_type": "Psychic",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Schattenbann",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Spukschuss",
+        "damage": "100",
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Machomei-ex_(Unschlagbare_Gene_278)",
+    "german_name": "Machomei-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "278",
+    "hp": "180",
+    "energy_type": "Fighting",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Megahieb",
+        "damage": "120",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Knuddeluff-ex_(Unschlagbare_Gene_279)",
+    "german_name": "Knuddeluff-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "279",
+    "hp": "140",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Schlummerlied",
+        "damage": "80",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Glurak-ex_(Unschlagbare_Gene_280)",
+    "german_name": "Glurak-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "280",
+    "hp": "180",
+    "energy_type": "Fire",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Schlitzer",
+        "damage": "60",
+        "cost": [
+          "Fire",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Feuerroter Sturm",
+        "damage": "200",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pikachu-ex_(Unschlagbare_Gene_281)",
+    "german_name": "Pikachu-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "281",
+    "hp": "120",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Rundparcours",
+        "damage": "30",
+        "cost": [
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mewtu-ex_(Unschlagbare_Gene_282)",
+    "german_name": "Mewtu-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "282",
+    "hp": "150",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Psychosph\u00e4re",
+        "damage": "50",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Psycho-Antrieb",
+        "damage": "150",
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mew_(Unschlagbare_Gene_283)",
+    "german_name": "Mew",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "283",
+    "hp": "60",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Psycho-Offenlegung",
+        "damage": "20",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0151",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Glurak-ex_(Unschlagbare_Gene_284)",
+    "german_name": "Glurak-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "284",
+    "hp": "180",
+    "energy_type": "Fire",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Schlitzer",
+        "damage": "60",
+        "cost": [
+          "Fire",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Feuerroter Sturm",
+        "damage": "200",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pikachu-ex_(Unschlagbare_Gene_285)",
+    "german_name": "Pikachu-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "285",
+    "hp": "120",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Rundparcours",
+        "damage": "30",
+        "cost": [
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mewtu-ex_(Unschlagbare_Gene_286)",
+    "german_name": "Mewtu-ex",
+    "set_id": "A1",
+    "set_name": "Unschlagbare Gene",
+    "card_number": "286",
+    "hp": "150",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Psychosph\u00e4re",
+        "damage": "50",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Psycho-Antrieb",
+        "damage": "150",
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  }
+]

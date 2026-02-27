@@ -1,0 +1,3431 @@
+[
+  {
+    "url": "https://www.pokewiki.de/Pikachu_(PROMO-A_009)",
+    "german_name": "Pikachu",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "9",
+    "hp": "60",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Nagen",
+        "damage": "20",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0025",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mewtu_(PROMO-A_010)",
+    "german_name": "Mewtu",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "10",
+    "hp": "120",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Powerschuss",
+        "damage": "120",
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0150",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Chaneira_(PROMO-A_011)",
+    "german_name": "Chaneira",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "11",
+    "hp": "120",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Sanfter Hieb",
+        "damage": "60",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0113",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mauzi_(PROMO-A_012)",
+    "german_name": "Mauzi",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "12",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Zahltag",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0052",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Smettbo_(PROMO-A_013)",
+    "german_name": "Smettbo",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "13",
+    "hp": "120",
+    "energy_type": "Grass",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Puderheilung",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Windsto\u00df",
+        "damage": "60",
+        "cost": [
+          "Grass",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0012",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lapras-ex_(PROMO-A_014)",
+    "german_name": "Lapras-ex",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "14",
+    "hp": "140",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Blasengully",
+        "damage": "80",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pikachu_(PROMO-A_015)",
+    "german_name": "Pikachu",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "15",
+    "hp": "60",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Nagen",
+        "damage": "20",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0025",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Piepi_(PROMO-A_016)",
+    "german_name": "Piepi",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "16",
+    "hp": "60",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Hieb",
+        "damage": "20",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0035",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Menki_(PROMO-A_017)",
+    "german_name": "Menki",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "17",
+    "hp": "50",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Waghalsiger Sturmangriff",
+        "damage": "30",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0056",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bisaflor_(PROMO-A_018)",
+    "german_name": "Bisaflor",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "18",
+    "hp": "160",
+    "energy_type": "Grass",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Megasauger",
+        "damage": "80",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0003",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Quajutsu_(PROMO-A_019)",
+    "german_name": "Quajutsu",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "19",
+    "hp": "120",
+    "energy_type": "Water",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Wasser-Shuriken",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Schleierschlitzer",
+        "damage": "60",
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0658",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Alpollo_(PROMO-A_020)",
+    "german_name": "Alpollo",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "20",
+    "hp": "70",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "\u00dcberraschungsangriff",
+        "damage": "50",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0093",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Onix_(PROMO-A_021)",
+    "german_name": "Onix",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "21",
+    "hp": "110",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Schollenbrecher",
+        "damage": "70",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0095",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pummeluff_(PROMO-A_022)",
+    "german_name": "Pummeluff",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "22",
+    "hp": "50",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Gesang",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0039",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bisasam_(PROMO-A_023)",
+    "german_name": "Bisasam",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "23",
+    "hp": "70",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Rankenhieb",
+        "damage": "40",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0001",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Magnetilo_(PROMO-A_024)",
+    "german_name": "Magnetilo",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "24",
+    "hp": "60",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kugelblitz",
+        "damage": "20",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0081",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lavados-ex_(PROMO-A_025)",
+    "german_name": "Lavados-ex",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "25",
+    "hp": "140",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Infernotanz",
+        "damage": "",
+        "cost": [
+          "Fire"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Hitzesto\u00df",
+        "damage": "70",
+        "cost": [
+          "Fire",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pikachu_(PROMO-A_026)",
+    "german_name": "Pikachu",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "26",
+    "hp": "60",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Nagen",
+        "damage": "20",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0025",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Serpifeu_(PROMO-A_027)",
+    "german_name": "Serpifeu",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "27",
+    "hp": "60",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Tackle",
+        "damage": "20",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0495",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Ramoth_(PROMO-A_028)",
+    "german_name": "Ramoth",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "28",
+    "hp": "120",
+    "energy_type": "Fire",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Vulkanasche",
+        "damage": "",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0637",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Turtok_(PROMO-A_029)",
+    "german_name": "Turtok",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "29",
+    "hp": "150",
+    "energy_type": "Water",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Hydropumpe",
+        "damage": "80",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0009",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Evoli_(PROMO-A_030)",
+    "german_name": "Evoli",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "30",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Heuler",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0133",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Chillabell_(PROMO-A_031)",
+    "german_name": "Chillabell",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "31",
+    "hp": "90",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Wellenreiten",
+        "damage": "30",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0573",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Glumanda_(PROMO-A_032)",
+    "german_name": "Glumanda",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "32",
+    "hp": "60",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Glut",
+        "damage": "30",
+        "cost": [
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0004",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schiggy_(PROMO-A_033)",
+    "german_name": "Schiggy",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "33",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Aquaknarre",
+        "damage": "20",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0007",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Plinfa_(PROMO-A_034)",
+    "german_name": "Plinfa",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "34",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Nickerchen",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0393",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Chelast_(PROMO-A_035)",
+    "german_name": "Chelast",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "35",
+    "hp": "80",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Biss",
+        "damage": "30",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "387",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Elevoltek_(PROMO-A_036)",
+    "german_name": "Elevoltek",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "36",
+    "hp": "120",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Knisternde Spannung",
+        "damage": "40",
+        "cost": [
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0466",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Cresselia-ex_(PROMO-A_037)",
+    "german_name": "Cresselia-ex",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "37",
+    "hp": "140",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Lunargefieder",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Psycho-Blitz",
+        "damage": "80",
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Traunfugil_(PROMO-A_038)",
+    "german_name": "Traunfugil",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "38",
+    "hp": "60",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Konfusstrahl",
+        "damage": "",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0200",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Panzaeron_(PROMO-A_039)",
+    "german_name": "Panzaeron",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "39",
+    "hp": "80",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Metallarme",
+        "damage": "20",
+        "cost": [
+          "Metal"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0227",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Panflam_(PROMO-A_040)",
+    "german_name": "Panflam",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "40",
+    "hp": "60",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kratzer",
+        "damage": "20",
+        "cost": [
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0390",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Togepi_(PROMO-A_041)",
+    "german_name": "Togepi",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "41",
+    "hp": "50",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Klaps",
+        "damage": "20",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0175",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Darkrai-ex_(PROMO-A_042)",
+    "german_name": "Darkrai-ex",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "42",
+    "hp": "140",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Alptraum-Aura",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Dunkles Prisma",
+        "damage": "80",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kinoso_(PROMO-A_043)",
+    "german_name": "Kinoso",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "43",
+    "hp": "80",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Egelsamen",
+        "damage": "60",
+        "cost": [
+          "Grass",
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0421",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Raichu_(PROMO-A_044)",
+    "german_name": "Raichu",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "44",
+    "hp": "90",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Widerstandskopplung",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Funkensprung",
+        "damage": "40",
+        "cost": [
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0026",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Nasgnet_(PROMO-A_045)",
+    "german_name": "Nasgnet",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "45",
+    "hp": "60",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Eisenabwehr",
+        "damage": "",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0299",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kaumalat_(PROMO-A_046)",
+    "german_name": "Kaumalat",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "46",
+    "hp": "60",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Tackle",
+        "damage": "20",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0443",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Staraptor_(PROMO-A_047)",
+    "german_name": "Staraptor",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "47",
+    "hp": "140",
+    "energy_type": "Colorless",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Sch\u00fctzender Wirbelwind",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Fl\u00fcgelschlag",
+        "damage": "90",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0398",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Manaphy_(PROMO-A_048)",
+    "german_name": "Manaphy",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "48",
+    "hp": "50",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Geschenk des Meeres",
+        "damage": "",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0490",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Relaxo_(PROMO-A_049)",
+    "german_name": "Relaxo",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "49",
+    "hp": "140",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Kollaps",
+        "damage": "100",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0143",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mewtu-ex_(PROMO-A_050)",
+    "german_name": "Mewtu-ex",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "50",
+    "hp": "150",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Psychosph\u00e4re",
+        "damage": "50",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Psycho-Antrieb",
+        "damage": "150",
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mopex_(PROMO-A_051)",
+    "german_name": "Mopex",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "51",
+    "hp": "80",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "",
+    "attacks": [
+      {
+        "name": "\u00dcberbeschleunigung",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0967",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Felori_(PROMO-A_052)",
+    "german_name": "Felori",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "52",
+    "hp": "60",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Hilfeschrei",
+        "damage": "",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0906",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bojelin_(PROMO-A_053)",
+    "german_name": "Bojelin",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "53",
+    "hp": "100",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Wundschmerz",
+        "damage": "10",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0419",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pamomamo_(PROMO-A_054)",
+    "german_name": "Pamomamo",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "54",
+    "hp": "140",
+    "energy_type": "Electric",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "",
+    "attacks": [
+      {
+        "name": "Gegenangriff",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Elektroschlag",
+        "damage": "70",
+        "cost": [
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0923",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Machomei_(PROMO-A_055)",
+    "german_name": "Machomei",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "55",
+    "hp": "150",
+    "energy_type": "Fighting",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Powerdruck",
+        "damage": "70",
+        "cost": [
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0068",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Rettan_(PROMO-A_056)",
+    "german_name": "Rettan",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "56",
+    "hp": "60",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Giftstachel",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0023",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bidiza_(PROMO-A_057)",
+    "german_name": "Bidiza",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "57",
+    "hp": "70",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Kopfnuss",
+        "damage": "30",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0399",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pachirisu_(PROMO-A_058)",
+    "german_name": "Pachirisu",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "58",
+    "hp": "70",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Plasma",
+        "damage": "10",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0417",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Riolu_(PROMO-A_059)",
+    "german_name": "Riolu",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "59",
+    "hp": "70",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Boxhieb",
+        "damage": "40",
+        "cost": [
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0447",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Owei_(PROMO-A_060)",
+    "german_name": "Owei",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "60",
+    "hp": "50",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Wachstumsschub",
+        "damage": "60",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0102",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Froxy_(PROMO-A_061)",
+    "german_name": "Froxy",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "61",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Plumps",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0656",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Porenta_(PROMO-A_062)",
+    "german_name": "Porenta",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "62",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Lauchschlag",
+        "damage": "40",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0083",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Rayquaza_(PROMO-A_063)",
+    "german_name": "Rayquaza",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "63",
+    "hp": "100",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Spiralsturmangriff",
+        "damage": "70",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0384",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Rayquaza-ex_(PROMO-A_064)",
+    "german_name": "Rayquaza-ex",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "64",
+    "hp": "140",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Draco Meteor",
+        "damage": "",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Rayquaza-ex_(PROMO-A_065)",
+    "german_name": "Rayquaza-ex",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "65",
+    "hp": "140",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Draco Meteor",
+        "damage": "",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mimigma_(PROMO-A_066)",
+    "german_name": "Mimigma",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "66",
+    "hp": "70",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Schattenschlag",
+        "damage": "60",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0778",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Cosmog_(PROMO-A_067)",
+    "german_name": "Cosmog",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "67",
+    "hp": "60",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Teleport",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0789",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Wolwerock_(PROMO-A_068)",
+    "german_name": "Wolwerock",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "68",
+    "hp": "100",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Knirscher",
+        "damage": "80",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0745",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Alola-Kokowei_(PROMO-A_069)",
+    "german_name": "Alola-Kokowei",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "69",
+    "hp": "150",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Tropischer Hammer",
+        "damage": "150",
+        "cost": [
+          "Grass",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0103",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Alola-Vulnona_(PROMO-A_070)",
+    "german_name": "Alola-Vulnona",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "70",
+    "hp": "110",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Blizzard",
+        "damage": "60",
+        "cost": [
+          "Water",
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0038",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Krabbox_(PROMO-A_071)",
+    "german_name": "Krabbox",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "71",
+    "hp": "70",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Boxhieb",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0739",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Alola-Sleima_(PROMO-A_072)",
+    "german_name": "Alola-Sleima",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "72",
+    "hp": "70",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Giftwolke",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0088",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tukanon_(PROMO-A_073)",
+    "german_name": "Tukanon",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "73",
+    "hp": "140",
+    "energy_type": "Colorless",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Schnabelkanone",
+        "damage": "80",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0733",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Zeraora_(PROMO-A_074)",
+    "german_name": "Zeraora",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "74",
+    "hp": "90",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Blendender Blitzsturm",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Blitzkrallen",
+        "damage": "50",
+        "cost": [
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0807",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Katagami_(PROMO-A_075)",
+    "german_name": "Katagami",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "75",
+    "hp": "60",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Thrash Metal",
+        "damage": "40",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0798",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kopplosio_(PROMO-A_076)",
+    "german_name": "Kopplosio",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "76",
+    "hp": "100",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Beat Punk",
+        "damage": "130",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0806",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Voltriant_(PROMO-A_077)",
+    "german_name": "Voltriant",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "77",
+    "hp": "100",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Electronica",
+        "damage": "60",
+        "cost": [
+          "Electric",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0796",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Morgenschwingen-Necrozma_(PROMO-A_078)",
+    "german_name": "Morgenschwingen-Necrozma",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "78",
+    "hp": "110",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Psychobilly",
+        "damage": "100",
+        "cost": [
+          "Psychic",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0800",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Muramura_(PROMO-A_080)",
+    "german_name": "Muramura",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "80",
+    "hp": "110",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Brass Rock",
+        "damage": "40",
+        "cost": [
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0805",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Ultra-Necrozma-ex_(PROMO-A_081)",
+    "german_name": "Ultra-Necrozma-ex",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "81",
+    "hp": "150",
+    "energy_type": "Dragon",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Photonenklaue",
+        "damage": "60",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Shoegaze",
+        "damage": "120",
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Metal",
+          "Metal"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Venicro_(PROMO-A_082)",
+    "german_name": "Venicro",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "82",
+    "hp": "60",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "2-Step",
+        "damage": "20",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0803",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Velursi_(PROMO-A_083)",
+    "german_name": "Velursi",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "83",
+    "hp": "70",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Ramme",
+        "damage": "40",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0759",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kapu-Riki-ex_(PROMO-A_084)",
+    "german_name": "Kapu-Riki-ex",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "84",
+    "hp": "130",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Plasmaorkan",
+        "damage": "20",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Flotter Sprung",
+        "damage": "90",
+        "cost": [
+          "Electric",
+          "Electric",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Gelatini_(PROMO-A_085)",
+    "german_name": "Gelatini",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "85",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "S\u00fc\u00dfe Staffel",
+        "damage": "10",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0582",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Blitza_(PROMO-A_086)",
+    "german_name": "Blitza",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "86",
+    "hp": "90",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Startspannung",
+        "damage": "40",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0135",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pokusan_(PROMO-A_087)",
+    "german_name": "Pokusan",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "87",
+    "hp": "80",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "S\u00fc\u00dfer \u00dcberfluss",
+        "damage": "40",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0869",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Dragonir_(PROMO-A_088)",
+    "german_name": "Dragonir",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "88",
+    "hp": "100",
+    "energy_type": "Dragon",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Expidermis",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0148",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Ohrdoch_(PROMO-A_089)",
+    "german_name": "Ohrdoch",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "89",
+    "hp": "100",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Watschensauger",
+        "damage": "40",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0531",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Togedemaru_(PROMO-A_090)",
+    "german_name": "Togedemaru",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "90",
+    "hp": "80",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Aufgestellte Stacheln",
+        "damage": "30",
+        "cost": [
+          "Metal",
+          "Metal"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0777",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schlaraffel_(PROMO-A_091)",
+    "german_name": "Schlaraffel",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "91",
+    "hp": "120",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Spezial-Zahn",
+        "damage": "50",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0820",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Evoli_(PROMO-A_092)",
+    "german_name": "Evoli",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "92",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Tackle",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0133",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pii_(PROMO-A_093)",
+    "german_name": "Pii",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "93",
+    "hp": "30",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "",
+    "attacks": [
+      {
+        "name": "Funkelruf",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0173",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Seeper_(PROMO-A_094)",
+    "german_name": "Seeper",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "94",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Wasserpfeil",
+        "damage": "",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0116",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lampi_(PROMO-A_095)",
+    "german_name": "Lampi",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "95",
+    "hp": "60",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Lockendes Gl\u00fchen",
+        "damage": "",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0170",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Hundemon_(PROMO-A_096)",
+    "german_name": "Hundemon",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "96",
+    "hp": "110",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Sturzklau",
+        "damage": "70",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0229",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kangama_(PROMO-A_097)",
+    "german_name": "Kangama",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "97",
+    "hp": "100",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "\u00dcberkreuzzerschneider",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0115",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Heiteira-ex_(PROMO-A_098)",
+    "german_name": "Heiteira-ex",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "98",
+    "hp": "180",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Freudenschlag",
+        "damage": "100",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Marill_(PROMO-A_099)",
+    "german_name": "Marill",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "99",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Tackle",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0183",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Snibunna_(PROMO-A_100)",
+    "german_name": "Snibunna",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "100",
+    "hp": "80",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "",
+    "attacks": [
+      {
+        "name": "Schlitzer",
+        "damage": "50",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0461",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Latias_(PROMO-A_101)",
+    "german_name": "Latias",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "101",
+    "hp": "90",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "\u00dcberkreuzflug",
+        "damage": "20",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0380",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tropius_(PROMO-A_102)",
+    "german_name": "Tropius",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "102",
+    "hp": "100",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Doppelsto\u00df",
+        "damage": "40",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0357",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Quapsel_(PROMO-A_103)",
+    "german_name": "Quapsel",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "103",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "\u00dcberraschungsangriff",
+        "damage": "40",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0060",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Milotic_(PROMO-A_104)",
+    "german_name": "Milotic",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "104",
+    "hp": "120",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Heilende Wellen",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Aquaschneide",
+        "damage": "60",
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0350",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Zorua_(PROMO-A_105)",
+    "german_name": "Zorua",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "105",
+    "hp": "60",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Ramme",
+        "damage": "20",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0570",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Zoroark_(PROMO-A_106)",
+    "german_name": "Zoroark",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "106",
+    "hp": "100",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Tr\u00fcgerische Trickserei",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Nachtflut",
+        "damage": "70",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0571",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Miltank_(PROMO-A_107)",
+    "german_name": "Miltank",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "107",
+    "hp": "110",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Walzender Wahn",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0241",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Phanpy_(PROMO-A_108)",
+    "german_name": "Phanpy",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "108",
+    "hp": "70",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Dreschflegel",
+        "damage": "",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0231",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Evoli-ex_(PROMO-A_109)",
+    "german_name": "Evoli-ex",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "109",
+    "hp": "90",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Volivoli-Entwicklung",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Biss",
+        "damage": "30",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Entei-ex_(PROMO-A_110)",
+    "german_name": "Entei-ex",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "110",
+    "hp": "140",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Legend\u00e4rer Puls",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Lodernder Niederpr\u00fcgler",
+        "damage": "60",
+        "cost": [
+          "Fire",
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pikachu_(PROMO-A_111)",
+    "german_name": "Pikachu",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "111",
+    "hp": "60",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Ruckzuckhieb",
+        "damage": "20",
+        "cost": [
+          "Electric",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0025",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Raichu-ex_(PROMO-A_112)",
+    "german_name": "Raichu-ex",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "112",
+    "hp": "140",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Volttackle",
+        "damage": "130",
+        "cost": [
+          "Electric",
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mimigma_(PROMO-A_113)",
+    "german_name": "Mimigma",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "113",
+    "hp": "70",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Imitationsversuch",
+        "damage": "",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0778",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Machomei_(PROMO-A_114)",
+    "german_name": "Machomei",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "114",
+    "hp": "150",
+    "energy_type": "Fighting",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Hurrikanhieb",
+        "damage": "50",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0068",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Regigigas_(PROMO-A_115)",
+    "german_name": "Regigigas",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "115",
+    "hp": "140",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Wuthammer",
+        "damage": "50",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0486",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Shaymin_(PROMO-A_116)",
+    "german_name": "Shaymin",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "116",
+    "hp": "60",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Duftender Blumengarten",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Plumps",
+        "damage": "30",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0492",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Absol_(PROMO-A_117)",
+    "german_name": "Absol",
+    "set_id": "PROMO-A",
+    "set_name": "PROMO-A",
+    "card_number": "117",
+    "hp": "80",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "\u00dcberspringen",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0359",
+    "regulation_mark": "A",
+    "resistance": ""
+  }
+]

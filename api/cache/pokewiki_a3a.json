@@ -1,0 +1,2994 @@
+[
+  {
+    "url": "https://www.pokewiki.de/Lilminip_(Dimensionale_Krise_001)",
+    "german_name": "Lilminip",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "1",
+    "hp": "60",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Samenbomben",
+        "damage": "20",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0548",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Dressella_(Dimensionale_Krise_002)",
+    "german_name": "Dressella",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "2",
+    "hp": "110",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Zerschneider",
+        "damage": "60",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0549",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bauz_(Dimensionale_Krise_003)",
+    "german_name": "Bauz",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "3",
+    "hp": "60",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Furienschlag",
+        "damage": "10",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0722",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Arboretoss_(Dimensionale_Krise_004)",
+    "german_name": "Arboretoss",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "4",
+    "hp": "80",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Ge\u00fcbter Sturzflug",
+        "damage": "",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0723",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Silvarro_(Dimensionale_Krise_005)",
+    "german_name": "Silvarro",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "5",
+    "hp": "130",
+    "energy_type": "Grass",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Pr\u00e4zisionspfeil",
+        "damage": "",
+        "cost": [
+          "Grass",
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0724",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Masskito-ex_(Dimensionale_Krise_006)",
+    "german_name": "Masskito-ex",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "6",
+    "hp": "140",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Boxhieb",
+        "damage": "30",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Big Beat",
+        "damage": "120",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schabelle_(Dimensionale_Krise_007)",
+    "german_name": "Schabelle",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "7",
+    "hp": "70",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Jump Blues",
+        "damage": "20",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0795",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Katagami_(Dimensionale_Krise_008)",
+    "german_name": "Katagami",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "8",
+    "hp": "60",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Thrash Metal",
+        "damage": "40",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0798",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kopplosio_(Dimensionale_Krise_009)",
+    "german_name": "Kopplosio",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "9",
+    "hp": "100",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Beat Punk",
+        "damage": "130",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0806",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mantax_(Dimensionale_Krise_010)",
+    "german_name": "Mantax",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "10",
+    "hp": "90",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Surfer",
+        "damage": "50",
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0226",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kanivanha_(Dimensionale_Krise_011)",
+    "german_name": "Kanivanha",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "11",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Biss",
+        "damage": "20",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0318",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tohaido_(Dimensionale_Krise_012)",
+    "german_name": "Tohaido",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "12",
+    "hp": "90",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Knirscher",
+        "damage": "50",
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0319",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Sheinux_(Dimensionale_Krise_013)",
+    "german_name": "Sheinux",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "13",
+    "hp": "60",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Biss",
+        "damage": "20",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0403",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Luxio_(Dimensionale_Krise_014)",
+    "german_name": "Luxio",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "14",
+    "hp": "80",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kopf-Blitz",
+        "damage": "50",
+        "cost": [
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0404",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Luxtra_(Dimensionale_Krise_015)",
+    "german_name": "Luxtra",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "15",
+    "hp": "130",
+    "energy_type": "Electric",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Hammerhauer",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Stromball",
+        "damage": "90",
+        "cost": [
+          "Electric",
+          "Electric",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0405",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Elezeba_(Dimensionale_Krise_016)",
+    "german_name": "Elezeba",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "16",
+    "hp": "60",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "R\u00fcckw\u00e4rtskick",
+        "damage": "40",
+        "cost": [
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0522",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Zebritz_(Dimensionale_Krise_017)",
+    "german_name": "Zebritz",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "17",
+    "hp": "90",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kopf-Blitz",
+        "damage": "70",
+        "cost": [
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0523",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Emolga_(Dimensionale_Krise_018)",
+    "german_name": "Emolga",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "18",
+    "hp": "70",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Statischer Schock",
+        "damage": "30",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0587",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kapu-Riki-ex_(Dimensionale_Krise_019)",
+    "german_name": "Kapu-Riki-ex",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "19",
+    "hp": "130",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Plasmaorkan",
+        "damage": "20",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Flotter Sprung",
+        "damage": "90",
+        "cost": [
+          "Electric",
+          "Electric",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Voltriant_(Dimensionale_Krise_020)",
+    "german_name": "Voltriant",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "20",
+    "hp": "100",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Electronica",
+        "damage": "60",
+        "cost": [
+          "Electric",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0796",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Zeraora_(Dimensionale_Krise_021)",
+    "german_name": "Zeraora",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "21",
+    "hp": "90",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Blendender Blitzsturm",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Blitzkrallen",
+        "damage": "50",
+        "cost": [
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0807",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Piepi_(Dimensionale_Krise_022)",
+    "german_name": "Piepi",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "22",
+    "hp": "60",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Klaps",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0035",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pixi_(Dimensionale_Krise_023)",
+    "german_name": "Pixi",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "23",
+    "hp": "100",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Mondkick",
+        "damage": "60",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0036",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Paragoni_(Dimensionale_Krise_024)",
+    "german_name": "Paragoni",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "24",
+    "hp": "70",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Spukschuss",
+        "damage": "30",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0708",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Trombork_(Dimensionale_Krise_025)",
+    "german_name": "Trombork",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "25",
+    "hp": "120",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Niederschleudern",
+        "damage": "70",
+        "cost": [
+          "Psychic",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0709",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bubungus_(Dimensionale_Krise_026)",
+    "german_name": "Bubungus",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "26",
+    "hp": "50",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Haken",
+        "damage": "20",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0755",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lamellux_(Dimensionale_Krise_027)",
+    "german_name": "Lamellux",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "27",
+    "hp": "90",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Erleuchtung",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Sanfter Hieb",
+        "damage": "40",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0756",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Meditie_(Dimensionale_Krise_028)",
+    "german_name": "Meditie",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "28",
+    "hp": "60",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Stolperer",
+        "damage": "10",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0307",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Meditalis_(Dimensionale_Krise_029)",
+    "german_name": "Meditalis",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "29",
+    "hp": "90",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Turmkick",
+        "damage": "50",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0308",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Puppance_(Dimensionale_Krise_030)",
+    "german_name": "Puppance",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "30",
+    "hp": "60",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Rundumangriff",
+        "damage": "20",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0343",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lepumentas_(Dimensionale_Krise_031)",
+    "german_name": "Lepumentas",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "31",
+    "hp": "100",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Heilblockade",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Power-Strahl",
+        "damage": "50",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0344",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Wuffels_(Dimensionale_Krise_032)",
+    "german_name": "Wuffels",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "32",
+    "hp": "60",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Steinwurf",
+        "damage": "40",
+        "cost": [
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0744",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Wolwerock-ex_(Dimensionale_Krise_033)",
+    "german_name": "Wolwerock-ex",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "33",
+    "hp": "150",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Wolwef\u00e4nge",
+        "damage": "130",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Quartermak_(Dimensionale_Krise_034)",
+    "german_name": "Quartermak",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "34",
+    "hp": "100",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Gemeinsamer Wurf",
+        "damage": "40",
+        "cost": [
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0766",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Sankabuh_(Dimensionale_Krise_035)",
+    "german_name": "Sankabuh",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "35",
+    "hp": "80",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Sandschuss",
+        "damage": "30",
+        "cost": [
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0769",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Colossand_(Dimensionale_Krise_036)",
+    "german_name": "Colossand",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "36",
+    "hp": "130",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Sandgrab",
+        "damage": "90",
+        "cost": [
+          "Fighting",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0770",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Alola-Mauzi_(Dimensionale_Krise_037)",
+    "german_name": "Alola-Mauzi",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "37",
+    "hp": "60",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Einmischer",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0052",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Alola-Snobilikat_(Dimensionale_Krise_038)",
+    "german_name": "Alola-Snobilikat",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "38",
+    "hp": "100",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Mogelhieb",
+        "damage": "50",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0053",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Ganovil_(Dimensionale_Krise_039)",
+    "german_name": "Ganovil",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "39",
+    "hp": "70",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Biss",
+        "damage": "20",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0551",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Rokkaiman_(Dimensionale_Krise_040)",
+    "german_name": "Rokkaiman",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "40",
+    "hp": "90",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Leichter Hieb",
+        "damage": "40",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0552",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Rabigator_(Dimensionale_Krise_041)",
+    "german_name": "Rabigator",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "41",
+    "hp": "140",
+    "energy_type": "",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Herausrei\u00dfer",
+        "damage": "90",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0553",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Anego_(Dimensionale_Krise_042)",
+    "german_name": "Anego",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "42",
+    "hp": "70",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Giftschub",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "New Wave",
+        "damage": "30",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0793",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schlingking-ex_(Dimensionale_Krise_043)",
+    "german_name": "Schlingking-ex",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "43",
+    "hp": "170",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Grindcore",
+        "damage": "30",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Despotischer Schlund",
+        "damage": "120",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Venicro_(Dimensionale_Krise_044)",
+    "german_name": "Venicro",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "44",
+    "hp": "60",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "2-Step",
+        "damage": "20",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0803",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Agoyon_(Dimensionale_Krise_045)",
+    "german_name": "Agoyon",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "45",
+    "hp": "100",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Electro House",
+        "damage": "40",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0804",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Alola-Digda_(Dimensionale_Krise_046)",
+    "german_name": "Alola-Digda",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "46",
+    "hp": "60",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Versehentliche Kopfnuss",
+        "damage": "40",
+        "cost": [
+          "Metal"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0050",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Alola-Digdri-ex_(Dimensionale_Krise_047)",
+    "german_name": "Alola-Digdri-ex",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "47",
+    "hp": "130",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Dreier-Kopfnuss",
+        "damage": "60",
+        "cost": [
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Stollunior_(Dimensionale_Krise_048)",
+    "german_name": "Stollunior",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "48",
+    "hp": "70",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Kopfnuss",
+        "damage": "40",
+        "cost": [
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0304",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Stollrak_(Dimensionale_Krise_049)",
+    "german_name": "Stollrak",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "49",
+    "hp": "100",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Sprungangriff",
+        "damage": "60",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0305",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Stolloss_(Dimensionale_Krise_050)",
+    "german_name": "Stolloss",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "50",
+    "hp": "160",
+    "energy_type": "Metal",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Gigasto\u00df",
+        "damage": "150",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0306",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kastadur_(Dimensionale_Krise_051)",
+    "german_name": "Kastadur",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "51",
+    "hp": "60",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Stachelstich",
+        "damage": "40",
+        "cost": [
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0597",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tentantel_(Dimensionale_Krise_052)",
+    "german_name": "Tentantel",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "52",
+    "hp": "110",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Stahldornen",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Rundumangriff",
+        "damage": "70",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0598",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Muramura_(Dimensionale_Krise_053)",
+    "german_name": "Muramura",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "53",
+    "hp": "110",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Brass Rock",
+        "damage": "40",
+        "cost": [
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0805",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Yorkleff_(Dimensionale_Krise_054)",
+    "german_name": "Yorkleff",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "54",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Tackle",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0506",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Terribark_(Dimensionale_Krise_055)",
+    "german_name": "Terribark",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "55",
+    "hp": "80",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Biss",
+        "damage": "30",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0507",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bissbark_(Dimensionale_Krise_056)",
+    "german_name": "Bissbark",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "56",
+    "hp": "140",
+    "energy_type": "Colorless",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Wachhundblick",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Scharfe F\u00e4nge",
+        "damage": "70",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0508",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Velursi_(Dimensionale_Krise_057)",
+    "german_name": "Velursi",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "57",
+    "hp": "70",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Ramme",
+        "damage": "40",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0759",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kosturso_(Dimensionale_Krise_058)",
+    "german_name": "Kosturso",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "58",
+    "hp": "120",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Superstarke Umarmung",
+        "damage": "",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0760",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kommandutan_(Dimensionale_Krise_059)",
+    "german_name": "Kommandutan",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "59",
+    "hp": "100",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Einh\u00e4mmern",
+        "damage": "70",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0765",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Amigento_(Dimensionale_Krise_061)",
+    "german_name": "Amigento",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "61",
+    "hp": "110",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "K\u00fchne Kumpel",
+        "damage": "50",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0773",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kaguron_(Dimensionale_Krise_062)",
+    "german_name": "Kaguron",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "62",
+    "hp": "120",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Ultrad\u00fcsen",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Moombahton",
+        "damage": "100",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0797",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bauz_(Dimensionale_Krise_070)",
+    "german_name": "Bauz",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "70",
+    "hp": "60",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Furienschlag",
+        "damage": "10",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0722",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schabelle_(Dimensionale_Krise_071)",
+    "german_name": "Schabelle",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "71",
+    "hp": "70",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Jump Blues",
+        "damage": "20",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0795",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kopplosio_(Dimensionale_Krise_072)",
+    "german_name": "Kopplosio",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "72",
+    "hp": "100",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Beat Punk",
+        "damage": "130",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0806",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Alola-Mauzi_(Dimensionale_Krise_073)",
+    "german_name": "Alola-Mauzi",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "73",
+    "hp": "60",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Einmischer",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0052",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Amigento_(Dimensionale_Krise_074)",
+    "german_name": "Amigento",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "74",
+    "hp": "110",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "K\u00fchne Kumpel",
+        "damage": "50",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0773",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kaguron_(Dimensionale_Krise_075)",
+    "german_name": "Kaguron",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "75",
+    "hp": "120",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Ultrad\u00fcsen",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Moombahton",
+        "damage": "100",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0797",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Masskito-ex_(Dimensionale_Krise_076)",
+    "german_name": "Masskito-ex",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "76",
+    "hp": "140",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Boxhieb",
+        "damage": "30",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Big Beat",
+        "damage": "120",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kapu-Riki-ex_(Dimensionale_Krise_077)",
+    "german_name": "Kapu-Riki-ex",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "77",
+    "hp": "130",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Plasmaorkan",
+        "damage": "20",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Flotter Sprung",
+        "damage": "90",
+        "cost": [
+          "Electric",
+          "Electric",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Wolwerock-ex_(Dimensionale_Krise_078)",
+    "german_name": "Wolwerock-ex",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "78",
+    "hp": "150",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Wolwef\u00e4nge",
+        "damage": "130",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schlingking-ex_(Dimensionale_Krise_079)",
+    "german_name": "Schlingking-ex",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "79",
+    "hp": "170",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Grindcore",
+        "damage": "30",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Despotischer Schlund",
+        "damage": "120",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Alola-Digdri-ex_(Dimensionale_Krise_080)",
+    "german_name": "Alola-Digdri-ex",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "80",
+    "hp": "130",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Dreier-Kopfnuss",
+        "damage": "60",
+        "cost": [
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kapu-Riki-ex_(Dimensionale_Krise_084)",
+    "german_name": "Kapu-Riki-ex",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "84",
+    "hp": "130",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Plasmaorkan",
+        "damage": "20",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Flotter Sprung",
+        "damage": "90",
+        "cost": [
+          "Electric",
+          "Electric",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Wolwerock-ex_(Dimensionale_Krise_085)",
+    "german_name": "Wolwerock-ex",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "85",
+    "hp": "150",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Wolwef\u00e4nge",
+        "damage": "130",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schlingking-ex_(Dimensionale_Krise_086)",
+    "german_name": "Schlingking-ex",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "86",
+    "hp": "170",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Grindcore",
+        "damage": "30",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Despotischer Schlund",
+        "damage": "120",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Alola-Digdri-ex_(Dimensionale_Krise_087)",
+    "german_name": "Alola-Digdri-ex",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "87",
+    "hp": "130",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Dreier-Kopfnuss",
+        "damage": "60",
+        "cost": [
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Masskito-ex_(Dimensionale_Krise_088)",
+    "german_name": "Masskito-ex",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "88",
+    "hp": "140",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Boxhieb",
+        "damage": "30",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Big Beat",
+        "damage": "120",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Fukano_(Dimensionale_Krise_089)",
+    "german_name": "Fukano",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "89",
+    "hp": "70",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Biss",
+        "damage": "20",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0058",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Arkani_(Dimensionale_Krise_090)",
+    "german_name": "Arkani",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "90",
+    "hp": "130",
+    "energy_type": "Fire",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Hitze-Tackle",
+        "damage": "100",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0059",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Froxy_(Dimensionale_Krise_091)",
+    "german_name": "Froxy",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "91",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Plumps",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0656",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Amphizel_(Dimensionale_Krise_092)",
+    "german_name": "Amphizel",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "92",
+    "hp": "80",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Spritzwasser",
+        "damage": "30",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0657",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Quajutsu_(Dimensionale_Krise_093)",
+    "german_name": "Quajutsu",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "93",
+    "hp": "120",
+    "energy_type": "Water",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Wasser-Shuriken",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Schleierschlitzer",
+        "damage": "60",
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0658",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Rossana_(Dimensionale_Krise_094)",
+    "german_name": "Rossana",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "94",
+    "hp": "80",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Psychokinese",
+        "damage": "30",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0124",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Taubsi_(Dimensionale_Krise_095)",
+    "german_name": "Taubsi",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "95",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Windsto\u00df",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0016",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tauboga_(Dimensionale_Krise_096)",
+    "german_name": "Tauboga",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "96",
+    "hp": "80",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Windsto\u00df",
+        "damage": "30",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0017",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tauboss_(Dimensionale_Krise_097)",
+    "german_name": "Tauboss",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "97",
+    "hp": "130",
+    "energy_type": "Colorless",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Wegtreiben",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Fl\u00fcgelschlag",
+        "damage": "70",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0018",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Aerodactyl_(Dimensionale_Krise_098)",
+    "german_name": "Aerodactyl",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "98",
+    "hp": "100",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Antikschwinge",
+        "damage": "",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0142",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Celebi-ex_(Dimensionale_Krise_099)",
+    "german_name": "Celebi-ex",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "99",
+    "hp": "130",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kraftvolles Bl\u00fchen",
+        "damage": "50",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Arkani-ex_(Dimensionale_Krise_100)",
+    "german_name": "Arkani-ex",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "100",
+    "hp": "150",
+    "energy_type": "Fire",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Inferno-Ansturm",
+        "damage": "120",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Aerodactyl-ex_(Dimensionale_Krise_101)",
+    "german_name": "Aerodactyl-ex",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "101",
+    "hp": "140",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Gesetz der Urzeit",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Schollenbrecher",
+        "damage": "80",
+        "cost": [
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tauboss-ex_(Dimensionale_Krise_102)",
+    "german_name": "Tauboss-ex",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "102",
+    "hp": "170",
+    "energy_type": "Colorless",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "W\u00fctender Zyklon",
+        "damage": "80",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Anego_(Dimensionale_Krise_103)",
+    "german_name": "Anego",
+    "set_id": "A3a",
+    "set_name": "Dimensionale Krise",
+    "card_number": "103",
+    "hp": "70",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Giftschub",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "New Wave",
+        "damage": "30",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0793",
+    "regulation_mark": "A",
+    "resistance": ""
+  }
+]

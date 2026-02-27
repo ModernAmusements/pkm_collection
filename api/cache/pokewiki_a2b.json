@@ -1,0 +1,3232 @@
+[
+  {
+    "url": "https://www.pokewiki.de/Hornliu_(Gl%C3%A4nzendes_Festival_001)",
+    "german_name": "Hornliu",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "1",
+    "hp": "50",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Vervielfachung",
+        "damage": "",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0013",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kokuna_(Gl%C3%A4nzendes_Festival_002)",
+    "german_name": "Kokuna",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "2",
+    "hp": "80",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Fadenschuss",
+        "damage": "20",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0014",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bibor-ex_(Gl%C3%A4nzendes_Festival_003)",
+    "german_name": "Bibor-ex",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "3",
+    "hp": "170",
+    "energy_type": "Grass",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Vernichtender Speer",
+        "damage": "80",
+        "cost": [
+          "Grass",
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pinsir_(Gl%C3%A4nzendes_Festival_004)",
+    "german_name": "Pinsir",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "4",
+    "hp": "90",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Guillotinenrage",
+        "damage": "50",
+        "cost": [
+          "Grass",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0127",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Felori_(Gl%C3%A4nzendes_Festival_005)",
+    "german_name": "Felori",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "5",
+    "hp": "60",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Hilfeschrei",
+        "damage": "",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0906",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Feliospa_(Gl%C3%A4nzendes_Festival_006)",
+    "german_name": "Feliospa",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "6",
+    "hp": "90",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Schlitzer",
+        "damage": "40",
+        "cost": [
+          "Grass",
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0907",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Maskagato_(Gl%C3%A4nzendes_Festival_007)",
+    "german_name": "Maskagato",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "7",
+    "hp": "140",
+    "energy_type": "Grass",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kampfkrallen",
+        "damage": "60",
+        "cost": [
+          "Grass",
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0908",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Glumanda_(Gl%C3%A4nzendes_Festival_008)",
+    "german_name": "Glumanda",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "8",
+    "hp": "60",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Gl\u00fchen",
+        "damage": "20",
+        "cost": [
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0004",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Glutexo_(Gl%C3%A4nzendes_Festival_009)",
+    "german_name": "Glutexo",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "9",
+    "hp": "90",
+    "energy_type": "Fire",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Gl\u00fchen",
+        "damage": "40",
+        "cost": [
+          "Fire",
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0005",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Glurak-ex_(Gl%C3%A4nzendes_Festival_010)",
+    "german_name": "Glurak-ex",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "10",
+    "hp": "180",
+    "energy_type": "Fire",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Anheizen",
+        "damage": "",
+        "cost": [
+          "Fire"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Dampfgesch\u00fctz",
+        "damage": "150",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Fire",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Magmar_(Gl%C3%A4nzendes_Festival_011)",
+    "german_name": "Magmar",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "11",
+    "hp": "70",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Flackern",
+        "damage": "20",
+        "cost": [
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0126",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Magbrant_(Gl%C3%A4nzendes_Festival_012)",
+    "german_name": "Magbrant",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "12",
+    "hp": "120",
+    "energy_type": "Fire",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Rauchbombe",
+        "damage": "70",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0467",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Paldea-Tauros_(Gl%C3%A4nzendes_Festival_013)",
+    "german_name": "Paldea-Tauros",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "13",
+    "hp": "110",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Flammender Tackle",
+        "damage": "80",
+        "cost": [
+          "Fire",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0128",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tentacha_(Gl%C3%A4nzendes_Festival_014)",
+    "german_name": "Tentacha",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "14",
+    "hp": "70",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Regenplatscher",
+        "damage": "10",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0072",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tentoxa_(Gl%C3%A4nzendes_Festival_015)",
+    "german_name": "Tentoxa",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "15",
+    "hp": "70",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Wellenplatscher",
+        "damage": "40",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0073",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bamelin_(Gl%C3%A4nzendes_Festival_016)",
+    "german_name": "Bamelin",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "16",
+    "hp": "70",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Aquaknarre",
+        "damage": "10",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "418",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bojelin_(Gl%C3%A4nzendes_Festival_017)",
+    "german_name": "Bojelin",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "17",
+    "hp": "90",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Wasserpfeil",
+        "damage": "",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0419",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schligda_(Gl%C3%A4nzendes_Festival_018)",
+    "german_name": "Schligda",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "18",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Rausspringen",
+        "damage": "",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0960",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schligdri-ex_(Gl%C3%A4nzendes_Festival_019)",
+    "german_name": "Schligdri-ex",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "19",
+    "hp": "140",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Wuselausbruch",
+        "damage": "",
+        "cost": [
+          "Water",
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Heerashai_(Gl%C3%A4nzendes_Festival_020)",
+    "german_name": "Heerashai",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "20",
+    "hp": "120",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Meeressturm",
+        "damage": "80",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0977",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Nigiragi_(Gl%C3%A4nzendes_Festival_021)",
+    "german_name": "Nigiragi",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "21",
+    "hp": "70",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "R\u00fcckzugsbefehl",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Regenplatscher",
+        "damage": "20",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0978",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pikachu-ex_(Gl%C3%A4nzendes_Festival_022)",
+    "german_name": "Pikachu-ex",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "22",
+    "hp": "120",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Donnerblitz",
+        "damage": "150",
+        "cost": [
+          "Electric",
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Voltobal_(Gl%C3%A4nzendes_Festival_023)",
+    "german_name": "Voltobal",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "23",
+    "hp": "70",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kugelblitz",
+        "damage": "10",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0100",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lektrobal_(Gl%C3%A4nzendes_Festival_024)",
+    "german_name": "Lektrobal",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "24",
+    "hp": "90",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Taumler",
+        "damage": "50",
+        "cost": [
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0101",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pachirisu_(Gl%C3%A4nzendes_Festival_025)",
+    "german_name": "Pachirisu",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "25",
+    "hp": "70",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Plasma",
+        "damage": "10",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0417",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pamo_(Gl%C3%A4nzendes_Festival_026)",
+    "german_name": "Pamo",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "26",
+    "hp": "60",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Boxhieb",
+        "damage": "20",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0921",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pamamo_(Gl%C3%A4nzendes_Festival_027)",
+    "german_name": "Pamamo",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "27",
+    "hp": "90",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Boxhieb",
+        "damage": "40",
+        "cost": [
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0922",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pamomamo_(Gl%C3%A4nzendes_Festival_028)",
+    "german_name": "Pamomamo",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "28",
+    "hp": "140",
+    "energy_type": "Electric",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "",
+    "attacks": [
+      {
+        "name": "Gegenangriff",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Elektroschlag",
+        "damage": "70",
+        "cost": [
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0923",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Abra_(Gl%C3%A4nzendes_Festival_029)",
+    "german_name": "Abra",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "29",
+    "hp": "60",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Psychoschuss",
+        "damage": "20",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0063",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kadabra_(Gl%C3%A4nzendes_Festival_030)",
+    "german_name": "Kadabra",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "30",
+    "hp": "80",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Psychoschuss",
+        "damage": "30",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0064",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Simsala_(Gl%C3%A4nzendes_Festival_031)",
+    "german_name": "Simsala",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "31",
+    "hp": "130",
+    "energy_type": "Psychic",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Psychounterdr\u00fcckung",
+        "damage": "80",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0065",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pantimos_(Gl%C3%A4nzendes_Festival_032)",
+    "german_name": "Pantimos",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "32",
+    "hp": "90",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Jongleur",
+        "damage": "20",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0122",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Driftlon_(Gl%C3%A4nzendes_Festival_033)",
+    "german_name": "Driftlon",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "33",
+    "hp": "60",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Ramme",
+        "damage": "20",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0425",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Drifzepeli_(Gl%C3%A4nzendes_Festival_034)",
+    "german_name": "Drifzepeli",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "34",
+    "hp": "90",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "",
+    "attacks": [
+      {
+        "name": "Windsto\u00df",
+        "damage": "40",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0426",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Giratina-ex_(Gl%C3%A4nzendes_Festival_035)",
+    "german_name": "Giratina-ex",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "35",
+    "hp": "150",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Raumzerfetzender Schrei",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Chaoseinschlag",
+        "damage": "130",
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Psychic",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Gierspenst_(Gl%C3%A4nzendes_Festival_036)",
+    "german_name": "Gierspenst",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "36",
+    "hp": "60",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Truhentarnung",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0999",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Machollo_(Gl%C3%A4nzendes_Festival_037)",
+    "german_name": "Machollo",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "37",
+    "hp": "60",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Fu\u00dfkick",
+        "damage": "20",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0066",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Maschock_(Gl%C3%A4nzendes_Festival_038)",
+    "german_name": "Maschock",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "38",
+    "hp": "100",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Trommler",
+        "damage": "30",
+        "cost": [
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0067",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Machomei_(Gl%C3%A4nzendes_Festival_039)",
+    "german_name": "Machomei",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "39",
+    "hp": "150",
+    "energy_type": "Fighting",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Powerdruck",
+        "damage": "70",
+        "cost": [
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0068",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kicklee_(Gl%C3%A4nzendes_Festival_040)",
+    "german_name": "Kicklee",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "40",
+    "hp": "80",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Tritt",
+        "damage": "30",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0106",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Nockchan_(Gl%C3%A4nzendes_Festival_041)",
+    "german_name": "Nockchan",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "41",
+    "hp": "90",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Magnum-Schlag",
+        "damage": "90",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0107",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Riolu_(Gl%C3%A4nzendes_Festival_042)",
+    "german_name": "Riolu",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "42",
+    "hp": "70",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Boxhieb",
+        "damage": "40",
+        "cost": [
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0447",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lucario-ex_(Gl%C3%A4nzendes_Festival_043)",
+    "german_name": "Lucario-ex",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "43",
+    "hp": "150",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Aurasph\u00e4re",
+        "damage": "130",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Flaminkno_(Gl%C3%A4nzendes_Festival_044)",
+    "german_name": "Flaminkno",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "44",
+    "hp": "80",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Doppelkick",
+        "damage": "50",
+        "cost": [
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0973",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Rettan_(Gl%C3%A4nzendes_Festival_045)",
+    "german_name": "Rettan",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "45",
+    "hp": "70",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Ramme",
+        "damage": "30",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0023",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Arbok_(Gl%C3%A4nzendes_Festival_046)",
+    "german_name": "Arbok",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "46",
+    "hp": "110",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Gifthauer",
+        "damage": "70",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0024",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Paldea-Felino_(Gl%C3%A4nzendes_Festival_047)",
+    "german_name": "Paldea-Felino",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "47",
+    "hp": "50",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Gifthieb",
+        "damage": "10",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0194",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Paldea-Suelord-ex_(Gl%C3%A4nzendes_Festival_048)",
+    "german_name": "Paldea-Suelord-ex",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "48",
+    "hp": "160",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Giftschock",
+        "damage": "60",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kryppuk_(Gl%C3%A4nzendes_Festival_049)",
+    "german_name": "Kryppuk",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "49",
+    "hp": "80",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Konfusstrahl",
+        "damage": "20",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0442",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Sproxi_(Gl%C3%A4nzendes_Festival_050)",
+    "german_name": "Sproxi",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "50",
+    "hp": "60",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Nagen",
+        "damage": "20",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0944",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Affiti_(Gl%C3%A4nzendes_Festival_051)",
+    "german_name": "Affiti",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "51",
+    "hp": "90",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Giftbeschichtung",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Biss",
+        "damage": "40",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0945",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Forgita_(Gl%C3%A4nzendes_Festival_052)",
+    "german_name": "Forgita",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "52",
+    "hp": "60",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Korkenzieherhieb",
+        "damage": "20",
+        "cost": [
+          "Metal"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0957",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tafforgita_(Gl%C3%A4nzendes_Festival_053)",
+    "german_name": "Tafforgita",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "53",
+    "hp": "90",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Hartn\u00e4ckiger Hammer",
+        "damage": "30",
+        "cost": [
+          "Metal",
+          "Metal"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0958",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Granforgita-ex_(Gl%C3%A4nzendes_Festival_054)",
+    "german_name": "Granforgita-ex",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "54",
+    "hp": "170",
+    "energy_type": "Metal",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Heftiges H\u00e4mmern",
+        "damage": "80",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Knattox_(Gl%C3%A4nzendes_Festival_055)",
+    "german_name": "Knattox",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "55",
+    "hp": "70",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kopfnuss",
+        "damage": "10",
+        "cost": [
+          "Metal"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0965",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Knattatox_(Gl%C3%A4nzendes_Festival_056)",
+    "german_name": "Knattatox",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "56",
+    "hp": "110",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Rotationsdrift",
+        "damage": "70",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0966",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Monetigo_(Gl%C3%A4nzendes_Festival_057)",
+    "german_name": "Monetigo",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "57",
+    "hp": "120",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Sensationelles Surfen",
+        "damage": "50",
+        "cost": [
+          "Metal",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "1000",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Rattfratz_(Gl%C3%A4nzendes_Festival_058)",
+    "german_name": "Rattfratz",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "58",
+    "hp": "50",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Tackle",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0019",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Rattikarl_(Gl%C3%A4nzendes_Festival_059)",
+    "german_name": "Rattikarl",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "59",
+    "hp": "90",
+    "energy_type": "Colorless",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Tackle",
+        "damage": "50",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0020",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pummeluff_(Gl%C3%A4nzendes_Festival_060)",
+    "german_name": "Pummeluff",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "60",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Walzer",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0039",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Knuddeluff_(Gl%C3%A4nzendes_Festival_061)",
+    "german_name": "Knuddeluff",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "61",
+    "hp": "100",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Wohltuendes Lied",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Sanfter Hieb",
+        "damage": "50",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0040",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schlurp_(Gl%C3%A4nzendes_Festival_062)",
+    "german_name": "Schlurp",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "62",
+    "hp": "80",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Walzer",
+        "damage": "30",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0108",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schlurplek_(Gl%C3%A4nzendes_Festival_063)",
+    "german_name": "Schlurplek",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "63",
+    "hp": "130",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Walzer",
+        "damage": "70",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0463",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bidiza_(Gl%C3%A4nzendes_Festival_064)",
+    "german_name": "Bidiza",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "64",
+    "hp": "70",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Kopfnuss",
+        "damage": "30",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0399",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bidifas-ex_(Gl%C3%A4nzendes_Festival_065)",
+    "german_name": "Bidifas-ex",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "65",
+    "hp": "160",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Entspannter Druck",
+        "damage": "100",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Haspiror_(Gl%C3%A4nzendes_Festival_066)",
+    "german_name": "Haspiror",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "66",
+    "hp": "50",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Klaps",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0427",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schlapor_(Gl%C3%A4nzendes_Festival_067)",
+    "german_name": "Schlapor",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "67",
+    "hp": "100",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "H\u00fcpfkick",
+        "damage": "30",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0428",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mopex_(Gl%C3%A4nzendes_Festival_068)",
+    "german_name": "Mopex",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "68",
+    "hp": "80",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "",
+    "attacks": [
+      {
+        "name": "\u00dcberbeschleunigung",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0967",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Maskagato_(Gl%C3%A4nzendes_Festival_073)",
+    "german_name": "Maskagato",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "73",
+    "hp": "140",
+    "energy_type": "Grass",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kampfkrallen",
+        "damage": "60",
+        "cost": [
+          "Grass",
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0908",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bamelin_(Gl%C3%A4nzendes_Festival_074)",
+    "german_name": "Bamelin",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "74",
+    "hp": "70",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Aquaknarre",
+        "damage": "10",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "418",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Nigiragi_(Gl%C3%A4nzendes_Festival_075)",
+    "german_name": "Nigiragi",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "75",
+    "hp": "70",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "R\u00fcckzugsbefehl",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Regenplatscher",
+        "damage": "20",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0978",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Affiti_(Gl%C3%A4nzendes_Festival_076)",
+    "german_name": "Affiti",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "76",
+    "hp": "90",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Giftbeschichtung",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Biss",
+        "damage": "40",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0945",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Monetigo_(Gl%C3%A4nzendes_Festival_077)",
+    "german_name": "Monetigo",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "77",
+    "hp": "120",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Sensationelles Surfen",
+        "damage": "50",
+        "cost": [
+          "Metal",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "1000",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Knuddeluff_(Gl%C3%A4nzendes_Festival_078)",
+    "german_name": "Knuddeluff",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "78",
+    "hp": "100",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Wohltuendes Lied",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Sanfter Hieb",
+        "damage": "50",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0040",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bibor-ex_(Gl%C3%A4nzendes_Festival_079)",
+    "german_name": "Bibor-ex",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "79",
+    "hp": "170",
+    "energy_type": "Grass",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Vernichtender Speer",
+        "damage": "80",
+        "cost": [
+          "Grass",
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Glurak-ex_(Gl%C3%A4nzendes_Festival_080)",
+    "german_name": "Glurak-ex",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "80",
+    "hp": "180",
+    "energy_type": "Fire",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Anheizen",
+        "damage": "",
+        "cost": [
+          "Fire"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Dampfgesch\u00fctz",
+        "damage": "150",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Fire",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schligdri-ex_(Gl%C3%A4nzendes_Festival_081)",
+    "german_name": "Schligdri-ex",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "81",
+    "hp": "140",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Wuselausbruch",
+        "damage": "",
+        "cost": [
+          "Water",
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pikachu-ex_(Gl%C3%A4nzendes_Festival_082)",
+    "german_name": "Pikachu-ex",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "82",
+    "hp": "120",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Donnerblitz",
+        "damage": "150",
+        "cost": [
+          "Electric",
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Giratina-ex_(Gl%C3%A4nzendes_Festival_083)",
+    "german_name": "Giratina-ex",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "83",
+    "hp": "150",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Raumzerfetzender Schrei",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Chaoseinschlag",
+        "damage": "130",
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Psychic",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lucario-ex_(Gl%C3%A4nzendes_Festival_084)",
+    "german_name": "Lucario-ex",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "84",
+    "hp": "150",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Aurasph\u00e4re",
+        "damage": "130",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Paldea-Suelord-ex_(Gl%C3%A4nzendes_Festival_085)",
+    "german_name": "Paldea-Suelord-ex",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "85",
+    "hp": "160",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Giftschock",
+        "damage": "60",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Granforgita-ex_(Gl%C3%A4nzendes_Festival_086)",
+    "german_name": "Granforgita-ex",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "86",
+    "hp": "170",
+    "energy_type": "Metal",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Heftiges H\u00e4mmern",
+        "damage": "80",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bidifas-ex_(Gl%C3%A4nzendes_Festival_087)",
+    "german_name": "Bidifas-ex",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "87",
+    "hp": "160",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Entspannter Druck",
+        "damage": "100",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pikachu-ex_(Gl%C3%A4nzendes_Festival_092)",
+    "german_name": "Pikachu-ex",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "92",
+    "hp": "120",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Donnerblitz",
+        "damage": "150",
+        "cost": [
+          "Electric",
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Paldea-Suelord-ex_(Gl%C3%A4nzendes_Festival_093)",
+    "german_name": "Paldea-Suelord-ex",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "93",
+    "hp": "160",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Giftschock",
+        "damage": "60",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Granforgita-ex_(Gl%C3%A4nzendes_Festival_094)",
+    "german_name": "Granforgita-ex",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "94",
+    "hp": "170",
+    "energy_type": "Metal",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Heftiges H\u00e4mmern",
+        "damage": "80",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bidifas-ex_(Gl%C3%A4nzendes_Festival_095)",
+    "german_name": "Bidifas-ex",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "95",
+    "hp": "160",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Entspannter Druck",
+        "damage": "100",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Giratina-ex_(Gl%C3%A4nzendes_Festival_096)",
+    "german_name": "Giratina-ex",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "96",
+    "hp": "150",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Raumzerfetzender Schrei",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Chaoseinschlag",
+        "damage": "130",
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Psychic",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Hornliu_(Gl%C3%A4nzendes_Festival_097)",
+    "german_name": "Hornliu",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "97",
+    "hp": "50",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Vervielfachung",
+        "damage": "",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0013",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kokuna_(Gl%C3%A4nzendes_Festival_098)",
+    "german_name": "Kokuna",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "98",
+    "hp": "80",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Fadenschuss",
+        "damage": "20",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0014",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Glumanda_(Gl%C3%A4nzendes_Festival_099)",
+    "german_name": "Glumanda",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "99",
+    "hp": "60",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Gl\u00fchen",
+        "damage": "20",
+        "cost": [
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0004",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Glutexo_(Gl%C3%A4nzendes_Festival_100)",
+    "german_name": "Glutexo",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "100",
+    "hp": "90",
+    "energy_type": "Fire",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Gl\u00fchen",
+        "damage": "40",
+        "cost": [
+          "Fire",
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0005",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schligda_(Gl%C3%A4nzendes_Festival_101)",
+    "german_name": "Schligda",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "101",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Rausspringen",
+        "damage": "",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0960",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Heerashai_(Gl%C3%A4nzendes_Festival_102)",
+    "german_name": "Heerashai",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "102",
+    "hp": "120",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Meeressturm",
+        "damage": "80",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0977",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pachirisu_(Gl%C3%A4nzendes_Festival_103)",
+    "german_name": "Pachirisu",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "103",
+    "hp": "70",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Plasma",
+        "damage": "10",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0417",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Riolu_(Gl%C3%A4nzendes_Festival_104)",
+    "german_name": "Riolu",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "104",
+    "hp": "70",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Boxhieb",
+        "damage": "40",
+        "cost": [
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0447",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Knattox_(Gl%C3%A4nzendes_Festival_105)",
+    "german_name": "Knattox",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "105",
+    "hp": "70",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kopfnuss",
+        "damage": "10",
+        "cost": [
+          "Metal"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0965",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Knattatox_(Gl%C3%A4nzendes_Festival_106)",
+    "german_name": "Knattatox",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "106",
+    "hp": "110",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Rotationsdrift",
+        "damage": "70",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0966",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bibor-ex_(Gl%C3%A4nzendes_Festival_107)",
+    "german_name": "Bibor-ex",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "107",
+    "hp": "170",
+    "energy_type": "Grass",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Vernichtender Speer",
+        "damage": "80",
+        "cost": [
+          "Grass",
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Glurak-ex_(Gl%C3%A4nzendes_Festival_108)",
+    "german_name": "Glurak-ex",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "108",
+    "hp": "180",
+    "energy_type": "Fire",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Anheizen",
+        "damage": "",
+        "cost": [
+          "Fire"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Dampfgesch\u00fctz",
+        "damage": "150",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Fire",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schligdri-ex_(Gl%C3%A4nzendes_Festival_109)",
+    "german_name": "Schligdri-ex",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "109",
+    "hp": "140",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Wuselausbruch",
+        "damage": "",
+        "cost": [
+          "Water",
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lucario-ex_(Gl%C3%A4nzendes_Festival_110)",
+    "german_name": "Lucario-ex",
+    "set_id": "A2b",
+    "set_name": "Gl\u00e4nzendes Festival",
+    "card_number": "110",
+    "hp": "150",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Aurasph\u00e4re",
+        "damage": "130",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  }
+]

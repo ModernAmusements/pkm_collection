@@ -8,7 +8,6 @@ import re
 import json
 from pathlib import Path
 from typing import Optional
-from .download import load_cards, load_expansions
 from .models import CardData, MatchResult
 
 
@@ -17,21 +16,16 @@ _GERMAN_CARDS = None
 
 
 def load_german_cards() -> list:
-    """Load German cards from scraped data."""
+    """Load German cards from scraped data (TCG Pocket only)."""
     global _GERMAN_CARDS
     if _GERMAN_CARDS is not None:
         return _GERMAN_CARDS
     
-    cache_file = Path("api/cache/german_cards_complete.json")
+    cache_file = Path("api/cache/pokewiki_scraped_all.json")
     if cache_file.exists():
         with open(cache_file, 'r', encoding='utf-8') as f:
             _GERMAN_CARDS = json.load(f)
             return _GERMAN_CARDS
-    return []
-
-
-def load_limitless_cards() -> list:
-    """Deprecated: Limitless data removed. Returns empty list."""
     return []
 
 
@@ -179,7 +173,7 @@ def normalize_name(name: str) -> str:
     return name
 
 
-def find_card_by_pokedex(cards: list, pokedex: int, hp: str = None) -> list:
+def find_card_by_pokedex(cards: list, pokedex: int, hp: str | None = None) -> list:
     """Find cards by Pokedex number."""
     results = []
     
@@ -199,8 +193,8 @@ def find_card_by_pokedex(cards: list, pokedex: int, hp: str = None) -> list:
     return results
 
 
-def find_card_by_name(cards: list, name: str, hp: str = None, 
-                      energy: str = None) -> list:
+def find_card_by_name(cards: list, name: str, hp: str | None = None, 
+                      energy: str | None = None) -> list:
     """Find cards by name with optional filters."""
     results = []
     name_norm = normalize_name(name)
@@ -239,13 +233,8 @@ def card_to_carddata(card: dict, source: str = 'local') -> CardData:
     # Get Pokedex number
     pokedex = get_pokedex_number(card.get('name', ''))
     
-    # Get set name from expansions
-    set_name = ''
-    expansions = load_expansions()
-    for exp in expansions:
-        if exp.get('id') == set_id:
-            set_name = exp.get('name', '')
-            break
+    # Get set name - use card's set_name directly
+    set_name = card.get('set_name', '')
     
     return CardData(
         id=card_id,
@@ -262,27 +251,6 @@ def card_to_carddata(card: dict, source: str = 'local') -> CardData:
         illustrator=card.get('artist', ''),
         api_source=source,
         pokedex_number=pokedex,
-    )
-
-
-def limitless_to_carddata(card: dict) -> CardData:
-    """Convert Limitless scraped card to CardData model."""
-    return CardData(
-        id=card.get('id', ''),
-        name=card.get('name', ''),
-        hp=card.get('hp'),
-        energy_type=card.get('energy_type', ''),
-        stage=card.get('stage', ''),
-        evolution_from=card.get('evolution_from', ''),
-        card_number=card.get('card_number', ''),
-        set_id=card.get('set_id', ''),
-        set_name=card.get('set_name', ''),
-        rarity=card.get('rarity', ''),
-        attacks=card.get('attacks', []),
-        weakness=card.get('weakness', ''),
-        retreat=card.get('retreat', 0),
-        illustrator=card.get('illustrator', ''),
-        api_source='limitless',
     )
 
 
@@ -311,7 +279,7 @@ def german_to_carddata(card: dict) -> CardData:
     )
 
 
-def find_german_card(cards: list, name: str, hp: str = None) -> list:
+def find_german_card(cards: list, name: str, hp: str | None = None) -> list:
     """Find cards in German data by name."""
     results = []
     name_lower = name.lower()
@@ -329,27 +297,8 @@ def find_german_card(cards: list, name: str, hp: str = None) -> list:
     return results
 
 
-def find_limitless_card(cards: list, name: str, hp: str = None) -> list:
-    """Find cards in Limitless data by name."""
-    results = []
-    name_lower = name.lower()
-    
-    for card in cards:
-        card_name_lower = card.get('name', '').lower()
-        
-        # Exact or partial match
-        if name_lower in card_name_lower or card_name_lower in name_lower:
-            if hp:
-                card_hp = card.get('hp')
-                if card_hp and str(card_hp) != hp:
-                    continue
-            results.append(card)
-    
-    return results
-
-
-def lookup_card(name: str, hp: str = None, energy: str = None,
-                pokedex: str = None, target_set: str = None) -> MatchResult:
+def lookup_card(name: str, hp: str | None = None, energy: str | None = None,
+                pokedex: str | None = None, target_set: str | None = None) -> MatchResult:
     """
     Lookup card from local database.
     
@@ -424,215 +373,25 @@ def lookup_card(name: str, hp: str = None, energy: str = None,
                 confidence=0.70
             )
     
-    # SECOND: Try Limitless scraped data (deprecated - returns empty)
-    limitless_cards = load_limitless_cards()
+    # SECOND: Limitless data removed - skip
+    # (was: Try Limitless scraped data)
     
-    # Filter by set if target_set is provided
-    if target_set and limitless_cards:
-        limitless_cards = [c for c in limitless_cards if c.get('set_id', '').upper() == target_set.upper()]
-    
-    if limitless_cards:
-        results = find_limitless_card(limitless_cards, name, hp)
-        
-        if len(results) == 1:
-            return MatchResult(
-                success=True,
-                card=limitless_to_carddata(results[0]),
-                match_type='exact',
-                confidence=1.0
-            )
-        
-        # Try with HP filter
-        if hp and len(results) > 1:
-            for r in results:
-                if r.get('hp') and str(r['hp']) == hp:
-                    return MatchResult(
-                        success=True,
-                        card=limitless_to_carddata(r),
-                        match_type='exact',
-                        confidence=1.0
-                    )
-        
-        # Multiple matches - prioritize correct match
-        if results:
-            name_lower = name.lower()
-            
-            # Check if OCR detected "ex" (might be false positive from "xe" in HP)
-            ocr_has_ex = ' ex' in name_lower or name_lower.endswith(' ex')
-            
-            # Get ex and non-ex versions
-            ex_versions = [r for r in results if ' ex' in r.get('name', '').lower() or r.get('name', '').lower().endswith(' ex')]
-            non_ex_versions = [r for r in results if ' ex' not in r.get('name', '').lower()]
-            
-            # If OCR detected "ex" but we have BOTH ex and non-ex, prefer non-ex
-            # (OCR false positive "xe" -> "ex" is very common)
-            if ocr_has_ex and ex_versions and non_ex_versions:
-                return MatchResult(
-                    success=True,
-                    card=limitless_to_carddata(non_ex_versions[0]),
-                    match_type='exact',
-                    confidence=0.95  # Slightly lower because OCR might be wrong
-                )
-            
-            # Try EXACT match first (including ex)
-            for r in results:
-                r_name_lower = r.get('name', '').lower()
-                if r_name_lower == name_lower:
-                    return MatchResult(
-                        success=True,
-                        card=limitless_to_carddata(r),
-                        match_type='exact',
-                        confidence=1.0
-                    )
-            
-            # If no exact match but OCR detected "ex", check if ex version exists
-            if ocr_has_ex and ex_versions:
-                return MatchResult(
-                    success=True,
-                    card=limitless_to_carddata(ex_versions[0]),
-                    match_type='exact',
-                    confidence=1.0
-                )
-            
-            # Otherwise return first result
-            return MatchResult(
-                success=True,
-                card=limitless_to_carddata(results[0]),
-                match_type='fuzzy',
-                confidence=0.9
-            )
-    
-    # FALLBACK: Try chase-manning JSON
-    cards = load_cards()
-    
-    if not cards:
-        return MatchResult(
-            success=False,
-            match_type='none',
-            errors=['No card data loaded']
-        )
-    
-    results = []
-    
-    # Try name + HP
-    if name:
-        results = find_card_by_name(cards, name, hp, energy)
-        
-        if len(results) == 1:
-            return MatchResult(
-                success=True,
-                card=card_to_carddata(results[0], 'chase-manning'),
-                match_type='fuzzy',
-                confidence=0.7
-            )
-        
-        # Try just HP filter
-        if hp and len(results) > 1:
-            for r in results:
-                if str(r.get('health')) == hp:
-                    return MatchResult(
-                        success=True,
-                        card=card_to_carddata(r, 'chase-manning'),
-                        match_type='fuzzy',
-                        confidence=0.6
-                    )
-    
-    # Closest match
-    if results:
-        return MatchResult(
-            success=True,
-            card=card_to_carddata(results[0], 'chase-manning'),
-            match_type='closest',
-            confidence=0.4
-        )
-    
-    # No match
+    # FALLBACK: Chase-manning data removed - return no match
     return MatchResult(
         success=False,
         match_type='none',
-        errors=[f'No match found for: {name} (HP: {hp}, Energy: {energy})']
+        errors=['No card data loaded']
     )
+
+
+def get_card_stats() -> dict:
+    """Get statistics about cached card data."""
+    german_cards = load_german_cards()
     
-    results = []
-    
-    # Try Pokedex + HP
-    if pokedex:
-        try:
-            pokedex_num = int(pokedex)
-            results = find_card_by_pokedex(cards, pokedex_num, hp)
-            
-            if len(results) == 1:
-                return MatchResult(
-                    success=True,
-                    card=card_to_carddata(results[0]),
-                    match_type='exact',
-                    confidence=1.0
-                )
-            
-            # Filter by HP if multiple
-            if hp and len(results) > 1:
-                for r in results:
-                    if str(r.get('health')) == hp:
-                        return MatchResult(
-                            success=True,
-                            card=card_to_carddata(r),
-                            match_type='exact',
-                            confidence=0.9
-                        )
-            
-            # Multiple matches - try energy filter
-            if energy and len(results) > 1:
-                for r in results:
-                    if r.get('type', '').lower() == energy.lower():
-                        return MatchResult(
-                            success=True,
-                            card=card_to_carddata(r),
-                            match_type='exact',
-                            confidence=0.85
-                        )
-                        
-        except ValueError:
-            pass
-    
-    # Try name + HP + Energy
-    if name:
-        results = find_card_by_name(cards, name, hp, energy)
-        
-        if len(results) == 1:
-            return MatchResult(
-                success=True,
-                card=card_to_carddata(results[0]),
-                match_type='fuzzy',
-                confidence=0.8
-            )
-        
-        # Try just HP filter
-        if hp and len(results) > 1:
-            for r in results:
-                if str(r.get('health')) == hp:
-                    return MatchResult(
-                        success=True,
-                        card=card_to_carddata(r),
-                        match_type='fuzzy',
-                        confidence=0.7
-                    )
-    
-    # Closest match
-    if results:
-        # Return first result with lower confidence
-        return MatchResult(
-            success=True,
-            card=card_to_carddata(results[0]),
-            match_type='closest',
-            confidence=0.5
-        )
-    
-    # No match
-    return MatchResult(
-        success=False,
-        match_type='none',
-        errors=[f'No match found for: {name} (HP: {hp}, Energy: {energy})']
-    )
+    return {
+        'german_cards': len(german_cards),
+        'total': len(german_cards),
+    }
 
 
 if __name__ == "__main__":
@@ -698,7 +457,7 @@ def match_by_hp_attack_any_set(hp: str, attack: str) -> MatchResult:
     return MatchResult(success=True, card=card_data, match_type='hp_attack', confidence=0.45)
 
 
-def match_by_signals(signals: dict, target_set: str = None) -> MatchResult:
+def match_by_signals(signals: dict, target_set: str | None = None) -> MatchResult:
     """
     Multi-signal matching using OCR-extracted signals.
     
@@ -722,47 +481,51 @@ def match_by_signals(signals: dict, target_set: str = None) -> MatchResult:
     weakness = signals.get('weakness', '')
     retreat = signals.get('retreat', '')
     
-    # Priority 1: Exact name match
-    if name:
+    # Require set OR HP to avoid false positives
+    # If set is unknown and HP is unknown, we can't reliably match
+    
+    # Priority 1: Name + Set (exact match)
+    if name and target_set:
         result = lookup_card(name, target_set=target_set)
         if result.success and result.confidence >= 0.9:
-            result.match_type = 'exact_name'
+            result.match_type = 'exact_name_set'
             return result
     
-    # Priority 2: Fuzzy name + HP match
+    # Priority 2: Name + HP match (works across all sets)
     if name and hp:
         result = lookup_card(name, hp=hp, target_set=target_set)
         if result.success:
-            result.match_type = 'fuzzy_name_hp'
-            result.confidence = 0.9
+            result.match_type = 'name_hp'
+            result.confidence = 0.85
             return result
     
-    # Priority 2b: HP-only match (no set required) - useful for to_process images
-    if hp and not target_set:
-        result = match_by_hp_any_set(hp)
+    # Priority 3: Name + HP + Attack - use ALL signals to match across sets
+    if name and hp and attacks:
+        result = match_by_signals_all_sets(name, hp, attacks, weakness, retreat)
         if result.success:
-            result.match_type = 'hp_any_set'
-            result.confidence = 0.5
             return result
     
-    # Priority 2c: Attack-only match (no set required)
-    if hp and attacks:
+    # Priority 4: Name + Weakness + Retreat (without HP)
+    if name and weakness and retreat:
+        result = match_by_name_weakness_retreat(name, weakness, retreat)
+        if result.success:
+            return result
+    
+    # Priority 5: HP + Attack only (no name - low confidence)
+    if hp and attacks and not name:
         result = match_by_hp_attack_any_set(hp, attacks[0] if attacks else '')
         if result.success:
-            result.match_type = 'hp_attack_any_set'
-            result.confidence = 0.55
+            result.match_type = 'hp_attack_no_name'
+            result.confidence = 0.4
             return result
     
-    # Priority 2d: Weakness + Retreat match (no set required) - for cards with OCR issues
-    if weakness and retreat:
-        result = match_by_weakness_retreat_any_set(weakness, retreat)
+    # Priority 6: HP only (last resort, very low confidence)
+    if hp and not name:
+        result = match_by_hp_any_set(hp)
         if result.success:
-            result.match_type = 'weakness_retreat_any_set'
-            result.confidence = 0.35
+            result.match_type = 'hp_only'
+            result.confidence = 0.3
             return result
-    
-    # Priority 2e: Pokédex number match (very reliable!) - only if we can map it
-    # (Skipped - POKEMON_POKEDEX doesn't have German names)
     
     # Priority 3: HP + Attack + Set match
     if hp and attacks and target_set:
@@ -880,7 +643,7 @@ def match_by_hp_retreat_set(hp: str, retreat: str, target_set: str) -> MatchResu
     return MatchResult(success=False, match_type='none', confidence=0.0)
 
 
-def match_by_pokedex(pokedex_number: str, target_set: str = None) -> MatchResult:
+def match_by_pokedex(pokedex_number: str, target_set: str | None = None) -> MatchResult:
     """Match by Pokédex number (very reliable!)."""
     german_cards = load_german_cards()
     
@@ -963,6 +726,84 @@ def match_by_hp_set(hp: str, target_set: str) -> MatchResult:
         card = hp_matches[0]
         card_data = german_to_carddata(card)
         return MatchResult(success=True, card=card_data, match_type='hp_set', confidence=0.60)
+    
+    return MatchResult(success=False, match_type='none', confidence=0.0)
+
+
+def match_by_signals_all_sets(name: str, hp: str, attacks: list, weakness: str | None = None, retreat: str | None = None) -> MatchResult:
+    """Match by name + HP + attacks + weakness + retreat across ALL sets."""
+    german_cards = load_german_cards()
+    
+    name_lower = name.lower()
+    name_matches = [c for c in german_cards if c.get('german_name', '').lower() == name_lower]
+    
+    if not name_matches:
+        return MatchResult(success=False, match_type='none', confidence=0.0)
+    
+    best_match = None
+    best_score = 0
+    
+    for card in name_matches:
+        score = 0
+        if hp and str(card.get('hp')) == hp:
+            score += 40
+        if attacks:
+            card_attacks = card.get('attacks', [])
+            if isinstance(card_attacks, str):
+                import json
+                try:
+                    card_attacks = json.loads(card_attacks)
+                except:
+                    card_attacks = []
+            for attack in attacks:
+                attack_lower = attack.lower()
+                for card_attack in card_attacks:
+                    if attack_lower in card_attack.get('name', '').lower():
+                        score += 30
+                        break
+        if weakness and card.get('weakness'):
+            if weakness.lower() in card.get('weakness', '').lower():
+                score += 20
+        if retreat and card.get('retreat'):
+            if str(card.get('retreat')) == str(retreat):
+                score += 10
+        
+        if score > best_score:
+            best_score = score
+            best_match = card
+    
+    if best_match and best_score >= 30:
+        card_data = german_to_carddata(best_match)
+        confidence = min(best_score / 100, 0.9)
+        return MatchResult(success=True, card=card_data, match_type='multi_signal', confidence=confidence)
+    
+    return MatchResult(success=False, match_type='none', confidence=0.0)
+
+
+def match_by_name_weakness_retreat(name: str, weakness: str, retreat: str) -> MatchResult:
+    """Match by name + weakness + retreat (when no HP available)."""
+    german_cards = load_german_cards()
+    
+    name_lower = name.lower()
+    name_matches = [c for c in german_cards if c.get('german_name', '').lower() == name_lower]
+    
+    if not name_matches:
+        return MatchResult(success=False, match_type='none', confidence=0.0)
+    
+    for card in name_matches:
+        score = 0
+        
+        if weakness and card.get('weakness'):
+            if weakness.lower() in card.get('weakness', '').lower():
+                score += 50
+        
+        if retreat and card.get('retreat'):
+            if str(card.get('retreat')) == str(retreat):
+                score += 50
+        
+        if score >= 50:
+            card_data = german_to_carddata(card)
+            return MatchResult(success=True, card=card_data, match_type='name_weak_retreat', confidence=0.7)
     
     return MatchResult(success=False, match_type='none', confidence=0.0)
 

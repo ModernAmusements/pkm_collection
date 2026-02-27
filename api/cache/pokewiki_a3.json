@@ -1,0 +1,2876 @@
+[
+  {
+    "url": "https://www.pokewiki.de/Skaraborn_(Licht_des_Triumphs_001)",
+    "german_name": "Skaraborn",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "1",
+    "hp": "100",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Einzelhornwurf",
+        "damage": "50",
+        "cost": [
+          "Grass",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0214",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Burmy_(Licht_des_Triumphs_002)",
+    "german_name": "Burmy",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "2",
+    "hp": "50",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Ramme",
+        "damage": "20",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0412",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Moterpel_(Licht_des_Triumphs_003)",
+    "german_name": "Moterpel",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "3",
+    "hp": "90",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "",
+    "attacks": [
+      {
+        "name": "Windsto\u00df",
+        "damage": "50",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0414",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Wadribie_(Licht_des_Triumphs_004)",
+    "german_name": "Wadribie",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "4",
+    "hp": "50",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "K\u00e4ferbiss",
+        "damage": "20",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0415",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Honweisel_(Licht_des_Triumphs_005)",
+    "german_name": "Honweisel",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "5",
+    "hp": "100",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Waghalsiger Sturmangriff",
+        "damage": "120",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0416",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kikugi_(Licht_des_Triumphs_006)",
+    "german_name": "Kikugi",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "6",
+    "hp": "50",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Blattwerk",
+        "damage": "20",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0420",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kinoso_(Licht_des_Triumphs_007)",
+    "german_name": "Kinoso",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "7",
+    "hp": "80",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Sorgensamen",
+        "damage": "40",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0421",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kinoso_(Licht_des_Triumphs_008)",
+    "german_name": "Kinoso",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "8",
+    "hp": "80",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Egelsamen",
+        "damage": "60",
+        "cost": [
+          "Grass",
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0421",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Venuflibis_(Licht_des_Triumphs_009)",
+    "german_name": "Venuflibis",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "9",
+    "hp": "80",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kraftkopplung",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Rankenhieb",
+        "damage": "20",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0455",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Folipurba-ex_(Licht_des_Triumphs_010)",
+    "german_name": "Folipurba-ex",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "10",
+    "hp": "140",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Waldatem",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Solarstrahl",
+        "damage": "70",
+        "cost": [
+          "Grass",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Hunduster_(Licht_des_Triumphs_011)",
+    "german_name": "Hunduster",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "11",
+    "hp": "60",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Flackern",
+        "damage": "20",
+        "cost": [
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0228",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Hundemon_(Licht_des_Triumphs_012)",
+    "german_name": "Hundemon",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "12",
+    "hp": "100",
+    "energy_type": "Fire",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Bedr\u00e4ngen",
+        "damage": "60",
+        "cost": [
+          "Fire",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0229",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Heatran_(Licht_des_Triumphs_013)",
+    "german_name": "Heatran",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "13",
+    "hp": "110",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Tempokopplung",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Tobender Wutangriff",
+        "damage": "40",
+        "cost": [
+          "Fire",
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0485",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Marill_(Licht_des_Triumphs_014)",
+    "german_name": "Marill",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "14",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Aquaknarre",
+        "damage": "20",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0183",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Azumarill_(Licht_des_Triumphs_015)",
+    "german_name": "Azumarill",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "15",
+    "hp": "100",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Kaskade",
+        "damage": "60",
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0184",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schmerbe_(Licht_des_Triumphs_016)",
+    "german_name": "Schmerbe",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "16",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Lehmschelle",
+        "damage": "30",
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0339",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Welsar_(Licht_des_Triumphs_017)",
+    "german_name": "Welsar",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "17",
+    "hp": "120",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Fuchtler",
+        "damage": "80",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0340",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schneppke_(Licht_des_Triumphs_018)",
+    "german_name": "Schneppke",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "18",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Eiszapfen",
+        "damage": "20",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0361",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Frosdedje_(Licht_des_Triumphs_019)",
+    "german_name": "Frosdedje",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "19",
+    "hp": "90",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Blizzard",
+        "damage": "40",
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0478",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Shnebedeck_(Licht_des_Triumphs_020)",
+    "german_name": "Shnebedeck",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "20",
+    "hp": "70",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Korkenzieherhieb",
+        "damage": "30",
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0459",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Rexblisar_(Licht_des_Triumphs_021)",
+    "german_name": "Rexblisar",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "21",
+    "hp": "120",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Metal+30",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Vitalkopplung",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Megahieb",
+        "damage": "80",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0460",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Glaziola-ex_(Licht_des_Triumphs_022)",
+    "german_name": "Glaziola-ex",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "22",
+    "hp": "140",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Schneefeld",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Polarwind",
+        "damage": "90",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Ur-Palkia_(Licht_des_Triumphs_023)",
+    "german_name": "Ur-Palkia",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "23",
+    "hp": "120",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Zonenbruch",
+        "damage": "60",
+        "cost": [
+          "Water",
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0484",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Phione_(Licht_des_Triumphs_024)",
+    "german_name": "Phione",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "24",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Aquawelle",
+        "damage": "40",
+        "cost": [
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0489",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pikachu_(Licht_des_Triumphs_025)",
+    "german_name": "Pikachu",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "25",
+    "hp": "60",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Funkensprung",
+        "damage": "10",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0025",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Raichu_(Licht_des_Triumphs_026)",
+    "german_name": "Raichu",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "26",
+    "hp": "90",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Widerstandskopplung",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Funkensprung",
+        "damage": "40",
+        "cost": [
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0026",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Frizelbliz_(Licht_des_Triumphs_027)",
+    "german_name": "Frizelbliz",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "27",
+    "hp": "60",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Stromtritt",
+        "damage": "20",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0309",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Voltenso_(Licht_des_Triumphs_028)",
+    "german_name": "Voltenso",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "28",
+    "hp": "90",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Blitz",
+        "damage": "40",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0310",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Piepi_(Licht_des_Triumphs_029)",
+    "german_name": "Piepi",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "29",
+    "hp": "60",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Klatscher",
+        "damage": "30",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0035",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pixi_(Licht_des_Triumphs_030)",
+    "german_name": "Pixi",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "30",
+    "hp": "100",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Mondgewalt",
+        "damage": "60",
+        "cost": [
+          "Psychic",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0036",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Nebulak_(Licht_des_Triumphs_031)",
+    "german_name": "Nebulak",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "31",
+    "hp": "50",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Erstauner",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0092",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Alpollo_(Licht_des_Triumphs_032)",
+    "german_name": "Alpollo",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "32",
+    "hp": "80",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Grummeln",
+        "damage": "40",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0093",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Gengar_(Licht_des_Triumphs_033)",
+    "german_name": "Gengar",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "33",
+    "hp": "140",
+    "energy_type": "Psychic",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Hypnoschuss",
+        "damage": "70",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0094",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Icognito_(Licht_des_Triumphs_034)",
+    "german_name": "Icognito",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "34",
+    "hp": "60",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "CHECK",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Kraftreserve",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0201",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Rotom_(Licht_des_Triumphs_035)",
+    "german_name": "Rotom",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "35",
+    "hp": "70",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Tempokopplung",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Spurtangriff",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0479",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mogelbaum_(Licht_des_Triumphs_036)",
+    "german_name": "Mogelbaum",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "36",
+    "hp": "80",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "K\u00e4mpferische Kopfnuss",
+        "damage": "20",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0185",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Phanpy_(Licht_des_Triumphs_037)",
+    "german_name": "Phanpy",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "37",
+    "hp": "60",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Walzer",
+        "damage": "20",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0231",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Donphan_(Licht_des_Triumphs_038)",
+    "german_name": "Donphan",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "38",
+    "hp": "120",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Drehwalze",
+        "damage": "60",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0232",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Larvitar_(Licht_des_Triumphs_039)",
+    "german_name": "Larvitar",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "39",
+    "hp": "60",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Korkenzieherhieb",
+        "damage": "30",
+        "cost": [
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0246",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pupitar_(Licht_des_Triumphs_040)",
+    "german_name": "Pupitar",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "40",
+    "hp": "80",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Tempoangriff",
+        "damage": "50",
+        "cost": [
+          "Fighting",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0247",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Despotar_(Licht_des_Triumphs_041)",
+    "german_name": "Despotar",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "41",
+    "hp": "160",
+    "energy_type": "Fighting",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Kraftkopplung",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Schollenbrecher",
+        "damage": "130",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0248",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Nasgnet_(Licht_des_Triumphs_042)",
+    "german_name": "Nasgnet",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "42",
+    "hp": "80",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Tackle",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0299",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Meditie_(Licht_des_Triumphs_043)",
+    "german_name": "Meditie",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "43",
+    "hp": "60",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Tritt",
+        "damage": "20",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0307",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Meditalis_(Licht_des_Triumphs_044)",
+    "german_name": "Meditalis",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "44",
+    "hp": "100",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kickschuss",
+        "damage": "80",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0308",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kaumalat_(Licht_des_Triumphs_045)",
+    "german_name": "Kaumalat",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "45",
+    "hp": "60",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Tackle",
+        "damage": "20",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0443",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Knarksel_(Licht_des_Triumphs_046)",
+    "german_name": "Knarksel",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "46",
+    "hp": "80",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Scharfe Sense",
+        "damage": "30",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0444",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Knakrack-ex_(Licht_des_Triumphs_047)",
+    "german_name": "Knakrack-ex",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "47",
+    "hp": "170",
+    "energy_type": "Fighting",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Linearer Angriff",
+        "damage": "",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Drachenklaue",
+        "damage": "100",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Zubat_(Licht_des_Triumphs_048)",
+    "german_name": "Zubat",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "48",
+    "hp": "50",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Biss",
+        "damage": "20",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0041",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Golbat_(Licht_des_Triumphs_049)",
+    "german_name": "Golbat",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "49",
+    "hp": "80",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Biss",
+        "damage": "30",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0042",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Iksbat_(Licht_des_Triumphs_050)",
+    "german_name": "Iksbat",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "50",
+    "hp": "110",
+    "energy_type": "",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "",
+    "attacks": [
+      {
+        "name": "Trickkopplung",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "F\u00e4nge der Dunkelheit",
+        "damage": "50",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0169",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Glibunkel_(Licht_des_Triumphs_051)",
+    "german_name": "Glibunkel",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "51",
+    "hp": "60",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Verpr\u00fcgler",
+        "damage": "20",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0453",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Toxiquak_(Licht_des_Triumphs_052)",
+    "german_name": "Toxiquak",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "52",
+    "hp": "100",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Toxin",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0454",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Magnetilo_(Licht_des_Triumphs_053)",
+    "german_name": "Magnetilo",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "53",
+    "hp": "60",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Tackle",
+        "damage": "20",
+        "cost": [
+          "Metal"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0081",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Magneton_(Licht_des_Triumphs_054)",
+    "german_name": "Magneton",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "54",
+    "hp": "90",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Rollender Angriff",
+        "damage": "30",
+        "cost": [
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0082",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Magnezone_(Licht_des_Triumphs_055)",
+    "german_name": "Magnezone",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "55",
+    "hp": "140",
+    "energy_type": "Metal",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Widerstandskopplung",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Power-Strahl",
+        "damage": "80",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0462",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Flunkifer_(Licht_des_Triumphs_056)",
+    "german_name": "Flunkifer",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "56",
+    "hp": "70",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Stahlger\u00fcstbrecher",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0303",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Voluminas-ex_(Licht_des_Triumphs_057)",
+    "german_name": "Voluminas-ex",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "57",
+    "hp": "160",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Schutzeinheit",
+        "damage": "90",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bronzel_(Licht_des_Triumphs_058)",
+    "german_name": "Bronzel",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "58",
+    "hp": "60",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Ramme",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0436",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bronzong_(Licht_des_Triumphs_059)",
+    "german_name": "Bronzong",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "59",
+    "hp": "120",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Psychokinese",
+        "damage": "50",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0437",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Ur-Dialga_(Licht_des_Triumphs_060)",
+    "german_name": "Ur-Dialga",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "60",
+    "hp": "120",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Zeitenbrecher",
+        "damage": "100",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0483",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Giratina_(Licht_des_Triumphs_061)",
+    "german_name": "Giratina",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "61",
+    "hp": "120",
+    "energy_type": "Dragon",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Krisensprung",
+        "damage": "120",
+        "cost": [
+          "Grass",
+          "Psychic",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0487",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Evoli_(Licht_des_Triumphs_062)",
+    "german_name": "Evoli",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "62",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Schweifvertrimmer",
+        "damage": "30",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0133",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Relaxo_(Licht_des_Triumphs_063)",
+    "german_name": "Relaxo",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "63",
+    "hp": "140",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Kollaps",
+        "damage": "100",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0143",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Hoothoot_(Licht_des_Triumphs_064)",
+    "german_name": "Hoothoot",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "64",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Pikser",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0163",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Noctuh_(Licht_des_Triumphs_065)",
+    "german_name": "Noctuh",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "65",
+    "hp": "100",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Lautlose Fl\u00fcgel",
+        "damage": "50",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0164",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Staralili_(Licht_des_Triumphs_066)",
+    "german_name": "Staralili",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "66",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Gleiten",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0396",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Staravia_(Licht_des_Triumphs_067)",
+    "german_name": "Staravia",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "67",
+    "hp": "80",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Fl\u00fcgelschlag",
+        "damage": "30",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0397",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Staraptor_(Licht_des_Triumphs_068)",
+    "german_name": "Staraptor",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "68",
+    "hp": "150",
+    "energy_type": "Colorless",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Sturzflug",
+        "damage": "130",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0398",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Shaymin_(Licht_des_Triumphs_069)",
+    "german_name": "Shaymin",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "69",
+    "hp": "70",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Himmelshilfe",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Flattern",
+        "damage": "30",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0492",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Arceus_(Licht_des_Triumphs_070)",
+    "german_name": "Arceus",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "70",
+    "hp": "120",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Powerschuss",
+        "damage": "100",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0493",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Arceus-ex_(Licht_des_Triumphs_071)",
+    "german_name": "Arceus-ex",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "71",
+    "hp": "140",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Sagenhafter Glanz",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Ultimative Macht",
+        "damage": "70",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Hundemon_(Licht_des_Triumphs_076)",
+    "german_name": "Hundemon",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "76",
+    "hp": "100",
+    "energy_type": "Fire",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Bedr\u00e4ngen",
+        "damage": "60",
+        "cost": [
+          "Fire",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0229",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Marill_(Licht_des_Triumphs_077)",
+    "german_name": "Marill",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "77",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Aquaknarre",
+        "damage": "20",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0183",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Icognito_(Licht_des_Triumphs_078)",
+    "german_name": "Icognito",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "78",
+    "hp": "60",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "CHECK",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Kraftreserve",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0201",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mogelbaum_(Licht_des_Triumphs_079)",
+    "german_name": "Mogelbaum",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "79",
+    "hp": "80",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "K\u00e4mpferische Kopfnuss",
+        "damage": "20",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0185",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Magnetilo_(Licht_des_Triumphs_080)",
+    "german_name": "Magnetilo",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "80",
+    "hp": "60",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Tackle",
+        "damage": "20",
+        "cost": [
+          "Metal"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0081",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Shaymin_(Licht_des_Triumphs_081)",
+    "german_name": "Shaymin",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "81",
+    "hp": "70",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Himmelshilfe",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Flattern",
+        "damage": "30",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0492",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Folipurba-ex_(Licht_des_Triumphs_082)",
+    "german_name": "Folipurba-ex",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "82",
+    "hp": "140",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Waldatem",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Solarstrahl",
+        "damage": "70",
+        "cost": [
+          "Grass",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Glaziola-ex_(Licht_des_Triumphs_083)",
+    "german_name": "Glaziola-ex",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "83",
+    "hp": "140",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Schneefeld",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Polarwind",
+        "damage": "90",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Knakrack-ex_(Licht_des_Triumphs_084)",
+    "german_name": "Knakrack-ex",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "84",
+    "hp": "170",
+    "energy_type": "Fighting",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Linearer Angriff",
+        "damage": "",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Drachenklaue",
+        "damage": "100",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Voluminas-ex_(Licht_des_Triumphs_085)",
+    "german_name": "Voluminas-ex",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "85",
+    "hp": "160",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Schutzeinheit",
+        "damage": "90",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Arceus-ex_(Licht_des_Triumphs_086)",
+    "german_name": "Arceus-ex",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "86",
+    "hp": "140",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Sagenhafter Glanz",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Ultimative Macht",
+        "damage": "70",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Folipurba-ex_(Licht_des_Triumphs_091)",
+    "german_name": "Folipurba-ex",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "91",
+    "hp": "140",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Waldatem",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Solarstrahl",
+        "damage": "70",
+        "cost": [
+          "Grass",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Glaziola-ex_(Licht_des_Triumphs_092)",
+    "german_name": "Glaziola-ex",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "92",
+    "hp": "140",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Schneefeld",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Polarwind",
+        "damage": "90",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Knakrack-ex_(Licht_des_Triumphs_093)",
+    "german_name": "Knakrack-ex",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "93",
+    "hp": "170",
+    "energy_type": "Fighting",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Linearer Angriff",
+        "damage": "",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Drachenklaue",
+        "damage": "100",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Voluminas-ex_(Licht_des_Triumphs_094)",
+    "german_name": "Voluminas-ex",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "94",
+    "hp": "160",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Schutzeinheit",
+        "damage": "90",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Arceus-ex_(Licht_des_Triumphs_095)",
+    "german_name": "Arceus-ex",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "95",
+    "hp": "140",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Sagenhafter Glanz",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Ultimative Macht",
+        "damage": "70",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Arceus-ex_(Licht_des_Triumphs_096)",
+    "german_name": "Arceus-ex",
+    "set_id": "A3",
+    "set_name": "Licht des Triumphs",
+    "card_number": "96",
+    "hp": "140",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Sagenhafter Glanz",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Ultimative Macht",
+        "damage": "70",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  }
+]

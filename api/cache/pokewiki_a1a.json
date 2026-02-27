@@ -1,0 +1,2425 @@
+[
+  {
+    "url": "https://www.pokewiki.de/Owei_(Mysteri%C3%B6se_Insel_001)",
+    "german_name": "Owei",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "1",
+    "hp": "50",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Wachstumsschub",
+        "damage": "60",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0102",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kokowei_(Mysteri%C3%B6se_Insel_002)",
+    "german_name": "Kokowei",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "2",
+    "hp": "130",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Psychokinese",
+        "damage": "80",
+        "cost": [
+          "Grass",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0103",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Celebi-ex_(Mysteri%C3%B6se_Insel_003)",
+    "german_name": "Celebi-ex",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "3",
+    "hp": "130",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kraftvolles Bl\u00fchen",
+        "damage": "50",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Serpifeu_(Mysteri%C3%B6se_Insel_004)",
+    "german_name": "Serpifeu",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "4",
+    "hp": "70",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Rankenhieb",
+        "damage": "40",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0495",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Efoserp_(Mysteri%C3%B6se_Insel_005)",
+    "german_name": "Efoserp",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "5",
+    "hp": "80",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Rankenhieb",
+        "damage": "50",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0496",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Serpiroyal_(Mysteri%C3%B6se_Insel_006)",
+    "german_name": "Serpiroyal",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "6",
+    "hp": "110",
+    "energy_type": "Grass",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Dschungelherrschaft",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Solarstrahl",
+        "damage": "70",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0497",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bubungus_(Mysteri%C3%B6se_Insel_007)",
+    "german_name": "Bubungus",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "7",
+    "hp": "60",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Ramme",
+        "damage": "20",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0755",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lamellux_(Mysteri%C3%B6se_Insel_008)",
+    "german_name": "Lamellux",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "8",
+    "hp": "90",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Flimmernde Sporen",
+        "damage": "50",
+        "cost": [
+          "Grass",
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0756",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Moruda_(Mysteri%C3%B6se_Insel_009)",
+    "german_name": "Moruda",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "9",
+    "hp": "100",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Energiepeitsche",
+        "damage": "20",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0781",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Ponita_(Mysteri%C3%B6se_Insel_010)",
+    "german_name": "Ponita",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "10",
+    "hp": "60",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Stampfer",
+        "damage": "10",
+        "cost": [
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0077",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Gallopa_(Mysteri%C3%B6se_Insel_011)",
+    "german_name": "Gallopa",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "11",
+    "hp": "100",
+    "energy_type": "Fire",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Aufw\u00e4rtssto\u00df",
+        "damage": "40",
+        "cost": [
+          "Fire",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0078",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Magmar_(Mysteri%C3%B6se_Insel_012)",
+    "german_name": "Magmar",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "12",
+    "hp": "80",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Feuersturm",
+        "damage": "80",
+        "cost": [
+          "Fire",
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0126",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Ignivor_(Mysteri%C3%B6se_Insel_013)",
+    "german_name": "Ignivor",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "13",
+    "hp": "80",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Gl\u00fchen",
+        "damage": "30",
+        "cost": [
+          "Fire",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0636",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Ramoth_(Mysteri%C3%B6se_Insel_014)",
+    "german_name": "Ramoth",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "14",
+    "hp": "120",
+    "energy_type": "Fire",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Vulkanasche",
+        "damage": "",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0637",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Molunk_(Mysteri%C3%B6se_Insel_015)",
+    "german_name": "Molunk",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "15",
+    "hp": "60",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Giftschock",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0757",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Amfira_(Mysteri%C3%B6se_Insel_016)",
+    "german_name": "Amfira",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "16",
+    "hp": "80",
+    "energy_type": "Fire",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Giftkrallen",
+        "damage": "30",
+        "cost": [
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0758",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Karpador_(Mysteri%C3%B6se_Insel_017)",
+    "german_name": "Karpador",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "17",
+    "hp": "30",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Herausspringen",
+        "damage": "",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0129",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Garados-ex_(Mysteri%C3%B6se_Insel_018)",
+    "german_name": "Garados-ex",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "18",
+    "hp": "180",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Tosender Strudel",
+        "damage": "140",
+        "cost": [
+          "Water",
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Aquana_(Mysteri%C3%B6se_Insel_019)",
+    "german_name": "Aquana",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "19",
+    "hp": "120",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Wegsp\u00fclen",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Wellenplatscher",
+        "damage": "60",
+        "cost": [
+          "Water",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0134",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Finneon_(Mysteri%C3%B6se_Insel_020)",
+    "german_name": "Finneon",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "20",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Aquaknarre",
+        "damage": "20",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0456",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lumineon_(Mysteri%C3%B6se_Insel_021)",
+    "german_name": "Lumineon",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "21",
+    "hp": "80",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "",
+    "attacks": [
+      {
+        "name": "Wasserrohr",
+        "damage": "",
+        "cost": [
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0457",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kamehaps_(Mysteri%C3%B6se_Insel_022)",
+    "german_name": "Kamehaps",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "22",
+    "hp": "80",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Biss",
+        "damage": "30",
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0833",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kamalm_(Mysteri%C3%B6se_Insel_023)",
+    "german_name": "Kamalm",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "23",
+    "hp": "130",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Knirscher",
+        "damage": "70",
+        "cost": [
+          "Water",
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0834",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Urgl_(Mysteri%C3%B6se_Insel_024)",
+    "german_name": "Urgl",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "24",
+    "hp": "80",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Taucher",
+        "damage": "60",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0845",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pikachu_(Mysteri%C3%B6se_Insel_025)",
+    "german_name": "Pikachu",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "25",
+    "hp": "60",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Rundparcours",
+        "damage": "10",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0025",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Raichu_(Mysteri%C3%B6se_Insel_026)",
+    "german_name": "Raichu",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "26",
+    "hp": "120",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Gigaschock",
+        "damage": "60",
+        "cost": [
+          "Electric",
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0026",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Elektek_(Mysteri%C3%B6se_Insel_027)",
+    "german_name": "Elektek",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "27",
+    "hp": "70",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Donnerspeer",
+        "damage": "",
+        "cost": [
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0125",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Wattzapf_(Mysteri%C3%B6se_Insel_028)",
+    "german_name": "Wattzapf",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "28",
+    "hp": "40",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "K\u00e4ferbiss",
+        "damage": "30",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0595",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Voltula_(Mysteri%C3%B6se_Insel_029)",
+    "german_name": "Voltula",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "29",
+    "hp": "80",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Elektronetz",
+        "damage": "70",
+        "cost": [
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0596",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Dedenne_(Mysteri%C3%B6se_Insel_030)",
+    "german_name": "Dedenne",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "30",
+    "hp": "60",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Donnerschock",
+        "damage": "10",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0702",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mew_(Mysteri%C3%B6se_Insel_031)",
+    "german_name": "Mew",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "31",
+    "hp": "60",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Psycho-Offenlegung",
+        "damage": "20",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0151",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mew-ex_(Mysteri%C3%B6se_Insel_032)",
+    "german_name": "Mew-ex",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "32",
+    "hp": "130",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Psychoschuss",
+        "damage": "20",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Genom-Hacking",
+        "damage": "",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Symvolara_(Mysteri%C3%B6se_Insel_033)",
+    "german_name": "Symvolara",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "33",
+    "hp": "80",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Stachelzug",
+        "damage": "10",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0561",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pygraulon_(Mysteri%C3%B6se_Insel_034)",
+    "german_name": "Pygraulon",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "34",
+    "hp": "60",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kopfnuss",
+        "damage": "20",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0605",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Megalon_(Mysteri%C3%B6se_Insel_035)",
+    "german_name": "Megalon",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "35",
+    "hp": "90",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Gedankensto\u00df",
+        "damage": "10",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0606",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Floette_(Mysteri%C3%B6se_Insel_037)",
+    "german_name": "Floette",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "37",
+    "hp": "70",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Blattsauger",
+        "damage": "40",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0670",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Florges_(Mysteri%C3%B6se_Insel_038)",
+    "german_name": "Florges",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "38",
+    "hp": "120",
+    "energy_type": "Psychic",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Bl\u00fctenglanz",
+        "damage": "80",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0671",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Flauschling_(Mysteri%C3%B6se_Insel_039)",
+    "german_name": "Flauschling",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "39",
+    "hp": "60",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Feenbrise",
+        "damage": "20",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0684",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Sabbaione_(Mysteri%C3%B6se_Insel_040)",
+    "german_name": "Sabbaione",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "40",
+    "hp": "100",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Magischer Schuss",
+        "damage": "60",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0685",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Menki_(Mysteri%C3%B6se_Insel_041)",
+    "german_name": "Menki",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "41",
+    "hp": "50",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Fokussierfaust",
+        "damage": "50",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0056",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Rasaff_(Mysteri%C3%B6se_Insel_042)",
+    "german_name": "Rasaff",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "42",
+    "hp": "80",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Boxhieb",
+        "damage": "50",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0057",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kleinstein_(Mysteri%C3%B6se_Insel_043)",
+    "german_name": "Kleinstein",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "43",
+    "hp": "70",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Leichter Hieb",
+        "damage": "30",
+        "cost": [
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0074",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Georok_(Mysteri%C3%B6se_Insel_044)",
+    "german_name": "Georok",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "44",
+    "hp": "100",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Sprungangriff",
+        "damage": "40",
+        "cost": [
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0075",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Geowaz_(Mysteri%C3%B6se_Insel_045)",
+    "german_name": "Geowaz",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "45",
+    "hp": "160",
+    "energy_type": "Fighting",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Schutzdruck",
+        "damage": "120",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0076",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Aerodactyl-ex_(Mysteri%C3%B6se_Insel_046)",
+    "german_name": "Aerodactyl-ex",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "46",
+    "hp": "140",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Gesetz der Urzeit",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Schollenbrecher",
+        "damage": "80",
+        "cost": [
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Marshadow_(Mysteri%C3%B6se_Insel_047)",
+    "german_name": "Marshadow",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "47",
+    "hp": "80",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Vergeltung",
+        "damage": "40",
+        "cost": [
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0802",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Humanolith_(Mysteri%C3%B6se_Insel_048)",
+    "german_name": "Humanolith",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "48",
+    "hp": "120",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Megakick",
+        "damage": "90",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0874",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Smogon_(Mysteri%C3%B6se_Insel_049)",
+    "german_name": "Smogon",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "49",
+    "hp": "70",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Teilung",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0109",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Smogmog_(Mysteri%C3%B6se_Insel_050)",
+    "german_name": "Smogmog",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "50",
+    "hp": "110",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Rauchwolke",
+        "damage": "50",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0110",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Felilou_(Mysteri%C3%B6se_Insel_051)",
+    "german_name": "Felilou",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "51",
+    "hp": "60",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kratzer",
+        "damage": "20",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0509",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kleoparda_(Mysteri%C3%B6se_Insel_052)",
+    "german_name": "Kleoparda",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "52",
+    "hp": "90",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Schlitzer",
+        "damage": "40",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0510",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Toxiped_(Mysteri%C3%B6se_Insel_053)",
+    "german_name": "Toxiped",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "53",
+    "hp": "60",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Ramme",
+        "damage": "20",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0543",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Rollum_(Mysteri%C3%B6se_Insel_054)",
+    "german_name": "Rollum",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "54",
+    "hp": "90",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Giftstachel",
+        "damage": "20",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0544",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Cerapendra_(Mysteri%C3%B6se_Insel_055)",
+    "german_name": "Cerapendra",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "55",
+    "hp": "140",
+    "energy_type": "",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Giftschock",
+        "damage": "70",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0545",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Shardrago_(Mysteri%C3%B6se_Insel_056)",
+    "german_name": "Shardrago",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "56",
+    "hp": "100",
+    "energy_type": "Dragon",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Rauhaut",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Drachenklaue",
+        "damage": "70",
+        "cost": [
+          "Fire",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0621",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Taubsi_(Mysteri%C3%B6se_Insel_057)",
+    "german_name": "Taubsi",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "57",
+    "hp": "50",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Flattern",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0016",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tauboga_(Mysteri%C3%B6se_Insel_058)",
+    "german_name": "Tauboga",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "58",
+    "hp": "90",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Fl\u00fcgelschlag",
+        "damage": "50",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0017",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tauboss-ex_(Mysteri%C3%B6se_Insel_059)",
+    "german_name": "Tauboss-ex",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "59",
+    "hp": "170",
+    "energy_type": "Colorless",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "W\u00fctender Zyklon",
+        "damage": "80",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tauros_(Mysteri%C3%B6se_Insel_060)",
+    "german_name": "Tauros",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "60",
+    "hp": "100",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Kampf-Tackle",
+        "damage": "40",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0128",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Evoli_(Mysteri%C3%B6se_Insel_061)",
+    "german_name": "Evoli",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "61",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Dauerschritte",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0133",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Plaudagei_(Mysteri%C3%B6se_Insel_062)",
+    "german_name": "Plaudagei",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "62",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Mimikry",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0441",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kokowei_(Mysteri%C3%B6se_Insel_069)",
+    "german_name": "Kokowei",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "69",
+    "hp": "130",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Psychokinese",
+        "damage": "80",
+        "cost": [
+          "Grass",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0103",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Serpiroyal_(Mysteri%C3%B6se_Insel_070)",
+    "german_name": "Serpiroyal",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "70",
+    "hp": "110",
+    "energy_type": "Grass",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Dschungelherrschaft",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Solarstrahl",
+        "damage": "70",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0497",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Molunk_(Mysteri%C3%B6se_Insel_071)",
+    "german_name": "Molunk",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "71",
+    "hp": "60",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Giftschock",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0757",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Aquana_(Mysteri%C3%B6se_Insel_072)",
+    "german_name": "Aquana",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "72",
+    "hp": "120",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Wegsp\u00fclen",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Wellenplatscher",
+        "damage": "60",
+        "cost": [
+          "Water",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0134",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Dedenne_(Mysteri%C3%B6se_Insel_073)",
+    "german_name": "Dedenne",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "73",
+    "hp": "60",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Donnerschock",
+        "damage": "10",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0702",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Marshadow_(Mysteri%C3%B6se_Insel_074)",
+    "german_name": "Marshadow",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "74",
+    "hp": "80",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Vergeltung",
+        "damage": "40",
+        "cost": [
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0802",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Celebi-ex_(Mysteri%C3%B6se_Insel_075)",
+    "german_name": "Celebi-ex",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "75",
+    "hp": "130",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kraftvolles Bl\u00fchen",
+        "damage": "50",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Garados-ex_(Mysteri%C3%B6se_Insel_076)",
+    "german_name": "Garados-ex",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "76",
+    "hp": "180",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Tosender Strudel",
+        "damage": "140",
+        "cost": [
+          "Water",
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mew-ex_(Mysteri%C3%B6se_Insel_077)",
+    "german_name": "Mew-ex",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "77",
+    "hp": "130",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Psychoschuss",
+        "damage": "20",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Genom-Hacking",
+        "damage": "",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Aerodactyl-ex_(Mysteri%C3%B6se_Insel_078)",
+    "german_name": "Aerodactyl-ex",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "78",
+    "hp": "140",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Gesetz der Urzeit",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Schollenbrecher",
+        "damage": "80",
+        "cost": [
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tauboss-ex_(Mysteri%C3%B6se_Insel_079)",
+    "german_name": "Tauboss-ex",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "79",
+    "hp": "170",
+    "energy_type": "Colorless",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "W\u00fctender Zyklon",
+        "damage": "80",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mew-ex_(Mysteri%C3%B6se_Insel_083)",
+    "german_name": "Mew-ex",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "83",
+    "hp": "130",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Psychoschuss",
+        "damage": "20",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Genom-Hacking",
+        "damage": "",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Aerodactyl-ex_(Mysteri%C3%B6se_Insel_084)",
+    "german_name": "Aerodactyl-ex",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "84",
+    "hp": "140",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Gesetz der Urzeit",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Schollenbrecher",
+        "damage": "80",
+        "cost": [
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Celebi-ex_(Mysteri%C3%B6se_Insel_085)",
+    "german_name": "Celebi-ex",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "85",
+    "hp": "130",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kraftvolles Bl\u00fchen",
+        "damage": "50",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mew-ex_(Mysteri%C3%B6se_Insel_086)",
+    "german_name": "Mew-ex",
+    "set_id": "A1a",
+    "set_name": "Mysteri\u00f6se Insel",
+    "card_number": "86",
+    "hp": "130",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Psychoschuss",
+        "damage": "20",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Genom-Hacking",
+        "damage": "",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  }
+]

@@ -1,0 +1,3686 @@
+[
+  {
+    "url": "https://www.pokewiki.de/Felori_(Wundervolles_Paldea_001)",
+    "german_name": "Felori",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "1",
+    "hp": "60",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Blattwerk",
+        "damage": "20",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0906",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Feliospa_(Wundervolles_Paldea_002)",
+    "german_name": "Feliospa",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "2",
+    "hp": "90",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Blattschritt",
+        "damage": "30",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0907",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Maskagato-ex_(Wundervolles_Paldea_003)",
+    "german_name": "Maskagato-ex",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "3",
+    "hp": "160",
+    "energy_type": "Grass",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Blumentrick",
+        "damage": "",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Solarstrahl",
+        "damage": "80",
+        "cost": [
+          "Grass",
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tarundel_(Wundervolles_Paldea_004)",
+    "german_name": "Tarundel",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "4",
+    "hp": "50",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Haken",
+        "damage": "20",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0917",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Spinsidias_(Wundervolles_Paldea_005)",
+    "german_name": "Spinsidias",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "5",
+    "hp": "100",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Anbinden",
+        "damage": "40",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0918",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Micrick_(Wundervolles_Paldea_006)",
+    "german_name": "Micrick",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "6",
+    "hp": "40",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kehrtwende",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0919",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Olini_(Wundervolles_Paldea_007)",
+    "german_name": "Olini",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "7",
+    "hp": "60",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Absorber",
+        "damage": "10",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0928",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Olivinio_(Wundervolles_Paldea_008)",
+    "german_name": "Olivinio",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "8",
+    "hp": "90",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Samenbomben",
+        "damage": "40",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0929",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Olithena_(Wundervolles_Paldea_009)",
+    "german_name": "Olithena",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "9",
+    "hp": "130",
+    "energy_type": "Grass",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Extraheilung",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Samenbomben",
+        "damage": "70",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0930",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Weherba_(Wundervolles_Paldea_010)",
+    "german_name": "Weherba",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "10",
+    "hp": "50",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Walzer",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0946",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Horrerba_(Wundervolles_Paldea_011)",
+    "german_name": "Horrerba",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "11",
+    "hp": "100",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Dauerrollen",
+        "damage": "60",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0947",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Chilingel_(Wundervolles_Paldea_012)",
+    "german_name": "Chilingel",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "12",
+    "hp": "60",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Verspielter Kick",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0951",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Halupenjo_(Wundervolles_Paldea_013)",
+    "german_name": "Halupenjo",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "13",
+    "hp": "100",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Hitzige Kopfnuss",
+        "damage": "60",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0952",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Relluk_(Wundervolles_Paldea_014)",
+    "german_name": "Relluk",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "14",
+    "hp": "50",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Ballrolle",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0953",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Chongjian_(Wundervolles_Paldea_015)",
+    "german_name": "Chongjian",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "15",
+    "hp": "120",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Fesselnde Gier",
+        "damage": "90",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "1001",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Krokel_(Wundervolles_Paldea_016)",
+    "german_name": "Krokel",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "16",
+    "hp": "70",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Fr\u00f6hlicher Gesang",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0909",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lokroko_(Wundervolles_Paldea_017)",
+    "german_name": "Lokroko",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "17",
+    "hp": "100",
+    "energy_type": "Fire",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Biss",
+        "damage": "50",
+        "cost": [
+          "Fire",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0910",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Skelokrok_(Wundervolles_Paldea_018)",
+    "german_name": "Skelokrok",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "18",
+    "hp": "150",
+    "energy_type": "Fire",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Feurige Stimme",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Brandstempel",
+        "damage": "70",
+        "cost": [
+          "Fire",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0911",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Knarbon_(Wundervolles_Paldea_019)",
+    "german_name": "Knarbon",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "19",
+    "hp": "60",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Boxhieb",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0935",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Crimanzo-ex_(Wundervolles_Paldea_020)",
+    "german_name": "Crimanzo-ex",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "20",
+    "hp": "140",
+    "energy_type": "Fire",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "R\u00fcstung",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "R\u00fcstungskanone",
+        "damage": "120",
+        "cost": [
+          "Fire",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Yuyu_(Wundervolles_Paldea_021)",
+    "german_name": "Yuyu",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "21",
+    "hp": "80",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Megafeuer des Neids",
+        "damage": "40",
+        "cost": [
+          "Fire",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "1004",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kwaks_(Wundervolles_Paldea_022)",
+    "german_name": "Kwaks",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "22",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Ausweichplatscher",
+        "damage": "10",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0912",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Fuentente_(Wundervolles_Paldea_023)",
+    "german_name": "Fuentente",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "23",
+    "hp": "80",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Platschende Drehung",
+        "damage": "40",
+        "cost": [
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0913",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bailonda_(Wundervolles_Paldea_024)",
+    "german_name": "Bailonda",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "24",
+    "hp": "150",
+    "energy_type": "Water",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Sturzbach",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Hydrokick",
+        "damage": "90",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0914",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schligda_(Wundervolles_Paldea_025)",
+    "german_name": "Schligda",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "25",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Aquaknarre",
+        "damage": "20",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0960",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schligdri_(Wundervolles_Paldea_026)",
+    "german_name": "Schligdri",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "26",
+    "hp": "90",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Tripelpeitsche",
+        "damage": "30",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0961",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Normifin_(Wundervolles_Paldea_027)",
+    "german_name": "Normifin",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "27",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Rasierflosse",
+        "damage": "20",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0963",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Delfinator_(Wundervolles_Paldea_028)",
+    "german_name": "Delfinator",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "28",
+    "hp": "130",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "D\u00fcsenhieb",
+        "damage": "50",
+        "cost": [
+          "Water",
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0964",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Flaniwal_(Wundervolles_Paldea_029)",
+    "german_name": "Flaniwal",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "29",
+    "hp": "100",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Eiszapfenrakete",
+        "damage": "60",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0974",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kolowal_(Wundervolles_Paldea_030)",
+    "german_name": "Kolowal",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "30",
+    "hp": "150",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Eishieb",
+        "damage": "80",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0975",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Agiluza_(Wundervolles_Paldea_031)",
+    "german_name": "Agiluza",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "31",
+    "hp": "100",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Abwurfspirale",
+        "damage": "90",
+        "cost": [
+          "Water",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0976",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Heerashai_(Wundervolles_Paldea_032)",
+    "german_name": "Heerashai",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "32",
+    "hp": "130",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Gigasto\u00df",
+        "damage": "120",
+        "cost": [
+          "Water",
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0977",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Nigiragi_(Wundervolles_Paldea_033)",
+    "german_name": "Nigiragi",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "33",
+    "hp": "70",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Aufholjagd",
+        "damage": "20",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0978",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Frospino_(Wundervolles_Paldea_034)",
+    "german_name": "Frospino",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "34",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Fr\u00f6steln",
+        "damage": "20",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0996",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Cryospino_(Wundervolles_Paldea_035)",
+    "german_name": "Cryospino",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "35",
+    "hp": "90",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Frostschlag",
+        "damage": "50",
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0997",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Espinodon_(Wundervolles_Paldea_036)",
+    "german_name": "Espinodon",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "36",
+    "hp": "140",
+    "energy_type": "Water",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Eismacher",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Zetr\u00fcmmerndern Schweif",
+        "damage": "90",
+        "cost": [
+          "Water",
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0998",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Baojian-ex_(Wundervolles_Paldea_037)",
+    "german_name": "Baojian-ex",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "37",
+    "hp": "130",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Eiszapfen",
+        "damage": "20",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Eiszapfenregen",
+        "damage": "",
+        "cost": [
+          "Water",
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pamo_(Wundervolles_Paldea_038)",
+    "german_name": "Pamo",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "38",
+    "hp": "60",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Zuf\u00e4lliger Funke",
+        "damage": "",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0921",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pamamo_(Wundervolles_Paldea_039)",
+    "german_name": "Pamamo",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "39",
+    "hp": "90",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kopf-Blitz",
+        "damage": "30",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0922",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pamomamo_(Wundervolles_Paldea_040)",
+    "german_name": "Pamomamo",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "40",
+    "hp": "140",
+    "energy_type": "Electric",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Donnerkeil",
+        "damage": "100",
+        "cost": [
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0923",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Blipp_(Wundervolles_Paldea_041)",
+    "german_name": "Blipp",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "41",
+    "hp": "60",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Elektroball",
+        "damage": "20",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0938",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Wampitz-ex_(Wundervolles_Paldea_042)",
+    "german_name": "Wampitz-ex",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "42",
+    "hp": "160",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Starkstromkanone",
+        "damage": "70",
+        "cost": [
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "J",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Voltrel_(Wundervolles_Paldea_043)",
+    "german_name": "Voltrel",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "43",
+    "hp": "60",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Flattern",
+        "damage": "20",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0940",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Voltrean_(Wundervolles_Paldea_044)",
+    "german_name": "Voltrean",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "44",
+    "hp": "90",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "",
+    "attacks": [
+      {
+        "name": "Turboschwinge",
+        "damage": "40",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0941",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Miraidon_(Wundervolles_Paldea_045)",
+    "german_name": "Miraidon",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "45",
+    "hp": "120",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Blitzlaser",
+        "damage": "60",
+        "cost": [
+          "Electric",
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "1008",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Hefel_(Wundervolles_Paldea_046)",
+    "german_name": "Hefel",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "46",
+    "hp": "60",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "R\u00fcckw\u00e4rtskick",
+        "damage": "20",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0926",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Backel_(Wundervolles_Paldea_047)",
+    "german_name": "Backel",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "47",
+    "hp": "100",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Knuddler",
+        "damage": "50",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0927",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Azugladis_(Wundervolles_Paldea_048)",
+    "german_name": "Azugladis",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "48",
+    "hp": "110",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Kampfschwert",
+        "damage": "70",
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0937",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Skarabaks_(Wundervolles_Paldea_049)",
+    "german_name": "Skarabaks",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "49",
+    "hp": "70",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Psystrahl",
+        "damage": "80",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0954",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Flattutu_(Wundervolles_Paldea_050)",
+    "german_name": "Flattutu",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "50",
+    "hp": "50",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Plumps",
+        "damage": "20",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0955",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Psiopatra_(Wundervolles_Paldea_051)",
+    "german_name": "Psiopatra",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "51",
+    "hp": "90",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Psychokinese",
+        "damage": "30",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0956",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Gruff_(Wundervolles_Paldea_052)",
+    "german_name": "Gruff",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "52",
+    "hp": "70",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Seelenschuss",
+        "damage": "30",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0971",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Friedwuff_(Wundervolles_Paldea_053)",
+    "german_name": "Friedwuff",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "53",
+    "hp": "130",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Letzte Ehre",
+        "damage": "50",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0972",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Gierspenst_(Wundervolles_Paldea_054)",
+    "german_name": "Gierspenst",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "54",
+    "hp": "60",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Dauerm\u00fcnzwurf",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0999",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Menki_(Wundervolles_Paldea_055)",
+    "german_name": "Menki",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "55",
+    "hp": "60",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kratzfurie",
+        "damage": "10",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0056",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Rasaff_(Wundervolles_Paldea_056)",
+    "german_name": "Rasaff",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "56",
+    "hp": "80",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Raserei",
+        "damage": "30",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0057",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Epitaff_(Wundervolles_Paldea_057)",
+    "german_name": "Epitaff",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "57",
+    "hp": "140",
+    "energy_type": "Fighting",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Dynamitsto\u00df",
+        "damage": "90",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0979",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Paldea-Tauros_(Wundervolles_Paldea_058)",
+    "german_name": "Paldea-Tauros",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "58",
+    "hp": "100",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "R\u00fcckw\u00e4rtskick",
+        "damage": "100",
+        "cost": [
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0128",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tentagra_(Wundervolles_Paldea_059)",
+    "german_name": "Tentagra",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "59",
+    "hp": "60",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Schmetterkick",
+        "damage": "20",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0948",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tenterra_(Wundervolles_Paldea_060)",
+    "german_name": "Tenterra",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "60",
+    "hp": "120",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Stachelspore",
+        "damage": "70",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0949",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Klibbe_(Wundervolles_Paldea_061)",
+    "german_name": "Klibbe",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "61",
+    "hp": "100",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Adrenalinhammer",
+        "damage": "70",
+        "cost": [
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0950",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Dinglu_(Wundervolles_Paldea_062)",
+    "german_name": "Dinglu",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "62",
+    "hp": "60",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Arroganter Einschlag",
+        "damage": "130",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "1003",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Koraidon_(Wundervolles_Paldea_063)",
+    "german_name": "Koraidon",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "63",
+    "hp": "120",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Tobende F\u00e4nge",
+        "damage": "120",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "1007",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Paldea-Felino_(Wundervolles_Paldea_064)",
+    "german_name": "Paldea-Felino",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "64",
+    "hp": "60",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Plumps",
+        "damage": "40",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0194",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Paldea-Suelord_(Wundervolles_Paldea_065)",
+    "german_name": "Paldea-Suelord",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "65",
+    "hp": "120",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Schlammhammer",
+        "damage": "70",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0980",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lextremo_(Wundervolles_Paldea_066)",
+    "german_name": "Lextremo",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "66",
+    "hp": "100",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Raketensprung",
+        "damage": "80",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0920",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mobtiff_(Wundervolles_Paldea_067)",
+    "german_name": "Mobtiff",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "67",
+    "hp": "70",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Biss",
+        "damage": "30",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0942",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mastifioso_(Wundervolles_Paldea_068)",
+    "german_name": "Mastifioso",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "68",
+    "hp": "120",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Wilder Tackle",
+        "damage": "110",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0943",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Sproxi_(Wundervolles_Paldea_069)",
+    "german_name": "Sproxi",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "69",
+    "hp": "50",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kratzer",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0944",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Affiti_(Wundervolles_Paldea_070)",
+    "german_name": "Affiti",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "70",
+    "hp": "90",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Farbenfroher Angriff",
+        "damage": "30",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0945",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Adebom_(Wundervolles_Paldea_071)",
+    "german_name": "Adebom",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "71",
+    "hp": "90",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Fliegen",
+        "damage": "70",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0962",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Forgita_(Wundervolles_Paldea_072)",
+    "german_name": "Forgita",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "72",
+    "hp": "60",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Verpr\u00fcgler",
+        "damage": "30",
+        "cost": [
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0957",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tafforgita_(Wundervolles_Paldea_073)",
+    "german_name": "Tafforgita",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "73",
+    "hp": "80",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Leichter Hieb",
+        "damage": "50",
+        "cost": [
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0958",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Granforgita_(Wundervolles_Paldea_074)",
+    "german_name": "Granforgita",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "74",
+    "hp": "150",
+    "energy_type": "Metal",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Riesenhammer",
+        "damage": "140",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0959",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Knattox_(Wundervolles_Paldea_075)",
+    "german_name": "Knattox",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "75",
+    "hp": "60",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Ramme",
+        "damage": "20",
+        "cost": [
+          "Metal"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0965",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Knattatox_(Wundervolles_Paldea_076)",
+    "german_name": "Knattatox",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "76",
+    "hp": "110",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Giftwolke",
+        "damage": "50",
+        "cost": [
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0966",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schlurm_(Wundervolles_Paldea_077)",
+    "german_name": "Schlurm",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "77",
+    "hp": "100",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Eisenvorrat",
+        "damage": "10",
+        "cost": [
+          "Metal"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0968",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Monetigo-ex_(Wundervolles_Paldea_078)",
+    "german_name": "Monetigo-ex",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "78",
+    "hp": "150",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Freudiges Ausgeben",
+        "damage": "",
+        "cost": [
+          "Metal"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Ferkuli_(Wundervolles_Paldea_079)",
+    "german_name": "Ferkuli",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "79",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Tackle",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0915",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Fragrunz_(Wundervolles_Paldea_080)",
+    "german_name": "Fragrunz",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "80",
+    "hp": "110",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Beinstampfer",
+        "damage": "100",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0916",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Zwieps_(Wundervolles_Paldea_081)",
+    "german_name": "Zwieps",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "81",
+    "hp": "30",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "",
+    "attacks": [
+      {
+        "name": "Doppelschlag",
+        "damage": "30",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0924",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Famieps_(Wundervolles_Paldea_082)",
+    "german_name": "Famieps",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "82",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Dreifaches Nagen",
+        "damage": "60",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0925",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Krawalloro_(Wundervolles_Paldea_083)",
+    "german_name": "Krawalloro",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "83",
+    "hp": "70",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Ruckzuckhieb",
+        "damage": "30",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0931",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mopex_(Wundervolles_Paldea_084)",
+    "german_name": "Mopex",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "84",
+    "hp": "90",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Mitfahrkumpel",
+        "damage": "40",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0967",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Flaminkno_(Wundervolles_Paldea_085)",
+    "german_name": "Flaminkno",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "85",
+    "hp": "90",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Fl\u00fcgelschlag",
+        "damage": "50",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0973",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Krokel_(Wundervolles_Paldea_094)",
+    "german_name": "Krokel",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "94",
+    "hp": "70",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Fr\u00f6hlicher Gesang",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0909",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Gruff_(Wundervolles_Paldea_095)",
+    "german_name": "Gruff",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "95",
+    "hp": "70",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Seelenschuss",
+        "damage": "30",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0971",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Gierspenst_(Wundervolles_Paldea_096)",
+    "german_name": "Gierspenst",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "96",
+    "hp": "60",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Dauerm\u00fcnzwurf",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0999",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Paldea-Felino_(Wundervolles_Paldea_097)",
+    "german_name": "Paldea-Felino",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "97",
+    "hp": "60",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Plumps",
+        "damage": "40",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0194",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schlurm_(Wundervolles_Paldea_098)",
+    "german_name": "Schlurm",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "98",
+    "hp": "100",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Eisenvorrat",
+        "damage": "10",
+        "cost": [
+          "Metal"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0968",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Famieps_(Wundervolles_Paldea_099)",
+    "german_name": "Famieps",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "99",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Dreifaches Nagen",
+        "damage": "60",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0925",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Maskagato-ex_(Wundervolles_Paldea_100)",
+    "german_name": "Maskagato-ex",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "100",
+    "hp": "160",
+    "energy_type": "Grass",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Blumentrick",
+        "damage": "",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Solarstrahl",
+        "damage": "80",
+        "cost": [
+          "Grass",
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Crimanzo-ex_(Wundervolles_Paldea_101)",
+    "german_name": "Crimanzo-ex",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "101",
+    "hp": "140",
+    "energy_type": "Fire",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "R\u00fcstung",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "R\u00fcstungskanone",
+        "damage": "120",
+        "cost": [
+          "Fire",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Baojian-ex_(Wundervolles_Paldea_102)",
+    "german_name": "Baojian-ex",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "102",
+    "hp": "130",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Eiszapfen",
+        "damage": "20",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Eiszapfenregen",
+        "damage": "",
+        "cost": [
+          "Water",
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Wampitz-ex_(Wundervolles_Paldea_103)",
+    "german_name": "Wampitz-ex",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "103",
+    "hp": "160",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Starkstromkanone",
+        "damage": "70",
+        "cost": [
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "J",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Monetigo-ex_(Wundervolles_Paldea_104)",
+    "german_name": "Monetigo-ex",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "104",
+    "hp": "150",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Freudiges Ausgeben",
+        "damage": "",
+        "cost": [
+          "Metal"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Maskagato-ex_(Wundervolles_Paldea_110)",
+    "german_name": "Maskagato-ex",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "110",
+    "hp": "160",
+    "energy_type": "Grass",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Blumentrick",
+        "damage": "",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Solarstrahl",
+        "damage": "80",
+        "cost": [
+          "Grass",
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Crimanzo-ex_(Wundervolles_Paldea_111)",
+    "german_name": "Crimanzo-ex",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "111",
+    "hp": "140",
+    "energy_type": "Fire",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "R\u00fcstung",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "R\u00fcstungskanone",
+        "damage": "120",
+        "cost": [
+          "Fire",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Baojian-ex_(Wundervolles_Paldea_112)",
+    "german_name": "Baojian-ex",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "112",
+    "hp": "130",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Eiszapfen",
+        "damage": "20",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Eiszapfenregen",
+        "damage": "",
+        "cost": [
+          "Water",
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Wampitz-ex_(Wundervolles_Paldea_113)",
+    "german_name": "Wampitz-ex",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "113",
+    "hp": "160",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Starkstromkanone",
+        "damage": "70",
+        "cost": [
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "J",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Monetigo-ex_(Wundervolles_Paldea_114)",
+    "german_name": "Monetigo-ex",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "114",
+    "hp": "150",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Freudiges Ausgeben",
+        "damage": "",
+        "cost": [
+          "Metal"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Felori_(Wundervolles_Paldea_116)",
+    "german_name": "Felori",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "116",
+    "hp": "60",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Blattwerk",
+        "damage": "20",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0906",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Feliospa_(Wundervolles_Paldea_117)",
+    "german_name": "Feliospa",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "117",
+    "hp": "90",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Blattschritt",
+        "damage": "30",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0907",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Maskagato_(Wundervolles_Paldea_118)",
+    "german_name": "Maskagato",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "118",
+    "hp": "140",
+    "energy_type": "Grass",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kampfkrallen",
+        "damage": "60",
+        "cost": [
+          "Grass",
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0908",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pamo_(Wundervolles_Paldea_119)",
+    "german_name": "Pamo",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "119",
+    "hp": "60",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Zuf\u00e4lliger Funke",
+        "damage": "",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0921",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pamamo_(Wundervolles_Paldea_120)",
+    "german_name": "Pamamo",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "120",
+    "hp": "90",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kopf-Blitz",
+        "damage": "30",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0922",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pamomamo_(Wundervolles_Paldea_121)",
+    "german_name": "Pamomamo",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "121",
+    "hp": "140",
+    "energy_type": "Electric",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Donnerkeil",
+        "damage": "100",
+        "cost": [
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0923",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Gierspenst_(Wundervolles_Paldea_122)",
+    "german_name": "Gierspenst",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "122",
+    "hp": "60",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Dauerm\u00fcnzwurf",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0999",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Forgita_(Wundervolles_Paldea_123)",
+    "german_name": "Forgita",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "123",
+    "hp": "60",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Verpr\u00fcgler",
+        "damage": "30",
+        "cost": [
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0957",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tafforgita_(Wundervolles_Paldea_124)",
+    "german_name": "Tafforgita",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "124",
+    "hp": "80",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Leichter Hieb",
+        "damage": "50",
+        "cost": [
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0958",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Monetigo_(Wundervolles_Paldea_125)",
+    "german_name": "Monetigo",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "125",
+    "hp": "120",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Sensationelles Surfen",
+        "damage": "50",
+        "cost": [
+          "Metal",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "1000",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Entei-ex_(Wundervolles_Paldea_126)",
+    "german_name": "Entei-ex",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "126",
+    "hp": "140",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Legend\u00e4rer Puls",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Lodernder Niederpr\u00fcgler",
+        "damage": "60",
+        "cost": [
+          "Fire",
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Suicune-ex_(Wundervolles_Paldea_127)",
+    "german_name": "Suicune-ex",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "127",
+    "hp": "140",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Legend\u00e4rer Puls",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Kristallwalzer",
+        "damage": "20",
+        "cost": [
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Raikou-ex_(Wundervolles_Paldea_128)",
+    "german_name": "Raikou-ex",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "128",
+    "hp": "130",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Legend\u00e4rer Puls",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Voltgeschoss",
+        "damage": "60",
+        "cost": [
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Granforgita-ex_(Wundervolles_Paldea_129)",
+    "german_name": "Granforgita-ex",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "129",
+    "hp": "170",
+    "energy_type": "Metal",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Heftiges H\u00e4mmern",
+        "damage": "80",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Espinodon_(Wundervolles_Paldea_130)",
+    "german_name": "Espinodon",
+    "set_id": "B1",
+    "set_name": "Wundervolles Paldea",
+    "card_number": "130",
+    "hp": "140",
+    "energy_type": "Water",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Eismacher",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Zetr\u00fcmmerndern Schweif",
+        "damage": "90",
+        "cost": [
+          "Water",
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0998",
+    "regulation_mark": "B",
+    "resistance": ""
+  }
+]

@@ -1,13 +1,19 @@
 #!/usr/bin/env python3
 """
 Pokemon TCG Pocket Card Extractor - V2
-Minimal OCR + API Match = 100% Confidence
+EasyOCR + API Match = High Confidence
 
 Workflow:
-1. MINIMAL OCR: Extract only NAME from card image
-2. API MATCH: Find card by OCR name in scraped database
-3. VERIFY: If name matches → 100% confidence, use ALL API data
-4. SAVE: Store complete card data from API (not OCR)
+1. EASYOCR: Extract multiple signals (name, HP, attacks, weakness, retreat)
+2. CROSS-REFERENCE: Match against german_cards_complete.json
+3. CONFIDENCE CHECK: 
+   - >=60% -> Save to collection.db + captured folder + processed list
+   - <60% -> Move to failed_to_capture/ (NOT added to processed list - reprocessable)
+4. SAVE: Only high-confidence cards added to processed list
+
+Input Folders:
+- screenshots/to_process/ (fallback)
+- PKM_CARDS/{SET}/ (organized by set, prioritized)
 """
 
 import os
@@ -18,6 +24,7 @@ import json
 import time
 from PIL import Image
 import pytesseract
+import easyocr
 
 from preprocessing import CardCropper, preprocess_image
 from extraction import (
@@ -101,6 +108,82 @@ def enhance_for_ocr(img: Image.Image) -> Image.Image:
     img = enhancer.enhance(1.2)
     
     return img
+
+
+# EasyOCR reader (lazy init)
+_easyocr_reader = None
+
+def get_easyocr_reader():
+    """Get or create EasyOCR reader."""
+    global _easyocr_reader
+    if _easyocr_reader is None:
+        _easyocr_reader = easyocr.Reader(['de', 'en'], gpu=True)
+    return _easyocr_reader
+
+
+def easyocr_extract(img: Image.Image) -> dict:
+    """Extract card signals using EasyOCR. Format: 'TUSKA KP 60' or 'BASIS PIKACHU KP 60'"""
+    reader = get_easyocr_reader()
+    
+    if img.mode != 'RGB':
+        img = img.convert('RGB')
+    
+    import tempfile, os
+    with tempfile.NamedTemporaryFile(suffix='.png', delete=False) as tmp:
+        img.save(tmp.name)
+        results = reader.readtext(tmp.name)
+        os.unlink(tmp.name)
+    
+    signals = {'name': None, 'hp': None, 'attacks': [], 'weakness': None, 'retreat': None, 'pokedex_number': None}
+    
+    all_text = ' '.join([text.strip() for bbox, text, conf in results if float(conf) > 0.3])
+    print(f"EasyOCR: {all_text[:100]}...")
+    
+    # Stage words to skip
+    stage_words = {'BASIS', 'PHASE', '1', '2', 'STAGE', 'EX', 'GX', 'VMAX', 'VSTAR', 'PROMO'}
+    
+    # Format: "BASIS TUSKA KP 60" or "TUSKA KP 60" - find word before KP
+    # Pattern: WORD KP NUMBER
+    words = all_text.split()
+    for i, word in enumerate(words):
+        word_clean = ''.join(c for c in word if c.isalpha())
+        if word_clean.upper() == 'KP' and i > 0:
+            # Previous word is the name
+            prev_word = words[i-1]
+            prev_clean = ''.join(c for c in prev_word if c.isalpha())
+            if prev_clean.upper() not in stage_words:
+                signals['name'] = prev_clean.upper()
+                # Next word is HP
+                if i + 1 < len(words):
+                    hp_word = words[i + 1]
+                    hp_match = re.search(r'(\d{2,3})', hp_word)
+                    if hp_match:
+                        signals['hp'] = hp_match.group(1)
+                break
+    
+    # Extract attacks
+    attack_matches = re.findall(r'([A-ZÄÖÜ][a-zäöüßA-Za-z]{2,})\s+(\d+)(?:\s|$)', all_text)
+    skip = {signals['name'], 'KP', 'HP', 'NR', 'FIG', 'SCHWÄCHE', 'RÜCKZUG'}
+    for attack_name, damage in attack_matches:
+        if attack_name.upper() not in skip and attack_name not in signals['attacks']:
+            signals['attacks'].append(f"{attack_name} {damage}")
+    
+    # Weakness
+    weak = re.search(r'Schw[äa]che.*?([A-Za-z]+).*?(\d+)', all_text, re.IGNORECASE)
+    if weak:
+        signals['weakness'] = f"{weak.group(1)}+{weak.group(2)}"
+    
+    # Retreat
+    retreat = re.search(r'R[üu]ck[gu]?z?\s*(\d+)', all_text, re.IGNORECASE)
+    if retreat:
+        signals['retreat'] = retreat.group(1)
+    
+    # Pokédex
+    pokedex = re.search(r'Nr\.\s*(\d+)', all_text, re.IGNORECASE)
+    if pokedex:
+        signals['pokedex_number'] = pokedex.group(1)
+    
+    return signals
 
 
 SCREENSHOT_DIR = "screenshots/to_process"
@@ -225,260 +308,16 @@ def minimal_ocr_name(img: Image.Image, card_type: CardType) -> str | None:
 
 def enhanced_ocr_extract(img: Image.Image, card_type: CardType) -> dict:
     """
-    ENHANCED OCR: Extract multiple signals from the card using FULL IMAGE OCR.
-    
-    Full image OCR is slower but more accurate than zone-based OCR.
+    EasyOCR: Extract multiple signals from the card using EasyOCR.
+    EasyOCR is much better than Tesseract for German text.
     """
-    import re
-    
-    signals = {
-        'name': None,
-        'hp': None,
-        'attacks': [],
-        'weakness': None,
-        'retreat': None,
-        'set_id': None,
-        'card_number': None,
-    }
-    
-    # Step 1: Extract from NAME ZONE first (most reliable)
-    extractor = ZoneExtractor()
-    img_grey = img.convert('L')  # Convert to greyscale for better OCR
-    
-    # Try multiple PSM modes for better OCR (use 2 modes for speed)
-    name_text = None
-    for psm in ['6', '3']:
-        name_zone = extractor.extract(img_grey, 'name', card_type)
-        if name_zone:
-            # Apply image enhancement
-            enhanced_zone = enhance_for_ocr(name_zone)
-            name_text = pytesseract.image_to_string(enhanced_zone, config=f'--psm {psm}')
-            if name_text and len(name_text.strip()) > 3:
-                break
-    
-    if name_text:
-        name_lines = name_text.split('\n')
-        for line in name_lines[:5]:
-            # Look for "NAME HP" pattern - handle various OCR artifacts
-            line_clean = re.sub(r'[^A-Za-z0-9\s]', ' ', line)
-            match = re.search(r'([A-Za-z]+)\s+(\d{2,3})', line_clean)
-            if match:
-                potential_name = match.group(1)
-                potential_hp = match.group(2)
-                # Fix HP OCR errors
-                hp_val = correct_hp_ocr(potential_hp)
-                if hp_val and 20 <= hp_val <= 340:
-                    signals['name'] = potential_name.upper()
-                    signals['hp'] = str(hp_val)
-                    break
-        
-        # Also try just finding a name in the zone
-        if not signals.get('name'):
-            for line in name_lines[:5]:
-                words = line.split()
-                for word in words:
-                    clean = ''.join(c for c in word if c.isalpha())
-                    if len(clean) >= 4 and clean[0].isupper():
-                        clean = clean.upper()
-                        if clean in ['THE', 'AND', 'FOR', 'BUT', 'NOT', 'YOU', 'ARE', 'HAS', 'HAD', 'WAS', 'WERE',
-                                    'PHASE', 'KPOV', 'EAS', 'SSS', 'TTF', 'PNG', 'JPG', 'BASIS', 'CLASSIC', 
-                                    'DELUXE', 'BOOSTER', 'STAR', 'EX', 'GX', 'VMAX', 'VSTAR', 'PROMO', 'ENERGY']:
-                            continue
-                        signals['name'] = clean
-                        break
-                if signals.get('name'):
-                    break
-    
-    # Step 2b: Extract ATTACKS from attacks zone
-    if not signals.get('attacks'):
-        attacks_zone = extractor.extract(img_grey, 'attacks', card_type)
-        if attacks_zone:
-            # Try multiple PSM modes (2 modes for speed)
-            attack_text = None
-            for psm in ['6', '3']:
-                enhanced_zone = enhance_for_ocr(attacks_zone)
-                attack_text = pytesseract.image_to_string(enhanced_zone, config=f'--psm {psm}')
-                if attack_text and len(attack_text.strip()) > 3:
-                    break
-            
-            if attack_text:
-                attack_lines = attack_text.split('\n')
-                for line in attack_lines[:10]:
-                    line = line.strip()
-                    if len(line) >= 3 and len(line) <= 30:
-                        if line.isdigit():
-                            continue
-                        if any(x in line.upper() for x in ['KP', 'HP', 'EX', 'GX', 'NR', 'FIG']):
-                            continue
-                        clean = ''.join(c for c in line if c.isalpha() or c.isspace())
-                        if len(clean) >= 3 and clean[0].isupper():
-                            signals['attacks'].append(clean)
-    
-    # Step 3: Full image OCR - only use for HP/weakness/retreat, not for name if zone worked
-    full_text = pytesseract.image_to_string(img, config='--psm 6')
-    lines = full_text.split('\n')
-    
-    # Extract Name from full OCR ONLY if zone extraction didn't work
-    if not signals.get('name'):
-        for line in lines[:10]:
-            words = line.split()
-            for word in words:
-                clean = ''.join(c for c in word if c.isalpha())
-                if len(clean) >= 4 and clean[0].isupper():
-                    clean = clean.upper()
-                    if clean in ['THE', 'AND', 'FOR', 'BUT', 'NOT', 'YOU', 'ARE', 'HAS', 'HAD', 'WAS', 'WERE',
-                                'PHASE', 'KPOV', 'EAS', 'SSS', 'TTF', 'PNG', 'JPG', 'BASIS', 'CLASSIC', 
-                                'DELUXE', 'BOOSTER', 'STAR', 'EX', 'GX', 'VMAX', 'VSTAR', 'PROMO', 'ENERGY']:
-                        continue
-                    signals['name'] = clean
-                    break
-            if signals.get('name'):
-                break
-    
-    # If name not found in top, try extracting from Pokédex line (e.g., "Nr. 0273 Eichelnuss-Pokémon")
-    if not signals.get('name'):
-        for line in lines:
-            # Match pattern like "Nr. 0273 NAME-Pokémon" or "NAME-Pokémon"
-            # Also extract Pokédex number for matching
-            pokedex_match = re.search(r'Nr\.\s*(\d+)', line, re.IGNORECASE)
-            if pokedex_match:
-                signals['pokedex_number'] = pokedex_match.group(1)
-            
-            pokémon_match = re.search(r'(?:Nr\.\s*\d+\s+)?([A-Za-z]+(?:-[A-Za-z]+)*)-Pokémon', line, re.IGNORECASE)
-            if pokémon_match:
-                potential_name = pokémon_match.group(1).upper()
-                # Skip common OCR artifacts
-                if potential_name in ['NR', 'GR', 'GEWICHT', 'GROSSE', 'NR']:
-                    continue
-                if len(potential_name) >= 4:
-                    signals['name'] = potential_name
-                    break
-    
-    # If name not found via full OCR, try zone-based extraction
-    if not signals.get('name'):
-        zone_name = minimal_ocr_name(img, card_type)
-        if zone_name:
-            signals['name'] = zone_name
-    
-    # If still no name, try scanning more of the image with different PSM
-    if not signals.get('name'):
-        for psm in ['3', '11']:
-            alt_text = pytesseract.image_to_string(img, config=f'--psm {psm}')
-            alt_lines = alt_text.split('\n')
-            for line in alt_lines[:15]:
-                words = line.split()
-                for word in words:
-                    clean = ''.join(c for c in word if c.isalpha())
-                    if len(clean) >= 4 and clean[0].isupper():
-                        clean = clean.upper()
-                        if clean in ['THE', 'AND', 'FOR', 'BUT', 'NOT', 'YOU', 'ARE', 'HAS', 'HAD', 'WAS', 'WERE',
-                                    'PHASE', 'KPOV', 'EAS', 'SSS', 'TTF', 'PNG', 'JPG', 'BASIS', 'CLASSIC', 
-                                    'DELUXE', 'BOOSTER', 'STAR', 'EX', 'GX', 'VMAX', 'VSTAR', 'PROMO', 'ENERGY']:
-                            continue
-                        signals['name'] = clean
-                        break
-                if signals['name']:
-                    break
-            if signals['name']:
-                break
-    
-    # Extract HP - look for "NAME 80" pattern (number right after name)
-    # This is more reliable than zone-based OCR
-    hp_match = None
-    
-    # Try pattern: PokemonName Number (followed by space or KP)
-    for line in lines[:10]:
-        # Look for: word + space + number + space/end
-        match = re.search(r'([A-Za-z]+)\s+(\d{2,3})\s', line)
-        if match:
-            potential_name = match.group(1)
-            potential_hp = match.group(2)
-            # HP should be reasonable (20-340 for Pokemon cards)
-            if potential_hp and 20 <= int(potential_hp) <= 340:
-                signals['hp'] = potential_hp
-                break
-    
-    # Extract Weakness - look for energy icon + damage
-    weak_match = re.search(r'(Fire|Wasser|Pflanze|Psycho|Kampf|Dunkel|Drache|Fee|Ice|Elektro|Stahl)\s*\+\s*(\d+)', 
-                          full_text, re.IGNORECASE)
-    if weak_match:
-        energy = weak_match.group(1)
-        damage = weak_match.group(2)
-        energy_map = {
-            'Feuer': 'Fire', 'Wasser': 'Water', 'Pflanze': 'Grass',
-            'Psycho': 'Psychic', 'Kampf': 'Fighting', 'Dunkel': 'Dark',
-            'Drache': 'Dragon', 'Fee': 'Fairy', 'Ice': 'Ice', 
-            'Elektro': 'Lightning', 'Stahl': 'Metal'
-        }
-        signals['weakness'] = f"{energy_map.get(energy.title(), energy.title())}+{damage}"
-    
-    # Extract Retreat
-    retreat_match = re.search(r'Rückzug.*?(\d+)', full_text)
-    if retreat_match:
-        signals['retreat'] = retreat_match.group(1)
-    
-    return signals
-    try:
-        # Find weakness section
-        weakness_section = None
-        # Try to find text containing weakness keyword
-        full_text = pytesseract.image_to_string(img, config='--psm 6')
-        
-        # Look for weakness pattern: energy type + number
-        weak_match = re.search(r'(Fire|Wasser|Pflanze|Psycho|Kampf|Dunkel|Drache|Fee|Ice|Elektro|Stahl)\s*\+\s*(\d+)', 
-                              full_text, re.IGNORECASE)
-        if weak_match:
-            energy = weak_match.group(1)
-            damage = weak_match.group(2)
-            # Map German to English
-            energy_map = {
-                'Feuer': 'Fire', 'Wasser': 'Water', 'Pflanze': 'Grass',
-                'Psycho': 'Psychic', 'Kampf': 'Fighting', 'Dunkel': 'Dark',
-                'Drache': 'Dragon', 'Fee': 'Fairy', 'Ice': 'Ice', 
-                'Elektro': 'Lightning', 'Stahl': 'Metal'
-            }
-            signals['weakness'] = f"{energy_map.get(energy.title(), energy.title())}+{damage}"
-    except:
-        pass
-    
-    # Extract Retreat - look for retreat cost
-    try:
-        full_text = pytesseract.image_to_string(img, config='--psm 6')
-        retreat_match = re.search(r'Rückzug.*?(\d+)', full_text)
-        if retreat_match:
-            signals['retreat'] = retreat_match.group(1)
-    except:
-        pass
-    
-    # Extract Attack names - look for attack section
-    try:
-        # Get bottom part of card where attacks usually are
-        width, height = img.size
-        attack_zone = img.crop((0, height * 0.5, width, height * 0.85))
-        attack_text = pytesseract.image_to_string(attack_zone, config='--psm 6')
-        
-        # Extract attack names (usually capitalized words followed by damage)
-        lines = attack_text.split('\n')
-        for line in lines[:8]:  # First few lines in attack zone
-            line = line.strip()
-            if len(line) >= 3 and len(line) <= 30:
-                # Skip lines that are just damage numbers
-                if line.isdigit():
-                    continue
-                # Skip common OCR artifacts
-                if any(x in line.upper() for x in ['KP', 'HP', 'EX', 'GX']):
-                    continue
-                # This might be an attack name
-                clean = ''.join(c for c in line if c.isalpha() or c.isspace())
-                if len(clean) >= 3 and clean[0].isupper():
-                    signals['attacks'].append(clean)
-    except:
-        pass
-    
+    signals = easyocr_extract(img)
+    signals['set_id'] = None
+    signals['card_number'] = None
     return signals
 
 
-def match_with_api(ocr_name: str, card_type: str, target_set: str = None) -> tuple[dict | None, float]:
+def match_with_api(ocr_name: str | None, card_type: str, target_set: str | None = None) -> tuple[dict | None, float]:
     """
     Match OCR name with API database.
     Returns: (matched_card_data, confidence)
@@ -492,7 +331,8 @@ def match_with_api(ocr_name: str, card_type: str, target_set: str = None) -> tup
         return None, 0.0
     
     # Try local JSON database first (fast, offline) - with set filter
-    result = lookup_card(ocr_name, target_set=target_set)
+    set_filter = target_set if target_set else ""
+    result = lookup_card(ocr_name, target_set=set_filter)
     
     if result.success and result.card:
         # Check match type and assign confidence
@@ -546,9 +386,9 @@ def card_to_dict(card) -> dict:
     }
 
 
-def process_card_v2(image_path: str, target_set: str = None) -> tuple[bool, dict | None]:
+def process_card_v2(image_path: str, target_set: str | None = None) -> tuple[bool, dict | None]:
     """
-    Process a single card using Enhanced OCR + Multi-Signal API Match.
+    Process a single card using EasyOCR + Multi-Signal API Match.
     
     Extraction signals:
     1. Name (OCR)
@@ -578,8 +418,8 @@ def process_card_v2(image_path: str, target_set: str = None) -> tuple[bool, dict
     card_type = detect_card_type(img)
     print(f"       -> {card_type.value}")
     
-    # Step 3: ENHANCED OCR - Extract multiple signals
-    print(f"  \033[90m[3/5] Enhanced OCR (multiple signals)...\033[0m")
+    # Step 3: EasyOCR - Extract multiple signals
+    print(f"  \033[90m[3/5] EasyOCR (multiple signals)...\033[0m")
     signals = enhanced_ocr_extract(img, card_type)
     print(f"       -> Name: {signals.get('name')}")
     print(f"       -> HP: {signals.get('hp')}")
@@ -596,15 +436,21 @@ def process_card_v2(image_path: str, target_set: str = None) -> tuple[bool, dict
     # Use German name directly for matching
     signals['name'] = ocr_name
     
-    # Step 4: Multi-Signal API Match
-    print(f"  \033[90m[4/5] Multi-Signal API Match...\033[0m")
+    # Step 4: Cross-reference OCR with german_cards_complete.json
+    print(f"  \033[90m[4/5] Cross-referencing with database...\033[0m")
     
-    # Import the multi-signal matching function
-    from api.local_lookup import match_by_signals
+    from api.local_lookup import lookup_card
     
-    result = match_by_signals(signals, target_set)
+    # Direct lookup first (simple name match)
+    set_arg = target_set if target_set else ""
+    result = lookup_card(ocr_name, target_set=set_arg)
     
-    if result.success and result.confidence >= 0.6:
+    # Fall back to multi-signal if direct lookup fails
+    if not result.success or result.confidence < 0.5:
+        from api.local_lookup import match_by_signals
+        result = match_by_signals(signals, set_arg)
+    
+    if result.success and result.confidence >= 0.6 and result.card:
         # Use matched card data
         api_data = card_to_dict(result.card)
         api_data['category'] = card_type.value.title()
@@ -620,34 +466,24 @@ def process_card_v2(image_path: str, target_set: str = None) -> tuple[bool, dict
         
         card_data = api_data
         confidence = result.confidence
+        high_confidence = True
     else:
-        # No match - save for manual review with extracted signals
-        print(f"  \033[93m[!] NO MATCH - Saving for manual review\033[0m")
+        # No match - NOT added to collection, goes to failed
+        print(f"  \033[91m[✗] NO MATCH - Low confidence ({result.confidence if result.confidence else 0:.0f}%)\033[0m")
+        print(f"       -> OCR name: {ocr_name}")
+        print(f"       -> Moving to failed_to_capture/")
         
-        # Create filename with signals
-        hp = signals.get('hp', 'N')
-        weak = signals.get('weakness', '').replace('+', '') if signals.get('weakness') else 'NW'
-        attack = signals.get('attacks', [''])[0][:5] if signals.get('attacks') else 'NA'
+        # Move to failed folder
+        failed_path = os.path.join(FAILED_DIR, os.path.basename(image_path))
+        os.rename(image_path, failed_path)
         
-        card_data = {
-            'name': ocr_name,
-            'category': card_type.value.title(),
-            'set': target_set or 'OCR',
-            'card_number': '0',
-            'hp': signals.get('hp', ''),
-            'weakness': signals.get('weakness', ''),
-            'retreat': signals.get('retreat', ''),
-            'attacks': [{'name': a, 'damage': ''} for a in signals.get('attacks', [])],
-            'confidence': 0.0,
-            'extracted_signals': signals,  # Save for debugging
-        }
-        confidence = 0.0
+        return False, None
     
-    # Save to database
+    # Save to database ONLY if high confidence
     add_to_collection(card_data)
     
     # Get set and card number for filenames
-    set_id = card_data.get('set', 'OCR')
+    set_id = card_data.get('set', 'UNK')
     card_num = card_data.get('card_number', '0')
     
     # Save cropped image
@@ -764,10 +600,8 @@ def run_batch_v2(start_index=0, batch_size=BATCH_SIZE, target_set=None):
             results.append(card)
             processed_files.add(filename)
         else:
-            failed_path = os.path.join(FAILED_DIR, filename)
-            os.rename(filepath, failed_path)
+            # File already moved to failed inside process_card_v2
             failed_files.add(filename)
-            database.add_failed_capture(filename)
         
         progress['processed'] = list(processed_files)
         progress['failed'] = list(failed_files)

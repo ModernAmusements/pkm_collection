@@ -6,14 +6,12 @@ CLI for managing Pokémon card collection.
 import argparse
 import sys
 from database import (
-    init_db,
     get_all_cards,
-    search_cards,
-    get_stats,
     add_card,
     remove_card,
+    search_cards,
+    get_stats,
     export_csv,
-    get_failed_captures,
     clear_collection,
 )
 
@@ -63,7 +61,6 @@ def cmd_stats(args):
     print("\n=== Collection Statistics ===\n")
     print(f"  Unique cards:     {stats['total_unique']}")
     print(f"  Total quantity:   {stats['total_quantity']}")
-    print(f"  Failed captures:  {stats['failed_count']}")
     
     if stats['by_category']:
         print("\n  By Category:")
@@ -107,28 +104,10 @@ def cmd_export(args):
         print("No cards to export.")
 
 
-def cmd_failed(args):
-    """Show failed captures."""
-    failed = get_failed_captures()
-    
-    if not failed:
-        print("No failed captures.")
-        return
-    
-    print(f"\n{len(failed)} failed capture(s):\n")
-    
-    for f in failed:
-        print(f"  {f['filename']} - {f['created_at']}")
-        if f.get('ocr_text'):
-            text = f['ocr_text'][:100] + "..." if len(f['ocr_text']) > 100 else f['ocr_text']
-            print(f"    OCR: {text}")
-    print()
-
-
 def cmd_clear(args):
     """Clear entire collection."""
     if not args.force:
-        response = input("This will delete ALL cards and failed captures. Are you sure? (yes/no): ")
+        response = input("This will delete ALL cards. Are you sure? (yes/no): ")
         if response.lower() != 'yes':
             print("Cancelled.")
             return
@@ -169,9 +148,6 @@ def main():
     export_parser = subparsers.add_parser("export", help="Export to CSV")
     export_parser.add_argument("--output", "-o", default="collection_export.csv", help="Output file")
     
-    # failed
-    subparsers.add_parser("failed", help="Show failed captures")
-    
     # clear
     clear_parser = subparsers.add_parser("clear", help="Clear collection")
     clear_parser.add_argument("--force", "-f", action="store_true", help="Skip confirmation")
@@ -182,9 +158,6 @@ def main():
         parser.print_help()
         return
     
-    # Initialize database
-    init_db()
-    
     # Dispatch
     commands = {
         "list": cmd_list,
@@ -193,7 +166,6 @@ def main():
         "add": cmd_add,
         "remove": cmd_remove,
         "export": cmd_export,
-        "failed": cmd_failed,
         "clear": cmd_clear,
     }
     

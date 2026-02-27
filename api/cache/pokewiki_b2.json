@@ -1,0 +1,6732 @@
+[
+  {
+    "url": "https://www.pokewiki.de/Ledyba_(Traumhafte_Parade_001)",
+    "german_name": "Ledyba",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "1",
+    "hp": "60",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Boxhieb",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0165",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Ledian_(Traumhafte_Parade_002)",
+    "german_name": "Ledian",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "2",
+    "hp": "80",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Sternschauer",
+        "damage": "40",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0166",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pottrott_(Traumhafte_Parade_003)",
+    "german_name": "Pottrott",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "3",
+    "hp": "80",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Schutzdruck",
+        "damage": "40",
+        "cost": [
+          "Grass",
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0213",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Roselia_(Traumhafte_Parade_004)",
+    "german_name": "Roselia",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "4",
+    "hp": "60",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Stolperer",
+        "damage": "10",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0315",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Roserade_(Traumhafte_Parade_005)",
+    "german_name": "Roserade",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "5",
+    "hp": "90",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Giftring",
+        "damage": "50",
+        "cost": [
+          "Grass",
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0407",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tuska_(Traumhafte_Parade_006)",
+    "german_name": "Tuska",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "6",
+    "hp": "60",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Korkenzieherhieb",
+        "damage": "30",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0331",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Noktuska_(Traumhafte_Parade_007)",
+    "german_name": "Noktuska",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "7",
+    "hp": "120",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Zerrei\u00dfende Dornen",
+        "damage": "60",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0332",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Igamaro_(Traumhafte_Parade_008)",
+    "german_name": "Igamaro",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "8",
+    "hp": "60",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Rankenhieb",
+        "damage": "30",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0650",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Igastarnish_(Traumhafte_Parade_009)",
+    "german_name": "Igastarnish",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "9",
+    "hp": "90",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Nietenranke",
+        "damage": "60",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0651",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Brigaron_(Traumhafte_Parade_010)",
+    "german_name": "Brigaron",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "10",
+    "hp": "160",
+    "energy_type": "Grass",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Stachelschild",
+        "damage": "80",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0652",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Purmel_(Traumhafte_Parade_011)",
+    "german_name": "Purmel",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "11",
+    "hp": "50",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "K\u00e4ferbiss",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0664",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Puponcho_(Traumhafte_Parade_012)",
+    "german_name": "Puponcho",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "12",
+    "hp": "80",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Spuren der Evolution",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0665",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Vivillon_(Traumhafte_Parade_013)",
+    "german_name": "Vivillon",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "13",
+    "hp": "130",
+    "energy_type": "Grass",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Farbenpr\u00e4chtiger Puder",
+        "damage": "60",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0666",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Masskito_(Traumhafte_Parade_014)",
+    "german_name": "Masskito",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "14",
+    "hp": "110",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Ground Beat",
+        "damage": "40",
+        "cost": [
+          "Grass",
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0794",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Cottini_(Traumhafte_Parade_015)",
+    "german_name": "Cottini",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "15",
+    "hp": "60",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Rasierblatt",
+        "damage": "20",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0829",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Cottomi_(Traumhafte_Parade_016)",
+    "german_name": "Cottomi",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "16",
+    "hp": "90",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Hinaufschweben",
+        "damage": "40",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0830",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Alola-Knogga_(Traumhafte_Parade_018)",
+    "german_name": "Alola-Knogga",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "18",
+    "hp": "100",
+    "energy_type": "Fire",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Feuerknochen",
+        "damage": "40",
+        "cost": [
+          "Fire",
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0105",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Reshiram_(Traumhafte_Parade_019)",
+    "german_name": "Reshiram",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "19",
+    "hp": "120",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Blauflammen",
+        "damage": "110",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0643",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Leufeo_(Traumhafte_Parade_020)",
+    "german_name": "Leufeo",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "20",
+    "hp": "70",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Zertrampeln",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0667",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pyroleo_(Traumhafte_Parade_021)",
+    "german_name": "Pyroleo",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "21",
+    "hp": "90",
+    "energy_type": "Fire",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Hitzesto\u00df",
+        "damage": "70",
+        "cost": [
+          "Fire",
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0668",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Choreogel_(Traumhafte_Parade_022)",
+    "german_name": "Choreogel",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "22",
+    "hp": "70",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Motivierender T\u00e4nzer",
+        "damage": "10",
+        "cost": [
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0741",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kopplosio-ex_(Traumhafte_Parade_023)",
+    "german_name": "Kopplosio-ex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "23",
+    "hp": "140",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Versengung",
+        "damage": "",
+        "cost": [
+          "Fire"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Pop-Punk",
+        "damage": "140",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Hopplo_(Traumhafte_Parade_024)",
+    "german_name": "Hopplo",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "24",
+    "hp": "60",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Plumps",
+        "damage": "20",
+        "cost": [
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0813",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kickerlo_(Traumhafte_Parade_025)",
+    "german_name": "Kickerlo",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "25",
+    "hp": "80",
+    "energy_type": "Fire",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Tritt",
+        "damage": "40",
+        "cost": [
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0814",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Liberlo_(Traumhafte_Parade_026)",
+    "german_name": "Liberlo",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "26",
+    "hp": "130",
+    "energy_type": "Fire",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "",
+    "attacks": [
+      {
+        "name": "Feuerballschuss",
+        "damage": "120",
+        "cost": [
+          "Fire",
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0815",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Ofenmaske-Ogerpon_(Traumhafte_Parade_027)",
+    "german_name": "Ofenmaske-Ogerpon",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "27",
+    "hp": "80",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Ofentanz",
+        "damage": "40",
+        "cost": [
+          "Fire",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "1017",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Alola-Vulpix_(Traumhafte_Parade_028)",
+    "german_name": "Alola-Vulpix",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "28",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Nagen",
+        "damage": "20",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0037",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Alola-Vulnona-ex_(Traumhafte_Parade_029)",
+    "german_name": "Alola-Vulnona-ex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "29",
+    "hp": "150",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Fesselnder Schnee",
+        "damage": "80",
+        "cost": [
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Galar-Pantimos_(Traumhafte_Parade_030)",
+    "german_name": "Galar-Pantimos",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "30",
+    "hp": "70",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Eisiger Schnee",
+        "damage": "20",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0122",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Galar-Pantifrost_(Traumhafte_Parade_031)",
+    "german_name": "Galar-Pantifrost",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "31",
+    "hp": "110",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Dreifachdreher",
+        "damage": "60",
+        "cost": [
+          "Water",
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0866",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Botogel_(Traumhafte_Parade_032)",
+    "german_name": "Botogel",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "32",
+    "hp": "80",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Box voller \u00dcberraschungen",
+        "damage": "",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0225",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Hydropi_(Traumhafte_Parade_033)",
+    "german_name": "Hydropi",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "33",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Tackle",
+        "damage": "20",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0258",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Moorabbel_(Traumhafte_Parade_034)",
+    "german_name": "Moorabbel",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "34",
+    "hp": "90",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Surfer",
+        "damage": "40",
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0259",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Sumpex_(Traumhafte_Parade_035)",
+    "german_name": "Sumpex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "35",
+    "hp": "150",
+    "energy_type": "Water",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Gro\u00dfer Strudel",
+        "damage": "100",
+        "cost": [
+          "Water",
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0260",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Sumpex-ex_(Traumhafte_Parade_036)",
+    "german_name": "Mega-Sumpex-ex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "36",
+    "hp": "230",
+    "energy_type": "Water",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Erbarmungsloser Zerst\u00f6rer",
+        "damage": "150",
+        "cost": [
+          "Water",
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0260",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Gelatini_(Traumhafte_Parade_037)",
+    "german_name": "Gelatini",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "37",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Fr\u00f6steln",
+        "damage": "20",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0582",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Gelatroppo_(Traumhafte_Parade_038)",
+    "german_name": "Gelatroppo",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "38",
+    "hp": "80",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Eisesodem",
+        "damage": "40",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0583",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Gelatwino_(Traumhafte_Parade_039)",
+    "german_name": "Gelatwino",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "39",
+    "hp": "140",
+    "energy_type": "Water",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "S\u00fc\u00dfe Staffel",
+        "damage": "60",
+        "cost": [
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0584",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Frigometri_(Traumhafte_Parade_040)",
+    "german_name": "Frigometri",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "40",
+    "hp": "70",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Frostsperre",
+        "damage": "20",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0615",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Amarino_(Traumhafte_Parade_041)",
+    "german_name": "Amarino",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "41",
+    "hp": "100",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Aurorastrahl",
+        "damage": "50",
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0698",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Amagarga_(Traumhafte_Parade_042)",
+    "german_name": "Amagarga",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "42",
+    "hp": "150",
+    "energy_type": "Water",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Hagelknast",
+        "damage": "90",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0699",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kamehaps_(Traumhafte_Parade_043)",
+    "german_name": "Kamehaps",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "43",
+    "hp": "80",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Kopfnuss",
+        "damage": "50",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0833",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kamalm_(Traumhafte_Parade_044)",
+    "german_name": "Kamalm",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "44",
+    "hp": "130",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Schwerer Einschlag",
+        "damage": "120",
+        "cost": [
+          "Water",
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0834",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Urgl_(Traumhafte_Parade_045)",
+    "german_name": "Urgl",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "45",
+    "hp": "80",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Ausspuckschuss",
+        "damage": "",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0845",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pikuda_(Traumhafte_Parade_046)",
+    "german_name": "Pikuda",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "46",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Ramme",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0846",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Barrakiefa_(Traumhafte_Parade_047)",
+    "german_name": "Barrakiefa",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "47",
+    "hp": "100",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Flinke Kopfnuss",
+        "damage": "40",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0847",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Brunnenmaske-Ogerpon_(Traumhafte_Parade_048)",
+    "german_name": "Brunnenmaske-Ogerpon",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "48",
+    "hp": "80",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Brunnentanz",
+        "damage": "40",
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "1017",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pikachu_(Traumhafte_Parade_049)",
+    "german_name": "Pikachu",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "49",
+    "hp": "60",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Donnerr\u00fcttler",
+        "damage": "30",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0025",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Alola-Raichu_(Traumhafte_Parade_050)",
+    "german_name": "Alola-Raichu",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "50",
+    "hp": "110",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Surf-Schweif",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Donnerspeer",
+        "damage": "",
+        "cost": [
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0026",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Zapdos_(Traumhafte_Parade_051)",
+    "german_name": "Zapdos",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "51",
+    "hp": "100",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Gewaltiger Donner",
+        "damage": "",
+        "cost": [
+          "Electric",
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0145",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Plusle_(Traumhafte_Parade_052)",
+    "german_name": "Plusle",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "52",
+    "hp": "70",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Stromschweif",
+        "damage": "10",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0311",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Minun_(Traumhafte_Parade_053)",
+    "german_name": "Minun",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "53",
+    "hp": "70",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kumpelfunke",
+        "damage": "30",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0312",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Toxel_(Traumhafte_Parade_054)",
+    "german_name": "Toxel",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "54",
+    "hp": "60",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Statischer Schock",
+        "damage": "30",
+        "cost": [
+          "Electric",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0848",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Riffex-ex_(Traumhafte_Parade_055)",
+    "german_name": "Riffex-ex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "55",
+    "hp": "150",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Funkenschaden",
+        "damage": "90",
+        "cost": [
+          "Electric",
+          "Electric",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Blipp_(Traumhafte_Parade_056)",
+    "german_name": "Blipp",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "56",
+    "hp": "50",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Ladevorgang",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0938",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Wampitz_(Traumhafte_Parade_057)",
+    "german_name": "Wampitz",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "57",
+    "hp": "130",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Stromball",
+        "damage": "80",
+        "cost": [
+          "Electric",
+          "Electric",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0939",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Galar-Ponita_(Traumhafte_Parade_058)",
+    "german_name": "Galar-Ponita",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "58",
+    "hp": "60",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Plumps",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0077",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Galar-Gallopa_(Traumhafte_Parade_059)",
+    "german_name": "Galar-Gallopa",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "59",
+    "hp": "100",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Photonenlaser",
+        "damage": "40",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0078",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Woingenau_(Traumhafte_Parade_060)",
+    "german_name": "Woingenau",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "60",
+    "hp": "100",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Umsto\u00dfen",
+        "damage": "80",
+        "cost": [
+          "Psychic",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0202",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Snubbull_(Traumhafte_Parade_061)",
+    "german_name": "Snubbull",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "61",
+    "hp": "60",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Scharfe F\u00e4nge",
+        "damage": "30",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0209",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Granbull_(Traumhafte_Parade_062)",
+    "german_name": "Granbull",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "62",
+    "hp": "120",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "St\u00e4rke",
+        "damage": "90",
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0210",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Trasla_(Traumhafte_Parade_063)",
+    "german_name": "Trasla",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "63",
+    "hp": "60",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Konfusstrahl",
+        "damage": "",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0280",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kirlia_(Traumhafte_Parade_064)",
+    "german_name": "Kirlia",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "64",
+    "hp": "80",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Psystrahl",
+        "damage": "20",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0281",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Guardevoir_(Traumhafte_Parade_065)",
+    "german_name": "Guardevoir",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "65",
+    "hp": "130",
+    "energy_type": "Psychic",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Psychoturbo",
+        "damage": "60",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0282",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Guardevoir-ex_(Traumhafte_Parade_066)",
+    "german_name": "Mega-Guardevoir-ex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "66",
+    "hp": "210",
+    "energy_type": "Psychic",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Fantastische Kraft",
+        "damage": "110",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0282",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lichtel_(Traumhafte_Parade_067)",
+    "german_name": "Lichtel",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "67",
+    "hp": "50",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Grummeln",
+        "damage": "20",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0607",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Laternecto_(Traumhafte_Parade_068)",
+    "german_name": "Laternecto",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "68",
+    "hp": "80",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Mini-Groll",
+        "damage": "30",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0608",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Skelabra_(Traumhafte_Parade_069)",
+    "german_name": "Skelabra",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "69",
+    "hp": "140",
+    "energy_type": "Psychic",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Erloschene Freunde",
+        "damage": "60",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0609",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Meloetta_(Traumhafte_Parade_070)",
+    "german_name": "Meloetta",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "70",
+    "hp": "70",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Geheimnisvoller Gesang",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Psychoschuss",
+        "damage": "50",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0648",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Irrbis_(Traumhafte_Parade_071)",
+    "german_name": "Irrbis",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "71",
+    "hp": "60",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Ramme",
+        "damage": "20",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0710",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pumpdjinn_(Traumhafte_Parade_072)",
+    "german_name": "Pumpdjinn",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "72",
+    "hp": "110",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Seelenschuss",
+        "damage": "70",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0711",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mimigma-ex_(Traumhafte_Parade_073)",
+    "german_name": "Mimigma-ex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "73",
+    "hp": "120",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Kost\u00fcmspuk",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Klauenschlitzer",
+        "damage": "70",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Fatalitee_(Traumhafte_Parade_074)",
+    "german_name": "Fatalitee",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "74",
+    "hp": "30",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Verstecken",
+        "damage": "",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0854",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mortipot_(Traumhafte_Parade_075)",
+    "german_name": "Mortipot",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "75",
+    "hp": "70",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Erfrischender Tee",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Spukschuss",
+        "damage": "40",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0855",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Servol_(Traumhafte_Parade_076)",
+    "german_name": "Servol",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "76",
+    "hp": "80",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Zen-Scherbe",
+        "damage": "",
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0876",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Sandan_(Traumhafte_Parade_077)",
+    "german_name": "Sandan",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "77",
+    "hp": "60",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Doppelkratzer",
+        "damage": "20",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0027",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Sandamer_(Traumhafte_Parade_078)",
+    "german_name": "Sandamer",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "78",
+    "hp": "90",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kratzfurie",
+        "damage": "30",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0028",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Machollo_(Traumhafte_Parade_079)",
+    "german_name": "Machollo",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "79",
+    "hp": "70",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Zertr\u00fcmmern",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0066",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Maschock_(Traumhafte_Parade_080)",
+    "german_name": "Maschock",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "80",
+    "hp": "90",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Hacker",
+        "damage": "40",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0067",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Machomei_(Traumhafte_Parade_081)",
+    "german_name": "Machomei",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "81",
+    "hp": "150",
+    "energy_type": "Fighting",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Klopfender Hammer",
+        "damage": "80",
+        "cost": [
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0068",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tragosso_(Traumhafte_Parade_082)",
+    "german_name": "Tragosso",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "82",
+    "hp": "70",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kopfnuss",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0104",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Meditie_(Traumhafte_Parade_083)",
+    "german_name": "Meditie",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "83",
+    "hp": "60",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Klatscher",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0307",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Meditalis_(Traumhafte_Parade_084)",
+    "german_name": "Meditalis",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "84",
+    "hp": "100",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Psycho-Tritt",
+        "damage": "50",
+        "cost": [
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0308",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kiesling_(Traumhafte_Parade_085)",
+    "german_name": "Kiesling",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "85",
+    "hp": "70",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Lehmschelle",
+        "damage": "30",
+        "cost": [
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0524",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Sedimantur_(Traumhafte_Parade_086)",
+    "german_name": "Sedimantur",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "86",
+    "hp": "100",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Juwelenkraft",
+        "damage": "70",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0525",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Brockoloss-ex_(Traumhafte_Parade_087)",
+    "german_name": "Brockoloss-ex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "87",
+    "hp": "190",
+    "energy_type": "Fighting",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Megatonnenkanone",
+        "damage": "",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Rotomurf_(Traumhafte_Parade_088)",
+    "german_name": "Rotomurf",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "88",
+    "hp": "60",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Abrupter Kopfsto\u00df",
+        "damage": "30",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0529",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Balgoras_(Traumhafte_Parade_089)",
+    "german_name": "Balgoras",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "89",
+    "hp": "90",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Einh\u00e4mmern",
+        "damage": "60",
+        "cost": [
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0696",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Monargoras_(Traumhafte_Parade_090)",
+    "german_name": "Monargoras",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "90",
+    "hp": "150",
+    "energy_type": "Fighting",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Tyrannischer Rei\u00dfer",
+        "damage": "100",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0697",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Quartermak_(Traumhafte_Parade_091)",
+    "german_name": "Quartermak",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "91",
+    "hp": "90",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Schleuder",
+        "damage": "",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0766",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Legios_(Traumhafte_Parade_092)",
+    "german_name": "Legios",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "92",
+    "hp": "70",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Koordinierte Einheit",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Einmarschieren",
+        "damage": "20",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0870",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Fundamentmaske-Ogerpon_(Traumhafte_Parade_093)",
+    "german_name": "Fundamentmaske-Ogerpon",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "93",
+    "hp": "80",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Fundamentstanz",
+        "damage": "40",
+        "cost": [
+          "Fighting",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "1017",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Alola-Mauzi_(Traumhafte_Parade_094)",
+    "german_name": "Alola-Mauzi",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "94",
+    "hp": "60",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Angeberei",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0052",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Alola-Snobilikat_(Traumhafte_Parade_095)",
+    "german_name": "Alola-Snobilikat",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "95",
+    "hp": "100",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Biss",
+        "damage": "40",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0053",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Alola-Sleima_(Traumhafte_Parade_096)",
+    "german_name": "Alola-Sleima",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "96",
+    "hp": "80",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Klaps",
+        "damage": "20",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0088",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Alola-Sleimok_(Traumhafte_Parade_097)",
+    "german_name": "Alola-Sleimok",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "97",
+    "hp": "110",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Chemiekraft",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Matschbombe",
+        "damage": "70",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0089",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Galar-Zigzachs_(Traumhafte_Parade_098)",
+    "german_name": "Galar-Zigzachs",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "98",
+    "hp": "60",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Schaufelkrallen",
+        "damage": "20",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0263",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Galar-Geradaks_(Traumhafte_Parade_099)",
+    "german_name": "Galar-Geradaks",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "99",
+    "hp": "80",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "R\u00fcckw\u00e4rtskick",
+        "damage": "40",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0264",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Galar-Barrikadax_(Traumhafte_Parade_100)",
+    "german_name": "Galar-Barrikadax",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "100",
+    "hp": "150",
+    "energy_type": "",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Gnadenloser Schlag",
+        "damage": "70",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0862",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Skunkapuh_(Traumhafte_Parade_101)",
+    "german_name": "Skunkapuh",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "101",
+    "hp": "70",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Spr\u00fchwasser",
+        "damage": "30",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0434",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Skuntank_(Traumhafte_Parade_102)",
+    "german_name": "Skuntank",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "102",
+    "hp": "110",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Rauchwolkenschuss",
+        "damage": "70",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0435",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kryppuk_(Traumhafte_Parade_103)",
+    "german_name": "Kryppuk",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "103",
+    "hp": "70",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Finaler Schrei",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Spukschuss",
+        "damage": "30",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0442",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Felilou_(Traumhafte_Parade_104)",
+    "german_name": "Felilou",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "104",
+    "hp": "60",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Jammerstimme",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0509",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kleoparda_(Traumhafte_Parade_105)",
+    "german_name": "Kleoparda",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "105",
+    "hp": "90",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Klauen anlegen",
+        "damage": "30",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0510",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Zurrokex_(Traumhafte_Parade_106)",
+    "german_name": "Zurrokex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "106",
+    "hp": "60",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kopfnuss",
+        "damage": "20",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0559",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Irokex_(Traumhafte_Parade_107)",
+    "german_name": "Irokex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "107",
+    "hp": "110",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Nieder mit den Schwachen",
+        "damage": "50",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0560",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Yveltal_(Traumhafte_Parade_108)",
+    "german_name": "Yveltal",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "108",
+    "hp": "120",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Einschlag der Bosheit",
+        "damage": "90",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0717",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schlingking_(Traumhafte_Parade_109)",
+    "german_name": "Schlingking",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "109",
+    "hp": "150",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Breakcore",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0799",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Galar-Mauzi_(Traumhafte_Parade_110)",
+    "german_name": "Galar-Mauzi",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "110",
+    "hp": "60",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Schlitzer",
+        "damage": "20",
+        "cost": [
+          "Metal"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0052",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Galar-Mauzinger_(Traumhafte_Parade_111)",
+    "german_name": "Galar-Mauzinger",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "111",
+    "hp": "100",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Ausbuddeln",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Metallklaue",
+        "damage": "70",
+        "cost": [
+          "Metal",
+          "Metal"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "863",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Flunkifer_(Traumhafte_Parade_112)",
+    "german_name": "Flunkifer",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "112",
+    "hp": "80",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Riesiger Biss",
+        "damage": "50",
+        "cost": [
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0303",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Flunkifer-ex_(Traumhafte_Parade_113)",
+    "german_name": "Mega-Flunkifer-ex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "113",
+    "hp": "170",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Aufheizknirscher",
+        "damage": "60",
+        "cost": [
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0303",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Stalobor_(Traumhafte_Parade_114)",
+    "german_name": "Stalobor",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "114",
+    "hp": "120",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Schlitzende Klaue",
+        "damage": "80",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0530",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kastadur_(Traumhafte_Parade_115)",
+    "german_name": "Kastadur",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "115",
+    "hp": "70",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Tackle",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0597",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tentantel_(Traumhafte_Parade_116)",
+    "german_name": "Tentantel",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "116",
+    "hp": "120",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Trommler",
+        "damage": "40",
+        "cost": [
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0598",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Galar-Flunschlik_(Traumhafte_Parade_117)",
+    "german_name": "Galar-Flunschlik",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "117",
+    "hp": "80",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Zuschnappfalle",
+        "damage": "40",
+        "cost": [
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0618",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Gramokles_(Traumhafte_Parade_118)",
+    "german_name": "Gramokles",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "118",
+    "hp": "70",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Zerh\u00e4ckseln",
+        "damage": "20",
+        "cost": [
+          "Metal"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0679",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Duokles_(Traumhafte_Parade_119)",
+    "german_name": "Duokles",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "119",
+    "hp": "90",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Duoklingen",
+        "damage": "40",
+        "cost": [
+          "Metal",
+          "Metal"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0680",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Durengard_(Traumhafte_Parade_120)",
+    "german_name": "Durengard",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "120",
+    "hp": "140",
+    "energy_type": "Metal",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Grandioser Schild",
+        "damage": "80",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Metal"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0681",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kindwurm_(Traumhafte_Parade_121)",
+    "german_name": "Kindwurm",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "121",
+    "hp": "60",
+    "energy_type": "Dragon",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Biss",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0371",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Draschel_(Traumhafte_Parade_122)",
+    "german_name": "Draschel",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "122",
+    "hp": "100",
+    "energy_type": "Dragon",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Rolltackle",
+        "damage": "60",
+        "cost": [
+          "Fire",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0372",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Brutalanda_(Traumhafte_Parade_123)",
+    "german_name": "Brutalanda",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "123",
+    "hp": "150",
+    "energy_type": "Dragon",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Drachensturzflug",
+        "damage": "150",
+        "cost": [
+          "Fire",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0373",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mauzi_(Traumhafte_Parade_124)",
+    "german_name": "Mauzi",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "124",
+    "hp": "50",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Unbek\u00fcmmerte Schritte",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Wohl f\u00fchlen",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0052",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Snobilikat_(Traumhafte_Parade_125)",
+    "german_name": "Snobilikat",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "125",
+    "hp": "100",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Schlitzer",
+        "damage": "60",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0053",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kangama_(Traumhafte_Parade_126)",
+    "german_name": "Kangama",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "126",
+    "hp": "110",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Ruhiger Schlag",
+        "damage": "60",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0115",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Kangama-ex_(Traumhafte_Parade_127)",
+    "german_name": "Mega-Kangama-ex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "127",
+    "hp": "180",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Doppelschlag-Familie",
+        "damage": "80",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0115",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Wiesor_(Traumhafte_Parade_128)",
+    "german_name": "Wiesor",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "128",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Schweifklopfen",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0161",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Wiesenior_(Traumhafte_Parade_129)",
+    "german_name": "Wiesenior",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "129",
+    "hp": "100",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Abrupter Kopfsto\u00df",
+        "damage": "40",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0162",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Farbeagle_(Traumhafte_Parade_130)",
+    "german_name": "Farbeagle",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "130",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Portr\u00e4t",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Schweifvertrimmer",
+        "damage": "30",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0235",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lugia_(Traumhafte_Parade_131)",
+    "german_name": "Lugia",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "131",
+    "hp": "120",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Luftsto\u00df",
+        "damage": "80",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0249",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schwalbini_(Traumhafte_Parade_132)",
+    "german_name": "Schwalbini",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "132",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Pikser",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0276",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schwalboss_(Traumhafte_Parade_133)",
+    "german_name": "Schwalboss",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "133",
+    "hp": "80",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Zur\u00fcckwerfender Wind",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Fl\u00fcgelschlag",
+        "damage": "50",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0277",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bummelz_(Traumhafte_Parade_134)",
+    "german_name": "Bummelz",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "134",
+    "hp": "70",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "G\u00e4hner",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0287",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Muntier_(Traumhafte_Parade_135)",
+    "german_name": "Muntier",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "135",
+    "hp": "100",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Bester Schlag",
+        "damage": "90",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0288",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Letarking_(Traumhafte_Parade_136)",
+    "german_name": "Letarking",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "136",
+    "hp": "160",
+    "energy_type": "Colorless",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Gewohnheitsschlaf",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Keile",
+        "damage": "150",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0289",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pandir_(Traumhafte_Parade_137)",
+    "german_name": "Pandir",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "137",
+    "hp": "70",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Schwankende Schritte",
+        "damage": "40",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0327",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Boreos_(Traumhafte_Parade_138)",
+    "german_name": "Boreos",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "138",
+    "hp": "90",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Durchdringender Strahl",
+        "damage": "40",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0641",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Scoppel_(Traumhafte_Parade_139)",
+    "german_name": "Scoppel",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "139",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Nagen",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0659",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Grebbit_(Traumhafte_Parade_140)",
+    "german_name": "Grebbit",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "140",
+    "hp": "100",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Erdbeben",
+        "damage": "70",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0660",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Coiffwaff_(Traumhafte_Parade_141)",
+    "german_name": "Coiffwaff",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "141",
+    "hp": "80",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Fellkleid",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Einh\u00e4mmern",
+        "damage": "70",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0676",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Zwieps_(Traumhafte_Parade_142)",
+    "german_name": "Zwieps",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "142",
+    "hp": "40",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Ausschw\u00e4rmen",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0924",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Famieps_(Traumhafte_Parade_143)",
+    "german_name": "Famieps",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "143",
+    "hp": "70",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Familienniederpr\u00fcgler",
+        "damage": "60",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0925",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tuska_(Traumhafte_Parade_156)",
+    "german_name": "Tuska",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "156",
+    "hp": "60",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Korkenzieherhieb",
+        "damage": "30",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0331",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Roserade_(Traumhafte_Parade_157)",
+    "german_name": "Roserade",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "157",
+    "hp": "90",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Giftring",
+        "damage": "50",
+        "cost": [
+          "Grass",
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0407",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Vivillon_(Traumhafte_Parade_158)",
+    "german_name": "Vivillon",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "158",
+    "hp": "130",
+    "energy_type": "Grass",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Farbenpr\u00e4chtiger Puder",
+        "damage": "60",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0666",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Masskito_(Traumhafte_Parade_159)",
+    "german_name": "Masskito",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "159",
+    "hp": "110",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Ground Beat",
+        "damage": "40",
+        "cost": [
+          "Grass",
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0794",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Reshiram_(Traumhafte_Parade_160)",
+    "german_name": "Reshiram",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "160",
+    "hp": "120",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Blauflammen",
+        "damage": "110",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0643",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Choreogel_(Traumhafte_Parade_161)",
+    "german_name": "Choreogel",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "161",
+    "hp": "70",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Motivierender T\u00e4nzer",
+        "damage": "10",
+        "cost": [
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0741",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Hopplo_(Traumhafte_Parade_162)",
+    "german_name": "Hopplo",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "162",
+    "hp": "60",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Plumps",
+        "damage": "20",
+        "cost": [
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0813",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Amagarga_(Traumhafte_Parade_163)",
+    "german_name": "Amagarga",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "163",
+    "hp": "150",
+    "energy_type": "Water",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Hagelknast",
+        "damage": "90",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0699",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Urgl_(Traumhafte_Parade_164)",
+    "german_name": "Urgl",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "164",
+    "hp": "80",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Ausspuckschuss",
+        "damage": "",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0845",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Minun_(Traumhafte_Parade_165)",
+    "german_name": "Minun",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "165",
+    "hp": "70",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kumpelfunke",
+        "damage": "30",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0312",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Toxel_(Traumhafte_Parade_166)",
+    "german_name": "Toxel",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "166",
+    "hp": "60",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Statischer Schock",
+        "damage": "30",
+        "cost": [
+          "Electric",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0848",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Galar-Ponita_(Traumhafte_Parade_167)",
+    "german_name": "Galar-Ponita",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "167",
+    "hp": "60",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Plumps",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0077",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Snubbull_(Traumhafte_Parade_168)",
+    "german_name": "Snubbull",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "168",
+    "hp": "60",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Scharfe F\u00e4nge",
+        "damage": "30",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0209",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Servol_(Traumhafte_Parade_169)",
+    "german_name": "Servol",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "169",
+    "hp": "80",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Zen-Scherbe",
+        "damage": "",
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0876",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Sandan_(Traumhafte_Parade_170)",
+    "german_name": "Sandan",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "170",
+    "hp": "60",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Doppelkratzer",
+        "damage": "20",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0027",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Monargoras_(Traumhafte_Parade_171)",
+    "german_name": "Monargoras",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "171",
+    "hp": "150",
+    "energy_type": "Fighting",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Tyrannischer Rei\u00dfer",
+        "damage": "100",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0697",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Legios_(Traumhafte_Parade_172)",
+    "german_name": "Legios",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "172",
+    "hp": "70",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Koordinierte Einheit",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Einmarschieren",
+        "damage": "20",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0870",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Alola-Sleimok_(Traumhafte_Parade_173)",
+    "german_name": "Alola-Sleimok",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "173",
+    "hp": "110",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Chemiekraft",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Matschbombe",
+        "damage": "70",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0089",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Felilou_(Traumhafte_Parade_174)",
+    "german_name": "Felilou",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "174",
+    "hp": "60",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Jammerstimme",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0509",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Yveltal_(Traumhafte_Parade_175)",
+    "german_name": "Yveltal",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "175",
+    "hp": "120",
+    "energy_type": "",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Einschlag der Bosheit",
+        "damage": "90",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0717",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Galar-Barrikadax_(Traumhafte_Parade_176)",
+    "german_name": "Galar-Barrikadax",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "176",
+    "hp": "150",
+    "energy_type": "",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Gnadenloser Schlag",
+        "damage": "70",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0862",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Galar-Mauzinger_(Traumhafte_Parade_177)",
+    "german_name": "Galar-Mauzinger",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "177",
+    "hp": "100",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Ausbuddeln",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Metallklaue",
+        "damage": "70",
+        "cost": [
+          "Metal",
+          "Metal"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "863",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Brutalanda_(Traumhafte_Parade_178)",
+    "german_name": "Brutalanda",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "178",
+    "hp": "150",
+    "energy_type": "Dragon",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Drachensturzflug",
+        "damage": "150",
+        "cost": [
+          "Fire",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0373",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bummelz_(Traumhafte_Parade_179)",
+    "german_name": "Bummelz",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "179",
+    "hp": "70",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "G\u00e4hner",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0287",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kopplosio-ex_(Traumhafte_Parade_181)",
+    "german_name": "Kopplosio-ex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "181",
+    "hp": "140",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Versengung",
+        "damage": "",
+        "cost": [
+          "Fire"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Pop-Punk",
+        "damage": "140",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Alola-Vulnona-ex_(Traumhafte_Parade_182)",
+    "german_name": "Alola-Vulnona-ex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "182",
+    "hp": "150",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Fesselnder Schnee",
+        "damage": "80",
+        "cost": [
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Sumpex-ex_(Traumhafte_Parade_183)",
+    "german_name": "Mega-Sumpex-ex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "183",
+    "hp": "230",
+    "energy_type": "Water",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Erbarmungsloser Zerst\u00f6rer",
+        "damage": "150",
+        "cost": [
+          "Water",
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0260",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Riffex-ex_(Traumhafte_Parade_184)",
+    "german_name": "Riffex-ex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "184",
+    "hp": "150",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Funkenschaden",
+        "damage": "90",
+        "cost": [
+          "Electric",
+          "Electric",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Guardevoir-ex_(Traumhafte_Parade_185)",
+    "german_name": "Mega-Guardevoir-ex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "185",
+    "hp": "210",
+    "energy_type": "Psychic",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Fantastische Kraft",
+        "damage": "110",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0282",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mimigma-ex_(Traumhafte_Parade_186)",
+    "german_name": "Mimigma-ex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "186",
+    "hp": "120",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Kost\u00fcmspuk",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Klauenschlitzer",
+        "damage": "70",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Brockoloss-ex_(Traumhafte_Parade_187)",
+    "german_name": "Brockoloss-ex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "187",
+    "hp": "190",
+    "energy_type": "Fighting",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Megatonnenkanone",
+        "damage": "",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Flunkifer-ex_(Traumhafte_Parade_188)",
+    "german_name": "Mega-Flunkifer-ex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "188",
+    "hp": "170",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Aufheizknirscher",
+        "damage": "60",
+        "cost": [
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0303",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Kangama-ex_(Traumhafte_Parade_189)",
+    "german_name": "Mega-Kangama-ex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "189",
+    "hp": "180",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Doppelschlag-Familie",
+        "damage": "80",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0115",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kopplosio-ex_(Traumhafte_Parade_195)",
+    "german_name": "Kopplosio-ex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "195",
+    "hp": "140",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Versengung",
+        "damage": "",
+        "cost": [
+          "Fire"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Pop-Punk",
+        "damage": "140",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Alola-Vulnona-ex_(Traumhafte_Parade_196)",
+    "german_name": "Alola-Vulnona-ex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "196",
+    "hp": "150",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Fesselnder Schnee",
+        "damage": "80",
+        "cost": [
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Sumpex-ex_(Traumhafte_Parade_197)",
+    "german_name": "Mega-Sumpex-ex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "197",
+    "hp": "230",
+    "energy_type": "Water",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Erbarmungsloser Zerst\u00f6rer",
+        "damage": "150",
+        "cost": [
+          "Water",
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0260",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Riffex-ex_(Traumhafte_Parade_198)",
+    "german_name": "Riffex-ex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "198",
+    "hp": "150",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Funkenschaden",
+        "damage": "90",
+        "cost": [
+          "Electric",
+          "Electric",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mimigma-ex_(Traumhafte_Parade_199)",
+    "german_name": "Mimigma-ex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "199",
+    "hp": "120",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Kost\u00fcmspuk",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Klauenschlitzer",
+        "damage": "70",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Brockoloss-ex_(Traumhafte_Parade_200)",
+    "german_name": "Brockoloss-ex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "200",
+    "hp": "190",
+    "energy_type": "Fighting",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Megatonnenkanone",
+        "damage": "",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Flunkifer-ex_(Traumhafte_Parade_201)",
+    "german_name": "Mega-Flunkifer-ex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "201",
+    "hp": "170",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Aufheizknirscher",
+        "damage": "60",
+        "cost": [
+          "Metal",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0303",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Kangama-ex_(Traumhafte_Parade_202)",
+    "german_name": "Mega-Kangama-ex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "202",
+    "hp": "180",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Doppelschlag-Familie",
+        "damage": "80",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0115",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Guardevoir-ex_(Traumhafte_Parade_203)",
+    "german_name": "Mega-Guardevoir-ex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "203",
+    "hp": "210",
+    "energy_type": "Psychic",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Fantastische Kraft",
+        "damage": "110",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0282",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mauzi_(Traumhafte_Parade_204)",
+    "german_name": "Mauzi",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "204",
+    "hp": "50",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Unbek\u00fcmmerte Schritte",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Wohl f\u00fchlen",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0052",
+    "regulation_mark": "B",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tangela_(Traumhafte_Parade_205)",
+    "german_name": "Tangela",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "205",
+    "hp": "80",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Schlafpuder",
+        "damage": "20",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0114",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Magby_(Traumhafte_Parade_206)",
+    "german_name": "Magby",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "206",
+    "hp": "30",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "",
+    "attacks": [
+      {
+        "name": "Warmer Wurf",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0240",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Magmar_(Traumhafte_Parade_207)",
+    "german_name": "Magmar",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "207",
+    "hp": "80",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Anheizen",
+        "damage": "",
+        "cost": [
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0126",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Seeper_(Traumhafte_Parade_208)",
+    "german_name": "Seeper",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "208",
+    "hp": "50",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Haken",
+        "damage": "30",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0116",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Seemon_(Traumhafte_Parade_209)",
+    "german_name": "Seemon",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "209",
+    "hp": "80",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Rasierflosse",
+        "damage": "50",
+        "cost": [
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0117",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mantirps_(Traumhafte_Parade_210)",
+    "german_name": "Mantirps",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "210",
+    "hp": "30",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "",
+    "attacks": [
+      {
+        "name": "Pl\u00e4tscherwurf",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0458",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Amonitas_(Traumhafte_Parade_211)",
+    "german_name": "Amonitas",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "211",
+    "hp": "90",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Aquaknarre",
+        "damage": "40",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0138",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Amoroso_(Traumhafte_Parade_212)",
+    "german_name": "Amoroso",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "212",
+    "hp": "140",
+    "energy_type": "Water",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Urzeitsog",
+        "damage": "70",
+        "cost": [
+          "Water",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0139",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pichu_(Traumhafte_Parade_213)",
+    "german_name": "Pichu",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "213",
+    "hp": "30",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "",
+    "attacks": [
+      {
+        "name": "Funkenwurf",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0172",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Piepi_(Traumhafte_Parade_214)",
+    "german_name": "Piepi",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "214",
+    "hp": "60",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Hieb",
+        "damage": "20",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0035",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Pixi_(Traumhafte_Parade_215)",
+    "german_name": "Pixi",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "215",
+    "hp": "100",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Magischer Schuss",
+        "damage": "40",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0036",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Latias_(Traumhafte_Parade_216)",
+    "german_name": "Latias",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "216",
+    "hp": "90",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "\u00dcberkreuzflug",
+        "damage": "20",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0380",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Latios_(Traumhafte_Parade_217)",
+    "german_name": "Latios",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "217",
+    "hp": "110",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Traumhaftes Schweben",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Scheinwerfer",
+        "damage": "120",
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0381",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kicklee_(Traumhafte_Parade_218)",
+    "german_name": "Kicklee",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "218",
+    "hp": "80",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Streckkick",
+        "damage": "",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0106",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Nockchan_(Traumhafte_Parade_219)",
+    "german_name": "Nockchan",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "219",
+    "hp": "80",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Boxschlag",
+        "damage": "30",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0107",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kabuto_(Traumhafte_Parade_220)",
+    "german_name": "Kabuto",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "220",
+    "hp": "90",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Muschelangriff",
+        "damage": "40",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0140",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kabutops_(Traumhafte_Parade_221)",
+    "german_name": "Kabutops",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "221",
+    "hp": "140",
+    "energy_type": "Fighting",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Blutsauger",
+        "damage": "50",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0141",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Phanpy_(Traumhafte_Parade_222)",
+    "german_name": "Phanpy",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "222",
+    "hp": "70",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Waghalsiger Sturmangriff",
+        "damage": "30",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "2 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0231",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Rabauz_(Traumhafte_Parade_223)",
+    "german_name": "Rabauz",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "223",
+    "hp": "30",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "",
+    "attacks": [
+      {
+        "name": "Kr\u00e4ftige Kn\u00f6chel",
+        "damage": "20",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0236",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Tauros_(Traumhafte_Parade_224)",
+    "german_name": "Tauros",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "224",
+    "hp": "100",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Kampf-Tackle",
+        "damage": "40",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "0128",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Flamara-ex_(Traumhafte_Parade_225)",
+    "german_name": "Flamara-ex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "225",
+    "hp": "150",
+    "energy_type": "Fire",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "\u00dcberhitzen",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Feuerwirbel",
+        "damage": "130",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Ho-Oh-ex_(Traumhafte_Parade_226)",
+    "german_name": "Ho-Oh-ex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "226",
+    "hp": "150",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Ph\u00f6nix-Turbo",
+        "damage": "80",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Seedraking-ex_(Traumhafte_Parade_227)",
+    "german_name": "Seedraking-ex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "227",
+    "hp": "170",
+    "energy_type": "Water",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Sturmgef\u00e4ngnis",
+        "damage": "90",
+        "cost": [
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Psiana-ex_(Traumhafte_Parade_228)",
+    "german_name": "Psiana-ex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "228",
+    "hp": "140",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Psychoheilung",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Super-Psischlag",
+        "damage": "80",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Feelinara-ex_(Traumhafte_Parade_229)",
+    "german_name": "Feelinara-ex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "229",
+    "hp": "140",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Gl\u00fccksb\u00e4nder",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Feenbrise",
+        "damage": "70",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Donphan-ex_(Traumhafte_Parade_230)",
+    "german_name": "Donphan-ex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "230",
+    "hp": "160",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Gigantische Presse",
+        "damage": "50",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Nachtara-ex_(Traumhafte_Parade_231)",
+    "german_name": "Nachtara-ex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "231",
+    "hp": "140",
+    "energy_type": "",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Finstere Verfolgung",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "F\u00e4nge der Dunkelheit",
+        "damage": "80",
+        "cost": [],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lugia-ex_(Traumhafte_Parade_232)",
+    "german_name": "Lugia-ex",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "232",
+    "hp": "150",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Urgewaltexplosion",
+        "damage": "180",
+        "cost": [
+          "Fire",
+          "Water",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "",
+    "illustrator": "",
+    "pokedex_number": "",
+    "regulation_mark": "A",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Meloetta_(Traumhafte_Parade_233)",
+    "german_name": "Meloetta",
+    "set_id": "B2",
+    "set_name": "Traumhafte Parade",
+    "card_number": "233",
+    "hp": "70",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Geheimnisvoller Gesang",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Psychoschuss",
+        "damage": "50",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "1 Diamond",
+    "illustrator": "",
+    "pokedex_number": "0648",
+    "regulation_mark": "B",
+    "resistance": ""
+  }
+]
