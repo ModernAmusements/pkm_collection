@@ -30,7 +30,7 @@ flowchart TD
     
     L --> M{Confidence >= 60%?}
     M -->|Yes| N[collection.db]
-    M -->|No| O[failed_to_capture/]
+    M -->|No| O[failed_to_capture/] 
     
     N --> P[Export CSV]
     

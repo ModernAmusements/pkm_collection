@@ -51,6 +51,7 @@ TYPE_MAP = {
     "Fee": "Fairy",
     "Metall": "Metal",
     "Dark": "Darkness",
+    "Finsternis": "Darkness",  # Darkness type
 }
 
 # Rarity mapping
@@ -142,11 +143,33 @@ def parse_card_page(soup: BeautifulSoup, url: str, set_id: str, set_name: str) -
                 value = get_text_safe(cells[1])
                 
                 if "Typ" in label:
+                    # Method 1: Try to find type from link href
                     type_link = cells[1].find("a", href=True)
                     if type_link:
                         type_href = type_link.get("href", "")
                         for ger, eng in TYPE_MAP.items():
                             if ger in type_href:
+                                card["energy_type"] = eng
+                                break
+                    
+                    # Method 2: If no link found, try to find type from cell text or image alt
+                    if not card["energy_type"]:
+                        # Check for images with type icons
+                        type_imgs = cells[1].find_all("img", alt=True)
+                        for img in type_imgs:
+                            alt = img.get("alt", "").lower()
+                            for ger, eng in TYPE_MAP.items():
+                                if ger.lower() in alt:
+                                    card["energy_type"] = eng
+                                    break
+                            if card["energy_type"]:
+                                break
+                    
+                    # Method 3: Try to find type in plain text
+                    if not card["energy_type"]:
+                        cell_text = get_text_safe(cells[1]).lower()
+                        for ger, eng in TYPE_MAP.items():
+                            if ger.lower() in cell_text:
                                 card["energy_type"] = eng
                                 break
                 
@@ -157,6 +180,8 @@ def parse_card_page(soup: BeautifulSoup, url: str, set_id: str, set_name: str) -
                 
                 elif "Schwäche" in label:
                     weak_type = None
+                    
+                    # Method 1: Try to find from link href
                     weak_link = cells[1].find("a", href=True)
                     if weak_link:
                         type_href = weak_link.get("href", "")
@@ -164,6 +189,27 @@ def parse_card_page(soup: BeautifulSoup, url: str, set_id: str, set_name: str) -
                             if ger in type_href:
                                 weak_type = eng
                                 break
+                    
+                    # Method 2: Try from image alt
+                    if not weak_type:
+                        weak_imgs = cells[1].find_all("img", alt=True)
+                        for img in weak_imgs:
+                            alt = img.get("alt", "").lower()
+                            for ger, eng in TYPE_MAP.items():
+                                if ger.lower() in alt:
+                                    weak_type = eng
+                                    break
+                            if weak_type:
+                                break
+                    
+                    # Method 3: Try from text
+                    if not weak_type:
+                        cell_text = get_text_safe(cells[1]).lower()
+                        for ger, eng in TYPE_MAP.items():
+                            if ger.lower() in cell_text:
+                                weak_type = eng
+                                break
+                    
                     damage_match = re.search(r'\+(\d+)', value)
                     if damage_match and weak_type:
                         card["weakness"] = f"{weak_type}+{damage_match.group(1)}"
