@@ -1,0 +1,2844 @@
+[
+  {
+    "url": "https://www.pokewiki.de/Mega-Bisaflor-ex_(Feuerrote_Flammen_004)",
+    "german_name": "Mega-Bisaflor-ex",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "4",
+    "hp": "240",
+    "energy_type": "Grass",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Krisenblüte",
+        "damage": "120",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA CG Works",
+    "pokedex_number": "0003",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Glurak_Y-ex_(Feuerrote_Flammen_014)",
+    "german_name": "Mega-Glurak Y-ex",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "14",
+    "hp": "220",
+    "energy_type": "Fire",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Feuerroter Sturzflug",
+        "damage": "250",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Fire",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA Igarashi",
+    "pokedex_number": "0006",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Turtok-ex_(Feuerrote_Flammen_020)",
+    "german_name": "Mega-Turtok-ex",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "20",
+    "hp": "230",
+    "energy_type": "Water",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Dreifachbeschuss",
+        "damage": "130",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA CG Works",
+    "pokedex_number": "0009",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Schlapor-ex_(Feuerrote_Flammen_042)",
+    "german_name": "Mega-Schlapor-ex",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "42",
+    "hp": "190",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Schnelle Tritte",
+        "damage": "90",
+        "cost": [
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA Yamashita",
+    "pokedex_number": "0428",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Stahlos-ex_(Feuerrote_Flammen_052)",
+    "german_name": "Mega-Stahlos-ex",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "52",
+    "hp": "220",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Stahlhartes Rollen",
+        "damage": "120",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA Yamashita",
+    "pokedex_number": "0208",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Bisaflor-ex_(Feuerrote_Flammen_076)",
+    "german_name": "Mega-Bisaflor-ex",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "76",
+    "hp": "240",
+    "energy_type": "Grass",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Krisenblüte",
+        "damage": "120",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA CG Works",
+    "pokedex_number": "0003",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Glurak_Y-ex_(Feuerrote_Flammen_077)",
+    "german_name": "Mega-Glurak Y-ex",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "77",
+    "hp": "220",
+    "energy_type": "Fire",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Feuerroter Sturzflug",
+        "damage": "250",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Fire",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA Igarashi",
+    "pokedex_number": "0006",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Turtok-ex_(Feuerrote_Flammen_078)",
+    "german_name": "Mega-Turtok-ex",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "78",
+    "hp": "230",
+    "energy_type": "Water",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Dreifachbeschuss",
+        "damage": "130",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA CG Works",
+    "pokedex_number": "0009",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Schlapor-ex_(Feuerrote_Flammen_079)",
+    "german_name": "Mega-Schlapor-ex",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "79",
+    "hp": "190",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Schnelle Tritte",
+        "damage": "90",
+        "cost": [
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA Yamashita",
+    "pokedex_number": "0428",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Stahlos-ex_(Feuerrote_Flammen_080)",
+    "german_name": "Mega-Stahlos-ex",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "80",
+    "hp": "220",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Stahlhartes Rollen",
+        "damage": "120",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA Yamashita",
+    "pokedex_number": "0208",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Bisaflor-ex_(Feuerrote_Flammen_083)",
+    "german_name": "Mega-Bisaflor-ex",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "83",
+    "hp": "240",
+    "energy_type": "Grass",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Krisenblüte",
+        "damage": "120",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA CG Works",
+    "pokedex_number": "0003",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Turtok-ex_(Feuerrote_Flammen_084)",
+    "german_name": "Mega-Turtok-ex",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "84",
+    "hp": "230",
+    "energy_type": "Water",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Dreifachbeschuss",
+        "damage": "130",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA CG Works",
+    "pokedex_number": "0009",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Schlapor-ex_(Feuerrote_Flammen_085)",
+    "german_name": "Mega-Schlapor-ex",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "85",
+    "hp": "190",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Schnelle Tritte",
+        "damage": "90",
+        "cost": [
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA Yamashita",
+    "pokedex_number": "0428",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Stahlos-ex_(Feuerrote_Flammen_086)",
+    "german_name": "Mega-Stahlos-ex",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "86",
+    "hp": "220",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Stahlhartes Rollen",
+        "damage": "120",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA Yamashita",
+    "pokedex_number": "0208",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Glurak_Y-ex_(Feuerrote_Flammen_087)",
+    "german_name": "Mega-Glurak Y-ex",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "87",
+    "hp": "220",
+    "energy_type": "Fire",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Feuerroter Sturzflug",
+        "damage": "250",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Fire",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA Igarashi",
+    "pokedex_number": "0006",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bisasam_(Feuerrote_Flammen_001)",
+    "german_name": "Bisasam",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "1",
+    "hp": "60",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Tackle",
+        "damage": "20",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "2 Diamond",
+    "illustrator": "Sumiyoshi Kizuki",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bisaknosp_(Feuerrote_Flammen_002)",
+    "german_name": "Bisaknosp",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "2",
+    "hp": "100",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "weakness": "Fire+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Synthese",
+        "damage": "",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "1 Diamond",
+    "illustrator": "Kanako Eo",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bisaflor_(Feuerrote_Flammen_003)",
+    "german_name": "Bisaflor",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "3",
+    "hp": "160",
+    "energy_type": "Grass",
+    "stage": "Stage 2",
+    "weakness": "Fire+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Giftpeitsche",
+        "damage": "90",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "Rare Holo",
+    "illustrator": "Eske Yoshinob",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Webarak_(Feuerrote_Flammen_005)",
+    "german_name": "Webarak",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "5",
+    "hp": "50",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Einstich",
+        "damage": "20",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "2 Diamond",
+    "illustrator": "kodama",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Ariados_(Feuerrote_Flammen_006)",
+    "german_name": "Ariados",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "6",
+    "hp": "90",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Fallenrevier",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Durchbohren",
+        "damage": "30",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "Illustration Rare",
+    "illustrator": "Tika Matsuno",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Sonnkern_(Feuerrote_Flammen_007)",
+    "german_name": "Sonnkern",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "7",
+    "hp": "50",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Samenbomben",
+        "damage": "20",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "2 Diamond",
+    "illustrator": "Saboteri",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Sonnflora_(Feuerrote_Flammen_008)",
+    "german_name": "Sonnflora",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "8",
+    "hp": "100",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Wachstumsstrahl",
+        "damage": "30",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "Illustration Rare",
+    "illustrator": "Saboteri",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Burmy_(Feuerrote_Flammen_009)",
+    "german_name": "Burmy",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "9",
+    "hp": "60",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Herunterhängen",
+        "damage": "30",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "2 Diamond",
+    "illustrator": "Miki Tanaka",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Moterpel_(Feuerrote_Flammen_010)",
+    "german_name": "Moterpel",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "10",
+    "hp": "100",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Schneidender Wind",
+        "damage": "70",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "2 Diamond",
+    "illustrator": "saino misaki",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Glumanda_(Feuerrote_Flammen_011)",
+    "german_name": "Glumanda",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "11",
+    "hp": "60",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Biss",
+        "damage": "40",
+        "cost": [
+          "Fire",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "2 Diamond",
+    "illustrator": "DOM",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Glutexo_(Feuerrote_Flammen_012)",
+    "german_name": "Glutexo",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "12",
+    "hp": "80",
+    "energy_type": "Fire",
+    "stage": "Stage 1",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Zündung",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Stetiger Feuerhauch",
+        "damage": "50",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "1 Diamond",
+    "illustrator": "DOM",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Glurak_(Feuerrote_Flammen_013)",
+    "german_name": "Glurak",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "13",
+    "hp": "150",
+    "energy_type": "Fire",
+    "stage": "Stage 2",
+    "weakness": "Water+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Inferno-Ansturm",
+        "damage": "150",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Fire",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "Shiny Rare",
+    "illustrator": "DOM",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Hunduster_(Feuerrote_Flammen_015)",
+    "german_name": "Hunduster",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "15",
+    "hp": "60",
+    "energy_type": "Fire",
+    "stage": "Basic",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Brüller",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "2 Diamond",
+    "illustrator": "Naoyo Kimura",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Hundemon_(Feuerrote_Flammen_016)",
+    "german_name": "Hundemon",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "16",
+    "hp": "90",
+    "energy_type": "Fire",
+    "stage": "Stage 1",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Scharfe Fänge",
+        "damage": "50",
+        "cost": [
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "2 Diamond",
+    "illustrator": "Midori Harada",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schiggy_(Feuerrote_Flammen_017)",
+    "german_name": "Schiggy",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "17",
+    "hp": "70",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Schweifvetrimmer",
+        "damage": "40",
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "2 Diamond",
+    "illustrator": "Naoki Saito",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schillok_(Feuerrote_Flammen_018)",
+    "german_name": "Schillok",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "18",
+    "hp": "90",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Panzerhülle",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Kaskade",
+        "damage": "60",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "1 Diamond",
+    "illustrator": "Taiga Kasai",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Turtok_(Feuerrote_Flammen_019)",
+    "german_name": "Turtok",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "19",
+    "hp": "150",
+    "energy_type": "Water",
+    "stage": "Stage 2",
+    "weakness": "Electric+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Zweifachplatscher",
+        "damage": "90",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "Rare Holo",
+    "illustrator": "Hitoshi Ariga",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Barschuft_(Feuerrote_Flammen_021)",
+    "german_name": "Barschuft",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "21",
+    "hp": "80",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Überraschungsschlag",
+        "damage": "40",
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "2 Diamond",
+    "illustrator": "Naoyo Kimura",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Scampisto_(Feuerrote_Flammen_022)",
+    "german_name": "Scampisto",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "22",
+    "hp": "60",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Aquaknarre",
+        "damage": "20",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "2 Diamond",
+    "illustrator": "Krgc",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Wummer_(Feuerrote_Flammen_023)",
+    "german_name": "Wummer",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "23",
+    "hp": "100",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "weakness": "Electric+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Aquadusche",
+        "damage": "",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "1 Diamond",
+    "illustrator": "tetsuya koizumi",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Magnetilo_(Feuerrote_Flammen_024)",
+    "german_name": "Magnetilo",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "24",
+    "hp": "50",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Elektroball",
+        "damage": "30",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "2 Diamond",
+    "illustrator": "Hajime Kusajima",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Magneton_(Feuerrote_Flammen_025)",
+    "german_name": "Magneton",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "25",
+    "hp": "80",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Funkensprung",
+        "damage": "20",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "1 Diamond",
+    "illustrator": "Tomokazu Komiya",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Magnezone_(Feuerrote_Flammen_026)",
+    "german_name": "Magnezone",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "26",
+    "hp": "150",
+    "energy_type": "Electric",
+    "stage": "Stage 2",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Spiegelsalve",
+        "damage": "90",
+        "cost": [
+          "Electric",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "Rare Holo",
+    "illustrator": "Kagemaru Himeno",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Emolga_(Feuerrote_Flammen_027)",
+    "german_name": "Emolga",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "27",
+    "hp": "70",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Flotter Sprung",
+        "damage": "50",
+        "cost": [
+          "Electric",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "2 Diamond",
+    "illustrator": "Megumi Mizutani",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Eguana_(Feuerrote_Flammen_028)",
+    "german_name": "Eguana",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "28",
+    "hp": "60",
+    "energy_type": "Electric",
+    "stage": "Basic",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Donnerschock",
+        "damage": "10",
+        "cost": [
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "2 Diamond",
+    "illustrator": "Miki Tanaka",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Elezard_(Feuerrote_Flammen_029)",
+    "german_name": "Elezard",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "29",
+    "hp": "100",
+    "energy_type": "Electric",
+    "stage": "Stage 1",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Donnerblitz",
+        "damage": "120",
+        "cost": [
+          "Electric",
+          "Electric"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "1 Diamond",
+    "illustrator": "kawayoo",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Traunfugil_(Feuerrote_Flammen_030)",
+    "german_name": "Traunfugil",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "30",
+    "hp": "50",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "weakness": "Darkness+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Führen",
+        "damage": "",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "2 Diamond",
+    "illustrator": "sui",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Traunmagil_(Feuerrote_Flammen_031)",
+    "german_name": "Traunmagil",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "31",
+    "hp": "90",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "weakness": "Darkness+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kraftvorrat",
+        "damage": "60",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "1 Diamond",
+    "illustrator": "Ligton",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Monozyto_(Feuerrote_Flammen_032)",
+    "german_name": "Monozyto",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "32",
+    "hp": "40",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "weakness": "Darkness+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Walzer",
+        "damage": "20",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "2 Diamond",
+    "illustrator": "osare",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mitodos_(Feuerrote_Flammen_033)",
+    "german_name": "Mitodos",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "33",
+    "hp": "70",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "weakness": "Darkness+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Psychoschuss",
+        "damage": "50",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "2 Diamond",
+    "illustrator": "Pani Kobayashi",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Zytomega_(Feuerrote_Flammen_034)",
+    "german_name": "Zytomega",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "34",
+    "hp": "90",
+    "energy_type": "Psychic",
+    "stage": "Stage 2",
+    "weakness": "Darkness+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Unendliche Verstärkung",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Psyhieb",
+        "damage": "90",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "Illustration Rare",
+    "illustrator": "Kagemaru Himeno",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Parfi_(Feuerrote_Flammen_035)",
+    "german_name": "Parfi",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "35",
+    "hp": "60",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Lockduft",
+        "damage": "",
+        "cost": [
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "2 Diamond",
+    "illustrator": "Tika Matsuno",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Parfinesse_(Feuerrote_Flammen_036)",
+    "german_name": "Parfinesse",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "36",
+    "hp": "100",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "weakness": "Metal+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Parfümbombe",
+        "damage": "60",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "2 Diamond",
+    "illustrator": "Mizue",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Xerneas_(Feuerrote_Flammen_037)",
+    "german_name": "Xerneas",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "37",
+    "hp": "120",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "weakness": "Metal+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Geodetonation",
+        "damage": "120",
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "Illustration Rare",
+    "illustrator": "sui",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Onix_(Feuerrote_Flammen_038)",
+    "german_name": "Onix",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "38",
+    "hp": "100",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "weakness": "Grass+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Schaufler",
+        "damage": "30",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "2 Diamond",
+    "illustrator": "Naoyo Kimura",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Makuhita_(Feuerrote_Flammen_039)",
+    "german_name": "Makuhita",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "39",
+    "hp": "80",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "weakness": "Psychic+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Stärke",
+        "damage": "40",
+        "cost": [
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "2 Diamond",
+    "illustrator": "Tomokazu Komiya",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Hariyama_(Feuerrote_Flammen_040)",
+    "german_name": "Hariyama",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "40",
+    "hp": "120",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "weakness": "Psychic+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Megatonnenstoß",
+        "damage": "90",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "1 Diamond",
+    "illustrator": "Naoyo Kimura",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Nasgnet_(Feuerrote_Flammen_041)",
+    "german_name": "Nasgnet",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "41",
+    "hp": "70",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "weakness": "Grass+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Aufwärtsstoß",
+        "damage": "10",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "2 Diamond",
+    "illustrator": "Miki Tanaka",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lin-Fu_(Feuerrote_Flammen_043)",
+    "german_name": "Lin-Fu",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "43",
+    "hp": "50",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Hacker",
+        "damage": "30",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "2 Diamond",
+    "illustrator": "yuu",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Wie-Shu_(Feuerrote_Flammen_044)",
+    "german_name": "Wie-Shu",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "44",
+    "hp": "90",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Fußtritt",
+        "damage": "50",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "2 Diamond",
+    "illustrator": "Suwama Chiaki",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Sleima_(Feuerrote_Flammen_045)",
+    "german_name": "Sleima",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "45",
+    "hp": "80",
+    "energy_type": "Darkness",
+    "stage": "Basic",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Matschbombe",
+        "damage": "40",
+        "cost": [
+          "Darkness"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "2 Diamond",
+    "illustrator": "Kagemaru Himeno",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Sleimok_(Feuerrote_Flammen_046)",
+    "german_name": "Sleimok",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "46",
+    "hp": "130",
+    "energy_type": "Darkness",
+    "stage": "Stage 1",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Mülltreffer",
+        "damage": "70",
+        "cost": [
+          "Darkness",
+          "Darkness",
+          "Darkness"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "2 Diamond",
+    "illustrator": "Scav",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Felilou_(Feuerrote_Flammen_047)",
+    "german_name": "Felilou",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "47",
+    "hp": "60",
+    "energy_type": "Darkness",
+    "stage": "Basic",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Stolperer",
+        "damage": "10",
+        "cost": [
+          "Darkness"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "2 Diamond",
+    "illustrator": "Sumiyoshi Kizuki",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Kleoparda_(Feuerrote_Flammen_048)",
+    "german_name": "Kleoparda",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "48",
+    "hp": "90",
+    "energy_type": "Darkness",
+    "stage": "Stage 1",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Stibitzen und Fliehen",
+        "damage": "60",
+        "cost": [
+          "Darkness"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "1 Diamond",
+    "illustrator": "AKIRA EGAWA",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Unrat%C3%BCtox_(Feuerrote_Flammen_049)",
+    "german_name": "Unratütox",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "49",
+    "hp": "70",
+    "energy_type": "Darkness",
+    "stage": "Basic",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Sabbern",
+        "damage": "30",
+        "cost": [
+          "Darkness",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "Illustration Rare",
+    "illustrator": "Shibuzoh.",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Deponitox_(Feuerrote_Flammen_050)",
+    "german_name": "Deponitox",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "50",
+    "hp": "130",
+    "energy_type": "Darkness",
+    "stage": "Stage 1",
+    "weakness": "Fighting+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Säurespeicher",
+        "damage": "70",
+        "cost": [
+          "Darkness",
+          "Darkness",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "1 Diamond",
+    "illustrator": "Aya Kusube",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Stahlos_(Feuerrote_Flammen_051)",
+    "german_name": "Stahlos",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "51",
+    "hp": "150",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "weakness": "Fire+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Metallverteidiger",
+        "damage": "100",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "1 Diamond",
+    "illustrator": "NC Empire",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Voluminas_(Feuerrote_Flammen_053)",
+    "german_name": "Voluminas",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "53",
+    "hp": "130",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "weakness": "Fire+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Metallturbo",
+        "damage": "40",
+        "cost": [
+          "Metal",
+          "Metal"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "1 Diamond",
+    "illustrator": "Anesaki Dynamic",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Genesect_(Feuerrote_Flammen_054)",
+    "german_name": "Genesect",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "54",
+    "hp": "110",
+    "energy_type": "Metal",
+    "stage": "Basic",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Metallexplosion",
+        "damage": "10",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "Rare Holo",
+    "illustrator": "kawayoo",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Ditto_(Feuerrote_Flammen_055)",
+    "german_name": "Ditto",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "55",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Freund imitieren",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "1 Diamond",
+    "illustrator": "Yuka Morii",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Porygon_(Feuerrote_Flammen_056)",
+    "german_name": "Porygon",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "56",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Verhärten",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "2 Diamond",
+    "illustrator": "Hisao Nakamura",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Porygon2_(Feuerrote_Flammen_057)",
+    "german_name": "Porygon2",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "57",
+    "hp": "90",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Tempoangriff",
+        "damage": "40",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "1 Diamond",
+    "illustrator": "Kent Kanetsuna",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Porygon-Z_(Feuerrote_Flammen_058)",
+    "german_name": "Porygon-Z",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "58",
+    "hp": "140",
+    "energy_type": "Colorless",
+    "stage": "Stage 2",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Cyberstoß",
+        "damage": "20",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "Rare Holo",
+    "illustrator": "Shibuzoh.",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Staralili_(Feuerrote_Flammen_059)",
+    "german_name": "Staralili",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "59",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Familienruf",
+        "damage": "",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "2 Diamond",
+    "illustrator": "Kyoko Umemoto",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Staravia_(Feuerrote_Flammen_060)",
+    "german_name": "Staravia",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "60",
+    "hp": "80",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Ruckzuckhieb",
+        "damage": "30",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "2 Diamond",
+    "illustrator": "Suwama Chiaki",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Staraptor_(Feuerrote_Flammen_061)",
+    "german_name": "Staraptor",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "61",
+    "hp": "140",
+    "energy_type": "Colorless",
+    "stage": "Stage 2",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Hurrikanschwinge",
+        "damage": "50",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "1 Diamond",
+    "illustrator": "AKIRA EGAWA",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Haspiror_(Feuerrote_Flammen_062)",
+    "german_name": "Haspiror",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "62",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Doppelkick",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "Illustration Rare",
+    "illustrator": "Kouki Saitou",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schlapor_(Feuerrote_Flammen_063)",
+    "german_name": "Schlapor",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "63",
+    "hp": "90",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Doppelkick",
+        "damage": "50",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "1 Diamond",
+    "illustrator": "Ryuta Fuse",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Bisofank_(Feuerrote_Flammen_064)",
+    "german_name": "Bisofank",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "64",
+    "hp": "100",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Vergeltung",
+        "damage": "40",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "1 Diamond",
+    "illustrator": "Sanosuke Sakuma",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Coiffwaff_(Feuerrote_Flammen_065)",
+    "german_name": "Coiffwaff",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "65",
+    "hp": "70",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Fellkleid",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Tackle",
+        "damage": "30",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "1 Diamond",
+    "illustrator": "Kazumasa Yasukuni",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Ariados_(Feuerrote_Flammen_070)",
+    "german_name": "Ariados",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "70",
+    "hp": "90",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Fallenrevier",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Durchbohren",
+        "damage": "30",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "Illustration Rare",
+    "illustrator": "Tika Matsuno",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Sonnflora_(Feuerrote_Flammen_071)",
+    "german_name": "Sonnflora",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "71",
+    "hp": "100",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Wachstumsstrahl",
+        "damage": "30",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "Illustration Rare",
+    "illustrator": "Saboteri",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Zytomega_(Feuerrote_Flammen_072)",
+    "german_name": "Zytomega",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "72",
+    "hp": "90",
+    "energy_type": "Psychic",
+    "stage": "Stage 2",
+    "weakness": "Darkness+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Unendliche Verstärkung",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Psyhieb",
+        "damage": "90",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "Illustration Rare",
+    "illustrator": "Kagemaru Himeno",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Xerneas_(Feuerrote_Flammen_073)",
+    "german_name": "Xerneas",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "73",
+    "hp": "120",
+    "energy_type": "Psychic",
+    "stage": "Basic",
+    "weakness": "Metal+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Geodetonation",
+        "damage": "120",
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "Illustration Rare",
+    "illustrator": "sui",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Unrat%C3%BCtox_(Feuerrote_Flammen_074)",
+    "german_name": "Unratütox",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "74",
+    "hp": "70",
+    "energy_type": "Darkness",
+    "stage": "Basic",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Sabbern",
+        "damage": "30",
+        "cost": [
+          "Darkness",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "Illustration Rare",
+    "illustrator": "Shibuzoh.",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Haspiror_(Feuerrote_Flammen_075)",
+    "german_name": "Haspiror",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "75",
+    "hp": "60",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Doppelkick",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "Illustration Rare",
+    "illustrator": "Kouki Saitou",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Myrapla_(Feuerrote_Flammen_088)",
+    "german_name": "Myrapla",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "88",
+    "hp": "50",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Giftpuder",
+        "damage": "10",
+        "cost": [
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "Shiny Rare",
+    "illustrator": "ryoma uratsuka",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Duflor_(Feuerrote_Flammen_089)",
+    "german_name": "Duflor",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "89",
+    "hp": "80",
+    "energy_type": "Grass",
+    "stage": "Stage 1",
+    "weakness": "Fire+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Blattschritt",
+        "damage": "40",
+        "cost": [
+          "Grass",
+          "Grass"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "Shiny Rare",
+    "illustrator": "Kyoko Umemoto",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Giflor_(Feuerrote_Flammen_090)",
+    "german_name": "Giflor",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "90",
+    "hp": "140",
+    "energy_type": "Grass",
+    "stage": "Stage 2",
+    "weakness": "Fire+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Beruhigender Duft",
+        "damage": "80",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "Shiny Rare",
+    "illustrator": "Kyoko Umemoto",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Glurak_(Feuerrote_Flammen_091)",
+    "german_name": "Glurak",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "91",
+    "hp": "150",
+    "energy_type": "Fire",
+    "stage": "Stage 2",
+    "weakness": "Water+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Inferno-Ansturm",
+        "damage": "150",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Fire",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "Shiny Rare",
+    "illustrator": "DOM",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Muschas_(Feuerrote_Flammen_092)",
+    "german_name": "Muschas",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "92",
+    "hp": "70",
+    "energy_type": "Water",
+    "stage": "Basic",
+    "weakness": "Electric+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Tackle",
+        "damage": "10",
+        "cost": [
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "Shiny Rare",
+    "illustrator": "Midori Harada",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Austos_(Feuerrote_Flammen_093)",
+    "german_name": "Austos",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "93",
+    "hp": "110",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "weakness": "Electric+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Schutzdruck",
+        "damage": "50",
+        "cost": [
+          "Water",
+          "Water"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "Shiny Rare",
+    "illustrator": "Masakazu Fukuda",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Sandan_(Feuerrote_Flammen_094)",
+    "german_name": "Sandan",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "94",
+    "hp": "60",
+    "energy_type": "Fighting",
+    "stage": "Basic",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Sandspray",
+        "damage": "20",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "Shiny Rare",
+    "illustrator": "Sekio",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Sandamer_(Feuerrote_Flammen_095)",
+    "german_name": "Sandamer",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "95",
+    "hp": "90",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Zerschneider",
+        "damage": "50",
+        "cost": [
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "Shiny Rare",
+    "illustrator": "Kyoko Umemoto",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Typ:Null_(Feuerrote_Flammen_096)",
+    "german_name": "Typ:Null",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "96",
+    "hp": "80",
+    "energy_type": "Colorless",
+    "stage": "Basic",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Schnellschlag",
+        "damage": "20",
+        "cost": [
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "Shiny Rare",
+    "illustrator": "match",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Amigento_(Feuerrote_Flammen_097)",
+    "german_name": "Amigento",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "97",
+    "hp": "110",
+    "energy_type": "Colorless",
+    "stage": "Stage 1",
+    "weakness": "Fighting+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Kühne Kumpel",
+        "damage": "50",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "Shiny Rare",
+    "illustrator": "Eske Yoshinob",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Masskito-ex_(Feuerrote_Flammen_098)",
+    "german_name": "Masskito-ex",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "98",
+    "hp": "140",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Boxhieb",
+        "damage": "30",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Big Beat",
+        "damage": "120",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA Mochizuki",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Lunala-ex_(Feuerrote_Flammen_099)",
+    "german_name": "Lunala-ex",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "99",
+    "hp": "180",
+    "energy_type": "Psychic",
+    "stage": "Stage 2",
+    "weakness": "Darkness+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Psychoverbindung",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Mondsturm",
+        "damage": "100",
+        "cost": [
+          "Psychic",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "Shiny Rare",
+    "illustrator": "PLANETA CG Works",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Schlingking-ex_(Feuerrote_Flammen_100)",
+    "german_name": "Schlingking-ex",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "100",
+    "hp": "170",
+    "energy_type": "Darkness",
+    "stage": "Basic",
+    "weakness": "Grass+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Grindcore",
+        "damage": "30",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      },
+      {
+        "name": "Despotischer Schlund",
+        "damage": "120",
+        "cost": [
+          "Darkness",
+          "Darkness",
+          "Darkness",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "Shiny Rare",
+    "illustrator": "PLANETA Yamashita",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Solgaleo-ex_(Feuerrote_Flammen_101)",
+    "german_name": "Solgaleo-ex",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "101",
+    "hp": "180",
+    "energy_type": "Metal",
+    "stage": "Stage 2",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Aufstiegspfad",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Solarbrecher",
+        "damage": "120",
+        "cost": [
+          "Metal",
+          "Metal"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "Shiny Rare",
+    "illustrator": "PLANETA CG Works",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Durengard_(Feuerrote_Flammen_102)",
+    "german_name": "Durengard",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "102",
+    "hp": "140",
+    "energy_type": "Metal",
+    "stage": "Stage 2",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Verfluchtes Metall",
+        "damage": "",
+        "cost": [],
+        "effect": ""
+      },
+      {
+        "name": "Schwertschneide",
+        "damage": "70",
+        "cost": [
+          "Metal",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "rarity": "Rare Holo",
+    "illustrator": "miki kudo",
+    "pokedex_number": "",
+    "regulation_mark": ""
+  }
+]

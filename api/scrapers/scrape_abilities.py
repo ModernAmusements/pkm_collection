@@ -19,7 +19,7 @@ SETS = [
     ("A1a", "Mysteriöse Insel", "https://www.pokewiki.de/Mysteri%C3%B6se_Insel_(TCG_Pocket)"),
     ("A2a", "Hüter des Firmaments", "https://www.pokewiki.de/H%C3%BCter_des_Firmaments_(TCG_Pocket)"),
     ("A2b", "Glänzendes Festival", "https://www.pokewiki.de/Gl%C3%A4nzendes_Festival_(TCG_Pocket)"),
-    ("B1", "Wundervolles Paldea", "https://www.pokewiki.de/Wundervolles_Paldea_(TCG_Pocket)"),
+    ("B2a", "Wundervolles Paldea", "https://www.pokewiki.de/Wundervolles_Paldea_(TCG_Pocket)"),
     ("B2", "Traumhafte Parade", "https://www.pokewiki.de/Traumhafte_Parade_(TCG_Pocket)"),
     ("PROMO-A", "PROMO-A", "https://www.pokewiki.de/PROMO-A_(TCG_Pocket)"),
     ("PROMO-B", "PROMO-B", "https://www.pokewiki.de/PROMO-B_(TCG_Pocket)"),

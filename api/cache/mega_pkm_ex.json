@@ -1,0 +1,1091 @@
+[
+  {
+    "url": "https://www.pokewiki.de/Mega-Pinsir-ex_(Mega-Aufstieg_002)",
+    "german_name": "Mega-Pinsir-ex",
+    "set_id": "B1",
+    "set_name": "Mega-Aufstieg",
+    "card_number": "2",
+    "hp": "170",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Kritische Scheren",
+        "damage": "80",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA CG Works",
+    "pokedex_number": "0127",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Lohgock-ex_(Mega-Aufstieg_036)",
+    "german_name": "Mega-Lohgock-ex",
+    "set_id": "B1",
+    "set_name": "Mega-Aufstieg",
+    "card_number": "36",
+    "hp": "210",
+    "energy_type": "Fire",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Mega-Brand",
+        "damage": "120",
+        "cost": [
+          "Fire",
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA Yamashita",
+    "pokedex_number": "0257",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Garados-ex_(Mega-Aufstieg_052)",
+    "german_name": "Mega-Garados-ex",
+    "set_id": "B1",
+    "set_name": "Mega-Aufstieg",
+    "card_number": "52",
+    "hp": "210",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Mega-Blaster",
+        "damage": "140",
+        "cost": [
+          "Water",
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA Igarashi",
+    "pokedex_number": "0130",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Ampharos-ex_(Mega-Aufstieg_085)",
+    "german_name": "Mega-Ampharos-ex",
+    "set_id": "B1",
+    "set_name": "Mega-Aufstieg",
+    "card_number": "85",
+    "hp": "210",
+    "energy_type": "Electric",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Blitzlanze",
+        "damage": "100",
+        "cost": [
+          "Electric",
+          "Electric",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA CG Works",
+    "pokedex_number": "0181",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Altaria-ex_(Mega-Aufstieg_102)",
+    "german_name": "Mega-Altaria-ex",
+    "set_id": "B1",
+    "set_name": "Mega-Aufstieg",
+    "card_number": "102",
+    "hp": "190",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Mega-Harmonie",
+        "damage": "40",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA Igarashi",
+    "pokedex_number": "0334",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Absol-ex_(Mega-Aufstieg_151)",
+    "german_name": "Mega-Absol-ex",
+    "set_id": "B1",
+    "set_name": "Mega-Aufstieg",
+    "card_number": "151",
+    "hp": "170",
+    "energy_type": "Darkness",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Finstere Klaue",
+        "damage": "80",
+        "cost": [
+          "Darkness",
+          "Darkness"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA CG Works",
+    "pokedex_number": "0359",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Pinsir-ex_(Mega-Aufstieg_251)",
+    "german_name": "Mega-Pinsir-ex",
+    "set_id": "B1",
+    "set_name": "Mega-Aufstieg",
+    "card_number": "251",
+    "hp": "170",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Kritische Scheren",
+        "damage": "80",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA CG Works",
+    "pokedex_number": "0127",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Lohgock-ex_(Mega-Aufstieg_254)",
+    "german_name": "Mega-Lohgock-ex",
+    "set_id": "B1",
+    "set_name": "Mega-Aufstieg",
+    "card_number": "254",
+    "hp": "210",
+    "energy_type": "Fire",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Mega-Brand",
+        "damage": "120",
+        "cost": [
+          "Fire",
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA Yamashita",
+    "pokedex_number": "0257",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Garados-ex_(Mega-Aufstieg_255)",
+    "german_name": "Mega-Garados-ex",
+    "set_id": "B1",
+    "set_name": "Mega-Aufstieg",
+    "card_number": "255",
+    "hp": "210",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Mega-Blaster",
+        "damage": "140",
+        "cost": [
+          "Water",
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA Igarashi",
+    "pokedex_number": "0130",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Ampharos-ex_(Mega-Aufstieg_258)",
+    "german_name": "Mega-Ampharos-ex",
+    "set_id": "B1",
+    "set_name": "Mega-Aufstieg",
+    "card_number": "258",
+    "hp": "210",
+    "energy_type": "Electric",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Blitzlanze",
+        "damage": "100",
+        "cost": [
+          "Electric",
+          "Electric",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA CG Works",
+    "pokedex_number": "0181",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Altaria-ex_(Mega-Aufstieg_259)",
+    "german_name": "Mega-Altaria-ex",
+    "set_id": "B1",
+    "set_name": "Mega-Aufstieg",
+    "card_number": "259",
+    "hp": "190",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Mega-Harmonie",
+        "damage": "40",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA Igarashi",
+    "pokedex_number": "0334",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Absol-ex_(Mega-Aufstieg_262)",
+    "german_name": "Mega-Absol-ex",
+    "set_id": "B1",
+    "set_name": "Mega-Aufstieg",
+    "card_number": "262",
+    "hp": "170",
+    "energy_type": "Darkness",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Finstere Klaue",
+        "damage": "80",
+        "cost": [
+          "Darkness",
+          "Darkness"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA CG Works",
+    "pokedex_number": "0359",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Pinsir-ex_(Mega-Aufstieg_272)",
+    "german_name": "Mega-Pinsir-ex",
+    "set_id": "B1",
+    "set_name": "Mega-Aufstieg",
+    "card_number": "272",
+    "hp": "170",
+    "energy_type": "Grass",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Kritische Scheren",
+        "damage": "80",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA CG Works",
+    "pokedex_number": "0127",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Ampharos-ex_(Mega-Aufstieg_277)",
+    "german_name": "Mega-Ampharos-ex",
+    "set_id": "B1",
+    "set_name": "Mega-Aufstieg",
+    "card_number": "277",
+    "hp": "210",
+    "energy_type": "Electric",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fighting+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Blitzlanze",
+        "damage": "100",
+        "cost": [
+          "Electric",
+          "Electric",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA CG Works",
+    "pokedex_number": "0181",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Absol-ex_(Mega-Aufstieg_280)",
+    "german_name": "Mega-Absol-ex",
+    "set_id": "B1",
+    "set_name": "Mega-Aufstieg",
+    "card_number": "280",
+    "hp": "170",
+    "energy_type": "Darkness",
+    "stage": "Basic",
+    "evolution_from": "",
+    "weakness": "Grass+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Finstere Klaue",
+        "damage": "80",
+        "cost": [
+          "Darkness",
+          "Darkness"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA CG Works",
+    "pokedex_number": "0359",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Lohgock-ex_(Mega-Aufstieg_284)",
+    "german_name": "Mega-Lohgock-ex",
+    "set_id": "B1",
+    "set_name": "Mega-Aufstieg",
+    "card_number": "284",
+    "hp": "210",
+    "energy_type": "Fire",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Mega-Brand",
+        "damage": "120",
+        "cost": [
+          "Fire",
+          "Fire"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA Yamashita",
+    "pokedex_number": "0257",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Garados-ex_(Mega-Aufstieg_285)",
+    "german_name": "Mega-Garados-ex",
+    "set_id": "B1",
+    "set_name": "Mega-Aufstieg",
+    "card_number": "285",
+    "hp": "210",
+    "energy_type": "Water",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Mega-Blaster",
+        "damage": "140",
+        "cost": [
+          "Water",
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA Igarashi",
+    "pokedex_number": "0130",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Altaria-ex_(Mega-Aufstieg_286)",
+    "german_name": "Mega-Altaria-ex",
+    "set_id": "B1",
+    "set_name": "Mega-Aufstieg",
+    "card_number": "286",
+    "hp": "190",
+    "energy_type": "Psychic",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Metal+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Mega-Harmonie",
+        "damage": "40",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA Igarashi",
+    "pokedex_number": "0334",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Bisaflor-ex_(Feuerrote_Flammen_004)",
+    "german_name": "Mega-Bisaflor-ex",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "4",
+    "hp": "240",
+    "energy_type": "Grass",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Krisenblüte",
+        "damage": "120",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA CG Works",
+    "pokedex_number": "0003",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Glurak_Y-ex_(Feuerrote_Flammen_014)",
+    "german_name": "Mega-Glurak Y-ex",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "14",
+    "hp": "220",
+    "energy_type": "Fire",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Feuerroter Sturzflug",
+        "damage": "250",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Fire",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA Igarashi",
+    "pokedex_number": "0006",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Turtok-ex_(Feuerrote_Flammen_020)",
+    "german_name": "Mega-Turtok-ex",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "20",
+    "hp": "230",
+    "energy_type": "Water",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Dreifachbeschuss",
+        "damage": "130",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA CG Works",
+    "pokedex_number": "0009",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Schlapor-ex_(Feuerrote_Flammen_042)",
+    "german_name": "Mega-Schlapor-ex",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "42",
+    "hp": "190",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Schnelle Tritte",
+        "damage": "90",
+        "cost": [
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA Yamashita",
+    "pokedex_number": "0428",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Stahlos-ex_(Feuerrote_Flammen_052)",
+    "german_name": "Mega-Stahlos-ex",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "52",
+    "hp": "220",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Stahlhartes Rollen",
+        "damage": "120",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA Yamashita",
+    "pokedex_number": "0208",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Bisaflor-ex_(Feuerrote_Flammen_076)",
+    "german_name": "Mega-Bisaflor-ex",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "76",
+    "hp": "240",
+    "energy_type": "Grass",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Krisenblüte",
+        "damage": "120",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA CG Works",
+    "pokedex_number": "0003",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Glurak_Y-ex_(Feuerrote_Flammen_077)",
+    "german_name": "Mega-Glurak Y-ex",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "77",
+    "hp": "220",
+    "energy_type": "Fire",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Feuerroter Sturzflug",
+        "damage": "250",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Fire",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA Igarashi",
+    "pokedex_number": "0006",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Turtok-ex_(Feuerrote_Flammen_078)",
+    "german_name": "Mega-Turtok-ex",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "78",
+    "hp": "230",
+    "energy_type": "Water",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Dreifachbeschuss",
+        "damage": "130",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA CG Works",
+    "pokedex_number": "0009",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Schlapor-ex_(Feuerrote_Flammen_079)",
+    "german_name": "Mega-Schlapor-ex",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "79",
+    "hp": "190",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Schnelle Tritte",
+        "damage": "90",
+        "cost": [
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA Yamashita",
+    "pokedex_number": "0428",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Stahlos-ex_(Feuerrote_Flammen_080)",
+    "german_name": "Mega-Stahlos-ex",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "80",
+    "hp": "220",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Stahlhartes Rollen",
+        "damage": "120",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA Yamashita",
+    "pokedex_number": "0208",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Bisaflor-ex_(Feuerrote_Flammen_083)",
+    "german_name": "Mega-Bisaflor-ex",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "83",
+    "hp": "240",
+    "energy_type": "Grass",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Krisenblüte",
+        "damage": "120",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA CG Works",
+    "pokedex_number": "0003",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Turtok-ex_(Feuerrote_Flammen_084)",
+    "german_name": "Mega-Turtok-ex",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "84",
+    "hp": "230",
+    "energy_type": "Water",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Electric+20",
+    "retreat": "3",
+    "attacks": [
+      {
+        "name": "Dreifachbeschuss",
+        "damage": "130",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA CG Works",
+    "pokedex_number": "0009",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Schlapor-ex_(Feuerrote_Flammen_085)",
+    "german_name": "Mega-Schlapor-ex",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "85",
+    "hp": "190",
+    "energy_type": "Fighting",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Psychic+20",
+    "retreat": "1",
+    "attacks": [
+      {
+        "name": "Schnelle Tritte",
+        "damage": "90",
+        "cost": [
+          "Fighting",
+          "Fighting"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA Yamashita",
+    "pokedex_number": "0428",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Stahlos-ex_(Feuerrote_Flammen_086)",
+    "german_name": "Mega-Stahlos-ex",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "86",
+    "hp": "220",
+    "energy_type": "Metal",
+    "stage": "Stage 1",
+    "evolution_from": "",
+    "weakness": "Fire+20",
+    "retreat": "4",
+    "attacks": [
+      {
+        "name": "Stahlhartes Rollen",
+        "damage": "120",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Colorless",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA Yamashita",
+    "pokedex_number": "0208",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  },
+  {
+    "url": "https://www.pokewiki.de/Mega-Glurak_Y-ex_(Feuerrote_Flammen_087)",
+    "german_name": "Mega-Glurak Y-ex",
+    "set_id": "B1a",
+    "set_name": "Feuerrote Flammen",
+    "card_number": "87",
+    "hp": "220",
+    "energy_type": "Fire",
+    "stage": "Stage 2",
+    "evolution_from": "",
+    "weakness": "Water+20",
+    "retreat": "2",
+    "attacks": [
+      {
+        "name": "Feuerroter Sturzflug",
+        "damage": "250",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Fire",
+          "Colorless"
+        ],
+        "effect": ""
+      }
+    ],
+    "ability": null,
+    "ability_effect": null,
+    "rarity": "Special Illustration Rare",
+    "illustrator": "PLANETA Igarashi",
+    "pokedex_number": "0006",
+    "regulation_mark": "B",
+    "card_type": "",
+    "resistance": ""
+  }
+]

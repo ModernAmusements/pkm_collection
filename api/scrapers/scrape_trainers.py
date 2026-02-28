@@ -12,7 +12,7 @@ SETS = [
     ("A3b", "Evoli-Hain", "https://www.pokewiki.de/Evoli-Hain_(TCG_Pocket)"),
     ("A2b", "Weisheit von Meer und Himmel", "https://www.pokewiki.de/Weisheit_von_Meer_und_Himmel_(TCG_Pocket)"),
     ("A4a", "Verborgene Quelle", "https://www.pokewiki.de/Verborgene_Quelle_(TCG_Pocket)"),
-    ("B1", "Wundervolles Paldea", "https://www.pokewiki.de/Wundervolles_Paldea_(TCG_Pocket)"),
+    ("B2a", "Wundervolles Paldea", "https://www.pokewiki.de/Wundervolles_Paldea_(TCG_Pocket)"),
     ("B2", "Traumhafte Parade", "https://www.pokewiki.de/Traumhafte_Parade_(TCG_Pocket)"),
     ("PROMO-A", "PROMO-A", "https://www.pokewiki.de/PROMO-A_(TCG_Pocket)"),
 ]
