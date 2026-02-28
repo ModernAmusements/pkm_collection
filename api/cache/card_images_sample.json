@@ -1,0 +1,548 @@
+[
+  {
+    "german_name": "Bisasam",
+    "set_id": "A1",
+    "card_number": "1",
+    "image_url": "https://www.pokewiki.de/images/c/cd/Bisasam_%28Unschlagbare_Gene_001%29.png"
+  },
+  {
+    "german_name": "Bisaknosp",
+    "set_id": "A1",
+    "card_number": "2",
+    "image_url": "https://www.pokewiki.de/images/4/4f/Bisaknosp_%28Unschlagbare_Gene_002%29.png"
+  },
+  {
+    "german_name": "Bisaflor",
+    "set_id": "A1",
+    "card_number": "3",
+    "image_url": "https://www.pokewiki.de/images/e/e5/Bisaflor_%28Unschlagbare_Gene_003%29.png"
+  },
+  {
+    "german_name": "Raupy",
+    "set_id": "A1",
+    "card_number": "5",
+    "image_url": "https://www.pokewiki.de/images/d/d7/Raupy_%28Unschlagbare_Gene_005%29.png"
+  },
+  {
+    "german_name": "Safcon",
+    "set_id": "A1",
+    "card_number": "6",
+    "image_url": "https://www.pokewiki.de/images/4/41/Safcon_%28Unschlagbare_Gene_006%29.png"
+  },
+  {
+    "german_name": "Smettbo",
+    "set_id": "A1",
+    "card_number": "7",
+    "image_url": "https://www.pokewiki.de/images/6/6b/Smettbo_%28Unschlagbare_Gene_007%29.png"
+  },
+  {
+    "german_name": "Hornliu",
+    "set_id": "A1",
+    "card_number": "8",
+    "image_url": "https://www.pokewiki.de/images/2/2b/Hornliu_%28Unschlagbare_Gene_008%29.png"
+  },
+  {
+    "german_name": "Kokuna",
+    "set_id": "A1",
+    "card_number": "9",
+    "image_url": "https://www.pokewiki.de/images/6/68/Kokuna_%28Unschlagbare_Gene_009%29.png"
+  },
+  {
+    "german_name": "Bibor",
+    "set_id": "A1",
+    "card_number": "10",
+    "image_url": "https://www.pokewiki.de/images/3/31/Bibor_%28Unschlagbare_Gene_010%29.png"
+  },
+  {
+    "german_name": "Myrapla",
+    "set_id": "A1",
+    "card_number": "11",
+    "image_url": "https://www.pokewiki.de/images/8/8c/Myrapla_%28Unschlagbare_Gene_011%29.png"
+  },
+  {
+    "german_name": "Duflor",
+    "set_id": "A1",
+    "card_number": "12",
+    "image_url": "https://www.pokewiki.de/images/c/c2/Duflor_%28Unschlagbare_Gene_012%29.png"
+  },
+  {
+    "german_name": "Giflor",
+    "set_id": "A1",
+    "card_number": "13",
+    "image_url": "https://www.pokewiki.de/images/b/b1/Giflor_%28Unschlagbare_Gene_013%29.png"
+  },
+  {
+    "german_name": "Paras",
+    "set_id": "A1",
+    "card_number": "14",
+    "image_url": "https://www.pokewiki.de/images/a/a1/Paras_%28Unschlagbare_Gene_014%29.png"
+  },
+  {
+    "german_name": "Parasek",
+    "set_id": "A1",
+    "card_number": "15",
+    "image_url": "https://www.pokewiki.de/images/e/ee/Parasek_%28Unschlagbare_Gene_015%29.png"
+  },
+  {
+    "german_name": "Bluzuk",
+    "set_id": "A1",
+    "card_number": "16",
+    "image_url": "https://www.pokewiki.de/images/0/03/Bluzuk_%28Unschlagbare_Gene_016%29.png"
+  },
+  {
+    "german_name": "Omot",
+    "set_id": "A1",
+    "card_number": "17",
+    "image_url": "https://www.pokewiki.de/images/3/38/Omot_%28Unschlagbare_Gene_017%29.png"
+  },
+  {
+    "german_name": "Knofensa",
+    "set_id": "A1",
+    "card_number": "18",
+    "image_url": "https://www.pokewiki.de/images/e/e0/Knofensa_%28Unschlagbare_Gene_018%29.png"
+  },
+  {
+    "german_name": "Ultrigaria",
+    "set_id": "A1",
+    "card_number": "19",
+    "image_url": "https://www.pokewiki.de/images/1/1c/Ultrigaria_%28Unschlagbare_Gene_019%29.png"
+  },
+  {
+    "german_name": "Sarzenia",
+    "set_id": "A1",
+    "card_number": "20",
+    "image_url": "https://www.pokewiki.de/images/9/9b/Sarzenia_%28Unschlagbare_Gene_020%29.png"
+  },
+  {
+    "german_name": "Owei",
+    "set_id": "A1",
+    "card_number": "21",
+    "image_url": "https://www.pokewiki.de/images/7/70/Owei_%28Unschlagbare_Gene_021%29.png"
+  },
+  {
+    "german_name": "Kokowei",
+    "set_id": "A1",
+    "card_number": "22",
+    "image_url": "https://www.pokewiki.de/images/3/37/Kokowei_%28Unschlagbare_Gene_022%29.png"
+  },
+  {
+    "german_name": "Tangela",
+    "set_id": "A1",
+    "card_number": "24",
+    "image_url": "https://www.pokewiki.de/images/c/c9/Tangela_%28Unschlagbare_Gene_024%29.png"
+  },
+  {
+    "german_name": "Sichlor",
+    "set_id": "A1",
+    "card_number": "25",
+    "image_url": "https://www.pokewiki.de/images/6/61/Sichlor_%28Unschlagbare_Gene_025%29.png"
+  },
+  {
+    "german_name": "Pinsir",
+    "set_id": "A1",
+    "card_number": "26",
+    "image_url": "https://www.pokewiki.de/images/2/2a/Pinsir_%28Unschlagbare_Gene_026%29.png"
+  },
+  {
+    "german_name": "Waumboll",
+    "set_id": "A1",
+    "card_number": "27",
+    "image_url": "https://www.pokewiki.de/images/b/b4/Waumboll_%28Unschlagbare_Gene_027%29.png"
+  },
+  {
+    "german_name": "Elfun",
+    "set_id": "A1",
+    "card_number": "28",
+    "image_url": "https://www.pokewiki.de/images/f/f4/Elfun_%28Unschlagbare_Gene_028%29.png"
+  },
+  {
+    "german_name": "Lilminip",
+    "set_id": "A1",
+    "card_number": "29",
+    "image_url": "https://www.pokewiki.de/images/3/33/Lilminip_%28Unschlagbare_Gene_029%29.png"
+  },
+  {
+    "german_name": "Dressella",
+    "set_id": "A1",
+    "card_number": "30",
+    "image_url": "https://www.pokewiki.de/images/4/4f/Dressella_%28Unschlagbare_Gene_030%29.png"
+  },
+  {
+    "german_name": "Chevrumm",
+    "set_id": "A1",
+    "card_number": "32",
+    "image_url": "https://www.pokewiki.de/images/1/11/Chevrumm_%28Unschlagbare_Gene_032%29.png"
+  },
+  {
+    "german_name": "Glumanda",
+    "set_id": "A1",
+    "card_number": "33",
+    "image_url": "https://www.pokewiki.de/images/9/99/Glumanda_%28Unschlagbare_Gene_033%29.png"
+  },
+  {
+    "german_name": "Glutexo",
+    "set_id": "A1",
+    "card_number": "34",
+    "image_url": "https://www.pokewiki.de/images/4/44/Glutexo_%28Unschlagbare_Gene_034%29.png"
+  },
+  {
+    "german_name": "Glurak",
+    "set_id": "A1",
+    "card_number": "35",
+    "image_url": "https://www.pokewiki.de/images/f/f7/Glurak_%28Unschlagbare_Gene_035%29.png"
+  },
+  {
+    "german_name": "Vulpix",
+    "set_id": "A1",
+    "card_number": "37",
+    "image_url": "https://www.pokewiki.de/images/7/75/Vulpix_%28Unschlagbare_Gene_037%29.png"
+  },
+  {
+    "german_name": "Vulnona",
+    "set_id": "A1",
+    "card_number": "38",
+    "image_url": "https://www.pokewiki.de/images/8/84/Vulnona_%28Unschlagbare_Gene_038%29.png"
+  },
+  {
+    "german_name": "Fukano",
+    "set_id": "A1",
+    "card_number": "39",
+    "image_url": "https://www.pokewiki.de/images/8/82/Fukano_%28Unschlagbare_Gene_039%29.png"
+  },
+  {
+    "german_name": "Arkani",
+    "set_id": "A1",
+    "card_number": "40",
+    "image_url": "https://www.pokewiki.de/images/d/d1/Arkani_%28Unschlagbare_Gene_040%29.png"
+  },
+  {
+    "german_name": "Ponita",
+    "set_id": "A1",
+    "card_number": "42",
+    "image_url": "https://www.pokewiki.de/images/3/35/Ponita_%28Unschlagbare_Gene_042%29.png"
+  },
+  {
+    "german_name": "Gallopa",
+    "set_id": "A1",
+    "card_number": "43",
+    "image_url": "https://www.pokewiki.de/images/c/c0/Gallopa_%28Unschlagbare_Gene_043%29.png"
+  },
+  {
+    "german_name": "Magmar",
+    "set_id": "A1",
+    "card_number": "44",
+    "image_url": "https://www.pokewiki.de/images/5/50/Magmar_%28Unschlagbare_Gene_044%29.png"
+  },
+  {
+    "german_name": "Flamara",
+    "set_id": "A1",
+    "card_number": "45",
+    "image_url": "https://www.pokewiki.de/images/e/ea/Flamara_%28Unschlagbare_Gene_045%29.png"
+  },
+  {
+    "german_name": "Lavados",
+    "set_id": "A1",
+    "card_number": "46",
+    "image_url": "https://www.pokewiki.de/images/1/17/Lavados_%28Unschlagbare_Gene_046%29.png"
+  },
+  {
+    "german_name": "Molunk",
+    "set_id": "A1",
+    "card_number": "49",
+    "image_url": "https://www.pokewiki.de/images/f/f9/Molunk_%28Unschlagbare_Gene_049%29.png"
+  },
+  {
+    "german_name": "Amfira",
+    "set_id": "A1",
+    "card_number": "50",
+    "image_url": "https://www.pokewiki.de/images/6/68/Amfira_%28Unschlagbare_Gene_050%29.png"
+  },
+  {
+    "german_name": "Thermopod",
+    "set_id": "A1",
+    "card_number": "51",
+    "image_url": "https://www.pokewiki.de/images/2/2e/Thermopod_%28Unschlagbare_Gene_051%29.png"
+  },
+  {
+    "german_name": "Infernopod",
+    "set_id": "A1",
+    "card_number": "52",
+    "image_url": "https://www.pokewiki.de/images/7/7b/Infernopod_%28Unschlagbare_Gene_052%29.png"
+  },
+  {
+    "german_name": "Schiggy",
+    "set_id": "A1",
+    "card_number": "53",
+    "image_url": "https://www.pokewiki.de/images/c/c6/Schiggy_%28Unschlagbare_Gene_053%29.png"
+  },
+  {
+    "german_name": "Schillok",
+    "set_id": "A1",
+    "card_number": "54",
+    "image_url": "https://www.pokewiki.de/images/c/cd/Schillok_%28Unschlagbare_Gene_054%29.png"
+  },
+  {
+    "german_name": "Turtok",
+    "set_id": "A1",
+    "card_number": "55",
+    "image_url": "https://www.pokewiki.de/images/b/b4/Turtok_%28Unschlagbare_Gene_055%29.png"
+  },
+  {
+    "german_name": "Enton",
+    "set_id": "A1",
+    "card_number": "57",
+    "image_url": "https://www.pokewiki.de/images/4/4b/Enton_%28Unschlagbare_Gene_057%29.png"
+  },
+  {
+    "german_name": "Entoron",
+    "set_id": "A1",
+    "card_number": "58",
+    "image_url": "https://www.pokewiki.de/images/3/3d/Entoron_%28Unschlagbare_Gene_058%29.png"
+  },
+  {
+    "german_name": "Quapsel",
+    "set_id": "A1",
+    "card_number": "59",
+    "image_url": "https://www.pokewiki.de/images/6/6e/Quapsel_%28Unschlagbare_Gene_059%29.png"
+  },
+  {
+    "german_name": "Quaputzi",
+    "set_id": "A1",
+    "card_number": "60",
+    "image_url": "https://www.pokewiki.de/images/c/c8/Quaputzi_%28Unschlagbare_Gene_060%29.png"
+  },
+  {
+    "german_name": "Quappo",
+    "set_id": "A1",
+    "card_number": "61",
+    "image_url": "https://www.pokewiki.de/images/a/aa/Quappo_%28Unschlagbare_Gene_061%29.png"
+  },
+  {
+    "german_name": "Tentacha",
+    "set_id": "A1",
+    "card_number": "62",
+    "image_url": "https://www.pokewiki.de/images/e/ef/Tentacha_%28Unschlagbare_Gene_062%29.png"
+  },
+  {
+    "german_name": "Tentoxa",
+    "set_id": "A1",
+    "card_number": "63",
+    "image_url": "https://www.pokewiki.de/images/8/8f/Tentoxa_%28Unschlagbare_Gene_063%29.png"
+  },
+  {
+    "german_name": "Jurob",
+    "set_id": "A1",
+    "card_number": "64",
+    "image_url": "https://www.pokewiki.de/images/6/6c/Jurob_%28Unschlagbare_Gene_064%29.png"
+  },
+  {
+    "german_name": "Jugong",
+    "set_id": "A1",
+    "card_number": "65",
+    "image_url": "https://www.pokewiki.de/images/9/97/Jugong_%28Unschlagbare_Gene_065%29.png"
+  },
+  {
+    "german_name": "Muschas",
+    "set_id": "A1",
+    "card_number": "66",
+    "image_url": "https://www.pokewiki.de/images/a/a2/Muschas_%28Unschlagbare_Gene_066%29.png"
+  },
+  {
+    "german_name": "Austos",
+    "set_id": "A1",
+    "card_number": "67",
+    "image_url": "https://www.pokewiki.de/images/e/e0/Austos_%28Unschlagbare_Gene_067%29.png"
+  },
+  {
+    "german_name": "Krabby",
+    "set_id": "A1",
+    "card_number": "68",
+    "image_url": "https://www.pokewiki.de/images/e/ea/Krabby_%28Unschlagbare_Gene_068%29.png"
+  },
+  {
+    "german_name": "Kingler",
+    "set_id": "A1",
+    "card_number": "69",
+    "image_url": "https://www.pokewiki.de/images/0/04/Kingler_%28Unschlagbare_Gene_069%29.png"
+  },
+  {
+    "german_name": "Seeper",
+    "set_id": "A1",
+    "card_number": "70",
+    "image_url": "https://www.pokewiki.de/images/9/96/Seeper_%28Unschlagbare_Gene_070%29.png"
+  },
+  {
+    "german_name": "Seemon",
+    "set_id": "A1",
+    "card_number": "71",
+    "image_url": "https://www.pokewiki.de/images/1/1c/Seemon_%28Unschlagbare_Gene_071%29.png"
+  },
+  {
+    "german_name": "Goldini",
+    "set_id": "A1",
+    "card_number": "72",
+    "image_url": "https://www.pokewiki.de/images/a/a7/Goldini_%28Unschlagbare_Gene_072%29.png"
+  },
+  {
+    "german_name": "Golking",
+    "set_id": "A1",
+    "card_number": "73",
+    "image_url": "https://www.pokewiki.de/images/2/2b/Golking_%28Unschlagbare_Gene_073%29.png"
+  },
+  {
+    "german_name": "Sterndu",
+    "set_id": "A1",
+    "card_number": "74",
+    "image_url": "https://www.pokewiki.de/images/0/07/Sterndu_%28Unschlagbare_Gene_074%29.png"
+  },
+  {
+    "german_name": "Starmie",
+    "set_id": "A1",
+    "card_number": "75",
+    "image_url": "https://www.pokewiki.de/images/8/82/Starmie_%28Unschlagbare_Gene_075%29.png"
+  },
+  {
+    "german_name": "Karpador",
+    "set_id": "A1",
+    "card_number": "77",
+    "image_url": "https://www.pokewiki.de/images/9/90/Karpador_%28Unschlagbare_Gene_077%29.png"
+  },
+  {
+    "german_name": "Garados",
+    "set_id": "A1",
+    "card_number": "78",
+    "image_url": "https://www.pokewiki.de/images/2/2e/Garados_%28Unschlagbare_Gene_078%29.png"
+  },
+  {
+    "german_name": "Lapras",
+    "set_id": "A1",
+    "card_number": "79",
+    "image_url": "https://www.pokewiki.de/images/f/f4/Lapras_%28Unschlagbare_Gene_079%29.png"
+  },
+  {
+    "german_name": "Aquana",
+    "set_id": "A1",
+    "card_number": "80",
+    "image_url": "https://www.pokewiki.de/images/7/7d/Aquana_%28Unschlagbare_Gene_080%29.png"
+  },
+  {
+    "german_name": "Amonitas",
+    "set_id": "A1",
+    "card_number": "81",
+    "image_url": "https://www.pokewiki.de/images/1/19/Amonitas_%28Unschlagbare_Gene_081%29.png"
+  },
+  {
+    "german_name": "Amoroso",
+    "set_id": "A1",
+    "card_number": "82",
+    "image_url": "https://www.pokewiki.de/images/f/f6/Amoroso_%28Unschlagbare_Gene_082%29.png"
+  },
+  {
+    "german_name": "Arktos",
+    "set_id": "A1",
+    "card_number": "83",
+    "image_url": "https://www.pokewiki.de/images/f/f2/Arktos_%28Unschlagbare_Gene_083%29.png"
+  },
+  {
+    "german_name": "Piccolente",
+    "set_id": "A1",
+    "card_number": "85",
+    "image_url": "https://www.pokewiki.de/images/1/10/Piccolente_%28Unschlagbare_Gene_085%29.png"
+  },
+  {
+    "german_name": "Swaroness",
+    "set_id": "A1",
+    "card_number": "86",
+    "image_url": "https://www.pokewiki.de/images/1/16/Swaroness_%28Unschlagbare_Gene_086%29.png"
+  },
+  {
+    "german_name": "Froxy",
+    "set_id": "A1",
+    "card_number": "87",
+    "image_url": "https://www.pokewiki.de/images/3/36/Froxy_%28Unschlagbare_Gene_087%29.png"
+  },
+  {
+    "german_name": "Amphizel",
+    "set_id": "A1",
+    "card_number": "88",
+    "image_url": "https://www.pokewiki.de/images/0/0b/Amphizel_%28Unschlagbare_Gene_088%29.png"
+  },
+  {
+    "german_name": "Quajutsu",
+    "set_id": "A1",
+    "card_number": "89",
+    "image_url": "https://www.pokewiki.de/images/3/34/Quajutsu_%28Unschlagbare_Gene_089%29.png"
+  },
+  {
+    "german_name": "Gufa",
+    "set_id": "A1",
+    "card_number": "90",
+    "image_url": "https://www.pokewiki.de/images/7/72/Gufa_%28Unschlagbare_Gene_090%29.png"
+  },
+  {
+    "german_name": "Knirfish",
+    "set_id": "A1",
+    "card_number": "91",
+    "image_url": "https://www.pokewiki.de/images/8/81/Knirfish_%28Unschlagbare_Gene_091%29.png"
+  },
+  {
+    "german_name": "Snomnom",
+    "set_id": "A1",
+    "card_number": "92",
+    "image_url": "https://www.pokewiki.de/images/d/da/Snomnom_%28Unschlagbare_Gene_092%29.png"
+  },
+  {
+    "german_name": "Mottineva",
+    "set_id": "A1",
+    "card_number": "93",
+    "image_url": "https://www.pokewiki.de/images/6/64/Mottineva_%28Unschlagbare_Gene_093%29.png"
+  },
+  {
+    "german_name": "Pikachu",
+    "set_id": "A1",
+    "card_number": "94",
+    "image_url": "https://www.pokewiki.de/images/9/92/Pikachu_%28Unschlagbare_Gene_094%29.png"
+  },
+  {
+    "german_name": "Raichu",
+    "set_id": "A1",
+    "card_number": "95",
+    "image_url": "https://www.pokewiki.de/images/c/cf/Raichu_%28Unschlagbare_Gene_095%29.png"
+  },
+  {
+    "german_name": "Magnetilo",
+    "set_id": "A1",
+    "card_number": "97",
+    "image_url": "https://www.pokewiki.de/images/6/68/Magnetilo_%28Unschlagbare_Gene_097%29.png"
+  },
+  {
+    "german_name": "Magneton",
+    "set_id": "A1",
+    "card_number": "98",
+    "image_url": "https://www.pokewiki.de/images/b/bf/Magneton_%28Unschlagbare_Gene_098%29.png"
+  },
+  {
+    "german_name": "Voltobal",
+    "set_id": "A1",
+    "card_number": "99",
+    "image_url": "https://www.pokewiki.de/images/6/61/Voltobal_%28Unschlagbare_Gene_099%29.png"
+  },
+  {
+    "german_name": "Lektrobal",
+    "set_id": "A1",
+    "card_number": "100",
+    "image_url": "https://www.pokewiki.de/images/8/8d/Lektrobal_%28Unschlagbare_Gene_100%29.png"
+  },
+  {
+    "german_name": "Elektek",
+    "set_id": "A1",
+    "card_number": "101",
+    "image_url": "https://www.pokewiki.de/images/9/91/Elektek_%28Unschlagbare_Gene_101%29.png"
+  },
+  {
+    "german_name": "Blitza",
+    "set_id": "A1",
+    "card_number": "102",
+    "image_url": "https://www.pokewiki.de/images/c/c6/Blitza_%28Unschlagbare_Gene_102%29.png"
+  }
+]
