@@ -8,8 +8,9 @@ A Pokemon TCG Pocket card extraction tool that uses OCR to scan card screenshots
 
 - ✅ Card extraction pipeline working
 - ✅ OCR → matching → database flow functional
-- ✅ German card database scraped (~1860 cards)
+- ✅ German card database scraped (~2541 cards)
 - ✅ Abilities scraped (~124 unique)
+- ✅ Card images scraped (~2020)
 - ✅ First card added to collection (Ledyba)
 
 ## What We've Built
@@ -38,13 +39,14 @@ A Pokemon TCG Pocket card extraction tool that uses OCR to scan card screenshots
 |------|---------|
 | `README.md` | Project overview and usage |
 | `data_workflow.md` | Data flow diagrams (mermaid) |
-| `api/cache/pokewiki_scraped_all.json` | Card database (German) |
+| `api/cache/pokewiki_scraped_all.json` | Card database (German, ~2541 cards) |
+| `api/cache/card_images.json` | Card image URLs |
 | `api/cache/abilities.json` | Pokemon abilities |
 | `collection.db` | User's collection |
 
 ## Sets in Database
 
-A1, A2, A3, A3a, A3b, A1a, A2a, A2b, A4a, B1, B2, PROMO-A, PROMO-B
+A1, A1a, A2, A2a, A2b, A3, A3a, A3b, A4, A4a, A4b, B1, B1a, B2, B2a, PROMO-A, PROMO-B
 
 ## How to Use
 

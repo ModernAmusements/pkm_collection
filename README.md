@@ -281,8 +281,9 @@ The extracted signals are matched against the card database:
 
 #### Database Sources:
 - **Primary:** German cards from pokewiki.de (`pokewiki_scraped_all.json`)
-  - ~1860 cards across all TCG Pocket sets
+  - ~2541 cards across all TCG Pocket sets (A1-B2a, PROMO-A, PROMO-B)
   - Includes abilities, attacks, weaknesses, retreat costs
+  - Card images available in `card_images.json`
 
 ### 6. Collection Storage (`collection.db`)
 
