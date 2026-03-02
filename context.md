@@ -8,17 +8,22 @@ A Pokemon TCG Pocket card extraction tool that uses OCR to scan card screenshots
 
 - ✅ Card extraction pipeline working
 - ✅ OCR → matching → database flow functional
-- ✅ German card database scraped (~2541 cards)
+- ✅ German card database complete (~2540 cards)
 - ✅ Abilities scraped (~124 unique)
-- ✅ Card images scraped (~2020)
+- ✅ Card images complete (~2452 unique cards, 4509 total entries including reprints)
 - ✅ First card added to collection (Ledyba)
+- ✅ Fixed duplicate entries (Alola-Digdri-ex)
+- ✅ Fixed missing rarity/illustrator data
+- ✅ Fixed image URLs for special illustration cards
+- ✅ Added energy type icons to frontend
 
 ## What We've Built
 
 ### Data Collection (Scraping)
 - `api/scrapers/scrape_pokewiki.py` - Scrapes card data from pokewiki.de
 - `api/scrapers/scrape_abilities.py` - Scrapes Pokemon abilities
-- Data saved to `api/cache/pokewiki_scraped_all.json`
+- `api/scrapers/scrape_images.py` - Scrapes card images from pokewiki.de
+- Data saved to `api/cache/pokewiki_scraped_all.json` and `api/cache/card_images.json`
 
 ### Core Extraction
 - `extract_batch_v2.py` - Main extraction script
@@ -33,15 +38,21 @@ A Pokemon TCG Pocket card extraction tool that uses OCR to scan card screenshots
 ### Matching
 - `api/local_lookup.py` - Card matching logic with multiple strategies
 
+### Frontend
+- `frontend/index.html` - Card collection viewer
+- `frontend/images/energy/` - Energy type icons (Fire, Water, Grass, etc.)
+
 ## Key Files
 
 | File | Purpose |
 |------|---------|
 | `README.md` | Project overview and usage |
 | `data_workflow.md` | Data flow diagrams (mermaid) |
-| `api/cache/pokewiki_scraped_all.json` | Card database (German, ~2541 cards) |
-| `api/cache/card_images.json` | Card image URLs |
+| `api/cache/pokewiki_scraped_all.json` | Card database (German, 2540 cards) |
+| `api/cache/card_images.json` | Card image URLs (4509 entries) |
 | `api/cache/abilities.json` | Pokemon abilities |
+| `frontend/data/cards.json` | Frontend card data |
+| `frontend/data/images.json` | Frontend image URLs |
 | `collection.db` | User's collection |
 
 ## Sets in Database
@@ -76,3 +87,4 @@ python3 -c "from database import export_csv; export_csv()"
 - Never merge sets until user says "go"
 - Primary data source: pokewiki.de (German wiki)
 - Card matching uses multiple signals: name, HP, attacks, weakness, retreat
+- All cards now have images (scraped missing 1969 images)

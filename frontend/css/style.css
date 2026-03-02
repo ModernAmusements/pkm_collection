@@ -371,12 +371,27 @@ body {
 .modal-types { display: flex; gap: 8px; margin-bottom: 16px; }
 
 .type-badge {
-    padding: 4px 12px;
-    border-radius: 12px;
-    font-size: 12px;
-    font-weight: 600;
+    width: 32px;
+    height: 32px;
     display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-indent: -9999px;
+    border-radius: 4px;
 }
+
+.energy-colorless { background-image: url('../images/energy/Colorless.png'); }
+.energy-darkness { background-image: url('../images/energy/Darkness.png'); }
+.energy-dragon { background-image: url('../images/energy/Dragon.png'); }
+.energy-electric { background-image: url('../images/energy/Electric.png'); }
+.energy-fairy { background-image: url('../images/energy/Fairy.png'); }
+.energy-fighting { background-image: url('../images/energy/Fighting.png'); }
+.energy-fire { background-image: url('../images/energy/Fire.png'); }
+.energy-grass { background-image: url('../images/energy/Grass.png'); }
+.energy-metal { background-image: url('../images/energy/Metal.png'); }
+.energy-psychic { background-image: url('../images/energy/Psychic.png'); }
+.energy-water { background-image: url('../images/energy/Water.png'); }
 
 .modal-section { margin-bottom: 16px; }
 .modal-section h3 { font-size: 14px; margin-bottom: 8px; color: #666; }
@@ -413,18 +428,6 @@ body {
 
 .modal-meta a { color: #007AFF; text-decoration: none; }
 .modal-meta a:hover { text-decoration: underline; }
-
-/* Energy Type Colors */
-.energy-grass { background: #5AC; color: white; }
-.energy-fire { background: #F85; color: white; }
-.energy-water { background: #39D; color: white; }
-.energy-electric { background: #FE4; color: #333; }
-.energy-psychic { background: #F69; color: white; }
-.energy-fighting { background: #C24; color: white; }
-.energy-darkness { background: #333; color: white; }
-.energy-dragon { background: #76C; color: white; }
-.energy-metal { background: #A8A; color: #333; }
-.energy-colorless { background: #DA9; color: #333; }
 
 /* Empty State */
 .empty-state {

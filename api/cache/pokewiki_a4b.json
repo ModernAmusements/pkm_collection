@@ -7362,34 +7362,6 @@
     "regulation_mark": ""
   },
   {
-    "url": "https://www.pokewiki.de/Alola-Digdri-ex_(Deluxepack-ex_251)",
-    "german_name": "Alola-Digdri-ex",
-    "set_id": "A4b",
-    "set_name": "Deluxepack-ex",
-    "card_number": "251",
-    "hp": "130",
-    "energy_type": "Metal",
-    "stage": "Stage 1",
-    "weakness": "Fire+20",
-    "retreat": "1",
-    "attacks": [
-      {
-        "name": "Dreier-Kopfnuss",
-        "damage": "60",
-        "cost": [
-          "Metal",
-          "Colorless"
-        ],
-        "effect": ""
-      }
-    ],
-    "ability": null,
-    "rarity": "Shiny Rare",
-    "illustrator": "PLANETA CG Works",
-    "pokedex_number": "",
-    "regulation_mark": ""
-  },
-  {
     "url": "https://www.pokewiki.de/Panzaeron-ex_(Deluxepack-ex_252)",
     "german_name": "Panzaeron-ex",
     "set_id": "A4b",

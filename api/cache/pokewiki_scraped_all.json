@@ -219,12 +219,6 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Puderheilung",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Windstoß",
         "damage": "60",
         "cost": [
@@ -636,12 +630,6 @@
     "weakness": "Fire+20",
     "retreat": "2",
     "attacks": [
-      {
-        "name": "Aromafalle",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Rankenhieb",
         "damage": "60",
@@ -1917,12 +1905,6 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Gegenangriff",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Megahieb",
         "damage": "80",
         "cost": [
@@ -2114,12 +2096,6 @@
     "weakness": "Electric+20",
     "retreat": "3",
     "attacks": [
-      {
-        "name": "Panzerhaut",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Surfer",
         "damage": "70",
@@ -2834,12 +2810,6 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Wasser-Shuriken",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Schleierschlitzer",
         "damage": "60",
         "cost": [
@@ -3124,12 +3094,6 @@
     "weakness": "Fighting+20",
     "retreat": "2",
     "attacks": [
-      {
-        "name": "Voltladung",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Rundumangriff",
         "damage": "60",
@@ -3935,12 +3899,6 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Schattenbann",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Spukschuss",
         "damage": "100",
         "cost": [
@@ -4005,12 +3963,6 @@
     "weakness": "",
     "retreat": "2",
     "attacks": [
-      {
-        "name": "Schlafpendel",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Psyhieb",
         "damage": "50",
@@ -4238,12 +4190,6 @@
     "weakness": "",
     "retreat": "2",
     "attacks": [
-      {
-        "name": "Psischatten",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Psychoschuss",
         "damage": "60",
@@ -5601,12 +5547,6 @@
     "retreat": "3",
     "attacks": [
       {
-        "name": "Gasleck",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Tackle",
         "damage": "30",
         "cost": [],
@@ -5760,12 +5700,6 @@
     "weakness": "Fire+20",
     "retreat": "3",
     "attacks": [
-      {
-        "name": "Schutzschicht",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Schwerer Einschlag",
         "damage": "120",
@@ -5961,12 +5895,6 @@
     "weakness": "Electric+20",
     "retreat": "1",
     "attacks": [
-      {
-        "name": "Wegtreiben",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Flügelschlag",
         "damage": "70",
@@ -6630,12 +6558,6 @@
     "weakness": "Fighting+20",
     "retreat": "1",
     "attacks": [
-      {
-        "name": "Daten-Scan",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Schärfer",
         "damage": "20",
@@ -7369,12 +7291,6 @@
     "retreat": "3",
     "attacks": [
       {
-        "name": "Gasleck",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Tackle",
         "damage": "30",
         "cost": [],
@@ -7437,12 +7353,6 @@
     "weakness": "Electric+20",
     "retreat": "1",
     "attacks": [
-      {
-        "name": "Wegtreiben",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Flügelschlag",
         "damage": "70",
@@ -7568,12 +7478,6 @@
     "weakness": "Fighting+20",
     "retreat": "1",
     "attacks": [
-      {
-        "name": "Daten-Scan",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Schärfer",
         "damage": "20",
@@ -8022,12 +7926,6 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Schattenbann",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Spukschuss",
         "damage": "100",
         "cost": [
@@ -8325,12 +8223,6 @@
     "weakness": "",
     "retreat": "2",
     "attacks": [
-      {
-        "name": "Schattenbann",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Spukschuss",
         "damage": "100",
@@ -11872,12 +11764,6 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Duftender Blumengarten",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Plumps",
         "damage": "30",
         "cost": [
@@ -12196,12 +12082,6 @@
     "retreat": "3",
     "attacks": [
       {
-        "name": "Speckschicht",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Einhämmer",
         "damage": "60",
         "cost": [
@@ -12234,12 +12114,6 @@
     "weakness": "Metal+20",
     "retreat": "4",
     "attacks": [
-      {
-        "name": "Speckschicht",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Frostige Plättung",
         "damage": "120",
@@ -12274,12 +12148,6 @@
     "weakness": "Metal+20",
     "retreat": "2",
     "attacks": [
-      {
-        "name": "Kristallkörper",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Frostschlag",
         "damage": "50",
@@ -13494,12 +13362,6 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Dunkles Nichts",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Seelenverschlinger",
         "damage": "70",
         "cost": [
@@ -13690,12 +13552,6 @@
     "weakness": "",
     "retreat": "3",
     "attacks": [
-      {
-        "name": "Schwebe",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Spukschuss",
         "damage": "70",
@@ -13987,12 +13843,6 @@
     "retreat": "3",
     "attacks": [
       {
-        "name": "Exoskelett",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Felsenquetscher",
         "damage": "100",
         "cost": [
@@ -14152,12 +14002,6 @@
     "weakness": "Psychic+20",
     "retreat": "2",
     "attacks": [
-      {
-        "name": "Kampfcoach",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Unterseehieb",
         "damage": "40",
@@ -14706,12 +14550,6 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Alptraum-Aura",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Dunkles Prisma",
         "damage": "80",
         "cost": [
@@ -14838,12 +14676,6 @@
     "weakness": "",
     "retreat": "4",
     "attacks": [
-      {
-        "name": "Kopfschutz",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Headbangen",
         "damage": "80",
@@ -15147,12 +14979,6 @@
     "weakness": "",
     "retreat": "1",
     "attacks": [
-      {
-        "name": "Rücksichtsloses Scheren",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Drachenklaue",
         "damage": "100",
@@ -15891,12 +15717,6 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Duftender Blumengarten",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Plumps",
         "damage": "30",
         "cost": [
@@ -15928,12 +15748,6 @@
     "weakness": "Metal+20",
     "retreat": "4",
     "attacks": [
-      {
-        "name": "Speckschicht",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Frostige Plättung",
         "damage": "120",
@@ -16159,12 +15973,6 @@
     "retreat": "3",
     "attacks": [
       {
-        "name": "Schwebe",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Spukschuss",
         "damage": "70",
         "cost": [
@@ -16263,12 +16071,6 @@
     "weakness": "Psychic+20",
     "retreat": "2",
     "attacks": [
-      {
-        "name": "Kampfcoach",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Unterseehieb",
         "damage": "40",
@@ -16427,12 +16229,6 @@
     "weakness": "",
     "retreat": "1",
     "attacks": [
-      {
-        "name": "Rücksichtsloses Scheren",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Drachenklaue",
         "damage": "100",
@@ -16828,12 +16624,6 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Alptraum-Aura",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Dunkles Prisma",
         "damage": "80",
         "cost": [
@@ -17131,12 +16921,6 @@
     "weakness": "Grass+20",
     "retreat": "2",
     "attacks": [
-      {
-        "name": "Alptraum-Aura",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Dunkles Prisma",
         "damage": "80",
@@ -23921,12 +23705,6 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Kraftkopplung",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Rankenhieb",
         "damage": "20",
         "cost": [
@@ -23957,12 +23735,6 @@
     "weakness": "Fire+20",
     "retreat": "1",
     "attacks": [
-      {
-        "name": "Waldatem",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Solarstrahl",
         "damage": "70",
@@ -24059,12 +23831,6 @@
     "weakness": "Water+20",
     "retreat": "3",
     "attacks": [
-      {
-        "name": "Tempokopplung",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Tobender Wutangriff",
         "damage": "40",
@@ -24322,12 +24088,6 @@
     "retreat": "3",
     "attacks": [
       {
-        "name": "Vitalkopplung",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Megahieb",
         "damage": "80",
         "cost": [
@@ -24360,12 +24120,6 @@
     "weakness": "Metal+20",
     "retreat": "1",
     "attacks": [
-      {
-        "name": "Schneefeld",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Polarwind",
         "damage": "90",
@@ -24495,12 +24249,6 @@
     "weakness": "Fighting+20",
     "retreat": "1",
     "attacks": [
-      {
-        "name": "Widerstandskopplung",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Funkensprung",
         "damage": "40",
@@ -24756,12 +24504,6 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "CHECK",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Kraftreserve",
         "damage": "20",
         "cost": [
@@ -24792,12 +24534,6 @@
     "weakness": "",
     "retreat": "1",
     "attacks": [
-      {
-        "name": "Tempokopplung",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Spurtangriff",
         "damage": "",
@@ -24989,12 +24725,6 @@
     "weakness": "Grass+20",
     "retreat": "4",
     "attacks": [
-      {
-        "name": "Kraftkopplung",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Schollenbrecher",
         "damage": "130",
@@ -25284,12 +25014,6 @@
     "retreat": "",
     "attacks": [
       {
-        "name": "Trickkopplung",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Fänge der Dunkelheit",
         "damage": "50",
         "cost": [],
@@ -25439,12 +25163,6 @@
     "weakness": "Fire+20",
     "retreat": "2",
     "attacks": [
-      {
-        "name": "Widerstandskopplung",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Power-Strahl",
         "damage": "80",
@@ -25897,12 +25615,6 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Himmelshilfe",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Flattern",
         "damage": "30",
         "cost": [
@@ -25968,12 +25680,6 @@
     "weakness": "Fighting+20",
     "retreat": "2",
     "attacks": [
-      {
-        "name": "Sagenhafter Glanz",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Ultimative Macht",
         "damage": "70",
@@ -26071,12 +25777,6 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "CHECK",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Kraftreserve",
         "damage": "20",
         "cost": [
@@ -26170,12 +25870,6 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Himmelshilfe",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Flattern",
         "damage": "30",
         "cost": [
@@ -26207,12 +25901,6 @@
     "weakness": "Fire+20",
     "retreat": "1",
     "attacks": [
-      {
-        "name": "Waldatem",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Solarstrahl",
         "damage": "70",
@@ -26246,12 +25934,6 @@
     "weakness": "Metal+20",
     "retreat": "1",
     "attacks": [
-      {
-        "name": "Schneefeld",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Polarwind",
         "damage": "90",
@@ -26360,12 +26042,6 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Sagenhafter Glanz",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Ultimative Macht",
         "damage": "70",
         "cost": [
@@ -26399,12 +26075,6 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Waldatem",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Solarstrahl",
         "damage": "70",
         "cost": [
@@ -26437,12 +26107,6 @@
     "weakness": "Metal+20",
     "retreat": "1",
     "attacks": [
-      {
-        "name": "Schneefeld",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Polarwind",
         "damage": "90",
@@ -26551,12 +26215,6 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Sagenhafter Glanz",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Ultimative Macht",
         "damage": "70",
         "cost": [
@@ -26589,12 +26247,6 @@
     "weakness": "Fighting+20",
     "retreat": "2",
     "attacks": [
-      {
-        "name": "Sagenhafter Glanz",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Ultimative Macht",
         "damage": "70",
@@ -27081,12 +26733,6 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Hammerhauer",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Stromball",
         "damage": "90",
         "cost": [
@@ -27289,12 +26935,6 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Blendender Blitzsturm",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Blitzkrallen",
         "damage": "50",
         "cost": [
@@ -27486,12 +27126,6 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Erleuchtung",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Sanfter Hieb",
         "damage": "40",
         "cost": [
@@ -27617,12 +27251,6 @@
     "weakness": "Grass+20",
     "retreat": "2",
     "attacks": [
-      {
-        "name": "Heilblockade",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Power-Strahl",
         "damage": "50",
@@ -27971,12 +27599,6 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Giftschub",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "New Wave",
         "damage": "30",
         "cost": [
@@ -28148,8 +27770,8 @@
     ],
     "ability": null,
     "ability_effect": null,
-    "rarity": "",
-    "illustrator": "",
+    "rarity": "Rare Holo",
+    "illustrator": "PLANETA CG Works",
     "pokedex_number": "",
     "regulation_mark": "A",
     "resistance": "",
@@ -28300,12 +27922,6 @@
     "retreat": "3",
     "attacks": [
       {
-        "name": "Stahldornen",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Rundumangriff",
         "damage": "70",
         "cost": [
@@ -28432,12 +28048,6 @@
     "weakness": "Fighting+20",
     "retreat": "2",
     "attacks": [
-      {
-        "name": "Wachhundblick",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Scharfe Fänge",
         "damage": "70",
@@ -28600,12 +28210,6 @@
     "weakness": "Electric+20",
     "retreat": "4",
     "attacks": [
-      {
-        "name": "Ultradüsen",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Moombahton",
         "damage": "100",
@@ -28795,12 +28399,6 @@
     "weakness": "Electric+20",
     "retreat": "4",
     "attacks": [
-      {
-        "name": "Ultradüsen",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Moombahton",
         "damage": "100",
@@ -29002,8 +28600,8 @@
     ],
     "ability": null,
     "ability_effect": null,
-    "rarity": "",
-    "illustrator": "",
+    "rarity": "Special Illustration",
+    "illustrator": "PLANETA CG Works",
     "pokedex_number": "",
     "regulation_mark": "A",
     "resistance": "",
@@ -29148,8 +28746,8 @@
     ],
     "ability": null,
     "ability_effect": null,
-    "rarity": "",
-    "illustrator": "",
+    "rarity": "Special Illustration",
+    "illustrator": "KEIICHIRO ITO",
     "pokedex_number": "",
     "regulation_mark": "A",
     "resistance": "",
@@ -29338,12 +28936,6 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Wasser-Shuriken",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Schleierschlitzer",
         "damage": "60",
         "cost": [
@@ -29469,12 +29061,6 @@
     "weakness": "Electric+20",
     "retreat": "1",
     "attacks": [
-      {
-        "name": "Wegtreiben",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Flügelschlag",
         "damage": "70",
@@ -29605,12 +29191,6 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Gesetz der Urzeit",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Schollenbrecher",
         "damage": "80",
         "cost": [
@@ -29675,12 +29255,6 @@
     "weakness": "Fighting+20",
     "retreat": "1",
     "attacks": [
-      {
-        "name": "Giftschub",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "New Wave",
         "damage": "30",
@@ -43663,12 +43237,6 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Extraheilung",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Samenbomben",
         "damage": "70",
         "cost": [
@@ -43955,12 +43523,6 @@
     "retreat": "3",
     "attacks": [
       {
-        "name": "Feurige Stimme",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Brandstempel",
         "damage": "70",
         "cost": [
@@ -44023,12 +43585,6 @@
     "weakness": "Water+20",
     "retreat": "2",
     "attacks": [
-      {
-        "name": "Rüstung",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Rüstungskanone",
         "damage": "120",
@@ -44157,12 +43713,6 @@
     "weakness": "Electric+20",
     "retreat": "2",
     "attacks": [
-      {
-        "name": "Sturzbach",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Hydrokick",
         "damage": "90",
@@ -44551,12 +44101,6 @@
     "weakness": "Metal+20",
     "retreat": "3",
     "attacks": [
-      {
-        "name": "Eismacher",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Zetrümmerndern Schweif",
         "damage": "90",
@@ -46377,12 +45921,6 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Rüstung",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Rüstungskanone",
         "damage": "120",
         "cost": [
@@ -46559,12 +46097,6 @@
     "weakness": "Water+20",
     "retreat": "2",
     "attacks": [
-      {
-        "name": "Rüstung",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Rüstungskanone",
         "damage": "120",
@@ -47019,12 +46551,6 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Legendärer Puls",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Lodernder Niederprügler",
         "damage": "60",
         "cost": [
@@ -47057,12 +46583,6 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Legendärer Puls",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Kristallwalzer",
         "damage": "20",
         "cost": [
@@ -47094,12 +46614,6 @@
     "weakness": "Fighting+20",
     "retreat": "2",
     "attacks": [
-      {
-        "name": "Legendärer Puls",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Voltgeschoss",
         "damage": "60",
@@ -47165,12 +46679,6 @@
     "weakness": "Metal+20",
     "retreat": "3",
     "attacks": [
-      {
-        "name": "Eismacher",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Zetrümmerndern Schweif",
         "damage": "90",
@@ -48741,12 +48249,6 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Surf-Schweif",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Donnerspeer",
         "damage": "",
         "cost": [
@@ -49383,12 +48885,6 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Geheimnisvoller Gesang",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Psychoschuss",
         "damage": "50",
         "cost": [
@@ -49483,12 +48979,6 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Kostümspuk",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Klauenschlitzer",
         "damage": "70",
         "cost": [
@@ -49551,12 +49041,6 @@
     "weakness": "",
     "retreat": "1",
     "attacks": [
-      {
-        "name": "Erfrischender Tee",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Spukschuss",
         "damage": "40",
@@ -50099,12 +49583,6 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Koordinierte Einheit",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Einmarschieren",
         "damage": "20",
         "cost": [
@@ -50257,12 +49735,6 @@
     "weakness": "Fighting+20",
     "retreat": "3",
     "attacks": [
-      {
-        "name": "Chemiekraft",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Matschbombe",
         "damage": "70",
@@ -50444,12 +49916,6 @@
     "weakness": "Grass+20",
     "retreat": "1",
     "attacks": [
-      {
-        "name": "Finaler Schrei",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Spukschuss",
         "damage": "30",
@@ -50689,12 +50155,6 @@
     "weakness": "Fire+20",
     "retreat": "2",
     "attacks": [
-      {
-        "name": "Ausbuddeln",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Metallklaue",
         "damage": "70",
@@ -51112,12 +50572,6 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Unbekümmerte Schritte",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Wohl fühlen",
         "damage": "",
         "cost": [
@@ -51309,12 +50763,6 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Porträt",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Schweifvertrimmer",
         "damage": "30",
         "cost": [
@@ -51412,12 +50860,6 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Zurückwerfender Wind",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Flügelschlag",
         "damage": "50",
         "cost": [
@@ -51512,12 +50954,6 @@
     "weakness": "Fighting+20",
     "retreat": "4",
     "attacks": [
-      {
-        "name": "Gewohnheitsschlaf",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Keile",
         "damage": "150",
@@ -51677,12 +51113,6 @@
     "weakness": "Fighting+20",
     "retreat": "1",
     "attacks": [
-      {
-        "name": "Fellkleid",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Einhämmern",
         "damage": "70",
@@ -52289,12 +51719,6 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Koordinierte Einheit",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Einmarschieren",
         "damage": "20",
         "cost": [
@@ -52325,12 +51749,6 @@
     "weakness": "Fighting+20",
     "retreat": "3",
     "attacks": [
-      {
-        "name": "Chemiekraft",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Matschbombe",
         "damage": "70",
@@ -52450,12 +51868,6 @@
     "weakness": "Fire+20",
     "retreat": "2",
     "attacks": [
-      {
-        "name": "Ausbuddeln",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Metallklaue",
         "damage": "70",
@@ -52723,12 +52135,6 @@
     "weakness": "",
     "retreat": "2",
     "attacks": [
-      {
-        "name": "Kostümspuk",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Klauenschlitzer",
         "damage": "70",
@@ -53000,12 +52406,6 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Kostümspuk",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Klauenschlitzer",
         "damage": "70",
         "cost": [
@@ -53168,12 +52568,6 @@
     "weakness": "Fighting+20",
     "retreat": "1",
     "attacks": [
-      {
-        "name": "Unbekümmerte Schritte",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Wohl fühlen",
         "damage": "",
@@ -53576,12 +52970,6 @@
     "retreat": "3",
     "attacks": [
       {
-        "name": "Traumhaftes Schweben",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Scheinwerfer",
         "damage": "120",
         "cost": [
@@ -53832,12 +53220,6 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Überhitzen",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Feuerwirbel",
         "damage": "130",
         "cost": [
@@ -53936,12 +53318,6 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Psychoheilung",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Super-Psischlag",
         "damage": "80",
         "cost": [
@@ -53973,12 +53349,6 @@
     "weakness": "Metal+20",
     "retreat": "1",
     "attacks": [
-      {
-        "name": "Glücksbänder",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Feenbrise",
         "damage": "70",
@@ -54043,12 +53413,6 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Finstere Verfolgung",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Fänge der Dunkelheit",
         "damage": "80",
         "cost": [],
@@ -54110,12 +53474,6 @@
     "weakness": "",
     "retreat": "1",
     "attacks": [
-      {
-        "name": "Geheimnisvoller Gesang",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Psychoschuss",
         "damage": "50",
@@ -54277,12 +53635,6 @@
     "weakness": "Fire+20",
     "retreat": "1",
     "attacks": [
-      {
-        "name": "Puderheilung",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Windstoß",
         "damage": "60",
@@ -54476,12 +53828,6 @@
     "weakness": "Electric+20",
     "retreat": "1",
     "attacks": [
-      {
-        "name": "Wasser-Shuriken",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Schleierschlitzer",
         "damage": "60",
@@ -55063,12 +54409,6 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Lunargefieder",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Psycho-Blitz",
         "damage": "80",
         "cost": [
@@ -55226,12 +54566,6 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Alptraum-Aura",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Dunkles Prisma",
         "damage": "80",
         "cost": [
@@ -55294,12 +54628,6 @@
     "weakness": "Fighting+20",
     "retreat": "1",
     "attacks": [
-      {
-        "name": "Widerstandskopplung",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Funkensprung",
         "damage": "40",
@@ -55395,12 +54723,6 @@
     "weakness": "Electric+20",
     "retreat": "1",
     "attacks": [
-      {
-        "name": "Schützender Wirbelwind",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Flügelschlag",
         "damage": "90",
@@ -55635,12 +54957,6 @@
     "weakness": "Fighting+20",
     "retreat": "",
     "attacks": [
-      {
-        "name": "Gegenangriff",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Elektroschlag",
         "damage": "70",
@@ -56278,12 +55594,6 @@
     "weakness": "Fighting+20",
     "retreat": "1",
     "attacks": [
-      {
-        "name": "Blendender Blitzsturm",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Blitzkrallen",
         "damage": "50",
@@ -57216,12 +56526,6 @@
     "retreat": "2",
     "attacks": [
       {
-        "name": "Heilende Wellen",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Aquaschneide",
         "damage": "60",
         "cost": [
@@ -57282,12 +56586,6 @@
     "weakness": "Grass+20",
     "retreat": "2",
     "attacks": [
-      {
-        "name": "Trügerische Trickserei",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Nachtflut",
         "damage": "70",
@@ -57380,12 +56678,6 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Volivoli-Entwicklung",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Biss",
         "damage": "30",
         "cost": [
@@ -57416,12 +56708,6 @@
     "weakness": "Water+20",
     "retreat": "2",
     "attacks": [
-      {
-        "name": "Legendärer Puls",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Lodernder Niederprügler",
         "damage": "60",
@@ -57618,12 +56904,6 @@
     "weakness": "Fire+20",
     "retreat": "1",
     "attacks": [
-      {
-        "name": "Duftender Blumengarten",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Plumps",
         "damage": "30",
@@ -58000,12 +57280,6 @@
     "retreat": "1",
     "attacks": [
       {
-        "name": "Evolutionsschub",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
-      {
         "name": "Zertrampeln",
         "damage": "10",
         "cost": [
@@ -58288,12 +57562,6 @@
     "weakness": "Water+20",
     "retreat": "2",
     "attacks": [
-      {
-        "name": "Zündung",
-        "damage": "",
-        "cost": [],
-        "effect": ""
-      },
       {
         "name": "Stetiger Feuerhauch",
         "damage": "50",
@@ -67545,34 +66813,6 @@
     "ability": null,
     "rarity": "2 Diamond",
     "illustrator": "Megumi Mizutani",
-    "pokedex_number": "",
-    "regulation_mark": ""
-  },
-  {
-    "url": "https://www.pokewiki.de/Alola-Digdri-ex_(Deluxepack-ex_251)",
-    "german_name": "Alola-Digdri-ex",
-    "set_id": "A4b",
-    "set_name": "Deluxepack-ex",
-    "card_number": "251",
-    "hp": "130",
-    "energy_type": "Metal",
-    "stage": "Stage 1",
-    "weakness": "Fire+20",
-    "retreat": "1",
-    "attacks": [
-      {
-        "name": "Dreier-Kopfnuss",
-        "damage": "60",
-        "cost": [
-          "Metal",
-          "Colorless"
-        ],
-        "effect": ""
-      }
-    ],
-    "ability": null,
-    "rarity": "Shiny Rare",
-    "illustrator": "PLANETA CG Works",
     "pokedex_number": "",
     "regulation_mark": ""
   },

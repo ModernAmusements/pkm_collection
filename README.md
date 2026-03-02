@@ -281,9 +281,9 @@ The extracted signals are matched against the card database:
 
 #### Database Sources:
 - **Primary:** German cards from pokewiki.de (`pokewiki_scraped_all.json`)
-  - ~2541 cards across all TCG Pocket sets (A1-B2a, PROMO-A, PROMO-B)
+  - ~2540 cards across all TCG Pocket sets (A1-B2a, PROMO-A, PROMO-B)
   - Includes abilities, attacks, weaknesses, retreat costs
-  - Card images available in `card_images.json`
+  - All card images available in `card_images.json` (4509 entries for 2452 unique cards)
 
 ### 6. Collection Storage (`collection.db`)
 
@@ -345,16 +345,20 @@ SQLite database derived from JSON for fast lookups.
 | Set ID | Name (German) |
 |--------|--------------|
 | A1 | Unschlagbare Gene |
+| A1a | Mysteriöse Insel |
 | A2 | Kollision von Raum und Zeit |
+| A2a | Hüter des Firmaments |
+| A2b | Weisheit von Meer und Himmel |
 | A3 | Licht des Triumphs |
 | A3a | Dimensionale Krise |
 | A3b | Evoli-Hain |
-| A1a | Mysteriöse Insel |
-| A2a | Hüter des Firmaments |
-| A2b | Weisheit von Meer und Himmel |
+| A4 | Morgenröte |
 | A4a | Verborgene Quelle |
-| B1 | Wundervolles Paldea |
+| A4b | Deluxepack-ex |
+| B1 | Mega-Aufstieg |
+| B1a | Feuerrote Flammen |
 | B2 | Traumhafte Parade |
+| B2a | Wundervolles Paldea |
 | PROMO-A | PROMO-A |
 | PROMO-B | PROMO-B |
 
@@ -423,7 +427,8 @@ tcgp/
 │   │   └── pokewiki_*.json  # Individual sets
 │   ├── scrapers/           # Web scrapers
 │   │   ├── scrape_pokewiki.py
-│   │   └── scrape_abilities.py
+│   │   ├── scrape_abilities.py
+│   │   └── scrape_images.py
 │   ├── local_lookup.py    # Card matching logic
 │   └── models.py          # Data models
 │

@@ -277,12 +277,8 @@ function openModal(card) {
     // Energy type
     const energyEl = document.getElementById('modalEnergy');
     energyEl.textContent = card.energy_type || '';
+    energyEl.title = card.energy_type || '';
     energyEl.className = `type-badge energy-${(card.energy_type || '').toLowerCase()}`;
-    
-    // Card type
-    const cardTypeEl = document.getElementById('modalCardType');
-    cardTypeEl.textContent = card.card_type || '';
-    cardTypeEl.className = `type-badge energy-${(card.card_type || '').toLowerCase()}`;
     
     // Ability
     const abilitySection = document.getElementById('modalAbilitySection');
@@ -303,7 +299,7 @@ function openModal(card) {
             <div class="attack-item">
                 <div class="attack-name">${attack.name}</div>
                 <div class="attack-cost">
-                    ${(attack.cost || []).map(c => `<span class="type-badge energy-${c.toLowerCase()}">${c}</span>`).join('')}
+                    ${(attack.cost || []).map(c => `<span class="type-badge energy-${c.toLowerCase()}" title="${c}">${c}</span>`).join('')}
                 </div>
                 <div class="attack-damage">${attack.damage || '-'}</div>
                 ${attack.effect ? `<div class="attack-effect">${attack.effect}</div>` : ''}
@@ -313,9 +309,29 @@ function openModal(card) {
         attacksSection.style.display = 'none';
     }
     
-    // Weakness & Retreat & Resistance
-    document.getElementById('modalWeakness').textContent = card.weakness || '-';
-    document.getElementById('modalRetreat').textContent = card.retreat || '0';
+    // Weakness - convert "Fire+20" to energy icon
+    const weaknessEl = document.getElementById('modalWeakness');
+    if (card.weakness && card.weakness !== '-') {
+        const weaknessMatch = card.weakness.match(/^(\w+)\+(\d+)$/);
+        if (weaknessMatch) {
+            const energyType = weaknessMatch[1];
+            weaknessEl.innerHTML = `<span class="type-badge energy-${energyType.toLowerCase()}" title="${energyType}"></span> +${weaknessMatch[2]}`;
+        } else {
+            weaknessEl.textContent = card.weakness;
+        }
+    } else {
+        weaknessEl.textContent = '-';
+    }
+    
+    // Retreat - convert number to energy icons (Colorless)
+    const retreatEl = document.getElementById('modalRetreat');
+    const retreatNum = parseInt(card.retreat) || 0;
+    if (retreatNum > 0) {
+        retreatEl.innerHTML = Array(retreatNum).fill('<span class="type-badge energy-colorless" title="Colorless"></span>').join('');
+    } else {
+        retreatEl.textContent = '0';
+    }
+    
     document.getElementById('modalResistance').textContent = card.resistance || '-';
     
     // Meta info
@@ -347,17 +363,6 @@ function openModal(card) {
     if (card.regulation_mark) {
         regulationEl.textContent = `Regulation: ${card.regulation_mark}`;
         regulationEl.style.display = 'inline';
-    } else {
-        regulationEl.style.display = 'none';
-    }
-    
-    // URL
-    const urlEl = document.getElementById('modalUrl');
-    if (card.url) {
-        urlEl.href = card.url;
-        urlEl.style.display = 'inline';
-    } else {
-        urlEl.style.display = 'none';
     }
     
     modal.classList.add('open');
