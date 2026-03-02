@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon TCG Pocket Collection</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-theme="light">
+    <header class="header">
+        <div class="header-left">
+            <h1 class="logo">Pokemon TCG Pocket</h1>
+        </div>
+        <div class="header-right">
+            <button class="theme-toggle" id="themeToggle" title="Theme">
+                <span class="theme-icon">🌙</span>
+            </button>
+            <nav class="nav-tabs">
+                <button class="tab-btn active" data-view="all">Alle Karten</button>
+                <button class="tab-btn" data-view="collection">Meine Sammlung</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="filters">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Karte suchen...">
+            </div>
+            <div class="filter-group">
+                <select id="filterSet" class="filter-select">
+                    <option value="">Alle Sets</option>
+                </select>
+                <select id="filterEnergy" class="filter-select">
+                    <option value="">Alle Energie</option>
+                </select>
+                <select id="filterType" class="filter-select">
+                    <option value="">Alle Typen</option>
+                </select>
+                <select id="filterStage" class="filter-select">
+                    <option value="">Alle Stufen</option>
+                </select>
+                <select id="filterRarity" class="filter-select">
+                    <option value="">Alle Seltenheiten</option>
+                </select>
+            </div>
+            <div class="filter-actions">
+                <button class="btn" id="exportBtn">Export</button>
+                <button class="btn" id="importBtn">Import</button>
+                <input type="file" id="importFile" accept=".json" hidden>
+            </div>
+        </section>
+
+        <section class="card-grid" id="cardGrid"></section>
+
+        <section class="stats-bar" id="statsBar"></section>
+    </main>
+
+    <!-- Card Modal -->
+    <div class="modal" id="cardModal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <div class="modal-card">
+                <div class="modal-image">
+                    <img id="modalImage" src="" alt="">
+                </div>
+                <div class="modal-details">
+                    <div class="modal-header">
+                        <h2 id="modalName"></h2>
+                        <span class="modal-hp" id="modalHp"></span>
+                    </div>
+                    <div class="modal-set" id="modalSet"></div>
+                    <div class="modal-info">
+                        <span class="modal-stage" id="modalStage"></span>
+                        <span class="modal-evolution" id="modalEvolution"></span>
+                    </div>
+                    <div class="modal-types">
+                        <span class="type-badge energy" id="modalEnergy"></span>
+                        <span class="type-badge card-type" id="modalCardType"></span>
+                    </div>
+                    <div class="modal-section" id="modalAbilitySection">
+                        <h3>Fähigkeit</h3>
+                        <p class="ability-name" id="modalAbility"></p>
+                        <p class="ability-effect" id="modalAbilityEffect"></p>
+                    </div>
+                    <div class="modal-section" id="modalAttacksSection">
+                        <h3>Attacken</h3>
+                        <div id="modalAttacks"></div>
+                    </div>
+                    <div class="modal-stats-row">
+                        <div class="modal-stat">
+                            <span class="label">Schwäche</span>
+                            <span id="modalWeakness"></span>
+                        </div>
+                        <div class="modal-stat">
+                            <span class="label">Rückzug</span>
+                            <span id="modalRetreat"></span>
+                        </div>
+                        <div class="modal-stat">
+                            <span class="label">Widerstand</span>
+                            <span id="modalResistance"></span>
+                        </div>
+                    </div>
+                    <div class="modal-meta">
+                        <span id="modalRarity"></span>
+                        <span id="modalIllustrator"></span>
+                        <span id="modalPokedex"></span>
+                        <span id="modalRegulation"></span>
+                        <a id="modalUrl" href="" target="_blank">Auf Pokewiki ansehen</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
