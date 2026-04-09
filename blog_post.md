@@ -76,6 +76,52 @@ flowchart LR
 - **2540 unique cards** across 17 sets (A1-B2a, PROMO-A, PROMO-B)
 - **124 unique abilities** with effect descriptions
 - **4509 image URLs** (including reprints)
+- **~200 attack effects** with detailed text
+
+### Scraping Data Flow
+
+```mermaid
+flowchart TD
+    subgraph Phase1_Card_Data
+        A[pokewiki.de<br/>Set Pages] --> B[scrape_pokewiki.py]
+        B --> C[GET /set/A1]
+        C --> D[Parse HTML<br/>cardtable]
+        D --> E[Extract card links]
+        E --> F[For each card<br/>GET /card/XXX]
+        F --> G[Parse card table]
+        G --> H[Extract: name, HP<br/>attacks, weakness]
+        H --> I[pokewiki_A1.json]
+    end
+    
+    subgraph Phase2_Abilities
+        J[pokewiki.de<br/>Card Pages] --> K[scrape_abilities.py]
+        K --> L[Find cards with<br/>"Fähigkeit" keyword]
+        L --> M[Extract ability name<br/>+ effect text]
+        M --> N[abilities.json]
+    end
+    
+    subgraph Phase3_Attack_Effects
+        O[pokewiki.de<br/>Card Pages] --> P[scrape_attack_effects.py]
+        P --> Q[Find cards with<br/>"Attacke" section]
+        Q --> R[Extract attack name<br/>+ effect text]
+        R --> S[attack_effects.json]
+    end
+    
+    subgraph Phase4_Images
+        T[pokewiki.de<br/>Card Images] --> U[scrape_images.py]
+        U --> V[Find img tags with<br/>card image URLs]
+        V --> W[Handle special cases<br/>SAI, reprints]
+        W --> X[card_images.json]
+    end
+    
+    subgraph Combine
+        I --> Y[combine_all.py]
+        N --> Y
+        S --> Y
+        X --> Y
+        Y --> Z[pokewiki_scraped_all.json<br/>Full Database]
+    end
+```
 
 ```json
 {
@@ -135,6 +181,113 @@ flowchart TD
     E -->|Attacks| H[Extract word + number pairs]
     E -->|Weakness| I[Find "Schwäche" section]
     E -->|Retreat| J[Find "Rückzug" section]
+```
+
+### Full End-to-End Data Flow
+
+```mermaid
+flowchart TD
+    subgraph Input
+        A[Screenshot from App]
+    end
+    
+    subgraph Preprocessing
+        B[Load Image] --> C[Crop Card Region]
+        C --> D[Convert to Grayscale]
+        D --> E[CLAHE Contrast Enhancement]
+    end
+    
+    subgraph Detection
+        E --> F[Detect Card Type]
+        F --> G{Pokemon/Trainer/Energy}
+    end
+    
+    subgraph OCR
+        G --> H[EasyOCR Extract]
+        H --> I[Raw Text]
+    end
+    
+    subgraph SignalCorrection
+        I --> J[Correct HP: "502" → "50"]
+        J --> K[Parse Attacks: "Nietenranke 60"]
+        J --> L[Extract Weakness: "Fire+20"]
+        J --> M[Extract Retreat: "2"]
+    end
+    
+    subgraph Matching
+        K --> N[Lookup in Database]
+        M --> N
+        N --> O{Confidence >= 60%?}
+        O -->|Yes| P[Add to collection.db]
+        O -->|No| Q[Save to failed/]
+    end
+    
+    subgraph Output
+        P --> R[Collection Updated]
+        Q --> S[Manual Review Folder]
+    end
+```
+
+### Image Preprocessing Pipeline
+
+```mermaid
+flowchart LR
+    A[1170x2532<br/>Original Screenshot] --> B[Crop: 8.55% L/R<br/>13.86% Top<br/>31.64% Bottom]
+    B --> C[970x1381<br/>Card Only]
+    C --> D[Grayscale<br/>Conversion]
+    D --> E[CLAHE<br/>Enhancement]
+    E --> F[Enhanced<br/>970x1381]
+    
+    style A fill:#f9f,fill-opacity:0.3
+    style F fill:#9f9,fill-opacity:0.3
+```
+
+### OCR Signal Correction Pipeline
+
+```mermaid
+flowchart TD
+    A[Raw OCR Text] --> B{Scan for "KP"}
+    B -->|Found| C[Extract HP number]
+    B -->|Not Found| D[Return None]
+    
+    C --> E{HP Pattern Check}
+    E -->|"502"| F[Strip trailing 2<br/>"50"]
+    E -->|"802"| G[Strip trailing 2<br/>"80"]
+    E -->|"XXX"| H[Keep original<br/>"XXX"]
+    
+    F --> I[Corrected HP]
+    G --> I
+    H --> I
+    
+    I --> J[Return HP]
+```
+
+### Database Lookup Flow
+
+```mermaid
+flowchart TD
+    A[Signals<br/>name, hp, set] --> B{Exact Name<br/>+ Set Match?}
+    B -->|Yes| C[95% Confidence<br/>Return Card]
+    B -->|No| D{Name + HP<br/>Match?}
+    
+    D -->|Yes| E[85% Confidence<br/>Return Card]
+    D -->|No| F{HP + Attack<br/>+ Set Match?}
+    
+    F -->|Yes| G[85% Confidence<br/>Return Card]
+    F -->|No| H{HP + Weakness<br/>+ Set Match?}
+    
+    H -->|Yes| I[80% Confidence<br/>Return Card]
+    H -->|No| J{HP Only<br/>Match?}
+    
+    J -->|Yes| K[60% Confidence<br/>Return Card]
+    J -->|No| L[No Match<br/>Return None]
+    
+    C --> M[✓ Added to Collection]
+    E --> M
+    G --> M
+    I --> M
+    K --> M
+    L --> N[✗ Saved to Failed]
 ```
 
 ### Sample Extraction
