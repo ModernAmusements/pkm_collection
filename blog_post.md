@@ -294,7 +294,47 @@ Cards below 60% confidence go to `failed_to_capture/` for manual review.
 
 ## Database Design
 
-The collection uses SQLite with a simple schema:
+The collection uses SQLite with a simple but effective schema:
+
+```python
+# database.py - Core SQLite operations
+
+CREATE_TABLE = """
+CREATE TABLE IF NOT EXISTS cards (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    german_name TEXT NOT NULL,
+    set_id TEXT NOT NULL,
+    set_name TEXT,
+    card_number TEXT,
+    hp TEXT,
+    energy_type TEXT,
+    stage TEXT,
+    evolution_from TEXT,
+    weakness TEXT,
+    resistance TEXT,
+    retreat TEXT,
+    ability TEXT,
+    ability_effect TEXT,
+    attacks TEXT,
+    rarity TEXT,
+    illustrator TEXT,
+    quantity INTEGER DEFAULT 1,
+    UNIQUE(german_name, set_id, card_number)
+)
+"""
+
+# Add card with quantity tracking
+def add_card(card_data):
+    existing = db.execute("""
+        SELECT * FROM cards 
+        WHERE german_name = ? AND set_id = ? AND card_number = ?
+    """, (card_data['german_name'], card_data['set_id'], card_data['card_number'])).fetchone()
+    
+    if existing:
+        db.execute("UPDATE cards SET quantity = quantity + 1 WHERE id = ?", [existing['id']])
+    else:
+        db.execute("INSERT INTO cards (...) VALUES (...)", ...)
+```
 
 ```mermaid
 erDiagram
@@ -324,6 +364,205 @@ Key features:
 - **Quantity tracking**: Increment when adding duplicates
 - **Full card data**: All fields stored for filtering
 - **Fast lookups**: Indexed on name, set_id, hp
+
+---
+
+## Python Core: The Extraction Script
+
+The main entry point is `extract_batch_v2.py`. Here's how it works:
+
+```python
+# extract_batch_v2.py - Main extraction pipeline
+
+import easyocr
+import cv2
+import json
+
+# Initialize OCR reader (German + English)
+READER = easyocr.Reader(['de', 'en'], gpu=False)
+
+def process_card(image_path):
+    # Step 1: Preprocess image
+    cropped = preprocess_image(image_path)
+    
+    # Step 2: Detect card type
+    card_type = detect_card_type(cropped)
+    
+    # Step 3: Extract text via OCR
+    signals = easyocr_extract(cropped, card_type)
+    
+    # Step 4: Correct OCR errors
+    signals = correct_signals(signals)
+    
+    # Step 5: Match against database
+    result = lookup_card(signals)
+    
+    # Step 6: Add to collection
+    if result.confidence >= 0.6:
+        add_card(result.card)
+        return "success"
+    else:
+        save_failed(signals)
+        return "failed"
+```
+
+### Image Preprocessing
+
+```python
+# preprocessing/card_cropper.py
+
+def preprocess_image(image_path):
+    img = cv2.imread(image_path)
+    
+    # Crop to card region (removes UI elements)
+    h, w = img.shape[:2]
+    cropped = img[
+        int(h * 0.1386):int(h * 0.6864),  # Top 13.86%, Bottom 31.64%
+        int(w * 0.0855):int(w * 0.9145)   # Left/Right 8.55%
+    ]
+    
+    # Convert to grayscale
+    gray = cv2.cvtColor(cropped, cv2.COLOR_BGR2GRAY)
+    
+    # Enhance contrast
+    clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8,8))
+    enhanced = clahe.apply(gray)
+    
+    return enhanced
+```
+
+### Card Type Detection
+
+```python
+# extraction/card_type.py
+
+def detect_card_type(image):
+    # Analyze top portion for keywords
+    top_region = image[:200, :]
+    text = READER.readtext(top_region, detail=0)
+    text_str = ' '.join(text).upper()
+    
+    pokemon_keywords = {"KP", "ENTWICKELT", "ENTWICKELT SICH", "BASIS", "PHASE"}
+    trainer_keywords = {"TRAINER", "ARTIKEL", "UNTERSTÜTZUNG", "STADION"}
+    
+    if pokemon_keywords.intersection(text_str.split()):
+        return "pokemon"
+    elif trainer_keywords.intersection(text_str.split()):
+        return "trainer"
+    else:
+        return "energy"
+```
+
+---
+
+## Python Core: The Card Matching Engine
+
+The matching logic in `api/local_lookup.py` implements multi-signal matching:
+
+```python
+# api/local_lookup.py - Card matching logic
+
+import json
+import re
+from difflib import SequenceMatcher
+
+# Load card database
+with open('api/cache/pokewiki_scraped_all.json') as f:
+    CARDS = json.load(f)
+
+class LookupResult:
+    def __init__(self, card, confidence, strategy):
+        self.card = card
+        self.confidence = confidence
+        self.strategy = strategy
+        self.success = confidence >= 0.6
+
+def lookup_card(name=None, hp=None, target_set=None, attacks=None, weakness=None):
+    # Strategy 1: Exact name + set (95% confidence)
+    if name and target_set:
+        for card in CARDS:
+            if card['german_name'].upper() == name.upper() and card['set_id'] == target_set:
+                return LookupResult(card, 0.95, "exact_name_set")
+    
+    # Strategy 2: Name + HP (85% confidence)
+    if name and hp:
+        matches = [c for c in CARDS if fuzzy_match(c['german_name'], name) and c['hp'] == hp]
+        if matches:
+            return LookupResult(matches[0], 0.85, "name_hp")
+    
+    # Strategy 3: HP + Attack + Set (85% confidence)
+    if hp and attacks and target_set:
+        for card in CARDS:
+            if card['hp'] == hp and card['set_id'] == target_set:
+                attack_names = [a['name'] for a in card.get('attacks', [])]
+                if any(fuzzy_match(a, atk) for atk in attacks for a in attack_names):
+                    return LookupResult(card, 0.85, "hp_attack_set")
+    
+    # Strategy 4: HP + Weakness + Set (80% confidence)
+    if hp and weakness and target_set:
+        for card in CARDS:
+            if card['hp'] == hp and card['set_id'] == target_set and card.get('weakness') == weakness:
+                return LookupResult(card, 0.80, "hp_weakness_set")
+    
+    # Strategy 5: HP only (60% - last resort)
+    if hp:
+        matches = [c for c in CARDS if c['hp'] == hp]
+        if matches:
+            return LookupResult(matches[0], 0.60, "hp_only")
+    
+    return LookupResult(None, 0, "no_match")
+
+def fuzzy_match(a, b, threshold=0.8):
+    return SequenceMatcher(None, a.lower(), b.lower()).ratio() >= threshold
+```
+
+---
+
+## Python Core: The Web Scraper
+
+Building the database required multiple scrapers:
+
+```python
+# api/scrapers/scrape_pokewiki.py - Card data scraper
+
+import requests
+from bs4 import BeautifulSoup
+import json
+import time
+
+SETS = ['A1', 'A1a', 'A2', 'A2a', 'A2b', 'A3', 'A3a', 'A3b', 'A4', 'A4a', 'A4b',
+        'B1', 'B1a', 'B2', 'B2a', 'PROMO-A', 'PROMO-B']
+
+def scrape_set(set_id):
+    url = f"https://www.pokewiki.de/{set_id}"
+    response = requests.get(url, timeout=30)
+    soup = BeautifulSoup(response.text, 'html.parser')
+    
+    cards = []
+    for card_link in soup.select('.cardtable a'):
+        card_url = card_link.get('href')
+        card_data = scrape_card_page(card_url)
+        cards.append(card_data)
+        time.sleep(0.5)  # Rate limiting
+    
+    return cards
+
+def scrape_card_page(url):
+    response = requests.get(url, timeout=30)
+    soup = BeautifulSoup(response.text, 'html.parser')
+    
+    # Extract card data from table
+    card = {
+        'german_name': soup.select_one('.cardtable-name').text.strip(),
+        'hp': soup.select_one('.cardtable-hp').text.strip(),
+        'energy_type': soup.select_one('.cardtable-type').text.strip(),
+        'attacks': extract_attacks(soup),
+        'weakness': soup.select_one('.cardtable-weakness').text.strip(),
+        'retreat': soup.select_one('.cardtable-retreat').text.strip(),
+    }
+    
+    return card
+```
 
 ---
 
