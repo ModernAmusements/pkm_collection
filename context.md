@@ -88,3 +88,9 @@ python3 -c "from database import export_csv; export_csv()"
 - Primary data source: pokewiki.de (German wiki)
 - Card matching uses multiple signals: name, HP, attacks, weakness, retreat
 - All cards now have images (scraped missing 1969 images)
+
+## Blog Post
+
+- Created `blog_post.md` - Technical deep-dive article about building the card extraction system
+- Includes 5 Mermaid diagrams (architecture, scraping, detection, OCR, matching)
+- Covers 5 challenges with solutions: OCR HP fixes, duplicate handling, missing images, SAI cards, weakness extraction
